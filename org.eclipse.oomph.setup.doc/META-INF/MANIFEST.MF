@@ -1,0 +1,2743 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.eclipse.oomph.setup.doc; singleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: genie.oomph
+Require-Bundle: org.eclipse.help;bundle-version="[3.3.0,4.0.0)";resolu
+ tion:=optional,org.eclipse.oomph.util.doc;bundle-version="[1.8.0,2.0.
+ 0)";resolution:=optional;visibility:=reexport,org.eclipse.oomph.setup
+ ;bundle-version="[1.8.0,2.0.0)";resolution:=optional;visibility:=reex
+ port,org.eclipse.oomph.setup.core;bundle-version="[1.8.0,2.0.0)";reso
+ lution:=optional;visibility:=reexport,org.eclipse.oomph.setup.edit;bu
+ ndle-version="[1.8.0,2.0.0)";resolution:=optional;visibility:=reexpor
+ t,org.eclipse.oomph.setup.editor;bundle-version="[1.8.0,2.0.0)";resol
+ ution:=optional;visibility:=reexport,org.eclipse.oomph.setup.git;bund
+ le-version="[1.8.0,2.0.0)";resolution:=optional;visibility:=reexport,
+ org.eclipse.oomph.setup.git.edit;bundle-version="[1.8.0,2.0.0)";resol
+ ution:=optional;visibility:=reexport,org.eclipse.oomph.setup.installe
+ r;bundle-version="[1.8.0,2.0.0)";resolution:=optional;visibility:=ree
+ xport,org.eclipse.oomph.setup.jdt;bundle-version="[1.8.0,2.0.0)";reso
+ lution:=optional;visibility:=reexport,org.eclipse.oomph.setup.jdt.edi
+ t;bundle-version="[1.8.0,2.0.0)";resolution:=optional;visibility:=ree
+ xport,org.eclipse.oomph.setup.launching;bundle-version="[1.8.0,2.0.0)
+ ";resolution:=optional;visibility:=reexport,org.eclipse.oomph.setup.l
+ aunching.edit;bundle-version="[1.8.0,2.0.0)";resolution:=optional;vis
+ ibility:=reexport,org.eclipse.oomph.setup.maven;bundle-version="[1.8.
+ 0,2.0.0)";resolution:=optional;visibility:=reexport,org.eclipse.oomph
+ .setup.maven.edit;bundle-version="[1.8.0,2.0.0)";resolution:=optional
+ ;visibility:=reexport,org.eclipse.oomph.setup.mylyn;bundle-version="[
+ 1.8.0,2.0.0)";resolution:=optional;visibility:=reexport,org.eclipse.o
+ omph.setup.mylyn.edit;bundle-version="[1.8.0,2.0.0)";resolution:=opti
+ onal;visibility:=reexport,org.eclipse.oomph.setup.p2;bundle-version="
+ [1.8.0,2.0.0)";resolution:=optional;visibility:=reexport,org.eclipse.
+ oomph.setup.p2.edit;bundle-version="[1.8.0,2.0.0)";resolution:=option
+ al;visibility:=reexport,org.eclipse.oomph.setup.pde;bundle-version="[
+ 1.8.0,2.0.0)";resolution:=optional;visibility:=reexport,org.eclipse.o
+ omph.setup.pde.edit;bundle-version="[1.8.0,2.0.0)";resolution:=option
+ al;visibility:=reexport,org.eclipse.oomph.setup.projects;bundle-versi
+ on="[1.8.0,2.0.0)";resolution:=optional;visibility:=reexport,org.ecli
+ pse.oomph.setup.projects.edit;bundle-version="[1.8.0,2.0.0)";resoluti
+ on:=optional;visibility:=reexport,org.eclipse.oomph.setup.projectset;
+ bundle-version="[1.8.0,2.0.0)";resolution:=optional;visibility:=reexp
+ ort,org.eclipse.oomph.setup.projectset.edit;bundle-version="[1.8.0,2.
+ 0.0)";resolution:=optional;visibility:=reexport,org.eclipse.oomph.set
+ up.targlets;bundle-version="[1.8.0,2.0.0)";resolution:=optional;visib
+ ility:=reexport,org.eclipse.oomph.setup.targlets.edit;bundle-version=
+ "[1.8.0,2.0.0)";resolution:=optional;visibility:=reexport,org.eclipse
+ .oomph.setup.ui;bundle-version="[1.8.0,2.0.0)";resolution:=optional;v
+ isibility:=reexport,org.eclipse.oomph.setup.ui.ide;bundle-version="[1
+ .8.0,2.0.0)";resolution:=optional;visibility:=reexport,org.eclipse.oo
+ mph.setup.workbench;bundle-version="[1.8.0,2.0.0)";resolution:=option
+ al;visibility:=reexport,org.eclipse.oomph.setup.workbench.edit;bundle
+ -version="[1.8.0,2.0.0)";resolution:=optional;visibility:=reexport,or
+ g.eclipse.oomph.setup.workingsets;bundle-version="[1.8.0,2.0.0)";reso
+ lution:=optional;visibility:=reexport,org.eclipse.oomph.setup.working
+ sets.edit;bundle-version="[1.8.0,2.0.0)";resolution:=optional;visibil
+ ity:=reexport
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Eclipse-SourceReferences: scm:git:https://git.eclipse.org/r/p/oomph/or
+ g.eclipse.oomph.git;path="plugins/org.eclipse.oomph.setup.doc";commit
+ Id=2161405b80cf99ed791602ba56cdf44084f5ca43
+Bundle-Vendor: %providerName
+Export-Package: org.eclipse.oomph.setup.doc;version="1.8.0";x-internal
+ :=true,org.eclipse.oomph.setup.doc.concepts;version="1.8.0";x-interna
+ l:=true,org.eclipse.oomph.setup.doc.online;version="1.8.0";x-internal
+ :=true,org.eclipse.oomph.setup.doc.reference;version="1.8.0";x-intern
+ al:=true,org.eclipse.oomph.setup.doc.reference.api;version="1.8.0";x-
+ internal:=true,org.eclipse.oomph.setup.doc.reference.schema;version="
+ 1.8.0";x-internal:=true,org.eclipse.oomph.setup.doc.user;version="1.8
+ .0";x-internal:=true,org.eclipse.oomph.setup.doc.user.wizard;version=
+ "1.8.0";x-internal:=true
+Bundle-Name: %pluginName
+Bundle-Version: 1.8.0.v20170318-0419
+Bundle-Localization: plugin
+Bundle-ClassPath: .
+Created-By: Apache Maven 3.0.5
+Build-Jdk: 1.8.0_121
+
+Name: javadoc/org/eclipse/oomph/setup/targlets/util/package-frame.html
+SHA-256-Digest: Sayxy0iAdbpPG+lN1rfJQ0t8QQ8l5P9QwTYeimtSkdI=
+
+Name: javadoc/org/eclipse/oomph/setup/projectset/package-use.html
+SHA-256-Digest: HVEa/vMt1TFx1xPcKWMZSzyYowpcsHbUvCo5hiJM3Es=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/WorkspaceToInstallationsMap
+ EntryImpl.html
+SHA-256-Digest: 4X5qMH9XPEAitqs5oRKabM+oG/BuMYvLSLiNXSokkgE=
+
+Name: javadoc/org/eclipse/oomph/setup/projectset/impl/ProjectSetImport
+ TaskImpl.html
+SHA-256-Digest: vRYzGD4i+Sf/DYHe/Hr5kaZYz2/ZVc2s9OiRuCErIlY=
+
+Name: html/user/wizard/ProgressPage.images
+SHA-256-Digest: oZPG+C0oX56jpZOy9qco77kApr+2E2sZql9E2KYHSRI=
+
+Name: images/trees/CFQnYaz5SWFYqU9HbRhlDDtKPq8=.png
+SHA-256-Digest: /EWBHNl/TfBoqMX7y+H7LODWpdCyANj2DXIYltmRZak=
+
+Name: javadoc/org/eclipse/oomph/setup/jdt/impl/class-use/JRETaskImpl.h
+ tml
+SHA-256-Digest: +BIPsatx2RjRk3qbgMje6WEwlOq0mko4phbJTz+yYfA=
+
+Name: javadoc/org/eclipse/oomph/setup/Product.html
+SHA-256-Digest: esm9hs2xFxgM9cbpzpn52pKcmjW1DBSTyKtJKBENedY=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/impl/class-use/Workben
+ chPackageImpl.html
+SHA-256-Digest: vYw8sJYBwrRyI7XCvsDMpFs12apu5L9gaogckjQJlhc=
+
+Name: images/trees/PwfTDhu_ik59Van87fd2WMcH-EM=.png
+SHA-256-Digest: XF137cvw3quVPcilVxnrfi+4htCm+Y0JjZbvECMb+gs=
+
+Name: javadoc/org/eclipse/oomph/setup/editor/package-use.html
+SHA-256-Digest: kEiHlGG5K2nHZvl5q9adTWCIIn1WuuQ4XruCYRGM88g=
+
+Name: javadoc/org/eclipse/oomph/setup/targlets/impl/SetupTargletsPacka
+ geImpl.html
+SHA-256-Digest: MsXIPQ2MLGCVPs07fMFTfpqbtRdWYBAVOXwEloB21dU=
+
+Name: javadoc/org/eclipse/oomph/setup/projectset/impl/ProjectSetFactor
+ yImpl.html
+SHA-256-Digest: jnO+R9/s3o2KhzS9H340CcNpVfGJZ0SC36UNSzpWLBA=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/package-use.html
+SHA-256-Digest: zpBzcMXED1y46aIf6y5KYQmyuiBK0Qv98rRPHwjxzzw=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/class-use/KeyBindingTa
+ sk.html
+SHA-256-Digest: n9f4+TpvFHpJaB66We/CPFC+jQJd0TmGboaYtCy+QMc=
+
+Name: javadoc/org/eclipse/oomph/setup/projects/class-use/ProjectsImpor
+ tTask.html
+SHA-256-Digest: v0lvQgf4CkAhUBnZHCbZC+N6AJV1qJpAh0MBoWmZ9/s=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/class-use/VariableTaskImpl.
+ html
+SHA-256-Digest: K2MIyA86P3FqqkQ1EK04nqzo7zuZcLSWbiI+YK5b1MY=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/Index.html
+SHA-256-Digest: XiBtBuANjMMm79ESuUOarYWn+ZvldfG5rW4mhYkupbc=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/CatalogSelectionImpl.html
+SHA-256-Digest: EaIEHth5DRkKWKxBYBkHr85VY/YZobxs89QEZ5f9wgI=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/ProjectContainer.html
+SHA-256-Digest: YR6wZzJe/f4iZyKOMd+QIqJbd65mUNMyEkpvPdy0oGc=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/impl/package-frame.htm
+ l
+SHA-256-Digest: /Kv86AfXRm00NqCDjolN3nFgJhqUe+5rOxdUPNWKICM=
+
+Name: images/trees/XEqimyp8votHSPXcgY6EYolpiRM=.png
+SHA-256-Digest: NmkAtEflPUKnPqJHSJczUglrFyvELwGpnrZd1bNXiaw=
+
+Name: images/trees/tZlwo3sAaCE887VCRTkbIDIy5-E=.png
+SHA-256-Digest: FWjnd16n/WHuD419toe2gXt+63dJXtPxvleV/xEQAYI=
+
+Name: javadoc/org/eclipse/oomph/setup/workingsets/SetupWorkingSetsPack
+ age.html
+SHA-256-Digest: w6ppuHFMc0g4WCnNKMjrqtDJ+g/xo9oKPX3MDjvmw98=
+
+Name: javadoc/org/eclipse/oomph/internal/setup/pde/class-use/PDEPlugin
+ .Implementation.html
+SHA-256-Digest: pBi7Ah9ypr1f1Zj/q4gD6Wmo5xHpjCzklxXAeJ+bVgw=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/ProductToProductVersionMapE
+ ntryImpl.html
+SHA-256-Digest: lPb0W8q1WIFyRRpNoRBj90DQ+QQMQ1QG9mcT4PRnE+A=
+
+Name: javadoc/org/eclipse/oomph/setup/p2/impl/P2TaskImpl.html
+SHA-256-Digest: ssQPHYSSMtN4cxMUp3HgifDMHKVc2xddZ5M9btb+Sps=
+
+Name: about.mappings
+SHA-256-Digest: PVseSLDp9O/0y/b48Fwyx+pUIrqXuOyTVKQ8ifhfqW4=
+
+Name: javadoc/org/eclipse/oomph/setup/launching/util/class-use/Launchi
+ ngSwitch.html
+SHA-256-Digest: nIIhXpmk3oS2Z051t8XAuCHW6WTfWIQh1ug8+KdbkjI=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/IndexImpl.html
+SHA-256-Digest: 43PdFOpAeExKyEDsy1Kzll0t85K6Krtk3+THkz5dnCk=
+
+Name: javadoc/org/eclipse/oomph/setup/launching/impl/LaunchingPackageI
+ mpl.html
+SHA-256-Digest: kMRp6ylqV0RR1RI1jHM/TQYb9hJm5qvDG4iWzfpxX0g=
+
+Name: javadoc/org/eclipse/oomph/setup/log/package-frame.html
+SHA-256-Digest: Ktf2Lo7J4aArv+6giTuZzcD9WjKU5PURjsaeGsZSlXU=
+
+Name: javadoc/org/eclipse/oomph/setup/workingsets/SetupWorkingSetsPack
+ age.Literals.html
+SHA-256-Digest: UErqG3xYTrAGQ5VIUK2p0iT/yPg84h46PrNIAarcKlc=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/util/class-use/MylynAdapte
+ rFactory.html
+SHA-256-Digest: kXeOVWuWV3xipSwGOOKomLVJni64w4DYzBMNimprC68=
+
+Name: javadoc/org/eclipse/oomph/setup/p2/SetupP2Package.Literals.html
+SHA-256-Digest: 2RSLQXXKqUjysgP0SDZa82GgaCw0rKE1TMHPbLHTmCM=
+
+Name: javadoc/org/eclipse/oomph/setup/util/DownloadUtil.html
+SHA-256-Digest: df/qNqTFjArzH9zAhnYnJM3o0WcRDPKn4t5sejJO6yY=
+
+Name: html/user/wizard/DocProgressPage.html
+SHA-256-Digest: 8eFRCKDInHk+Fz9Skj30EfxUFZEjKl6fdDUZzeUMNxw=
+
+Name: javadoc/org/eclipse/oomph/setup/git/GitCloneTask.html
+SHA-256-Digest: 38RdF7/aBzJxNNE3prpfaTZ/p24NK/9mq2GZqRvqodQ=
+
+Name: javadoc/org/eclipse/oomph/setup/p2/util/package-summary.html
+SHA-256-Digest: RzQPuBX7GaN9+RjkHl3IhNr+2OM/6hxvgOQ0oPXOgdo=
+
+Name: html/concepts/DocScope.html
+SHA-256-Digest: qbO1O4lOWPm1rOIgUOKf1aGh6F1fnRkd0Pe9PMRoF2k=
+
+Name: html/user/wizard/ConfirmationPage.images
+SHA-256-Digest: x6hq6HikXvqCZNetHd5A/+V3ct5cCLeD2kxH7dRvZQY=
+
+Name: images/trees/6AEYv1O6zoEl3yp2A7vRBHZeSAo=.png
+SHA-256-Digest: Y4LHtY6Wv5aAEi+LChE6FW9I2bsWycBM+FwQJYhoyxA=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/class-use/InstallationToWor
+ kspacesMapEntryImpl.html
+SHA-256-Digest: TUgamCZDnaV1/JNEJdJ832T9bFJe+VdD+y/nrsqLHp4=
+
+Name: images/trees/KgDEQZ0mKFYEuSPtUs3Ll6dUCUI=.png
+SHA-256-Digest: HG5CeweO2s3fENhWICCvtSqvJfK8zmwMXj+0bAffiOU=
+
+Name: javadoc/org/eclipse/oomph/setup/AttributeRule.html
+SHA-256-Digest: fmuvd3XLSX7YC7e3PdLnJzkcCB3Wev2B7dVlD9tcJYs=
+
+Name: images/trees/GgbjK-yq4E38L6FLWgSCGDIDbMk=.png
+SHA-256-Digest: P7658kYzWKx60TkIj7ZfScXDnfdobqWNPj+coOX4us0=
+
+Name: javadoc/org/eclipse/oomph/setup/util/SetupSwitch.html
+SHA-256-Digest: XFVj/OSXjpqMAiHCY/Tg/E6PibfY6rMs8eOmYZakTgA=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/UserImpl.html
+SHA-256-Digest: hmkk0B9UwgZVik8qwODN1LGuw7goMwS8UtnaDBIsg5Q=
+
+Name: javadoc/org/eclipse/oomph/setup/pde/util/PDEAdapterFactory.html
+SHA-256-Digest: b9WR6bAzlKrdXv/SkXAzxv2/hPbHZ+TwyHoy72E1Q6U=
+
+Name: images/trees/ZhO_6FbqmsbeHn29eT4-F-buauY=.png
+SHA-256-Digest: j+kaY3qhgejwvVqQ/JaCSE9Eyu5ZewgfOVzLS8A0VvE=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/LicenseInfo.html
+SHA-256-Digest: ZYrkUPoGhuJeUeZdVQCdspO5zhw6/UzbSXJkzVlmXaE=
+
+Name: images/trees/VHNqLZSGOPVfcDa8ypCyD-uiwIk=.png
+SHA-256-Digest: qShZ6hraMBWdIleMAmuyc0vgYJTO3azYmfrVFSvLt7U=
+
+Name: javadoc/org/eclipse/oomph/setup/projects/ProjectsPackage.html
+SHA-256-Digest: 5UM1uBHexTnALIxd43qNS9rujA5BhIkLfTcY5zpeUus=
+
+Name: images/trees/k3Fhn9GlPO6iP36cYEHyzozjtQI=.png
+SHA-256-Digest: +4GGBhsIxwcII1f1tWkc0HGCCNCX0osWnZNGJAsMXag=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/class-use/ResourceCopyTaskI
+ mpl.html
+SHA-256-Digest: B/zh/9K4DPFQ+Xc8ALopGQgfoYcVii7Bx39ll+LKGnw=
+
+Name: images/trees/dkFZXhn3yqNbmtvRldiU-a-0VZI=.png
+SHA-256-Digest: 0krJk/12MD56Fqul2sGL1Zhlg44JttEnkvAhqMmOAfw=
+
+Name: javadoc/org/eclipse/oomph/setup/git/util/class-use/GitAdapterFac
+ tory.html
+SHA-256-Digest: ZqhUHn9qW8orrKvsDoUuwZNqXxGF45L08AtXtG62dWc=
+
+Name: javadoc/org/eclipse/oomph/setup/jdt/package-summary.html
+SHA-256-Digest: NIemnO04YJmG5wbNk+1yYXWMd/Qr/1CE3gEMH7Mpp8M=
+
+Name: html/tree.css
+SHA-256-Digest: 11wh+F/Rq/+KMgGN6JXP2HJW7LmtmS55/dTWFjM1UcY=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/RedirectionTaskImpl.html
+SHA-256-Digest: 8OKyhJ7ro98Ypv+TJApx+kX/tcN6oO1ivpMcrn0KfqE=
+
+Name: html/reference/index.html
+SHA-256-Digest: UxbM0WSm9BtvonC73Nuk6a7vKPY+nRB1AJGhHoT9XF8=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/impl/MylynFactoryImpl.html
+SHA-256-Digest: Qskuc0net+nlwh6vP/kmU246eOHCFYEutpsvJi9nPE0=
+
+Name: javadoc/org/eclipse/oomph/setup/targlets/impl/TargletTaskImpl.ht
+ ml
+SHA-256-Digest: SevEUpTbqqv/DYlf8/JowFq7gMmVOWkcC+ZBlCoXyAQ=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/class-use/ProjectToStreamMa
+ pEntryImpl.html
+SHA-256-Digest: DpusKcl/dp23UJHuW7a/K3c09yRjn8jZmATxumF8LoY=
+
+Name: javadoc/org/eclipse/oomph/internal/setup/pde/PDEPlugin.html
+SHA-256-Digest: 5DM+MWGupkDabwEb6kXcfLUl+xrxR2fZAjEvRFR6Myc=
+
+Name: javadoc/org/eclipse/oomph/setup/p2/impl/SetupP2PackageImpl.html
+SHA-256-Digest: zaZaZ8fRzYVlOmgUKtjuJXyvzUXDJGa3xOGFnsvOQXM=
+
+Name: javadoc/org/eclipse/oomph/setup/workingsets/impl/class-use/Setup
+ WorkingSetsPackageImpl.html
+SHA-256-Digest: ydQxNLPvoa3amQpbO3yShaWjVnBvNInFaUpbykxp480=
+
+Name: javadoc/org/eclipse/oomph/setup/targlets/SetupTargletsFactory.ht
+ ml
+SHA-256-Digest: bO8YQ3uIy1isNQ7cifVYku0D+4jly+6VpINlkvAdx1A=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/class-use/UserImpl.html
+SHA-256-Digest: xJvnHusDeVTVG69HFS3XrZyS5LyBZg+OTV/8cTKnw4U=
+
+Name: javadoc/org/eclipse/oomph/setup/pde/package-use.html
+SHA-256-Digest: TPW0Yczt9hsG+sOZ4I2OQBV7ZJqFOO5YSAY9ETFuIt4=
+
+Name: javadoc/org/eclipse/oomph/setup/projectset/util/package-summary.
+ html
+SHA-256-Digest: GAfLhs9CQFG9zJoyCkdInOqOwSLW8m8Wq5qrKYsyATs=
+
+Name: javadoc/org/eclipse/oomph/setup/git/impl/GitFactoryImpl.html
+SHA-256-Digest: fbbcu80jJgLIVUg7HlXWsgW7KYw3SWwQCt6ylQgJvrE=
+
+Name: images/trees/TnOy0W2RlXKUSBG1rFSeaGCAZsM=.png
+SHA-256-Digest: lmmFpYan6hrNHgg+nvRhQi06Y1aiAUaPEB17O3maHho=
+
+Name: javadoc/org/eclipse/oomph/setup/projects/impl/ProjectsFactoryImp
+ l.html
+SHA-256-Digest: V2wlYWYMuLL8M8WEG2T1TqgzBOilSeOr1M1bM6W4BS0=
+
+Name: javadoc/org/eclipse/oomph/setup/pde/class-use/APIBaselineTask.ht
+ ml
+SHA-256-Digest: H3sdlJitwtLIF4V8L/7p+s6Kv9PzM73+M9ObkbAuv7s=
+
+Name: javadoc/resources/background.gif
+SHA-256-Digest: tB7Yzvm2yPD5JDE1TIFOk9FIVBx/K3XBfKms42P9ZwA=
+
+Name: images/trees/zGNfGcap-v_d63X57F0cimiz9C4=.png
+SHA-256-Digest: S9Litp8m9OyL9Zwu0zgEcTkJtis3X4rTzqwx9SzyM/k=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/WorkbenchFactory.html
+SHA-256-Digest: +R6XXmjq242AgdiwPQommcgPRgXYt2YbZPBf2F6y7+0=
+
+Name: javadoc/org/eclipse/oomph/setup/launching/impl/package-summary.h
+ tml
+SHA-256-Digest: Mp1zLKALaHG4Xe+QMROiOf7KFbSVfktCb6AQNd00+yU=
+
+Name: images/trees/XtqwLFCebwJ1D2gyXkeCI9E-ptA=.png
+SHA-256-Digest: a6FJes359EQvI0vorVAB96KAl1L6L1NoGS5TTZq6m0U=
+
+Name: javadoc/org/eclipse/oomph/setup/maven/class-use/MavenPackage.htm
+ l
+SHA-256-Digest: NvpEYQNOI2vY/6/NfBcVnULpk+7+ksPiO+8VVCfrau0=
+
+Name: images/trees/xoVrkLASnBl32beodSeuzhF95ik=.png
+SHA-256-Digest: UAC6DKKF+rvd69RlnyikVHN4qoSFyI6Yg+v7vCLQnJw=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/impl/class-use/MylynBuilds
+ TaskImpl.MylynHelper.html
+SHA-256-Digest: d8Q1pSqLctkfsTTIpZXG8bUrZzW2fbzh1dHMVm7bXow=
+
+Name: javadoc/org/eclipse/oomph/setup/projectset/impl/package-use.html
+SHA-256-Digest: SO1jm5K0gPv94arfVSIv1xwyB8ox8NvHKPS2bpUYO1g=
+
+Name: images/trees/DULKrP4IGs7HGSVqoXcwRFgPxZQ=.png
+SHA-256-Digest: xw6EeH9eDzTNthgwk9qM6o7MGRF8nsbUa2y6CN2OSo0=
+
+Name: javadoc/org/eclipse/oomph/setup/pde/package-frame.html
+SHA-256-Digest: s1NZZEDfe8HzyVEisJUPHSAb5uEjs0AG3PPb87O4n3c=
+
+Name: javadoc/org/eclipse/oomph/setup/projects/class-use/ProjectsPlugi
+ n.Implementation.html
+SHA-256-Digest: seWIZ7fka/H2QiiyJlLFCShNMwJs8HbAC1oQSMHB7SU=
+
+Name: javadoc/org/eclipse/oomph/setup/projectset/util/package-frame.ht
+ ml
+SHA-256-Digest: 9/husyXJCegHFltHuSVwItbfgziXuVmkSuDtoKGNpIo=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/impl/class-use/KeyBind
+ ingTaskImpl.html
+SHA-256-Digest: l83BL2VnOspSGJluSwHxR+/1FxLsZvKyS+BihpL1vqA=
+
+Name: images/formatter-tree.gif
+SHA-256-Digest: YbEKYq1OM2+ZJ6fY86vbVGYRWUJmh7lD0vdRbbe+G+A=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/Project.html
+SHA-256-Digest: usN4FQkaRhl62KVI0gBtYsYSwfJ8k90Vza6zl/4REDw=
+
+Name: images/plugin.gif
+SHA-256-Digest: ZsOwYc4ZMigs5KViOkp50rrZ53fxeEmt0UDx86Pc/rk=
+
+Name: javadoc/org/eclipse/oomph/setup/projects/ProjectsPlugin.html
+SHA-256-Digest: U20V5b8DiGrZmX60tkD0pg2g19z1xbwqxYcY65vQuHs=
+
+Name: images/trees/JUvWOxggsr1jdWyG37PRowxIBQo=.png
+SHA-256-Digest: ew/LUfFyh2xmo68J1GTOmNKGUJx3n/N7EFFypZLSxfI=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/WorkspaceImpl.html
+SHA-256-Digest: wbamiSgjCIDfS697zkkQnqH7OVxxNKVSsLjttYCBmPY=
+
+Name: javadoc/org/eclipse/oomph/setup/jdt/class-use/JDTFactory.html
+SHA-256-Digest: boClV6fXS/DRiT15Wh6EtXuSJZ1mcvkBLyyc+npWDmI=
+
+Name: javadoc/org/eclipse/oomph/setup/ProductCatalog.html
+SHA-256-Digest: bu1pJav1NBwOZLoSI1PB0cDS2sY80EsOmszmUADO31o=
+
+Name: javadoc/org/eclipse/oomph/setup/pde/util/class-use/PDEAdapterFac
+ tory.html
+SHA-256-Digest: foBxylzPoyTW8Vy/4uO+6MHmjqdt4qsndXU3pfZiDBw=
+
+Name: javadoc/org/eclipse/oomph/setup/maven/MavenImportTask.html
+SHA-256-Digest: xzC2EayutyUmtZUkHRyN6hRSoeWqiXkaXAvrxAfxl4I=
+
+Name: javadoc/org/eclipse/oomph/setup/SetupTask.html
+SHA-256-Digest: 9yijUwoOnOzslobjceWwbwUnECbE65oscACjp9Oej8M=
+
+Name: javadoc/org/eclipse/oomph/setup/launching/class-use/LaunchTask.h
+ tml
+SHA-256-Digest: aXyWsv3Xz1v0TAHXKzyZUqct35k8BlDTUxALgBuPXWs=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/UnsignedPolicy.html
+SHA-256-Digest: UDYPdEPfkYEmffRltBajTNB7b6DIwUN8Vx6caFw/hA4=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/VariableType.html
+SHA-256-Digest: 8+lmhlQ3KxDdIEDIbHliJVarVd54z+6Dhg7o677taR0=
+
+Name: javadoc/org/eclipse/oomph/setup/projectset/impl/class-use/Projec
+ tSetFactoryImpl.html
+SHA-256-Digest: gdImO9o0PyH/F3j+dytjZDSEmzinN27g5eZLFUq0lFw=
+
+Name: javadoc/org/eclipse/oomph/setup/editor/package-summary.html
+SHA-256-Digest: CLSQ012J08srBtaxiKPqS0pHYxFLHn6kVerycpQHF2c=
+
+Name: javadoc/org/eclipse/oomph/setup/launching/util/LaunchingSwitch.h
+ tml
+SHA-256-Digest: EoOzaMa7a6f6cpuZwO2dmtAuAMCrk03gJrvsIoM7qMk=
+
+Name: javadoc/org/eclipse/oomph/setup/workingsets/impl/class-use/Worki
+ ngSetTaskImpl.html
+SHA-256-Digest: /QyU9uYx6UtyQs/a4SiEC6XMEeo0l2YEf7ySlHQRrGE=
+
+Name: javadoc/org/eclipse/oomph/setup/pde/util/package-use.html
+SHA-256-Digest: NIT/bOx8l1ZYv9zZOMihLArxTU3XctdAZNF6kCKkcq4=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/SetupTaskContext.html
+SHA-256-Digest: ORUq0sepHO7+sGH6SNxaz57oN+Scos8Mw/vMWQYcFCY=
+
+Name: javadoc/org/eclipse/oomph/setup/UnsignedPolicy.html
+SHA-256-Digest: RvUG6jRThTjtucezEmPO7IWK2ujJJJOMVqrxhxfdix0=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/package-frame.html
+SHA-256-Digest: xNDEhK8mhK0vypcWZBIrXze4IpxV5ej5HuN0KRE+kcM=
+
+Name: javadoc/org/eclipse/oomph/setup/SetupFactory.html
+SHA-256-Digest: ffwXIm8NtZOa8TfhAX6hA1PpMhxUSPalc1GcGShiuCU=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/InstallationTask.html
+SHA-256-Digest: gLePBWGT6fIdlVUvDD+Wy/Z7m8PM7ekf/0a9SuI6tdE=
+
+Name: javadoc/org/eclipse/oomph/setup/log/class-use/ProgressLogMonitor
+ .html
+SHA-256-Digest: SuWvQiYZCuLkkK5Ud1DNomj8YQdKS5hyD6qbaAySR9g=
+
+Name: images/trees/QEYs2M8g-kPWgEicZBfFT2hcIG8=.png
+SHA-256-Digest: O7frlJnxFwFP0eU5RWhTR1ByDrnQ+xfZGRiajxOEbAM=
+
+Name: images/editors/setup.gif
+SHA-256-Digest: e1DlDIFWEZ5FNDWyu1dmHyhlggooUkf84wuBfvcXYJQ=
+
+Name: images/trees/CfmNUYa92CVvaDj6YoBsq6MT7hc=.png
+SHA-256-Digest: LcyuK59m9FaPkOR/k9WEHFFK1WwvuOU28xeZ+iBEd/U=
+
+Name: javadoc/org/eclipse/oomph/setup/editor/class-use/ProjectTemplate
+ .html
+SHA-256-Digest: 2MVWzhgzpJH2hTsKNHjuS1SFNDUcM/RrXFk7w5YQoPM=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/ProductCatalog.html
+SHA-256-Digest: 6OYCrUElT4bD+m2XmnBieGfWas/ZcenYrLdN2VpOAnw=
+
+Name: javadoc/org/eclipse/oomph/setup/pde/class-use/PDEPackage.html
+SHA-256-Digest: cJEL23601RDL4YmEveoVVBfH86Bc0xf/R59e1hyet3A=
+
+Name: javadoc/org/eclipse/oomph/setup/git/util/package-frame.html
+SHA-256-Digest: 32k4Fchs08EZbgWI2MhzrPZYujo4JD/LjpPsb8WqJb0=
+
+Name: javadoc/org/eclipse/oomph/setup/targlets/package-summary.html
+SHA-256-Digest: kxcRUZwtLKi9Md45MyRv7q2jIfckhesZ6GkmBBvm81w=
+
+Name: javadoc/org/eclipse/oomph/setup/workingsets/impl/WorkingSetTaskI
+ mpl.html
+SHA-256-Digest: BxuUtZYZ4An4QICvpdhnf5jiMldJxxq48ON2hNu0i9s=
+
+Name: javadoc/org/eclipse/oomph/setup/p2/SetupP2Package.html
+SHA-256-Digest: vcp55sH+rMoNvdIizkPkTx6nDLJ341c4y93pTkgV3Dg=
+
+Name: javadoc/org/eclipse/oomph/setup/util/StringExpander.html
+SHA-256-Digest: ltpB/SoLj1BwwOO/m2VZPLhQpKdNQo+jpSPzeH7CsiQ=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/class-use/ResourceCreationT
+ askImpl.html
+SHA-256-Digest: +Ux/JTsAeN1eUgNfep0vudWqfR39ZB59lT3ngd5IfEw=
+
+Name: javadoc/org/eclipse/oomph/setup/pde/impl/PDEPackageImpl.html
+SHA-256-Digest: c/AIS48jqDfGMJvBR5PvVhBaYKCPmlA1323DnT3TOys=
+
+Name: javadoc/org/eclipse/oomph/setup/targlets/util/package-summary.ht
+ ml
+SHA-256-Digest: nsBnsvJ67t4JbidB92d5qbHUf1BkwF+mGMnACPofnaM=
+
+Name: html/editor.css
+SHA-256-Digest: ufH2Z3UXkQN0wRP52V69ohzPkONPSkkN8KLjCOTIZ54=
+
+Name: javadoc/org/eclipse/oomph/setup/pde/class-use/PDEPackage.Literal
+ s.html
+SHA-256-Digest: iHS15EgT6Kza5V96k2WsYFSfLodLDThmLYoB9PfhZsI=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/ScopeImpl.html
+SHA-256-Digest: 8nzXr0WGseTN2FcHW1z2g5s2C/s/Uo3CngUYRhB5POQ=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/impl/class-use/MylynFactor
+ yImpl.html
+SHA-256-Digest: b3uCnBwF4W4I2fn2XMAob0dTq3/EqwOEvRAXUkc2Dys=
+
+Name: javadoc/org/eclipse/oomph/setup/package-summary.html
+SHA-256-Digest: EFI+I8g92fSUVo4PMazTvGwdWca4KzVqEMPI0z2/+Ng=
+
+Name: javadoc/org/eclipse/oomph/setup/workingsets/impl/SetupWorkingSet
+ sPackageImpl.html
+SHA-256-Digest: agXqvg6CUw7b4Q3sDbzHqsA3lpNsRXZ8GgGDy36ybks=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/util/package-summary.html
+SHA-256-Digest: ScIpof29sxIhGpvNkBkLNDW7S1C00YEKkvgyiBsLsEk=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/ProductVersionImpl.html
+SHA-256-Digest: 5ymLtwm/rtZlGtrSPC4w6ouNPCXGLD9y4msZyeFerSc=
+
+Name: javadoc/org/eclipse/oomph/setup/workingsets/package-use.html
+SHA-256-Digest: t/xx4SByds2UxBDDDud76ejfCVl22WwNCg5TwhQwKD8=
+
+Name: javadoc/org/eclipse/oomph/setup/package-frame.html
+SHA-256-Digest: TvRBK59+RdvedD/uSjnC6oVedcwgv5GGOFd9Gy4Tq04=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/class-use/LocationCatalogIm
+ pl.html
+SHA-256-Digest: /u6fRcAf+yEwAgUzgLzrCbz5kibn99+Q0YWhloiidoY=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/KeyBindingContext.html
+SHA-256-Digest: jpLomr9hL9Rg081CyY386vrhcEIfzr04F8rLrTjNcCA=
+
+Name: images/trees/wlyHAwsrPGUc6PKWWhMAJvrmNxE=.png
+SHA-256-Digest: A8P3+X6Bhana1LIbV352OKTtEM93XiD4TkAnKG+uvUk=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/StringSubstitutionTask
+ .html
+SHA-256-Digest: uQn6GUTEbZwqZ+ePHbb4jKlvkEmLgNjq1RyDB7Ryvo0=
+
+Name: oomph32.png
+SHA-256-Digest: HWDpe1I18ffznIZTYTRTBIBNeXvrwF7UL/L11OmvGtY=
+
+Name: javadoc/org/eclipse/oomph/setup/maven/impl/MavenPackageImpl.html
+SHA-256-Digest: BQAtIGuQ9oqHD1uHzIWWprE5I+4B45qap4hwve/+arA=
+
+Name: javadoc/org/eclipse/oomph/setup/User.html
+SHA-256-Digest: PcmUCzeRzxwdWxAM4SvU6oahHEYP+xqLr4Dq7iwCqSA=
+
+Name: javadoc/org/eclipse/oomph/setup/p2/util/package-use.html
+SHA-256-Digest: Sj2WcCtSP5eEcc4gCdjUGiA+sN2DSsPC8rcm/8cevzk=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/Installation.html
+SHA-256-Digest: ZJsXSvDBtuST6TzDtfaI0ucHB+ng80vcPzPLdk5srN4=
+
+Name: javadoc/org/eclipse/oomph/setup/pde/util/package-frame.html
+SHA-256-Digest: L8N3EnIboKjfilcNRCJW5MrhMPe0RBS5XxKkpg7wTCA=
+
+Name: javadoc/org/eclipse/oomph/setup/pde/PDEFactory.html
+SHA-256-Digest: +mD/6UWsqoUkMjTFsMaX0CZlW5wc2D1xYLJg9OmzTYw=
+
+Name: images/trees/byiCSHgPFk5ISKwcXGc0vA_YU9M=.png
+SHA-256-Digest: mm4icsDvyWtp4MG+oz+sm/hVGM/Gi/G/uffYve8DumQ=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/SetupTaskImpl.TypedStringTo
+ ken.html
+SHA-256-Digest: N1GXyTv0pcJVrwQoEduPQlGjsAkBaG2k+FN69rCZgB0=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/impl/CommandParameterI
+ mpl.html
+SHA-256-Digest: /hlVLnknywbg1xcb7c4aHW5XjAVNGwMxrRFg5P8aJ68=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/class-use/AttributeRuleImpl
+ .html
+SHA-256-Digest: DOBgYlUsrvUzP43sjgaeBKQJJu6UiEzecgPYJE2gqho=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/ResourceCreationTaskImpl.ht
+ ml
+SHA-256-Digest: 5vUZ4Nh/2X9o85DMyNuVQ1i8253LS44tjHKlWlIpMa8=
+
+Name: html/user/wizard/wizards.png
+SHA-256-Digest: UJEaOwU4tvsd+UnmGzTbSMJfTrAp0ZCNCY9g8FPMSC0=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/impl/class-use/FileAss
+ ociationsTaskImpl.html
+SHA-256-Digest: 1U+ymSLniI+g6HNF/3IRGAPBzr0bF4HwgcVZmwK83Fo=
+
+Name: html/user/wizard/DocConfirmationPage.html
+SHA-256-Digest: eplAKiKScWMDIbDEN3ucEadRrtZMVAvk0++3BM+oW+Q=
+
+Name: javadoc/org/eclipse/oomph/setup/Scope.html
+SHA-256-Digest: g6veryvp/isqf71GYZ/u+3cB32sB4PKyoI5a6Q9oEFk=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/AttributeRuleImpl.html
+SHA-256-Digest: VmL+rFBGAAj7o3uhgA6cdz0o8shhs9JbtY3nRloF9ak=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/package-summary.html
+SHA-256-Digest: DxI2P2LGOyVlrYfpsafsenpQTrupSM85Vd6dM7dG6zE=
+
+Name: javadoc/org/eclipse/oomph/setup/workingsets/impl/package-use.htm
+ l
+SHA-256-Digest: oD6nELkIqoGU9h+NPTQxo8dkFAulPbSjNsdJT7jgTc4=
+
+Name: javadoc/org/eclipse/oomph/setup/CompoundTask.html
+SHA-256-Digest: WsbdoUL8xaX+bTJSrPmRwOfGvQ5mEHNyPYvDniAtNwk=
+
+Name: javadoc/org/eclipse/oomph/setup/jdt/util/JDTAdapterFactory.html
+SHA-256-Digest: v8AaOysNr3NMokpJbyjc9PXHcY+jBEQPcyBHyqtLXww=
+
+Name: javadoc/org/eclipse/oomph/setup/maven/impl/class-use/MavenImport
+ TaskImpl.html
+SHA-256-Digest: yhj698mGETIzssCPq++tMWvXUt2+CnXCO7kyAndmCUY=
+
+Name: javadoc/org/eclipse/oomph/setup/workingsets/util/SetupWorkingSet
+ sAdapterFactory.html
+SHA-256-Digest: oKoAaC20I/paVphpHrL1dB6xR0xQzBMJVa7Tf/iE2BE=
+
+Name: images/backward.png
+SHA-256-Digest: rZGGYCmb0kjy1mX4xvs2zXHFHErxkADBMMQFdaKb8Fc=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/impl/KeyBindingContext
+ Impl.html
+SHA-256-Digest: vwQFS5lsiO16FzuHD6WnWowcsw5BymUIfFYJeaIdwWE=
+
+Name: images/trees/ew5C1Mp70QovHSwVdDgQXIXHjJE=.png
+SHA-256-Digest: R6YEf08kUBtEqbFiflQxkg8BIoz22NvWc3FUYCRYM90=
+
+Name: javadoc/org/eclipse/oomph/setup/launching/impl/LaunchTaskImpl.ht
+ ml
+SHA-256-Digest: huYQtPw0G89qT7UMkdiWYswbCy1mooJjifofkB+MwxU=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/impl/BuildPlanImpl.html
+SHA-256-Digest: jk5F5/xO5DZmcH0FyxcqL3wLxZ8jV3eL0v8EVjTKHDA=
+
+Name: javadoc/org/eclipse/oomph/setup/CatalogSelection.html
+SHA-256-Digest: faDPcV+OPJageJe+t5yTqNxI9GTrYfyrnhxhHHhRJsQ=
+
+Name: html/user/wizard/ProductPage.images
+SHA-256-Digest: eX/aedWdZRA94EgUiFk/E0eHxzFJSOkEmIgK/PlRcXw=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/class-use/WorkbenchFac
+ tory.html
+SHA-256-Digest: lXH4VJf5vqD586gvdQSdRggzkva4IdVyAlBLMhbYubU=
+
+Name: javadoc/org/eclipse/oomph/setup/targlets/class-use/SetupTarglets
+ Package.Literals.html
+SHA-256-Digest: tnMQz+PS7ptLLKJiVbNKW6ITEHMLL2Rjil9EVm4rvCU=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/util/WorkbenchSwitch.h
+ tml
+SHA-256-Digest: f8dXRJMzILs/C3B7454jpYh9+ylrtfP71VSebUK/bSo=
+
+Name: javadoc/org/eclipse/oomph/setup/maven/util/MavenSwitch.html
+SHA-256-Digest: Jtw6w6ykwAgwbucl76PMhbJQPVQRGM6r7ncL0jvr+wQ=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/impl/WorkbenchFactoryI
+ mpl.html
+SHA-256-Digest: 5OHzetcF5+8WP0A3Unx3Zdpc1j4w7m31DeyKjcBZWoo=
+
+Name: images/external.gif
+SHA-256-Digest: dOBdLrZafBGpu/MMX/LLlLLCpIpqIlhp3p2yyY8gACg=
+
+Name: javadoc/org/eclipse/oomph/setup/maven/util/class-use/MavenAdapte
+ rFactory.html
+SHA-256-Digest: YqH2Cu5YRUe4dnJwx0cwKE0PhMsdrlkqY7vycpqlFxQ=
+
+Name: javadoc/org/eclipse/oomph/setup/p2/class-use/SetupP2Factory.html
+SHA-256-Digest: ddOBmAtW6Up45bxwilY3kRd3CL9WlKkLPWCrrNcSMVw=
+
+Name: javadoc/org/eclipse/oomph/setup/maven/MavenPackage.html
+SHA-256-Digest: 45KtQrzKXXsVWJb0dyOrXLU9if3/dMm9QWG8kN81S5E=
+
+Name: javadoc/deprecated-list.html
+SHA-256-Digest: zUaTMHEvLmH9icxNjUUMhQy+6oEuiWDUeIhmCKgzuq8=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/class-use/WorkspaceImpl.htm
+ l
+SHA-256-Digest: 1+x5+cBxmS0ooTxkeb3PHHRT3diL5C/6gFzADukz9PE=
+
+Name: javadoc/org/eclipse/oomph/setup/workingsets/impl/package-summary
+ .html
+SHA-256-Digest: 7iNVHOG/Qkw98zRhLZwZMDNIJxI+XTiIEqAbjIryZMA=
+
+Name: html/user/wizard/index.html
+SHA-256-Digest: /l0Qs0hOiTHAhg/SsSAF7kyH8pKYffJ5O6IvgehVbA8=
+
+Name: images/formatter-tree-properties.gif
+SHA-256-Digest: bMYkavZR3mQJofvnpNdpMmDCzP3gruV/KmzXVNDcZ/M=
+
+Name: javadoc/org/eclipse/oomph/setup/git/util/package-use.html
+SHA-256-Digest: OUQy9fRkeYpZ5L/a59G/lLX9TR7y56Udu6a1Bi4RTG4=
+
+Name: javadoc/org/eclipse/oomph/setup/git/package-summary.html
+SHA-256-Digest: m5jxjNCrWN/eY1fT6hFPSAsy4GHsmNSc0vgZrmlZczM=
+
+Name: javadoc/org/eclipse/oomph/setup/pde/PDEPackage.Literals.html
+SHA-256-Digest: YaS8gg3g02/qciRZzeR2YoJhiEGur6cwPXd7rBAaF+o=
+
+Name: javadoc/org/eclipse/oomph/setup/LinkLocationTask.html
+SHA-256-Digest: QwJyMFr46Z3O2YGcgeoEGUPiyOJBbXAZ7f5hRpmaVxI=
+
+Name: html/concepts/DocVariableRecording.html
+SHA-256-Digest: 6+c8RpTncWh6hrqggszOnV6v+thktBReEh9cnRZ79gw=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/Trigger.html
+SHA-256-Digest: Xr9kF21lwu1hbQ6NtaVAAicFerLCLaWFuMvk44nQDck=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/class-use/ProductImpl.html
+SHA-256-Digest: ZPXGeqpD8YkLApS2oKZw2xhQwEWbgnXutH7+Ebqya60=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/class-use/LinkLocationTaskI
+ mpl.html
+SHA-256-Digest: 0FmKimvrcBzbyXGXRuoR8JralJ4NpJP9Q0SSuPk32as=
+
+Name: images/trees/tnayJubtXYmRzY6rWI6OPhMhuRU=.png
+SHA-256-Digest: Ix1Bi7BWDhABX7zSp1VQ4/Di24E7ILemulQKH1ojtzM=
+
+Name: javadoc/org/eclipse/oomph/setup/pde/util/package-summary.html
+SHA-256-Digest: pSU8X3/7OnFxPFLKNE0HWemCscJOjJhtiB4XpfllV4E=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/Query.html
+SHA-256-Digest: 60lvHbPrAPOdjnJDuZxdHdIYODjusmrVZs1vxokR9FI=
+
+Name: javadoc/package-list
+SHA-256-Digest: 0Zf3L7z2a6IqL0nW1D0OU1NjmCrpxnfThW2G2bFy3Mk=
+
+Name: html/user/wizard/DocProductPage.html
+SHA-256-Digest: S4lAla0GZft+jEFylbKQkQ0X8jwjUsbdDgUvK128e/E=
+
+Name: javadoc/org/eclipse/oomph/setup/log/ProgressLogFilter.html
+SHA-256-Digest: lcSYyqeT/d9Sh8YRDRgow/ilouM0pIOlY2jxZ6YoitA=
+
+Name: javadoc/org/eclipse/oomph/setup/workingsets/package-summary.html
+SHA-256-Digest: yTN8r6ZpX6LVkrkQAJPSL3VnB4nWJD4mKVXXPF6sMlw=
+
+Name: javadoc/org/eclipse/oomph/setup/log/ProgressLogProvider.html
+SHA-256-Digest: GikZB3s3FDUIJ+ZPenUF2uQJ9YRiw2UI4HulDbLRwYM=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/WorkspaceTaskImpl.html
+SHA-256-Digest: wNasn8IbVHJEML/+wy/AuVr1J1z7hiXp5PzR5KE6FWA=
+
+Name: javadoc/org/eclipse/oomph/setup/projects/util/class-use/Projects
+ AdapterFactory.html
+SHA-256-Digest: skOcKNVD1v0LRvNGUfaIF9Kq/srgG3LHn3A+lPn429A=
+
+Name: images/editor-max-hover.png
+SHA-256-Digest: 3NhxGkmBil8CggIK8btPEZrTgiNF3BiJxm93ALa8R2s=
+
+Name: javadoc/org/eclipse/oomph/setup/jdt/util/package-use.html
+SHA-256-Digest: jj0KLtocSXIDOFPIljg3+d3228iYZG1xpoitscK5i4A=
+
+Name: javadoc/org/eclipse/oomph/setup/git/impl/package-frame.html
+SHA-256-Digest: o5jZxFmkVXTje1C35XLk/QaQUMAOB1wIR+N+Dc67Pds=
+
+Name: javadoc/index.html
+SHA-256-Digest: MTjc2OpVw6Uftu45YiN8Yxop55htLdImfPlbev1aefA=
+
+Name: images/trees/5ppp1pM9_DzrpsUYFxo9LM2a6IQ=.png
+SHA-256-Digest: 4ryU1g6LUx3FepCTewNdwmXPGNDkX02+FDc1ZzBPtao=
+
+Name: javadoc/org/eclipse/oomph/setup/projects/ProjectsPlugin.Implemen
+ tation.html
+SHA-256-Digest: Fvh8HZobeDt3INSDUtfyBEoqdax4jNcHKDlFf5TZVng=
+
+Name: javadoc/org/eclipse/oomph/setup/p2/util/SetupP2AdapterFactory.ht
+ ml
+SHA-256-Digest: UsAGpDfq6kD5ZiEA5/E/u4ufg0Sznlq+zWUsQMGKnMs=
+
+Name: javadoc/org/eclipse/oomph/setup/StringSubstitutionTask.html
+SHA-256-Digest: TJ7HaIlS5a5bJUWVKndUZgWA5Mz4LY5j4+1IiWBilqY=
+
+Name: javadoc/org/eclipse/oomph/setup/pde/impl/package-summary.html
+SHA-256-Digest: mhtbfnz7M70Py/J1Zh+oSeL12JsfeQMMThsUcGDpWE4=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/KeyBindingTask.html
+SHA-256-Digest: WPAqOICcsbmump/kOiDpeo8Z4mwRrfWJf+xUEijsen8=
+
+Name: images/trees/5HWtOiDz9aUfSmbp92roYK9oNDw=.png
+SHA-256-Digest: qY0GXqd4koXFjRS+dZTUbdmWh310hU4HVrxRIIqg7oQ=
+
+Name: javadoc/org/eclipse/oomph/setup/git/util/GitAdapterFactory.html
+SHA-256-Digest: nlNCEHWUogw1gtGr/WVLwxAOsJr2FWw8e0Kc0xUYxPM=
+
+Name: images/trees/T8j9PUbNaA7-sD0jGi-M2ZT90Xc=.png
+SHA-256-Digest: ceZwm+CPsy0t3h5D0J+0aMVqNuU/fiKKCU1LIQyekks=
+
+Name: images/trees/7GBW0o_q3lAPMC0kyJInPGwrZLU=.png
+SHA-256-Digest: YwjkrVM2wh65DUZ8eE08/TTmqgy883BWcaPo+dpE5Uk=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/WorkbenchPackage.html
+SHA-256-Digest: Y2OY0bAeu2ekYt4Cf5YV6k7Ylv0fRpx1J/RG7WHGLNg=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/class-use/MylynBuildsTask.
+ html
+SHA-256-Digest: tnQj5l75+/LXE/h+6h+0a0TOyteBwbwM5SQRWCjC1PU=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/VariableChoice.html
+SHA-256-Digest: vLlJSarOUkgyo4GnY5D45DF1VGKab+ZhBz1aYaIHrag=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/class-use/TextModificationI
+ mpl.html
+SHA-256-Digest: Sb0UUr0FdNw+s+yJdAW6H5UJs0eBcih3sVQIbOC7YfQ=
+
+Name: images/background-1.gif
+SHA-256-Digest: 0JNVqqFa4wQsCV3dTczjHOUdpn4ePEHfS97qc37joW0=
+
+Name: images/formatter-xml.gif
+SHA-256-Digest: 9M/U7mn24+olvbiAdaiS3aJo6iHZ/l8E9GIiTy+hm5o=
+
+Name: javadoc/org/eclipse/oomph/setup/editor/ProjectTemplate.Container
+ .html
+SHA-256-Digest: 5bOEt2pQ/9T0xSB4vtcQ8m4zJe2yYeUVJfC7CItX/ik=
+
+Name: javadoc/org/eclipse/oomph/setup/launching/impl/LaunchingFactoryI
+ mpl.html
+SHA-256-Digest: 1pd52rpy8Anq/BCfuBbr7s61YhAScOZo8vpF/Y4A7lw=
+
+Name: html/user/wizard/DocVariablePage.html
+SHA-256-Digest: xQTtCu3qOe02ikL7w+5ijoKaAckL/dlxuTiemUUBw54=
+
+Name: javadoc/org/eclipse/oomph/setup/projectset/ProjectSetFactory.htm
+ l
+SHA-256-Digest: +pGk5GUqIINTRU346EtymC/37cx1MHcOl5kzzEtxvO8=
+
+Name: javadoc/org/eclipse/oomph/setup/launching/impl/package-frame.htm
+ l
+SHA-256-Digest: 4suVhu9IJh6k0naO6IqnZswn5d0RS6jHtrssMvQplfc=
+
+Name: javadoc/overview-frame.html
+SHA-256-Digest: j+IdBHlvnQGlz726R+0ERm1RZuAaEOpr1LMvzauGJeI=
+
+Name: javadoc/org/eclipse/oomph/setup/util/class-use/FileUtil.html
+SHA-256-Digest: 4wKy6kM9HV2ukkmeHGmtYAm1hx4m0E/NC3gL2klQFDo=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/WorkspaceTask.html
+SHA-256-Digest: VUJ0LerEynK3QjEmpLga3e4nMeFfbRBIFlaD+SyqlnI=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/class-use/WorkbenchPac
+ kage.html
+SHA-256-Digest: kDqNLQ0TmW+WMV/Zf+vUpUMMGcazw4IKoO4F6+1H30w=
+
+Name: javadoc/org/eclipse/oomph/setup/VariableChoice.html
+SHA-256-Digest: aRX9yq0fWKZwl1+k6ey+Ju4/5iXw34DqYu/UAjcSEJY=
+
+Name: images/trees/qoZIZ_J7CLZc0oBKAAvGUEiUlfE=.png
+SHA-256-Digest: UyUISV4/hN/l942FIdJwj9vrXKGxP7KjapPoaN1iyVA=
+
+Name: javadoc/org/eclipse/oomph/setup/pde/APIBaselineTask.html
+SHA-256-Digest: tQdNxCVBm5oSawpp53V4DlRpkpbCAYUoSYnaw/WOEAs=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/impl/package-frame.html
+SHA-256-Digest: U0Jxon3rm368/w3Su259g6G7ZkFvKDaDVSP7Hpvx9/E=
+
+Name: javadoc/org/eclipse/oomph/setup/projectset/util/ProjectSetSwitch
+ .html
+SHA-256-Digest: nzBSufz5hesY5xraaDTkvYXiwQ5nCAK/rCj6eh7GMzk=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/impl/class-use/FileEdi
+ torImpl.html
+SHA-256-Digest: yXIK090rvFqn82nvFiBWbYOs4kSiDr908XA4amryxHg=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/class-use/SetupPackageImpl.
+ html
+SHA-256-Digest: El5YXOZxN03Y0un/eIUHr1qloWKebxDJevqCsSDQR5A=
+
+Name: javadoc/org/eclipse/oomph/setup/jdt/package-use.html
+SHA-256-Digest: /9BMWWlZntgJrRukXCQ4/ceMBqDvDXjYdS/7zJVXzHo=
+
+Name: javadoc/org/eclipse/oomph/setup/util/SetupUtil.html
+SHA-256-Digest: /FY4RkP/y0AvZ9buT6Jh9oqLWmkOUX9lB52mvgfDGck=
+
+Name: images/trees/DNfmoRNYZ2CVb3Rgd1UpE87kpDo=.png
+SHA-256-Digest: AyH6jRaG0qI2fxFHIvEb4LTlxP2EUY+MsM7svmMJqEA=
+
+Name: images/trees/93Z_advcHzIxPBey0tbaVclOxzA=.png
+SHA-256-Digest: 4R1CTuz1NVWpQTlRWKvPWuZloMdWYNnKWaSOadMXjEE=
+
+Name: javadoc/org/eclipse/oomph/setup/projects/ProjectsImportTask.html
+SHA-256-Digest: wBkZ/hcP1A8wm2nPSo6vywjocEmKOvbbMmG83IhhHs0=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/util/package-summary.h
+ tml
+SHA-256-Digest: iZhfZNVe7D1c9EJ6cXNI0YGkAVgH2Y8Ds1ghgju4Pc4=
+
+Name: javadoc/stylesheet.css
+SHA-256-Digest: GQVKTx0XpLeIZRI+UZUvvKmrtz0F7Fj272VQIB4djLU=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/class-use/StreamImpl.html
+SHA-256-Digest: azh9TgYuTt4Gdv/J91abNDm7WY/pjyQCrCUbc8qT6/Q=
+
+Name: images/trees/5Tm3mcFfg_kubhXg7h6iTU2hJ8k=.png
+SHA-256-Digest: ti9KesSkA4VzirRe2K1XTkGNPmPA9sTMzexrzh999tc=
+
+Name: javadoc/org/eclipse/oomph/setup/git/GitFactory.html
+SHA-256-Digest: XeYQjwA3W/lTO+jsaSkjRPhyapf4ItiGZJHUlp67gmM=
+
+Name: javadoc/org/eclipse/oomph/setup/pde/PDEPackage.html
+SHA-256-Digest: hl8W8AqWnLgDj8qe0xybJ2GkIUtxAFKXTgBmFzpyF+E=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/EAnnotationConstants.h
+ tml
+SHA-256-Digest: ISEakZiPmMhN0lulGPrptc4cLnbtUUaQaCtr7yohhos=
+
+Name: images/trees/1oR8SatLml_W1fb6M9hwN6HW-Qw=.png
+SHA-256-Digest: t+D3Z4rLTbd4LIYYZzYWXm1CPpSyp+iKJXGkGUqxx4Y=
+
+Name: javadoc/org/eclipse/oomph/setup/projectset/class-use/ProjectSetP
+ ackage.Literals.html
+SHA-256-Digest: PF7Q/TCqlzgjrJYnTGj2Mww0bHipCVztYbCO8TuygBM=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/InstallationToWorkspacesMap
+ EntryImpl.html
+SHA-256-Digest: 4u51R5uscy0C8v3p2Llpwl3po30UWLX5LhVN2U77jD8=
+
+Name: javadoc/org/eclipse/oomph/setup/targlets/SetupTargletsPackage.ht
+ ml
+SHA-256-Digest: F/XdfyMXuhx73xdilVpeO89qVsUo+8MvciU/GtojgUg=
+
+Name: images/editor-max.png
+SHA-256-Digest: eLXvGObAjd8H13dIj7DWMdpxBh6OMvUXmxf+6hDYzhQ=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/impl/MylynQueriesTaskImpl.
+ MylynHelper.html
+SHA-256-Digest: nuWHg3zGWvMz7EwEOw6Rs0naDgRyZopDKi00U2Z069s=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/impl/class-use/KeyBind
+ ingContextImpl.html
+SHA-256-Digest: /AOZll+w/ddS0FGV9k/TRBENGxFEZU3JTpTRo9Z20FY=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/RedirectionTask.html
+SHA-256-Digest: pnZ+ZsXXWYyCOwRZMq8L/r+WMYBctXlz1m9o7hVty7g=
+
+Name: images/trees/r9XcxN1ix5YQS24vZc_dRgq6U18=.png
+SHA-256-Digest: IqJjNjpTYN0lmFKQ8l94bDsmZ3TuO8Il5R4uEdFjIWw=
+
+Name: images/trees/SLODCq1oyTyRTp_45wwxJ8KaA9k=.png
+SHA-256-Digest: mUnwHZ4GF45VUWkKeBaBcjvHNsvNxYzJoUUKtdFL/0g=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/class-use/KeyBindingCo
+ ntext.html
+SHA-256-Digest: 4OBKXoqeGaPpLHIop1cGE1PLx2XdB5iBhIEB54F5Fio=
+
+Name: javadoc/org/eclipse/oomph/setup/launching/LaunchingPackage.html
+SHA-256-Digest: lML2xKg7sKOc8Zbs9Y2C9q87/8nkNkKiYn5SPsPUJuI=
+
+Name: javadoc/org/eclipse/oomph/setup/projects/class-use/ProjectsFacto
+ ry.html
+SHA-256-Digest: YOt7YxjiqUfIRh+/loQt+S+dk+LnxSGULhBtL4yk7ig=
+
+Name: images/trees/DHDbrvOTphCMnkh5obezEYK_0aI=.png
+SHA-256-Digest: ZkgYtDc45zvRLO1pXrhK0MDlzYdKDn3/9HmEWmqqTB8=
+
+Name: javadoc/org/eclipse/oomph/setup/workingsets/SetupWorkingSetsFact
+ ory.html
+SHA-256-Digest: twtXI5aNyectIsz2I+SsTcDrCnGlkxIDylqDaJWBkxo=
+
+Name: javadoc/org/eclipse/oomph/setup/pde/impl/class-use/APIBaselineTa
+ skImpl.html
+SHA-256-Digest: lT0C0EJVz2uglhjw8bPeBzlXdVcQePVWWgilXhP8fbQ=
+
+Name: images/trees/IbtoiKhSpXd4w9r_gYSbX1evYDc=.png
+SHA-256-Digest: 2m4AEyqjHZAaiWJetxehzrXWLRmYniYeblUCtDVjZSw=
+
+Name: META-INF/eclipse.inf
+SHA-256-Digest: Rr5LcOp+oA1o+OBG8dKE1JkMSO9EcD9X+5TLiaC/4Sg=
+
+Name: images/background-2.gif
+SHA-256-Digest: yGmeX/sPBzkwV9gqpAByEKT+tUZhKRa8XXPzGu4uR0c=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/class-use/SetupTaskImpl.htm
+ l
+SHA-256-Digest: HL3qi4uXHyPlYGY6/hA8tH9DjwfEG6yWE5kspI0Q9Gc=
+
+Name: javadoc/org/eclipse/oomph/setup/SetupTaskContext.html
+SHA-256-Digest: YE8jPb8m0RZxsERNC2XBFGgw/QgkD5aeyuzSoueB5P4=
+
+Name: images/trees/To_psxrMENeKwy_B5oEq4IuD3n4=.png
+SHA-256-Digest: b0jfrA2PXaH4V7UwGmrq6fcUunkVyoGZFaqaZhA2F8Q=
+
+Name: javadoc/org/eclipse/oomph/setup/projects/ProjectsFactory.html
+SHA-256-Digest: /tMUfCJt9gnC0SkzXbck0FoUC5aGGHYK0mmwZty2JAY=
+
+Name: images/trees/8SUrSII1gyqLhOkJKlVIajZM52Y=.png
+SHA-256-Digest: Z8GMxlxn2fiWrSohNMn3z47/odQJgvzqvxjLz0esBIA=
+
+Name: javadoc/org/eclipse/oomph/setup/projects/impl/ProjectsImportTask
+ Impl.html
+SHA-256-Digest: z31PBBsU9jPcO2Fp0GsYrdwlS3EJ2xrBiy9S13nFb9Q=
+
+Name: images/trees/F3Ep2SiFFeUJwDapoSXIrKThfs8=.png
+SHA-256-Digest: gAk/bFYFpOt1w2yyvXal7fCs1Q86daVvKwocp0WElL0=
+
+Name: html/user/wizard/InstallerWizard.images
+SHA-256-Digest: fZu96eQv5YmAI6GE5d+c/5CchrV9Qvc8EBd+R3vmvgc=
+
+Name: javadoc/org/eclipse/oomph/setup/jdt/util/class-use/JDTAdapterFac
+ tory.html
+SHA-256-Digest: x9rhKEnwz2BS8RBck/mGI0K5kIhn0eHY9KCPcO8Wil0=
+
+Name: javadoc/org/eclipse/oomph/setup/launching/LaunchingPackage.Liter
+ als.html
+SHA-256-Digest: ZumMAp3C4mfZ51Otngj6bCXWOA48pS36jZ0pcAfMsPI=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/ProjectToStreamMapEntryImpl
+ .html
+SHA-256-Digest: nESJsOghTUoNEoI6d98eceKgmCz8GSt+bl43trCsadQ=
+
+Name: javadoc/org/eclipse/oomph/setup/launching/package-use.html
+SHA-256-Digest: KwuMH3V0wdp0LKqvWEJykpTWs5zXj8eJMT3OPo0lTJ8=
+
+Name: images/trees/x4RtKWPvdxrYx3J5X9o-KDyxvKY=.png
+SHA-256-Digest: ZpQ2AyY4mY3Sw0QXLntm/sh4Op4P4KusHp6ktOp7J2Q=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/StreamImpl.html
+SHA-256-Digest: eZv8odogR6b/b446MbaBo2k29i9jylcXOmYR8bO651I=
+
+Name: javadoc/org/eclipse/oomph/setup/pde/class-use/TargetPlatformTask
+ .html
+SHA-256-Digest: RCOcCRSLDsr24S7pSUOrTujY68lhB4wfTBmfhS6pXGE=
+
+Name: html/Overview.html
+SHA-256-Digest: 6WxgNHQfck692lX+VrFTqidfBEiHISb4chyRrbNxJ6A=
+
+Name: images/trees/fTMZcIuYs2A2vs-XAvzYW42kzXw=.png
+SHA-256-Digest: Dz4XO9tuzrJguurot/gr5Y+0P9FUrhjEcmAaFI9oDmI=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/Product.html
+SHA-256-Digest: j+AkCm52oUMJmHQ4La/bXmFiva9B+iH9KIOImPvL7l8=
+
+Name: javadoc/org/eclipse/oomph/setup/projects/impl/package-frame.html
+SHA-256-Digest: rfyhiX0CiKBRzpQc3GAX1ghZVJjmWBYExrFdend4ovs=
+
+Name: javadoc/org/eclipse/oomph/setup/workingsets/impl/class-use/Setup
+ WorkingSetsFactoryImpl.html
+SHA-256-Digest: h2eW62P9dIy/Z3vtK6gPVEtyCY4Ur7RUn8Yw5MKCwls=
+
+Name: images/trees/BlYy-ZLRWRErVScIk2cASWltFfM=.png
+SHA-256-Digest: eeFnu5QyKwbyNAdY/T0kaGZjNpxOF9CaVslR/l7VNtc=
+
+Name: javadoc/org/eclipse/oomph/setup/projects/impl/class-use/Projects
+ PackageImpl.html
+SHA-256-Digest: JtRUtzf0ecSTYNnQAQcgmbUbNlbn2Ol4rpIbumY1V64=
+
+Name: javadoc/org/eclipse/oomph/setup/jdt/util/class-use/JDTSwitch.htm
+ l
+SHA-256-Digest: qMh4kqfelBu6RWgoozdzG2yx1Nj3LlUEjxMDR7/EqYQ=
+
+Name: javadoc/org/eclipse/oomph/setup/p2/util/class-use/SetupP2Adapter
+ Factory.html
+SHA-256-Digest: LbZTVyzm848fZHYzHUqlzcWmTBGrWgyfTHYct6bvk5A=
+
+Name: javadoc/org/eclipse/oomph/internal/setup/pde/package-frame.html
+SHA-256-Digest: Gq2SMLoN+dzFkn1MANeCJbjZseB5xmBCEq1xddWwY84=
+
+Name: images/plus.gif
+SHA-256-Digest: aMqc9gCyGSQduf3Fcqdvo/cpMuSW5m3CG9enX5YEAnQ=
+
+Name: javadoc/org/eclipse/oomph/setup/pde/impl/APIBaselineTaskImpl.htm
+ l
+SHA-256-Digest: IChVFKU/4jJD/rBtKFniAdbzDzsoDTBdBOXPD85qlkc=
+
+Name: javadoc/org/eclipse/oomph/setup/workingsets/util/SetupWorkingSet
+ sSwitch.html
+SHA-256-Digest: taqGFerCOlW3NiDaqq0/Tr6O8G0KRUEumrydmbA8UCA=
+
+Name: images/trees/uYb4nWf_x4iPtp0TP9sPGZwIPLM=.png
+SHA-256-Digest: aHa5MdGP43AsNGEOAHQtjdgsXKpqZhHP+KXFJ7H23m0=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/MylynPackage.html
+SHA-256-Digest: b6DdbjXDkuK3ZnHqCxtb6LTLZ35wPy48SUa0Ve9RLDo=
+
+Name: images/trees/MAbFUVzTpzQVzXcN1eDMnr-tXGQ=.png
+SHA-256-Digest: /0msLPNMdxNWd/r8GQveGCxb01+LDhaq5Dysu2DAdS0=
+
+Name: javadoc/help-doc.html
+SHA-256-Digest: kSLj9GOQKRfjyhOBSTE470oSrLWN1vwR1AuUrqpOilA=
+
+Name: images/forward.png
+SHA-256-Digest: AnofoDiwybpiqWiqOezG7UiNm10k4zZOTQ14zbBMlVM=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/TextModification.html
+SHA-256-Digest: UG18QFpnlQ5UdfrDyH9T6pGQTmFsFWq+7f6X8+7CpBc=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/ResourceCreationTask.h
+ tml
+SHA-256-Digest: t5k8ndImDTSC0P0HS1ulTme33Aw8Zpwa64ObXj1ETtQ=
+
+Name: javadoc/org/eclipse/oomph/setup/projects/util/ProjectsSwitch.htm
+ l
+SHA-256-Digest: V2Y/kCP2tHa0rGZeDUSrERju09DNeoeHVl1Jy2JAdgw=
+
+Name: images/editor-1.png
+SHA-256-Digest: HKwkBvMJShE117GDda9XV2fglUEBggkGSVUkHVaQdvM=
+
+Name: images/empty.gif
+SHA-256-Digest: FcT/0p3f6VA4/9MuAZrSnCXRaClTF2lRJY6kGzQSC68=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/SetupFactoryImpl.html
+SHA-256-Digest: 4tWM39jh5qLR0cdhpYMlIQQ60DuhdPn1OcQsKVXjLZY=
+
+Name: images/trees/HwrL0FO6xc4s5SD8nmEMn2G1xPU=.png
+SHA-256-Digest: 3mk8C2Dvl0y7kfHes42z5WIsQwmxrURfCgo8TuOKOes=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/class-use/SetupTaskImpl.Typ
+ edStringToken.html
+SHA-256-Digest: 1GO8lb5LjE+f/Wt+meMK1YIguskEAT22c2F3IgXyYNM=
+
+Name: javadoc/org/eclipse/oomph/setup/targlets/impl/package-use.html
+SHA-256-Digest: 4KNokHAhQtv3aK5m85FgJf9ZkqLxR6DnPwfeIMyxtkc=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/impl/class-use/MylynPackag
+ eImpl.html
+SHA-256-Digest: +y8mF6Tv/WrkHzNrC6850r3ma3LGL8W+TbLk9bp25Q0=
+
+Name: javadoc/org/eclipse/oomph/setup/jdt/impl/package-use.html
+SHA-256-Digest: KAVVBiQitWqRy2pnGRdITZQ6/2/WH3ALKXTXGVRaeZ0=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/SetupPackage.Literals.
+ html
+SHA-256-Digest: TEtFXtAEeIRylkamP2ZQH60EDwPxVCXc549ubQGTMrI=
+
+Name: javadoc/org/eclipse/oomph/setup/git/impl/GitCloneTaskImpl.html
+SHA-256-Digest: EehbxbI4axdFLNDXNdPSJOdBjjDj2QVQuCpO5KMkbhQ=
+
+Name: html/user/wizard/PromptPage.images
+SHA-256-Digest: MYhdjErbswtiJgR/TeGP0uUtospoqlMRQerC7wewE58=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/class-use/BuildPlan.html
+SHA-256-Digest: g+BWZqco/1/vyURdN/LwDLIo2xXV/04KkgQBF3lBQ/c=
+
+Name: javadoc/org/eclipse/oomph/setup/maven/MavenFactory.html
+SHA-256-Digest: PTVj+esgiOn7IHI/hb8L17m33cZgisJgc2znP8eonms=
+
+Name: javadoc/org/eclipse/oomph/setup/targlets/util/SetupTargletsAdapt
+ erFactory.html
+SHA-256-Digest: TBuhRN5dkSv4aoBodRPY52cDhiedGagLuvAfZBgUk3k=
+
+Name: javadoc/org/eclipse/oomph/setup/maven/impl/class-use/MavenPackag
+ eImpl.html
+SHA-256-Digest: 5jY9PrrFioWTFhxmEo/xk780N2B5Eq2JlS61kNCsLBM=
+
+Name: images/trees/pFK_nmheXIYKOzEGC1OcQEKRycw=.png
+SHA-256-Digest: RpW4JC9GbK9fAhnr/Fi2mMZa8V59oMDAN3m6XjBR/44=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/ProjectImpl.html
+SHA-256-Digest: kNcLP53PGy+F1ht9+gvwuwOIzNmBXLNoIOvhUPwRy5w=
+
+Name: images/callout-9.png
+SHA-256-Digest: g2edO+vgiG0Ywwj0RLS8tNpFb2T1Y2Ac0hwhDUhSiPo=
+
+Name: javadoc/org/eclipse/oomph/setup/git/class-use/GitCloneTask.html
+SHA-256-Digest: N2wsDBEKTeW9TueA4Gf1tjlSu1cRpCTPQdPLdb4XikA=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/class-use/MylynPackage.htm
+ l
+SHA-256-Digest: gJOZm/5CM21JYyty4MYEEOyjROp2RLicOCmc+K5k/nI=
+
+Name: about.properties
+SHA-256-Digest: /pB4wfmOL78KpUjFkvvIDSGDn4Bz1dHHdcpdYfC/Tx0=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/PreferenceTask.html
+SHA-256-Digest: rkNqqOtWl2C9uZ6QgBUq661Obq+wLzSbbQtlEn+6tMY=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/class-use/TextModifyTaskImp
+ l.html
+SHA-256-Digest: p37Bbjf34akjOHJkeE0fXrA1i2VTVqqTjW2isaUw2Ts=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/impl/class-use/Command
+ ParameterImpl.html
+SHA-256-Digest: 2U96H3WPB+UV1gqIcrr/wOmYKtT4zEqGcRy5VkI04eM=
+
+Name: javadoc/org/eclipse/oomph/setup/jdt/JRETask.html
+SHA-256-Digest: G1GSla98E+6ObgOlOYB/EYSgwab+EOMWtufOgS5a9cM=
+
+Name: javadoc/org/eclipse/oomph/setup/projects/PathVariableTask.html
+SHA-256-Digest: Fl5EPpenCKj1HsWwRyF8c6PbHIzsc3XgAIuKLZvDl8M=
+
+Name: javadoc/org/eclipse/oomph/setup/projects/impl/class-use/PathVari
+ ableTaskImpl.html
+SHA-256-Digest: 82AhG8tOiSSAvczYxKjhjTFBk0jwTU2tVUR5isD48xw=
+
+Name: javadoc/org/eclipse/oomph/setup/targlets/impl/class-use/SetupTar
+ gletsPackageImpl.html
+SHA-256-Digest: xJZTrWvaScSm3Zx6BFoj3hAw5IdT4+Mst67SUr8J1vg=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/impl/FileAssociationsT
+ askImpl.html
+SHA-256-Digest: vws+fXBzkltRU4KqmvWZXutdLZaTKQUF23zjgtVgRRg=
+
+Name: javadoc/org/eclipse/oomph/setup/pde/impl/package-frame.html
+SHA-256-Digest: Mx6pFa7p2b6mOj8E+7o8HzIXYoaxHbCAk10Omv9wnHA=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/impl/package-use.html
+SHA-256-Digest: OqqsBRd/lXqwkwFLqa6Onv7nBmmUHLk5VFNDGft1O2I=
+
+Name: javadoc/org/eclipse/oomph/setup/jdt/JDTFactory.html
+SHA-256-Digest: Kg9Wq9PJAjor/ikVC4k+qT3CAVnn3KdbXe9f+Hob+Xc=
+
+Name: javadoc/org/eclipse/oomph/setup/maven/class-use/MavenImportTask.
+ html
+SHA-256-Digest: pM4svf9zavTMCPPuPbY+FKKJMsuTptc9TOwBsUxT56g=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/class-use/CatalogSelectionI
+ mpl.html
+SHA-256-Digest: hpavUsTovoVaSeZzyJWWK69gRL1o4JsMXxcQLAufk40=
+
+Name: images/trees/Hh78px1IhS-fJmTdTGrfkzG-kt8=.png
+SHA-256-Digest: c0FmbZch/vFlwa550QAKzi01U4av8GIVav2XXU1vuLI=
+
+Name: javadoc/org/eclipse/oomph/setup/p2/class-use/P2Task.html
+SHA-256-Digest: Pu/1ky7uodpN2XVNO/eotcshsFxx1HRPaeOQuTzPpIA=
+
+Name: javadoc/org/eclipse/oomph/setup/editor/package-frame.html
+SHA-256-Digest: YDV2Uza6LU129OyYeZnBYT+q3tU9cAPC7KEWQuqLoVk=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/FileMapping.html
+SHA-256-Digest: PGY6py38XENIvqH6EKYxCz7RJNV2ceHUol198yCNq+Q=
+
+Name: META-INF/maven/org.eclipse.oomph/org.eclipse.oomph.setup.doc/pom
+ .xml
+SHA-256-Digest: Mt90JODm3vM8ICX/mRPsovwuWBPF6I4od1SMqkyoCao=
+
+Name: images/trees/d1oc319-J3BBydXH0OyEzaZ8I6c=.png
+SHA-256-Digest: di5KPiFYTTn1fu3zGnI/grwlILkSVRqvValABe6+GTs=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/WorkbenchPackage.Liter
+ als.html
+SHA-256-Digest: N1aHWE3b6X+OxLdK9tSPTECa3vwEFSVCX5gR88ugH7w=
+
+Name: javadoc/org/eclipse/oomph/setup/p2/SetupP2Factory.html
+SHA-256-Digest: 9Kv82FInRE+9niK58NXr+6WozQqlQSE/R4wV2fdncZw=
+
+Name: images/trees/H7cJ4njpdj9yES3e8MVU4uZvvPI=.png
+SHA-256-Digest: fBDW0W+B4h1am3ur6zPsA0izk7VMU/0ENWvdYpuERag=
+
+Name: javadoc/org/eclipse/oomph/internal/setup/pde/package-summary.htm
+ l
+SHA-256-Digest: 5zJUYraGNvBdGtdTHbdMhpED8I9r6+rgbIUfHz3eaiQ=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/User.html
+SHA-256-Digest: FXYV33fiFURaO/XiUwilCKGN380gyr52mB62I14ed5E=
+
+Name: javadoc/org/eclipse/oomph/setup/projects/impl/package-summary.ht
+ ml
+SHA-256-Digest: 02VYuAKgddWlw4rJccYuTNNYKpTl56aX5t7o8JcrLNc=
+
+Name: javadoc/org/eclipse/oomph/setup/projectset/impl/class-use/Projec
+ tSetPackageImpl.html
+SHA-256-Digest: SSTNwHs5rTaaVzJPZdOVXVNqVTzLjPHkz7kyGggETIk=
+
+Name: javadoc/allclasses-frame.html
+SHA-256-Digest: znVabmLxz8ILjKDMZneY35J07p7DvKuU51kqo+n4aow=
+
+Name: javadoc/org/eclipse/oomph/setup/git/GitPackage.Literals.html
+SHA-256-Digest: k/OxVdX2WpAAkxXETCUqpx9MDv09wOJLOvnkm1LekDE=
+
+Name: javadoc/org/eclipse/oomph/setup/targlets/impl/package-summary.ht
+ ml
+SHA-256-Digest: 5dLon8EALmbmVOgKbilKqfviJNdphLuz3YgE66putrA=
+
+Name: javadoc/org/eclipse/oomph/setup/maven/class-use/MavenPackage.Lit
+ erals.html
+SHA-256-Digest: lqlkhL1hNM0SZCFujDN+YpfzgiDxJqjq0mxz5Ew85qA=
+
+Name: images/trees/Mxq_81JQshh6-jI-EneaxdlC4qo=.png
+SHA-256-Digest: +z91gre+s4kTWflvXa5TsKOjVoJ+PLiSG9Z09aiXy6w=
+
+Name: javadoc/org/eclipse/oomph/internal/setup/pde/class-use/PDEPlugin
+ .html
+SHA-256-Digest: ccSh2AKuFQEKPB2UYMoC+s9hrmxqXAa1/tYJ1SpooSk=
+
+Name: javadoc/org/eclipse/oomph/setup/targlets/util/class-use/SetupTar
+ gletsAdapterFactory.html
+SHA-256-Digest: JCA0DNa+hdLGQaQMM5Lg1Z1ycIghdlgPO19cJiALD+M=
+
+Name: javadoc/org/eclipse/oomph/setup/git/util/GitSwitch.html
+SHA-256-Digest: pGHO12hu5Pb5Y0xmuKsaWKYN0lztApnGhwuZRwtc0aI=
+
+Name: javadoc/org/eclipse/oomph/setup/jdt/util/package-frame.html
+SHA-256-Digest: SGFZQeYahwy4ca7dxuifjN3/Z5uoNLmmpYxilNw4Oew=
+
+Name: javadoc/org/eclipse/oomph/setup/targlets/util/package-use.html
+SHA-256-Digest: fp88/LBqZ4VpqvFKu8uueFRKe6+lxfRSxSoAfHQyGVU=
+
+Name: javadoc/org/eclipse/oomph/setup/PreferenceTask.html
+SHA-256-Digest: TjJkW3bvI5pkkQQEW5kIDWxPBWu7Qf51Jvs+a9Q5s6o=
+
+Name: javadoc/org/eclipse/oomph/setup/maven/package-summary.html
+SHA-256-Digest: 9wfT4E+lXFZ9VrQsa8OU/tuiihzCA11rI6u0O8R2mA4=
+
+Name: images/trees/30xrELXA4PEQ6rtR5ibuOtGByiI=.png
+SHA-256-Digest: gXBHT9Rf17oDCmAqr1qnLZWfVmVMDgkPJUxpxiZ5GvQ=
+
+Name: javadoc/org/eclipse/oomph/setup/VariableType.html
+SHA-256-Digest: t0VLl/BmzNOZYHn85rV8qtIX4oztpTbLFnNRJ8R/4Kk=
+
+Name: javadoc/org/eclipse/oomph/setup/launching/class-use/LaunchingPac
+ kage.html
+SHA-256-Digest: fKPOqZf8OzaNvm1oHRwPEBX9CXOc1aRBKK9lD4Dpel8=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/package-summary.html
+SHA-256-Digest: EGqBdzBM1N0lafywI/8Ou3spSILGywadO7S6ZlGKcCM=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/ResourceCopyTaskImpl.html
+SHA-256-Digest: Kf766Dm5tvydXAbGU5XUXO9zB2DNW527fMdLtmm/1oo=
+
+Name: images/editor-2.png
+SHA-256-Digest: LsAS0nk0PPKVVhkt55nHEtEe7nGN6pQsWsYkZf3vuhA=
+
+Name: javadoc/org/eclipse/oomph/setup/jdt/class-use/JDTPackage.html
+SHA-256-Digest: MsW7bsrvf6TTP607Vr8o7dyqLIDPOE+Yl3Pq4X9aGKY=
+
+Name: javadoc/org/eclipse/oomph/setup/maven/util/package-frame.html
+SHA-256-Digest: iqvka+GGaBMI3rhQXNOPlr4KNiFxcMJt4XBuq7VrXb0=
+
+Name: javadoc/org/eclipse/oomph/setup/projectset/util/ProjectSetAdapte
+ rFactory.html
+SHA-256-Digest: 3d26cumqPufJOTA/NI79cYp16odsYS5YjrlqvWod9d4=
+
+Name: javadoc/constant-values.html
+SHA-256-Digest: L4YIyjSyk46cLIs4IKhvdcNV7igI401OBYQkaWtODnU=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/impl/WorkbenchPackageI
+ mpl.html
+SHA-256-Digest: 55p6Wzf9f9Pe5r52vODIaWSSsAgJ2Oboo2dJk6t1nAA=
+
+Name: javadoc/org/eclipse/oomph/setup/log/class-use/ProgressLogProvide
+ r.html
+SHA-256-Digest: z9Wf8VGJuVy0sgXjUVsfcLHDNixBVYIWRlUB3cZgDLU=
+
+Name: javadoc/org/eclipse/oomph/setup/maven/util/package-use.html
+SHA-256-Digest: T+/KUMFpncSBmO1bb9daVDldqKUmAl67cTlEwn+V7Ls=
+
+Name: javadoc/org/eclipse/oomph/setup/launching/impl/class-use/Launchi
+ ngPackageImpl.html
+SHA-256-Digest: +FAH+P1+yk1zFzeDcHgYZbqay4t8VlKP65PyRjpZ90E=
+
+Name: javadoc/org/eclipse/oomph/setup/projectset/ProjectSetPlugin.Impl
+ ementation.html
+SHA-256-Digest: gPoxuV90QV6iUclTOXiwnW3fPgGJBXOkxzqwIJ1wk5Q=
+
+Name: javadoc/org/eclipse/oomph/setup/maven/impl/package-use.html
+SHA-256-Digest: lxGkrbel0Q+5Bs3TzS3oGGH4Hhj2eCOaxBcGRM+mMvA=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/InstallationImpl.html
+SHA-256-Digest: BjrB+qKYq+5X73BRKk2qVcdbZj6TzpW9VUygGrdxOVk=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/class-use/SetupFactoryImpl.
+ html
+SHA-256-Digest: MGugNMFJrm5YCcCYk9Jaf3rkgNm17scVPhslTqnUAgM=
+
+Name: schemadoc/org_eclipse_oomph_resources_backendSystemFactories.htm
+ l
+SHA-256-Digest: OMrkpKD1KehdmF9zehp984Xf7an06GDI2QDKMnvHmgw=
+
+Name: javadoc/org/eclipse/oomph/setup/jdt/class-use/JRETask.html
+SHA-256-Digest: 6pxwwRlnpZXBjnSRSTo87Ya+XhwX60LaIU9aQwlT56o=
+
+Name: javadoc/org/eclipse/oomph/setup/pde/TargetPlatformTask.html
+SHA-256-Digest: mkwWoLtSJS/dhOf2SmMxEamuT18oBwr19GfoEvZJ2LQ=
+
+Name: javadoc/org/eclipse/oomph/setup/projects/util/class-use/Projects
+ Switch.html
+SHA-256-Digest: K4g5rFxcq8M/n+DksLcZW1Cl9DaDgdWUpHtSDg0eAgE=
+
+Name: javadoc/org/eclipse/oomph/setup/p2/impl/package-use.html
+SHA-256-Digest: j2qiUirAjQJVC+MKVRBN5eTGKXzdfcwbDSlTJz89MGk=
+
+Name: javadoc/org/eclipse/oomph/setup/launching/util/LaunchingAdapterF
+ actory.html
+SHA-256-Digest: 4LyydN5fWsXUhaPa6/fREvpJvKryGbaxAKL7v49+rFo=
+
+Name: javadoc/org/eclipse/oomph/setup/launching/package-frame.html
+SHA-256-Digest: qFieClnZP+kwzXVO1ZNvyou2GrqO3xQTpaD1Bu5YGrI=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/package-use.html
+SHA-256-Digest: 5rioFg0ynXlNSxdCfNzGT7cjFKzF3GRRlQtWtSRG37w=
+
+Name: javadoc/org/eclipse/oomph/setup/WorkspaceTask.html
+SHA-256-Digest: KCgtF0svZx4eHDhMIauEAwuHRUId0uuQD+NrDYzGLHQ=
+
+Name: javadoc/org/eclipse/oomph/setup/maven/impl/MavenImportTaskImpl.h
+ tml
+SHA-256-Digest: Xry83aA28r6Eu43cs34pLYv7Rm+Q9ztvWL/mY4mvNRc=
+
+Name: javadoc/org/eclipse/oomph/setup/projects/package-summary.html
+SHA-256-Digest: cHeHQKtV3QrXn8OackgxfCSgRSZkSGjLzGVkK/ePaa0=
+
+Name: javadoc/org/eclipse/oomph/setup/launching/util/package-summary.h
+ tml
+SHA-256-Digest: Bufsb0wVwW/DR/atSgjLxyNLYJJje3Z/991lW6JgJEk=
+
+Name: images/callout-7.png
+SHA-256-Digest: 5LKy771kabe/nNIa0jRq0g+OtqXaBBv53zBKAPbLUJI=
+
+Name: javadoc/org/eclipse/oomph/setup/SetupPackage.Literals.html
+SHA-256-Digest: P3fOVVu0kI/Y4Q+sp6cVpmW19JIKFlq/6blwBp35WEw=
+
+Name: javadoc/org/eclipse/oomph/setup/jdt/impl/JRETaskImpl.html
+SHA-256-Digest: 7tOY56lGjSBef1kN+wEM7ucF148o1dxKIYQ1Jiea2mk=
+
+Name: html/concepts/DocTask.html
+SHA-256-Digest: rwl1rec/pDJ1ymfe4beLD/itegXORrisrZHINhgaCmY=
+
+Name: images/trees/QW8aB8fWVui3ok2_3FXi0UUuYQk=.png
+SHA-256-Digest: f5fD2hiJsY0PwcFLzCUc+ZJUtUYrO14AHV12QnivGeI=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/CompoundTaskImpl.html
+SHA-256-Digest: MxEMRkKMw2MvDLTlnUaxJRYXWPVHI14/DjPrDdV6Yn8=
+
+Name: images/trees/4hpVml5Wj3VDZgPkJ45Ba9r3R88=.png
+SHA-256-Digest: cgrmd4N5u5Sr73ZbRKmOijIiGjbbLRyMn8LR8e3d9O4=
+
+Name: javadoc/org/eclipse/oomph/setup/SetupTaskContainer.html
+SHA-256-Digest: +bv2Y9gAoLA/kiX46aNW23ZrN2323qjHaxtT4j5GGZ0=
+
+Name: html/user/wizard/DocInstallWizard.html
+SHA-256-Digest: owhNURB3NfpCLXU4HhZgi/yQ7Ml5p4HStb9AeXvGVEk=
+
+Name: images/trees/dq8Il7SUpWCiZxM0cfVaM-qE_aA=.png
+SHA-256-Digest: HK6oIQ/B0PEHvvwCv0IGety2+d2E4BajNv/CyR9s+6M=
+
+Name: images/trees/0_0dMHf7iBxCrgK0-9HyCW8TWhs=.png
+SHA-256-Digest: SqEHkJwb0vOPJ9U3AVV5siLOv3+BfNQ0AJ+COulB0bA=
+
+Name: javadoc/org/eclipse/oomph/setup/launching/LaunchingPlugin.Implem
+ entation.html
+SHA-256-Digest: tp0eGilH71qhZJY71MPYCSUnN8Ve5Erzx/rEFpqGx0s=
+
+Name: javadoc/org/eclipse/oomph/setup/projectset/class-use/ProjectSetP
+ ackage.html
+SHA-256-Digest: UL54Ds7aw51q5INCxNm6O1mSEkuZGz6LNgQ/x4M6tEg=
+
+Name: javadoc/org/eclipse/oomph/setup/workingsets/class-use/SetupWorki
+ ngSetsPackage.Literals.html
+SHA-256-Digest: zq69NgFPy2ooz1B2e6HjJAOMIER3UO5JjfCPK+qcPLQ=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/util/class-use/Workben
+ chSwitch.html
+SHA-256-Digest: V59JFnbKg5vbR9v6l++yGGqKbLRIFpCNX9sh6AlbTD4=
+
+Name: javadoc/org/eclipse/oomph/setup/EclipseIniTask.html
+SHA-256-Digest: RgckmAupo/VaGjk81Mps/0YiGVcGnsfDhOq7UV2LS7U=
+
+Name: images/trees/VKQY52NAUoicXMTjFMuOupLmB18=.png
+SHA-256-Digest: KoOjaLADG3t2VB0HIg35MhQp+hBqyZO/+a99+wYFzgI=
+
+Name: images/trees/sHgxVOWhebWGeG4VPfi04TEWk0s=.png
+SHA-256-Digest: EEi0tDjZ+u9PaDaMXj5BkvgBVOx6VZC2p6+nbZd2+oc=
+
+Name: javadoc/org/eclipse/oomph/setup/LocationCatalog.html
+SHA-256-Digest: bXxcgFfKlNt8SQazUZgIHxfd/YcoUBjL3XLgbVRWZI4=
+
+Name: images/trees/qvp3Y4OrAtsKD79B-IKhTZ_z_xI=.png
+SHA-256-Digest: vd8cCyux/ma3xLJ9T+Iy0EFWKzLFFXrmINlXqSkuM3k=
+
+Name: images/trees/gXaGfmnk2Ci7A9JaWUwbRgtXFnM=.png
+SHA-256-Digest: riDLMoa52qLzR/Y1Ttf0MDibOGq7cCAHnkMMcAPjMsU=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/impl/package-use.html
+SHA-256-Digest: faXenYBiiSLVssjIiXX1cO9YqOhxy7LXTjmziJtPtq0=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/class-use/PreferenceTaskImp
+ l.html
+SHA-256-Digest: ruyixXZQjd5385R8n3G85nAws09qSwKa06/3kqTwBzg=
+
+Name: html/user/wizard/DocUpdateWizard.html
+SHA-256-Digest: Jp15tayzRwYC77Yk9dGpp8gUSI3pEBY04p3gK7bsFrQ=
+
+Name: javadoc/org/eclipse/oomph/setup/launching/class-use/LaunchingPlu
+ gin.html
+SHA-256-Digest: Be+KuEH4CA1VAAEIx2fs2Bia35/3vL74Nfb9OF60nF8=
+
+Name: images/trees/bFy37lQh-I01Y-JfD9D-h37UZNE=.png
+SHA-256-Digest: a8zK+GBiCfTqBJuPfTNNU1OyaVtLKNP/A6L/mb+M1UM=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/CatalogSelection.html
+SHA-256-Digest: srIBJYuSd8/QAPyUzIFALTypibL2E9K4rUzencR+bZ8=
+
+Name: javadoc/org/eclipse/oomph/setup/git/class-use/GitPackage.Literal
+ s.html
+SHA-256-Digest: BCg41R+nVodEeiLVDZr2uV2PbNmJU8Z0yVXn/F883mw=
+
+Name: javadoc/org/eclipse/oomph/setup/projectset/impl/package-summary.
+ html
+SHA-256-Digest: c+Po++Ub2YBgzXW3hBdae5enohb/Laj+8ojLV3atUos=
+
+Name: javadoc/org/eclipse/oomph/setup/projects/class-use/ProjectsPacka
+ ge.html
+SHA-256-Digest: S28rff+1Xao5mfT52OWsuyYvSvhyh3sJ3S7ObFq1P4Q=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/ProductImpl.html
+SHA-256-Digest: 0DzNuY6k39kzQC+lOdPDU8HPvIcQxM/K670ETh6rQZg=
+
+Name: images/editor-3.png
+SHA-256-Digest: iOgMM2r8lCk2UBDaz+KNFNqvzUK+1c1OrRTfO+UgFx4=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/SetupTaskImpl.RunnableWithC
+ ontext.html
+SHA-256-Digest: GYrWqlz1xwAj8ihZIb3eFgjL4W2lHiU+LZVEmFQJuA4=
+
+Name: javadoc/org/eclipse/oomph/setup/RedirectionTask.html
+SHA-256-Digest: fyWPlBuYcOtNoJAkhGbqeIm9CstdWFzzmUx7w681+Dc=
+
+Name: javadoc/org/eclipse/oomph/setup/p2/class-use/SetupP2Package.html
+SHA-256-Digest: UBQR4ZHa04wXGPpq/f21Xa7bi8Ozc8mbW2UClJex6Oc=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/SetupTaskImpl.html
+SHA-256-Digest: fOgU8cl2Y+45OqSD4P4tYiXyxYjAZJMmvz10Wj4e7lg=
+
+Name: javadoc/resources/tab.gif
+SHA-256-Digest: E84YKX++xPtHAghK7XPxKAwyhsOPAs29anj141jLzcU=
+
+Name: html/concepts/DocConceptOverview.html
+SHA-256-Digest: N7Y2nnMjaYYiqDiBZfSpQJ9uLXeEhiUtndg5cM+8xUA=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/Scope.html
+SHA-256-Digest: of8tXyJIfFm2UaUUqnu2CseEwdiqc+RJxcyJTXapBPA=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/class-use/StringSubstitutio
+ nTaskImpl.html
+SHA-256-Digest: z8l/t6fo6sQvWwFfbQ4O5G+95hUIttDTpkelC7LBjcQ=
+
+Name: javadoc/org/eclipse/oomph/setup/git/GitPackage.html
+SHA-256-Digest: 7aeHRSdqU6fFxFW+5e8YmEKEF9alOcwe3bbbhOY4mSU=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/class-use/ScopeImpl.html
+SHA-256-Digest: pw0U3FhlWLY4GVsNpSAtSLVvOC9VaQ1PsgYVe6f1Ti4=
+
+Name: images/editor-4.png
+SHA-256-Digest: avRb7VaJJWwGEuvSi/gNdh/ZLNS8T+loarbat5egHa0=
+
+Name: javadoc/org/eclipse/oomph/setup/Installation.html
+SHA-256-Digest: nyOnyjhZnkG4iLLPnIztTlxkjL0F7UVLKX6GyjNZRYk=
+
+Name: images/callout-8.png
+SHA-256-Digest: aL4Y4Q5fnwSM02fZ4dInsaGrn/BrxIj/MzclzHR4sTE=
+
+Name: javadoc/org/eclipse/oomph/setup/projects/impl/class-use/Projects
+ FactoryImpl.html
+SHA-256-Digest: HgByWDrlgUD1VMLTRrhv0Ae1pIY7HcpyHvncJHJjFYQ=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/TextModifyTask.html
+SHA-256-Digest: IubE3YILA3eyiVnaQbCg9UULPqfCQhk3U4ncefJ/1bU=
+
+Name: javadoc/org/eclipse/oomph/setup/AnnotationConstants.html
+SHA-256-Digest: qDyXmW39XnxD8HCxthdrIPv4uGW/jeRy2d/leo881yc=
+
+Name: html/user/index.html
+SHA-256-Digest: 8FiD4bYYN5d9Ixm6CuBYTzX5A275GMa2vYP53LTS3U4=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/SetupFactory.html
+SHA-256-Digest: zu5OVrcqDuQqYU0igqYOctXp4vjc2p1qRBe9AJHwRK8=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/class-use/FileEditor.h
+ tml
+SHA-256-Digest: hHgbCENenlorihZXS/vXQ5zL5nb0EBW0wXLuegXCrOg=
+
+Name: javadoc/org/eclipse/oomph/setup/targlets/package-use.html
+SHA-256-Digest: ZUlo0TmsdtofIW9bOBqdUvDfATcqlOvwA/Bpturt/Ng=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/BuildPlan.html
+SHA-256-Digest: CIARldbcio0jttNw0gLEnS4jc2cGlkckl2/PsGnBBcg=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/impl/package-summary.html
+SHA-256-Digest: gvX7DBR4OqPHdBaZqk+LPZbbq7VBsNbuvzXf3FEaoHc=
+
+Name: javadoc/org/eclipse/oomph/setup/p2/class-use/SetupP2Package.Lite
+ rals.html
+SHA-256-Digest: tLkfFGcRa5JHeUedQfFbnZNcfmbF6R+fJSvxHpMUi2M=
+
+Name: images/trees/e6OJryscCShvj6_AKRsXIDOVBBg=.png
+SHA-256-Digest: nuLhOh3aW/rSGlEJZ9opsi2Gc/hlfyApxUMFQfoxi/A=
+
+Name: javadoc/org/eclipse/oomph/setup/targlets/class-use/SetupTarglets
+ Factory.html
+SHA-256-Digest: aF5s0i2Jy1qU6PQcsAtQXr/cTdrC/ODN/Ix3bLS6Bws=
+
+Name: javadoc/org/eclipse/oomph/setup/projects/package-use.html
+SHA-256-Digest: hIYnUbmKoncGMNrSlplyi/1e5h3rhLLO6/MSRj/J+qM=
+
+Name: javadoc/org/eclipse/oomph/setup/workingsets/util/package-use.htm
+ l
+SHA-256-Digest: 1n/taeZN3h5PSlr5Ry/hHQMlU86KSC05Uur4fiIl/6I=
+
+Name: javadoc/overview-summary.html
+SHA-256-Digest: 4YVKgalnuJ2YVJHXqTzohsaPDPGfUrkjdwCRZMhM0V0=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/util/class-use/Workben
+ chAdapterFactory.html
+SHA-256-Digest: ZtPT8A7VMJdljnoUTXT8VyyaZb4KpjtFIQRVdXimFLw=
+
+Name: javadoc/org/eclipse/oomph/setup/ResourceCopyTask.html
+SHA-256-Digest: lnYN/1pCHIzx5PVN0xkxYkFxI4bYTwpi5PoGUlPzkFM=
+
+Name: javadoc/org/eclipse/oomph/internal/setup/pde/PDEPlugin.Implement
+ ation.html
+SHA-256-Digest: W5jHUeqRVdSdRCEbEAS2+tlAJs3cmBYn9acEvP2kBrE=
+
+Name: html/user/wizard/UpdateWizard.images
+SHA-256-Digest: GWsRNXw0LD7OxqW8UgXmBds6kc+XFvy/BoPybEfKbWo=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/impl/class-use/BuildPlanIm
+ pl.html
+SHA-256-Digest: 7MCv6n1jc56QlTxWnIWCFuKlz60O4Kkpw4Lo8MyEiKc=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/class-use/ProductCatalogImp
+ l.html
+SHA-256-Digest: qLMSvzRWQRLAnpDOZ2s4KVBgswferEWbOmwlJiD5nXY=
+
+Name: javadoc/org/eclipse/oomph/setup/workingsets/class-use/WorkingSet
+ Task.html
+SHA-256-Digest: GEo2C4AuIFu2KyQ+PXISanYZzsDhA+BWlb2t76aU4n4=
+
+Name: javadoc/org/eclipse/oomph/setup/launching/util/package-use.html
+SHA-256-Digest: aJ1MlHX9OfHVdq8EFzAjQ0JBZLD4QyRrZliKy005o4g=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/VariableChoiceImpl.html
+SHA-256-Digest: 98LljlkS/VG/kndE3oo2xo14voYLx7f8WXLJg44CRuk=
+
+Name: javadoc/org/eclipse/oomph/setup/p2/impl/package-summary.html
+SHA-256-Digest: aMKWxF7Jh7Sjo+r0bsOyWTJd2ybNd2FhnMGyJX+K3p0=
+
+Name: javadoc/org/eclipse/oomph/setup/maven/MavenPackage.Literals.html
+SHA-256-Digest: qqE0rWTknOkcM1tFsfMWUjS2/coKmjEgY4OZSyDqqjo=
+
+Name: javadoc/allclasses-noframe.html
+SHA-256-Digest: ndvRmLmdfpvIwuGLmoxU4fOysBcdWV6IDl+ESo1XtIk=
+
+Name: html/concepts/DocInfrastructure.html
+SHA-256-Digest: olr6bwhN0AWyi8iXnUYkJ2R9MbBLcTnwhTnfaDXQHlU=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/package-summary.html
+SHA-256-Digest: 0Ee+t0IQvW+5gFQ+1/gGQeGVRT3ZO4hPTTDF25LfFF8=
+
+Name: html/user/wizard/VariablePageExtras.images
+SHA-256-Digest: NPWRo7dh5ZJlH65z4B2r0dQGnVj5rPAxdd9Ixo4oVGE=
+
+Name: javadoc/org/eclipse/oomph/setup/launching/LaunchingPlugin.html
+SHA-256-Digest: ZB5BQJeZ6sbJS7tZqVeLne9Xt9P6bG93PVbpui9Ck5c=
+
+Name: javadoc/org/eclipse/oomph/setup/pde/impl/package-use.html
+SHA-256-Digest: DGVBfdig4HcT0XYFwWWQJns4fu7SrVf3OYVbcwq97RM=
+
+Name: html/user/wizard/ProjectImportWizard.images
+SHA-256-Digest: qAxRztAVipOSonlrVSCnBw7EX67h19fUDs+3SpoNVKs=
+
+Name: javadoc/org/eclipse/oomph/setup/pde/package-summary.html
+SHA-256-Digest: ZH3efzrPw4ry4Qc+0cWwWRNFCS315X5mpC/61Ijexys=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/util/MylynSwitch.html
+SHA-256-Digest: Oqrw8ZvdqMK1pi4dngOuU7g6dsYzS6l7DaUqxxszt34=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/CompoundTask.html
+SHA-256-Digest: gcHbKllP3yhytAjB5s7G76PaC3jqGCvo+f+YLrQ0KIM=
+
+Name: images/trees/6ANNss25FLyUGD8lVbp8xyt_dCU=.png
+SHA-256-Digest: FMmGM8gujjuas/buftNwkXL3oWDQQNNvLsDChfE3scQ=
+
+Name: javadoc/org/eclipse/oomph/setup/launching/class-use/LaunchingPac
+ kage.Literals.html
+SHA-256-Digest: I8kqsl0OjAPFP2L+Nr+nzbRLfWlTQMQNuQmpODqGBYk=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/Workspace.html
+SHA-256-Digest: Dq00oClc5wAJ999Yz+j2sQ85NQQY4UDa/kOnk5nSHWU=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/MylynPackage.Literals.html
+SHA-256-Digest: VDAKXqFRUPmv/luy/PKbjh8nAExrO8rM1644fMtMsuw=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/ProjectCatalogImpl.html
+SHA-256-Digest: ojJvQn0TETckviCLnu2V89Sfwkt9yuI+6fQUgjuWJ2c=
+
+Name: javadoc/org/eclipse/oomph/setup/workingsets/WorkingSetTask.html
+SHA-256-Digest: /TTrkqNjr5j31YszqTp6cpcyn2prZT2zSG6/yIi27Ew=
+
+Name: images/editor-5.png
+SHA-256-Digest: 6qUQIAkwwgsVgS5TVBobK9AuDOf95NDJxdkOhYLQjKU=
+
+Name: javadoc/org/eclipse/oomph/setup/workingsets/util/class-use/Setup
+ WorkingSetsAdapterFactory.html
+SHA-256-Digest: QrtBWW81CE7Dd3Qo9ROb2parMJqwCJSRgjQtxUX4qA8=
+
+Name: javadoc/org/eclipse/oomph/setup/workingsets/class-use/SetupWorki
+ ngSetsFactory.html
+SHA-256-Digest: NDrg8csTekJS5J05jHAG2I4WPCdlKX0EKVdOBIe1aTQ=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/class-use/MylynPackage.Lit
+ erals.html
+SHA-256-Digest: ECTSMWKUsG46tKbnPXCqCedT7dF7PvkYBgi8XiWsBKU=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/class-use/ProductToProductV
+ ersionMapEntryImpl.html
+SHA-256-Digest: SpHNFLLdI1BLuq7ibjmVnQztFLL9paALFgx9IueTo24=
+
+Name: images/trees/QpAOam018_69U-ixHblBSLSelug=.png
+SHA-256-Digest: UEKWm6PesITACAzkt6WzvjjZvXz7vZoheCgNnJ7sBaU=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/FileEditor.html
+SHA-256-Digest: pvxdUG2HRFRgZFE5e5zsIoZLEUKYz/xEXST5vr7MOEE=
+
+Name: images/trees/zs8IaaK6X6z468e2id7QhSgaCD4=.png
+SHA-256-Digest: yn+lWEI9f7izjD5JIDm2e0jVROqV5BizGPLfjn1jhWk=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/class-use/Query.html
+SHA-256-Digest: BjJuOJGPcTZIzUKwMct7iwHbBl/9Tfp/ZNTWLsPMn5M=
+
+Name: javadoc/org/eclipse/oomph/setup/projectset/util/class-use/Projec
+ tSetAdapterFactory.html
+SHA-256-Digest: BPJDdh+YJvE3N/PK97QrrVhnkV7h4dCjYv85q4DE6Zs=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/util/package-use.html
+SHA-256-Digest: iik+Fr4PjouUpEJHmHtZ6gThZWhkmciabjv6nPZ1Thk=
+
+Name: javadoc/org/eclipse/oomph/setup/Trigger.html
+SHA-256-Digest: QnEu/YQG/O4t2hpK9FXHcUt8/f/7vFN/U87qwdytj74=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/SetupPackageImpl.html
+SHA-256-Digest: yNmNdEWFA0Bu8bjcF7Gg4mdMStDK0nWWFitesYeyF9k=
+
+Name: javadoc/org/eclipse/oomph/setup/launching/impl/class-use/LaunchT
+ askImpl.html
+SHA-256-Digest: dlqas0oh9GJciXLJYl5ck3PyoRNAP/IS0vK9zkJdwCE=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/impl/class-use/MylynQuerie
+ sTaskImpl.MylynHelper.html
+SHA-256-Digest: 6iwgQzE8MOKfk2LBkeEF37SVtsY66gB2GqzMXzMlFDg=
+
+Name: javadoc/org/eclipse/oomph/setup/pde/class-use/PDEFactory.html
+SHA-256-Digest: Y04iJwxu9JtpF1qzMJtFWPmPQV3/ckbpiy9dn1x3drE=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/impl/FileMappingImpl.h
+ tml
+SHA-256-Digest: Va2sBrnDhVFlzqdpLc7Jm1nSOjIUhW7Qep6kMILMEbg=
+
+Name: javadoc/org/eclipse/oomph/setup/jdt/package-frame.html
+SHA-256-Digest: SZKw30e50KipJJMGYMPPk14bUSHYmrL0VDaCCfD4wQ4=
+
+Name: toc.xmi
+SHA-256-Digest: r0Yx4KBx1Qa2N0rx4BoDNi373Z9dUkVOFg+xqKqD9Zw=
+
+Name: images/trees/12rDvU7_gTo3GIyByrmq7s99A8s=.png
+SHA-256-Digest: IY9PWxPfVmuUIbLoNjYAz08gTNdCxbXc/CHfa/NP/Bs=
+
+Name: javadoc/org/eclipse/oomph/setup/p2/package-summary.html
+SHA-256-Digest: XRwqpbsJ2qFwAtoPxGtbVnYrVKZfisY9Rzz8eT3yjOA=
+
+Name: javadoc/org/eclipse/oomph/setup/util/class-use/StringExpander.ht
+ ml
+SHA-256-Digest: IK5BLcYFrVJo63rq7pDlS/8qKnaiuKPK+VXJTpHu0HI=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/class-use/FileAssociat
+ ionsTask.html
+SHA-256-Digest: 6+HgSiX8pRdtnW5T5v0/FFYYy03VyWLGvg1ctdtf4h4=
+
+Name: javadoc/org/eclipse/oomph/setup/targlets/TargletTask.html
+SHA-256-Digest: LmXj7eNotEPvTfTNWj4hHXjyKbwfxQlMND+bAaxsRmI=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/package-use.html
+SHA-256-Digest: Ruvy2vLr1AziqDBhydF+6F/8MS2vhw/paRIqe/lh3M4=
+
+Name: images/trees/tYY12uHbChGLgqGeJV_lpDhkveA=.png
+SHA-256-Digest: 9ma1WyhGtZ0j6MJLX240F7Io8njbbCBRa9RMjDTvzpQ=
+
+Name: javadoc/org/eclipse/oomph/setup/targlets/impl/package-frame.html
+SHA-256-Digest: TpeQlMsFTq3mj7VEFjRsS91kMaGdkPVKt0GtQvIeGkE=
+
+Name: images/trees/Bbau1EaDZonVSOeYgdMg1riEnxQ=.png
+SHA-256-Digest: Qogu2KU93TxA1MPGW2Z6MGZL7Wqjpqg9pUIbmzXMLxA=
+
+Name: javadoc/resources/titlebar.gif
+SHA-256-Digest: vimlqIcA/URWjZnkWNJ/buyOaEiHFlaqW04wTj9A7bk=
+
+Name: toc.xml
+SHA-256-Digest: 0Z2jt7Cw5r2yZDoB1ZTCLcgbamDQHm7dzdOnABOQy/Q=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/LocationCatalogImpl.html
+SHA-256-Digest: Q0+8FQQcY2o1FBwQgcOqPCd42LPmf/neSgvBO5y71n4=
+
+Name: images/callout-5.png
+SHA-256-Digest: +Dr1+W0AOlIYXNEtPgXIOlOIGimUni0z/gPd8XWu/Wg=
+
+Name: javadoc/org/eclipse/oomph/setup/log/package-use.html
+SHA-256-Digest: buCsrKj3itMFe7MtUSO/WHF4mOu7zWEj+Jkue1j16C8=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/MylynFactory.html
+SHA-256-Digest: XmIM3teyuTCYZUn6+US5Eyjtb2/VCesvlR68Nk0xrNg=
+
+Name: html/concepts/DocSetupResource.html
+SHA-256-Digest: /+R/5RhwRHwc/zxgLyQJZeE+Dhu1yhMY70lZQg7iSMA=
+
+Name: javadoc/org/eclipse/oomph/setup/log/class-use/ProgressLogRunnabl
+ e.html
+SHA-256-Digest: H4zg5p4ooE5PzmYZlW70EIZKUaSHWU6sd0xYqHFO3bs=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/MylynQueriesTask.html
+SHA-256-Digest: gUlnUXOJPSja+mOZ1VaReAaAIZML/0dTRELKs8WCZz4=
+
+Name: javadoc/resources/titlebar_end.gif
+SHA-256-Digest: kdw6TIrhgbg5r/3pMzMcGr4OabRIs3J9hQfdkWbLpnU=
+
+Name: javadoc/org/eclipse/oomph/setup/workingsets/util/package-frame.h
+ tml
+SHA-256-Digest: KZZPXs/1NKjSrhFkxaz15uRp6od75eimhBpoV4Puxog=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/impl/class-use/MylynQuerie
+ sTaskImpl.html
+SHA-256-Digest: kqahUjauevgTxKyWmVWwNryGQBwPB3Ue8IaxAn1DKOw=
+
+Name: images/trees/0qa0-Q12iP2OZw-dfA7fWAs8Ki0=.png
+SHA-256-Digest: B3N1gJvU5DHMJrLBf0VsQZktKW7JU7FnAFlG6cJ5hd4=
+
+Name: images/trees/wvN6HibX-aeSTivHqduoRbHU5go=.png
+SHA-256-Digest: ESkO4i5+xG85C9fSMEBPZz10C3HFn5wHS8yXIQv7Meo=
+
+Name: javadoc/org/eclipse/oomph/setup/targlets/package-frame.html
+SHA-256-Digest: y21iDJwVqfQETrjxC8CqeIqkcwXzD3D3WAvbfDDprL8=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/impl/package-summary.h
+ tml
+SHA-256-Digest: GtEuQC8C83sKL0zvs5OPx3NUQEVpbxWQpM2dKPHLqcA=
+
+Name: javadoc/org/eclipse/oomph/setup/maven/class-use/MavenFactory.htm
+ l
+SHA-256-Digest: b28R8nB6GdIDPF4r4YKTzkZPZr9TIdyd6q7irTHOsTI=
+
+Name: javadoc/org/eclipse/oomph/setup/workingsets/package-frame.html
+SHA-256-Digest: kKGMgpDMfU7tVdbiLyAmA+bt8Lz1tBaBctRJBIF4ZSU=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/class-use/InstallationImpl.
+ html
+SHA-256-Digest: I2KhJ7sILpkRm7PW8b6jZOjjJ/hHictSbwWet+JTRdk=
+
+Name: javadoc/org/eclipse/oomph/setup/util/SetupAdapterFactory.html
+SHA-256-Digest: 1p/D2+HrjfT4WN9rbaAkuLavPSR7jb35KQ3zlGmQmaY=
+
+Name: javadoc/org/eclipse/oomph/setup/projectset/ProjectSetPackage.Lit
+ erals.html
+SHA-256-Digest: RP+xAa7DQX7I/85vPZwknVwbdO6r3llIbqAluiihRtI=
+
+Name: javadoc/org/eclipse/oomph/setup/git/package-frame.html
+SHA-256-Digest: gMI59g9O6EPKrjDxNXv5Kcr+FjHS4xXtQABfufFs4ZE=
+
+Name: html/online/index.html
+SHA-256-Digest: VhLPLuLTxjFWOOqlTQSDIRFWp7VbDM+vME/S17+FODg=
+
+Name: javadoc/org/eclipse/oomph/setup/pde/util/class-use/PDESwitch.htm
+ l
+SHA-256-Digest: CzpZbTr8evCcFsTJTTzaR9hxrn2k6qfXKXX62d2QjIY=
+
+Name: javadoc/org/eclipse/oomph/setup/TextModifyTask.html
+SHA-256-Digest: Lb0I205bLzqsgEJvFXaEizmLIiiBlhFZAH2djk7h258=
+
+Name: javadoc/org/eclipse/oomph/setup/workingsets/util/class-use/Setup
+ WorkingSetsSwitch.html
+SHA-256-Digest: dWHDAV30VBGHBQGJ9MPt1rQDXYpKTUu3VHHkOzKsh4w=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/util/package-frame.htm
+ l
+SHA-256-Digest: MUJ8yfqFxvJXdn+obwjthPnvsQLKg0cF8/fI8nJqFPo=
+
+Name: html/concepts/DocTaskComposition.html
+SHA-256-Digest: hyu4hvVem2VIz9zT3LLFn3zRr+ZYkXRPpxWf2JnwAH4=
+
+Name: javadoc/org/eclipse/oomph/setup/util/class-use/SetupSwitch.html
+SHA-256-Digest: QdTWa49h0/mOa/d51V+UpL1DsBYmHDE5IIrfyYb44do=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/class-use/ProjectImpl.html
+SHA-256-Digest: UTOM2aknHcntMgPlNYQxrVL4OUw0UepAWlehrHWeFPQ=
+
+Name: javadoc/org/eclipse/oomph/setup/jdt/impl/JDTPackageImpl.html
+SHA-256-Digest: lsAviq0ZRj3SfBN28re9vNJaeMyBnlDIq20binGjL80=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/SetupTaskContainerImpl.html
+SHA-256-Digest: ECdXqIjBFAVx0kpC69uZnl+JLucrlO3k0S4FcZHM3cA=
+
+Name: javadoc/org/eclipse/oomph/setup/pde/impl/class-use/PDEPackageImp
+ l.html
+SHA-256-Digest: 3OLC5qi4DjVTHQTnHRxe3T9dQX76wBqWUYzXPFWRNDQ=
+
+Name: html/book.css
+SHA-256-Digest: BZfkcXgp4pla3wKL6Ujl3UNJELnuWxnCfliDpICtnhg=
+
+Name: javadoc/org/eclipse/oomph/setup/targlets/impl/class-use/SetupTar
+ gletsFactoryImpl.html
+SHA-256-Digest: 1CntLc5ZKBvFoLlYSt7Qu/1fq70D1llXL93CxvUBItc=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/util/class-use/MylynSwitch
+ .html
+SHA-256-Digest: VOX3ArTe8eST9/d4N56Ev+6Inf+YKkJcUpWcii+6qos=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/package-frame.html
+SHA-256-Digest: 3mGaJif+Ivuk1Ti1LMl3+NW6KtKx6O/F+TYm+lVsAyE=
+
+Name: javadoc/org/eclipse/oomph/setup/maven/impl/package-summary.html
+SHA-256-Digest: 5+6hE/YoMQ6RW8Ge4FP+NbWMe0F+nngK60KVk2BGFc0=
+
+Name: javadoc/org/eclipse/oomph/setup/p2/util/SetupP2Switch.html
+SHA-256-Digest: JGNTKrHmFWHI4Yaqb70PhOExQ6pRN1bThU5T47BGRlo=
+
+Name: javadoc/org/eclipse/oomph/setup/ProductVersion.html
+SHA-256-Digest: S/AJMPv8JfKWLUDLsLRp0aSQf+1v9i+3ZTik3JvjNw4=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/PreferenceTaskImpl.html
+SHA-256-Digest: FZZXnexrEurElAbZDxHFP9STiyPRojngnJ3skrJhmMQ=
+
+Name: javadoc/org/eclipse/oomph/setup/LicenseInfo.html
+SHA-256-Digest: vzabSkY3clKawoO6GCAP5Bt7IhRNZuLESqWhMMb07OE=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/impl/class-use/QueryAttrib
+ uteImpl.html
+SHA-256-Digest: 36WdKG6hfrdkaLI9nTLwyxUT7XQoKu5AthOXAtQIwuQ=
+
+Name: javadoc/org/eclipse/oomph/setup/util/package-use.html
+SHA-256-Digest: V5rGclxc2Ti9RsxjR4rQiLx1WUtU6BplhIZXNnVmCEk=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/class-use/EclipseIniTaskImp
+ l.html
+SHA-256-Digest: WPSc5HoSV/McDWLLVKWCNuviJoOld3SpvWFzdYU+eUo=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/class-use/VariableChoiceImp
+ l.html
+SHA-256-Digest: 6izhr3dDReQVMntyPm2mYhpgeasuRP2KGlBR0Q5CB+Q=
+
+Name: javadoc/org/eclipse/oomph/setup/pde/util/PDESwitch.html
+SHA-256-Digest: VN8LKOMZ1XMd5rsIO/OZtQ3Nm9szAnOzq8laYCDzv+0=
+
+Name: images/trees/1ZFqqP-bP1VrLSFo3sI5VIjCgjA=.png
+SHA-256-Digest: bqC1W7hDSGmU30Y6N4Bxz8JzYnsZmJIo/0GzgIEmk4c=
+
+Name: javadoc/org/eclipse/oomph/setup/git/impl/package-use.html
+SHA-256-Digest: A8ZpnTIU9LKX199GeVvWsXR6Ih4jx1RD5SMtckn7b5Y=
+
+Name: javadoc/org/eclipse/oomph/setup/jdt/util/package-summary.html
+SHA-256-Digest: B9fuSEoDFj7P/KEXRhXeC32+xKl0+6rdJp8qaKxBkvg=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/class-use/WorkbenchPac
+ kage.Literals.html
+SHA-256-Digest: 6HNJ19f/IqJmaGSRrcivKNXAZ+CeELhLmOi5Krh215I=
+
+Name: images/trees/lqeMXKkEMwWpA-eFaB0ClwL0UGY=.png
+SHA-256-Digest: sVF68GExEu8StnjzqiI1n7MzAM0ur0rWyZJ41TSE/nw=
+
+Name: images/extpoint.gif
+SHA-256-Digest: iat6lRiGVTvoNzT6BewepyrD6l3BKHp6kT4RQolfC70=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/class-use/MylynFactory.htm
+ l
+SHA-256-Digest: BgAAVBDCOQqGsyB+6p3nEuXtcS+faiENOcFacTFGK/U=
+
+Name: javadoc/org/eclipse/oomph/setup/util/package-summary.html
+SHA-256-Digest: MfQ27H5+awUnN2HwrVkQcKTmW8EbLefShS7Zfy3y9vQ=
+
+Name: javadoc/org/eclipse/oomph/setup/projects/class-use/ProjectsPlugi
+ n.html
+SHA-256-Digest: BCq5gZXnv7OgkBZYY6YeWWi2DiAj1dOQt+iRP1keq8Q=
+
+Name: javadoc/org/eclipse/oomph/setup/log/package-summary.html
+SHA-256-Digest: rupDvFS4x0FeYYgqjNaXxRSNeSmciYoOSbUKOn2bpsk=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/impl/class-use/FileMap
+ pingImpl.html
+SHA-256-Digest: JrTho9asSiuOWGt/srDwjOvV3xFeGrKIHQJZu0Enjxs=
+
+Name: javadoc/org/eclipse/oomph/setup/p2/package-frame.html
+SHA-256-Digest: dHCP8og9lT7lAO5DxDevDwScP3PvVTX9uagOPt7Fed0=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/LocationCatalog.html
+SHA-256-Digest: pPn1ENK7SyfoLf9SPp1TNEdtB38+MYg6ThpuGNVu3Fw=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/ProductCatalogImpl.html
+SHA-256-Digest: 6nRrxpQpCy/ZRg+CuE+0dyuKPP6BSOUaKiO0GZRPTpU=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/InstallationTaskImpl.html
+SHA-256-Digest: 2wco1jmL6EceuAKdiBIg7IUVbkHZUxZ+Eg6gsjXKJvU=
+
+Name: images/callout-6.png
+SHA-256-Digest: LjNc5Pu0gQs1V8wyc8KupCdChZ7EMEgcsbG4NjL0mMY=
+
+Name: images/category.gif
+SHA-256-Digest: cBt5h1QpT3QywZmZrBzxdRRPzCGBQsD8pGWQYE7DItg=
+
+Name: html/user/wizard/WizardFooter.images
+SHA-256-Digest: A+X/f/joDRgvmaA1zJtZgcyku2eZUrGRBYNtXpY2lMI=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/SetupTaskContainer.htm
+ l
+SHA-256-Digest: rk0GUlA2OVQAjrgXoJiPDoxX9EyFCqt9d0KjSKH/nbU=
+
+Name: javadoc/org/eclipse/oomph/setup/projectset/util/package-use.html
+SHA-256-Digest: NGAWrVTcqwn36UH6N0ge6zQGuoLYwRf1qV0DO6PTtKQ=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/LinkLocationTask.html
+SHA-256-Digest: HkFBFvxORu9Vi0sVYerXh6IA0QIIM0MFxIHkAyLko8k=
+
+Name: javadoc/org/eclipse/oomph/setup/projectset/util/class-use/Projec
+ tSetSwitch.html
+SHA-256-Digest: 4Dky1H76hMGTAe3YhzRTfhLfccLga2idM3jwgqaMwjg=
+
+Name: javadoc/org/eclipse/oomph/setup/projectset/ProjectSetPlugin.html
+SHA-256-Digest: dHBcyPAPNfGI1eNWCBdoPozVyeYFx+Tcy4Bp0jpg5nA=
+
+Name: javadoc/org/eclipse/oomph/setup/projectset/impl/ProjectSetPackag
+ eImpl.html
+SHA-256-Digest: ETsY0RY2NGNFkCet8oRUn8uxiqziDbfhfOeoyqTOEjQ=
+
+Name: javadoc/org/eclipse/oomph/setup/git/class-use/GitFactory.html
+SHA-256-Digest: 2lYqSDL9y8gkguYZg2OhLfj429fQcN2T7pfKbxnpKQs=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/EclipseIniTask.html
+SHA-256-Digest: 5D+rmWyJHStJjrSzBEkWtoDfHb7cTDCCTyKIMzW9s2Q=
+
+Name: images/trees/Xf4Ep1VclhbwML0ziywr3bJ9xTY=.png
+SHA-256-Digest: cUS7ZzGJy/cXgJ9UyKBE7yw+JZAJgyhzKVXrvM1gCPI=
+
+Name: javadoc/org/eclipse/oomph/setup/log/class-use/ProgressLogFilter.
+ html
+SHA-256-Digest: NBvvi5RoM3ktFFHntkAzc6BfXuxSeQkVRHoXe/KSOW8=
+
+Name: javadoc/org/eclipse/oomph/setup/launching/util/class-use/Launchi
+ ngAdapterFactory.html
+SHA-256-Digest: 9y8DT/9a7BWpz57dAmmslRtLkuvKLcaw/CwaguQ5zd8=
+
+Name: images/trees/YaOySXQyJjqyuPq39ogKjlenhOg=.png
+SHA-256-Digest: 2E6KdWj0QMZ5u9Bi1aNuxkd3pr9J/6nWeKeUSxB/dgY=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/impl/MylynBuildsTaskImpl.M
+ ylynHelper.html
+SHA-256-Digest: Sv7/ViOFdUbo6ofT+o+D8uVI9nkyv3HxPomAQ9edDOs=
+
+Name: javadoc/org/eclipse/oomph/setup/git/impl/class-use/GitFactoryImp
+ l.html
+SHA-256-Digest: XYoz7GdHoDNeIONFPmpwQz/SHzUOnzhC02eQdX8Fu10=
+
+Name: javadoc/org/eclipse/oomph/setup/launching/impl/class-use/Launchi
+ ngFactoryImpl.html
+SHA-256-Digest: tDehm4GR4am+m+Ht6/eaSmvZcEKCLl9RfI42pbwSx3g=
+
+Name: images/empty-icon.gif
+SHA-256-Digest: nZm2rEx8czvQ/LHIXLYIMRS6ZpTkiuoXwqmPQhVSE7k=
+
+Name: images/package.gif
+SHA-256-Digest: EZPZadqTzMYVqSnpvt1ksENpA6RZ+UefMr7MiGwUO2c=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/class-use/MylynQueriesTask
+ .html
+SHA-256-Digest: Q/AYYlW3ZULBNPOVtGdd5+sywJIQdgLcyiT0kUpG4MY=
+
+Name: javadoc/org/eclipse/oomph/setup/projects/ProjectsPackage.Literal
+ s.html
+SHA-256-Digest: AjDucXAsLCqSI3gFgW4DmNVzU9/DwbU+II+gTPa2xJs=
+
+Name: javadoc/org/eclipse/oomph/setup/git/package-use.html
+SHA-256-Digest: 8cm+VS8kUjLEFdhvSglJabubXlvbs877pQc8H4AYff0=
+
+Name: html/concepts/org.eclipse.setup
+SHA-256-Digest: DO2/OhtDJLvBJTs/bteH93C/CALSlxdhKbdh/qyToJM=
+
+Name: javadoc/org/eclipse/oomph/setup/maven/package-frame.html
+SHA-256-Digest: cmoJw2P11ZtQxLP3R9TwRA16VfWtH+MZDpkdl2XiPI0=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/class-use/ProjectCatalogImp
+ l.html
+SHA-256-Digest: SyD44rN0rmEim+2PYuZKeTKVUiZbxPZLL5i+zk4TRXs=
+
+Name: javadoc/org/eclipse/oomph/setup/projects/util/package-use.html
+SHA-256-Digest: YLRSES4feNJpdYx1pSHQmT6waKGKLPe/dfqeEBptRO8=
+
+Name: javadoc/org/eclipse/oomph/setup/Index.html
+SHA-256-Digest: Id0tdEcq8LDCWirCItp6KxRMrBo5mpmp9kTvDMWVoxU=
+
+Name: javadoc/org/eclipse/oomph/setup/p2/impl/class-use/SetupP2Package
+ Impl.html
+SHA-256-Digest: oWIu4JbUVWjMrLmOk0kQxwyoss6Y6oHlK4TbzB/YDN4=
+
+Name: javadoc/org/eclipse/oomph/setup/package-use.html
+SHA-256-Digest: JGQF/BAM4PMs7jDYP1pUik1UW2e6saDZya5lTzSCGow=
+
+Name: javadoc/org/eclipse/oomph/setup/Stream.html
+SHA-256-Digest: Cp6BQnyh3Ms4OxDyOWhlikSTYjahqskp1Mg61Xfq6jc=
+
+Name: html/concepts/index.html
+SHA-256-Digest: yNxdArMnb1gUQ58mf9V1xSnaYdhySplrI5k6pq53G/I=
+
+Name: plugin.xml
+SHA-256-Digest: v/CBoI5YR9zZ79CQ5w1uzMb5AILthf7Lx/putZ7Xm48=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/impl/QueryImpl.html
+SHA-256-Digest: qpYh21IO88eeeXEcicX1zhB3MPDxBpjmBEAOHuyzp9w=
+
+Name: javadoc/org/eclipse/oomph/setup/util/package-frame.html
+SHA-256-Digest: 4sKUF2iaWN9SKqwTpc0rPpQGBnoNBDsr0jpFfSN3xY4=
+
+Name: javadoc/org/eclipse/oomph/setup/jdt/JDTPackage.Literals.html
+SHA-256-Digest: Lj+wlGsvQ/b/5bO3DOn72WL5Lkdn8kG0jLVKQ2QCE1g=
+
+Name: javadoc/org/eclipse/oomph/setup/maven/impl/package-frame.html
+SHA-256-Digest: KckbORB8rLjMqrecungpthkaNxHw4ZNUTTpgMZPNtzc=
+
+Name: about.ini
+SHA-256-Digest: UEL2C2YDLfInVyDqQ3yZTOV+OFv3V6YDy/hXrnh1kAI=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/impl/class-use/QueryImpl.h
+ tml
+SHA-256-Digest: r4WCIv+pG7b036N7n4dhP6CDGTxGTF0irF2JlFdf/X4=
+
+Name: javadoc/org/eclipse/oomph/setup/log/ProgressLogMonitor.html
+SHA-256-Digest: jmLvIqYA41mMQTQbyc17xjRsJfYga5olVlwyyiriuhI=
+
+Name: images/trees/TUITj0e8UABcC4rv-WSMWAT_nbk=.png
+SHA-256-Digest: IPMkl4t3q8GslLvimiO7CB4Yu0y645HoFzAWeoXAu5g=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/SetupTask.html
+SHA-256-Digest: 2cXjzEk7xLM4w9WbBq+A+83Qm7EtnzJbp+EH3TTu0sk=
+
+Name: javadoc/org/eclipse/oomph/setup/p2/util/package-frame.html
+SHA-256-Digest: +8TJCFQuskmkaKE5Gzi92zw+sy5nfDrXYLow3OOe9HM=
+
+Name: javadoc/org/eclipse/oomph/setup/pde/impl/class-use/TargetPlatfor
+ mTaskImpl.html
+SHA-256-Digest: lJcw4ahWsrC2IUHVDOC3GluTqXm1yqYotzBQnc5+Qik=
+
+Name: javadoc/org/eclipse/oomph/setup/projectset/class-use/ProjectSetF
+ actory.html
+SHA-256-Digest: xIEvx7h3XcLIl5mU1NccUkdBcmTB+KTQZIMqcjCpuBM=
+
+Name: javadoc/org/eclipse/oomph/setup/maven/impl/MavenFactoryImpl.html
+SHA-256-Digest: DeN7rEs12Ak2vZSenFWNbKCeB1nAHx/XbRyw9YQ2jD0=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/util/WorkbenchAdapterF
+ actory.html
+SHA-256-Digest: SklB9KW7VJZvexZmFankH7XEVxZRrYuhLpFMqEAkW+Q=
+
+Name: images/trees/K62OQIjOSls_qBdWGo1heoyzSsA=.png
+SHA-256-Digest: IDhC+huUPPQFgzVS41pSykK+s8rdv3kNmAJmM/+gi5A=
+
+Name: javadoc/org/eclipse/oomph/setup/p2/impl/SetupP2FactoryImpl.html
+SHA-256-Digest: qaWdQooaQdNlGotsQbLKH95/uuG9+Va3KFnZGeUmJEY=
+
+Name: javadoc/org/eclipse/oomph/setup/git/impl/class-use/GitPackageImp
+ l.html
+SHA-256-Digest: Om7eDeVJEL++hTq2K1e3lnCdLbCjdhxwCVmPbfarivY=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/impl/MylynQueriesTaskImpl.
+ html
+SHA-256-Digest: H3GhrkBJ5ugwaYTzj8xljtMeRVtbXygHRQqbS9/b92c=
+
+Name: javadoc/org/eclipse/oomph/setup/Workspace.html
+SHA-256-Digest: PmUuFIPSDxXGnFcAKTZYxkTnsGGVctC5abVemlxiOsQ=
+
+Name: images/trees/YyhpQ9s-x87Qpd5syzuyCGaYgO0=.png
+SHA-256-Digest: 0cPfdEKeQtwz3OP1ck8CKZWFqlTkIaH+DTyFOX8I7hM=
+
+Name: javadoc/org/eclipse/oomph/setup/p2/impl/class-use/P2TaskImpl.htm
+ l
+SHA-256-Digest: K6yIJ5NohywT/pxSBDegsPlMY0OK9qCvXUMek0QY3rI=
+
+Name: javadoc/org/eclipse/oomph/setup/git/class-use/GitPackage.html
+SHA-256-Digest: XSMhga4/e4ma2YdLitcnhknYpSf4H5tVDf4WDWueXEQ=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/VariableTask.html
+SHA-256-Digest: m2KwQ3eC9X2g+evkLN2j1Pli2BM5kJRdNTwhsqA1iRk=
+
+Name: javadoc/org/eclipse/oomph/setup/targlets/class-use/SetupTarglets
+ Package.html
+SHA-256-Digest: 6mThLGjBLnTE9bvkYjnFxJnvSl1MwmzVLuHYBZLFSOw=
+
+Name: javadoc/org/eclipse/oomph/setup/editor/ProjectTemplate.html
+SHA-256-Digest: KBc36PF2n9SDdaetI+3kkRaawLLPcoeNqorYsEeL/B0=
+
+Name: images/trees/sW-7mrD4ob0V1Lm3xjEgWSyX_nY=.png
+SHA-256-Digest: YuA2WyaB9XmGuoh7zj3hC7QYECL7jeZH7jYU3WKhupM=
+
+Name: javadoc/org/eclipse/oomph/setup/util/class-use/SetupUtil.html
+SHA-256-Digest: OPu9je0DDA7poGwYvmMhsCHqibN/bXRI/jWJ7/8hzRA=
+
+Name: images/callout-4.png
+SHA-256-Digest: i7Za/Q3WIfFAvGYpMZfPgoFtN5BgFSjngjlhQ+pHvls=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/impl/class-use/MylynBuilds
+ TaskImpl.html
+SHA-256-Digest: cYQBbHOj0jNvaEFKrxM9sqM/A+T7joPj03pfcasE3PI=
+
+Name: javadoc/org/eclipse/oomph/setup/launching/class-use/LaunchingFac
+ tory.html
+SHA-256-Digest: yskZcuGHte3X8qfOKN/QA8S90NY7Mqnlbblsqk5hTOg=
+
+Name: javadoc/org/eclipse/oomph/setup/projectset/package-summary.html
+SHA-256-Digest: SwZN9FKV50gwhuEErRHa6+iOAt1ijhoy3Ty4glggyL8=
+
+Name: javadoc/org/eclipse/oomph/setup/git/util/package-summary.html
+SHA-256-Digest: wlsCgCLH74+x5UPuFJqZsiiQz/1r48zT2IjQ4Laf7Iw=
+
+Name: javadoc/org/eclipse/oomph/setup/maven/impl/class-use/MavenFactor
+ yImpl.html
+SHA-256-Digest: eOhBDGHJHVOmdhctepMjR66AzvMWsP9nKx8IbMXkYDY=
+
+Name: javadoc/org/eclipse/oomph/setup/workingsets/impl/package-frame.h
+ tml
+SHA-256-Digest: /ZtOBitC0J4vLqxodr6/DFPsc+NoYRVqrIkFk0fwr7w=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/SetupPackage.html
+SHA-256-Digest: 6NrUjfGZ7VsaEimT3jMuXr+Z7Hln5EnrRmwFMGskgUA=
+
+Name: javadoc/org/eclipse/oomph/internal/setup/pde/package-use.html
+SHA-256-Digest: LZdF4rJacnyPtLf98/say9enGfyav5dY/EMnLGb9fZU=
+
+Name: javadoc/org/eclipse/oomph/setup/jdt/impl/class-use/JDTFactoryImp
+ l.html
+SHA-256-Digest: w+Ust1FKNiu6mU0NnSGx4KUxyGzixqqlvsmYretWYcw=
+
+Name: javadoc/org/eclipse/oomph/setup/jdt/impl/package-summary.html
+SHA-256-Digest: gB9C5Teqhs0d3ozS88I9NkC5jfY0i2V26SrqWE9bjrM=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/ProductVersion.html
+SHA-256-Digest: owMEJH+iBwIaxREdOUqX+lhhbd1y+W84vOYVhv1nMPs=
+
+Name: javadoc/org/eclipse/oomph/setup/projects/util/package-summary.ht
+ ml
+SHA-256-Digest: N1CEDpJW4/6YHo1R7U5K8WRbmkvXEgIrsjGM7RsdsPU=
+
+Name: images/trees/F5uDPZiGfLRsm6c4lnP4qSyzFXw=.png
+SHA-256-Digest: 5r63eOEeuSKFONIYh1JKz11S67b7+Uh05goG43qXIXQ=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/class-use/SetupTaskImpl.Run
+ nableWithContext.html
+SHA-256-Digest: A1smaQXxzoHSyMr2iB0ue0mi2ADLMtH5xB+9vKFxh4I=
+
+Name: images/trees/fHT2N6VjHAGBsdvNF5OXDq218IY=.png
+SHA-256-Digest: 8ubjJTG8bWw8rBrraJzcM5tLmPSBO9DzkpyGsVRDcdk=
+
+Name: images/trees/9lwi-lULfwqN01dTptVwJw9SSPI=.png
+SHA-256-Digest: iL2O5CiFkjYjTJCmVAAh+RBT6GiTBmE5H6TGAQg7mb0=
+
+Name: javadoc/index-all.html
+SHA-256-Digest: za1IF29tqe7zbKdzCGTuT74NyXgTou83OxNE0x6Ouwo=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/MylynBuildsTask.html
+SHA-256-Digest: OkBMYapPxc7KB0893/0UJy9GFCFRTPt7K5ze+j6RJu0=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/package-frame.html
+SHA-256-Digest: G9ggEl1QK0Qu0dJb/TGhj6vp9fmp7DgqpJnCnnGa7Mo=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/ResourceCopyTask.html
+SHA-256-Digest: 6WJCQ1mkE7NuIPSWkyhMAmSFEIWhT69fdsIcOKybe58=
+
+Name: javadoc/org/eclipse/oomph/setup/jdt/impl/JDTFactoryImpl.html
+SHA-256-Digest: 1+h/KRd/EoqgtPEp0Whko8Z9tonmDC/lwqI5E3Ci/kk=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/TextModifyTaskImpl.html
+SHA-256-Digest: p55rimkGIQgdel4iK4PLystL7EZkN5eifxqJlIxRIXg=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/impl/QueryAttributeImpl.ht
+ ml
+SHA-256-Digest: NX+E11EAG4XxV+kBVqCGggBLsNGS84zIlEL8xFYEUEg=
+
+Name: javadoc/org/eclipse/oomph/setup/launching/package-summary.html
+SHA-256-Digest: K80yq9OqQn3T2Pu/pPX8V8Yalc4rHoLkQIq7sGvdT8o=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/ScopeType.html
+SHA-256-Digest: JLxY3yUk6ze75TIA+Aw3ACxwI/Zdw6gaQaO81gv576k=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/util/package-frame.html
+SHA-256-Digest: GhPXUE//MWE8XgWQadddn1RtJWl6pFj8pt7nxlppL4k=
+
+Name: images/trees/3ek6jTDBSXdw15cl5UFMDMbH530=.png
+SHA-256-Digest: hIfX0Ig8HCdqP4M0qnZY+dEBZHSaV1NhN/q+GSTJslw=
+
+Name: javadoc/org/eclipse/oomph/setup/launching/util/package-frame.htm
+ l
+SHA-256-Digest: JYF35Jh4XTkOh6N6/bKke3CoL55T2KVySYc0Kqbk/6o=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/class-use/InstallationTaskI
+ mpl.html
+SHA-256-Digest: hDPb53WyXO55yVF8Tlpn0yx67686R7suxEop6PB0YQ0=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/CommandParameter.html
+SHA-256-Digest: LBHZvb4/fjAi/CnlDZfESfhVZ7UqHihaw7cN4ugY4QY=
+
+Name: images/trees/X9Mj1oek6kuTBpZyuLlB0yoFWzA=.png
+SHA-256-Digest: k3djWrGHozFB/dWOWPAhfmG14aXopKzPaZkT8f+RnUk=
+
+Name: javadoc/org/eclipse/oomph/setup/jdt/JDTPackage.html
+SHA-256-Digest: 6F/i6n3jZST55n/dwoQKFiCWMVJHG2EanKDWltqPnlA=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/AnnotationConstants.ht
+ ml
+SHA-256-Digest: OqUK+MfmNznmJxYtR5bdaw867djoPutFzoBj3boeTXE=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/class-use/FileMapping.
+ html
+SHA-256-Digest: Aqp6UJ7zr1vDeaJ8C8hza+7auluSnOewUg63qfEXnas=
+
+Name: javadoc/org/eclipse/oomph/setup/maven/util/MavenAdapterFactory.h
+ tml
+SHA-256-Digest: Ds8Wu12PIdjms0zHzqyKWkXWQuTdPPN//b5vypKQvZ4=
+
+Name: javadoc/org/eclipse/oomph/setup/p2/package-use.html
+SHA-256-Digest: PEUbFVnxm9KTEHN/V9qYvC8mFyFK2q8IO7+Wc6doR4M=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/class-use/WorkspaceToInstal
+ lationsMapEntryImpl.html
+SHA-256-Digest: 69zJ7oZ0f7Um1S481Yl+fPqCFQx2GFt7ZNpZedVKGzY=
+
+Name: javadoc/org/eclipse/oomph/setup/projects/impl/package-use.html
+SHA-256-Digest: pq2LtIecZdJXHuLbDt8bRJzUUMBgLSWMs1ZOryE8QvM=
+
+Name: javadoc/org/eclipse/oomph/setup/targlets/util/class-use/SetupTar
+ gletsSwitch.html
+SHA-256-Digest: zXZaCmmVFk9DmNEXzCGjXogjGJpKBR1153bmYvq8ljU=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/StringSubstitutionTaskImpl.
+ html
+SHA-256-Digest: WzH6fAuezkh1PNpLEfYz3xbENse6aVQkmKXJ/G8M3jw=
+
+Name: images/trees/eGd2T6pC79t_B4E-0JafqPssQD4=.png
+SHA-256-Digest: Vs4pMzLbsOvmyg1KGB++AjnfW3n1V1zlL5y1w+CnMPc=
+
+Name: javadoc/org/eclipse/oomph/setup/projects/impl/class-use/Projects
+ ImportTaskImpl.html
+SHA-256-Digest: sgtK1p8PTtHZo6FWmisBLrtzUWfvXon494zg4fspWK4=
+
+Name: javadoc/org/eclipse/oomph/setup/projectset/package-frame.html
+SHA-256-Digest: Q2lr2+l8Y1Tw0PymvdqnphABzmc5DW4I5X8Vebb3mx4=
+
+Name: images/trees/9f9gYhtHH9GGAGMrAngvTSlsgEs=.png
+SHA-256-Digest: tFxnXM8YmPZ5a20D7atGQB5wXW2rF+FthvybHPAs7BI=
+
+Name: html/user/wizard/ProjectPage.images
+SHA-256-Digest: bvEc/TVMk3A4iGMTrPy8I7yoIgfA0eNL0QgpQtLx3Cs=
+
+Name: html/user/DocBundlePoolManager.html
+SHA-256-Digest: lSCmTI3PAQFSdy7G1Ed9zcKU1nmowfU/oud5Ar8WVtU=
+
+Name: images/callout-3.png
+SHA-256-Digest: L3+QCHYtQoveNV+0YCAOnqdb38xIisbJOPVTacTcT+M=
+
+Name: javadoc/org/eclipse/oomph/setup/p2/impl/package-frame.html
+SHA-256-Digest: zL/rYVx+jk1T65rLwGsUQto1y2Pu08Wu1LXx1+q/IHs=
+
+Name: javadoc/org/eclipse/oomph/setup/projectset/class-use/ProjectSetP
+ lugin.Implementation.html
+SHA-256-Digest: Yi4nJMgJem2uVwMYLhwzA3kLCHHyWzxibOT/yNBVeHs=
+
+Name: META-INF/maven/org.eclipse.oomph/org.eclipse.oomph.setup.doc/pom
+ .properties
+SHA-256-Digest: fM3ZNV/R0xey2KzDMrGVCxtTaWEqRbZjXYQBGg3L1qQ=
+
+Name: images/article.gif
+SHA-256-Digest: W1SXQdPwwTrdZA2VuRK90U8mIMhms8qKfBoDSXocMpI=
+
+Name: javadoc/org/eclipse/oomph/setup/projects/impl/ProjectsPackageImp
+ l.html
+SHA-256-Digest: wgT7mbr+SUYqTMH47KoH/i+TB3jxDdmK3i68ZRt+GBA=
+
+Name: javadoc/org/eclipse/oomph/setup/projects/util/ProjectsAdapterFac
+ tory.html
+SHA-256-Digest: mmtAb9M3TGD90TdgnGxx3hnLzhtIwINybI5g394koa0=
+
+Name: javadoc/org/eclipse/oomph/setup/jdt/impl/package-frame.html
+SHA-256-Digest: 3jUgOxbgimzla2kTGDWr2eyad8oYrYX3K/vJR6VWH+s=
+
+Name: javadoc/org/eclipse/oomph/setup/ResourceCreationTask.html
+SHA-256-Digest: vsLs/dj95Irn/LY1NN3Tdo0RLAUIYR8KlYKZFmwRO5w=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/impl/MylynBuildsTaskImpl.h
+ tml
+SHA-256-Digest: GpB2RxE0HHXhtJvU13Wvqow4Nb3aHoz4m1wLq9Le/hg=
+
+Name: javadoc/org/eclipse/oomph/setup/targlets/impl/SetupTargletsFacto
+ ryImpl.html
+SHA-256-Digest: gkedsR1jHhydipjxNtV8zVlwTtPWWDuLzT7P1HRdhxQ=
+
+Name: javadoc/org/eclipse/oomph/setup/InstallationTask.html
+SHA-256-Digest: ZlITttaV6vAEgEgA4y1DLsJrtboXkz/2y+1XNVDgqtg=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/Stream.html
+SHA-256-Digest: ewD1HS2/118lbrircjpkhAKoUS3tft/hKEeLVLRCQ5o=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/util/package-use.html
+SHA-256-Digest: P2zgZTDoSWueNy2CW8XegJNpKpDAQzcGJloNLF2YORI=
+
+Name: javadoc/org/eclipse/oomph/setup/p2/P2Task.html
+SHA-256-Digest: JnIC0HeuWTmO/2Q91QAnP4b7B8uBvJ9TZ5g4gsTL2O8=
+
+Name: javadoc/org/eclipse/oomph/setup/util/class-use/DownloadUtil.html
+SHA-256-Digest: ZaUio0Townfux0vuTNgEH8eIzOK3ZsiEd2PPTVVpSfo=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/AttributeRule.html
+SHA-256-Digest: f8PyE2ivEGDSvwuv0A2jn7JZcAOv+KKdUKp/9tFxPNk=
+
+Name: javadoc/org/eclipse/oomph/setup/projects/util/package-frame.html
+SHA-256-Digest: DP9gJuErH3ZmGuc/aS1PP6pkUc3cW5vhxURkV3l2eSU=
+
+Name: javadoc/org/eclipse/oomph/setup/git/impl/package-summary.html
+SHA-256-Digest: JlDHKFeiRByR1spya3BI0M6A6q3QPbu4zB8C0OBrjZo=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/LinkLocationTaskImpl.html
+SHA-256-Digest: egqvRFLP9CYk0cVlRhb8GNosMnD/hYaLdO8H6zU/dSY=
+
+Name: images/trees/V-kh8PYyH3eki_hWca__jwYm5Fg=.png
+SHA-256-Digest: cjHsz/L7vTT3cMa/eGyLAGcohJeAZJr8FB27THkdIT8=
+
+Name: javadoc/org/eclipse/oomph/setup/util/class-use/OS.html
+SHA-256-Digest: hwAX4sf9P4PGzUbuxsjUsPsY4s5rLaI6jtIg77qa/4c=
+
+Name: images/trees/_BKvjQ0NyqOEYE3l7xz93OK58Ho=.png
+SHA-256-Digest: SDKLCt7gnE67dmNGwcYikJEiB+ofeKynsWNbpUz1xw0=
+
+Name: javadoc/org/eclipse/oomph/setup/git/impl/GitPackageImpl.html
+SHA-256-Digest: nUwnVPlphx+aoLAwKfJcw8texKOaWo05d+ldd6STnXg=
+
+Name: javadoc/org/eclipse/oomph/setup/workingsets/util/package-summary
+ .html
+SHA-256-Digest: pzNA+xVMNHZgc3vRVLB1ywhb44Gic6ZsW1A5fWyOImI=
+
+Name: javadoc/org/eclipse/oomph/setup/util/FileUtil.html
+SHA-256-Digest: vJQ6b1a65n6A8uT0CGQ2hVxFi1KuBddVytFPu8XXZtI=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/impl/FileEditorImpl.ht
+ ml
+SHA-256-Digest: 9PtsFgTY0eZMOIj8yxU37IuUBxP2I51CPxNhymA+D60=
+
+Name: images/trees/i4m5a6AaQ_-_z_ela4-zf7XZgLU=.png
+SHA-256-Digest: jPoSKIu3nL659bJjv1kzT7hLocZoE3h6GIF9MrAGAMY=
+
+Name: images/trees/Ca1VUVpcqqBwWc0sZb3Cz-qSuDw=.png
+SHA-256-Digest: TBlgeldpP9gyWK03orHGxz/wVq1EeGZxeVlfr8+APmU=
+
+Name: javadoc/org/eclipse/oomph/setup/log/ProgressLogRunnable.html
+SHA-256-Digest: wP2leRs6wQ/V9izNoViZPd+dlJTsmQ+RH8r8uYsN49s=
+
+Name: javadoc/org/eclipse/oomph/setup/projectset/ProjectSetImportTask.
+ html
+SHA-256-Digest: YIR3GoC+WYiP7JEnXeHKQBamdXsCiH8pcIOd2lNOdXM=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/impl/MylynPackageImpl.html
+SHA-256-Digest: 6taaA49oHwJDlChekTggrkfuPJgZWv9HdyttUORPcNQ=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/impl/KeyBindingTaskImp
+ l.html
+SHA-256-Digest: QN7Dgk9n5C2IBvroywXwy5OsMlqvqsxHjj2yDJK1X/c=
+
+Name: images/trees/r-nRm5OvlsQpjIel93Esm8qFf2A=.png
+SHA-256-Digest: U+iJ3TELxxIgDrYM7Ad0ooqFO8ctiyK8w8TROh8wwEw=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/class-use/RedirectionTaskIm
+ pl.html
+SHA-256-Digest: YIfTJvfkeCVGW7pcqIfA2pb14pc1HUeEl4lKYOr6XQM=
+
+Name: javadoc/org/eclipse/oomph/setup/workingsets/impl/SetupWorkingSet
+ sFactoryImpl.html
+SHA-256-Digest: CaRWrZDa56Jkbfxe5rS3Rab+DLJ7wxbNfwHMjdVb5Ew=
+
+Name: javadoc/org/eclipse/oomph/setup/VariableTask.html
+SHA-256-Digest: iHcBWnIGaH+3fofFiUSd3FiD8F4Ld6MIj+Daq1A36FQ=
+
+Name: javadoc/org/eclipse/oomph/setup/launching/LaunchTask.html
+SHA-256-Digest: rAPvBN89hknpCbHQ7cEdK97VNOPuo+eObBbRtlTkwqE=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/class-use/WorkspaceTaskImpl
+ .html
+SHA-256-Digest: amlf+gJc8FlwL5FcMQhDP8bYMDLGreoMJveHFiLT2yo=
+
+Name: javadoc/org/eclipse/oomph/setup/projects/package-frame.html
+SHA-256-Digest: 06XMag03AA2hHPQmx3PzZ8hqhF/zrms7Zrz/Ad6Gd8A=
+
+Name: javadoc/org/eclipse/oomph/setup/targlets/impl/class-use/TargletT
+ askImpl.html
+SHA-256-Digest: 69J6pI50txNOtVYvocPJFfd5RnDBb1INFrtLT7n4s78=
+
+Name: images/trees/KGoTzdq5Hxl1DEsdwbLTwaTmIm0=.png
+SHA-256-Digest: O/pP+u0L17YpB3NUvnQHD+kF8VwacyQ7zGTtQjRmHHw=
+
+Name: images/editor-rst.png
+SHA-256-Digest: KQoq2T8nwvtxk8DQxypPajOfoK+IoeWR4xKtwAu0hs0=
+
+Name: javadoc/org/eclipse/oomph/setup/maven/util/package-summary.html
+SHA-256-Digest: B/TiHlWMSKzToR785yB45jX7zuDmpQ9IJGxqL/Mbemw=
+
+Name: javadoc/org/eclipse/oomph/setup/targlets/class-use/TargletTask.h
+ tml
+SHA-256-Digest: 7K7sgcdT9LcZ9k8s8GnBnI6XTzrpnJfg7UkpLG/SRyg=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/EclipseIniTaskImpl.html
+SHA-256-Digest: 0ZfeXBXzLM1INsudbvT5PjhGRm67tSgHoU72YyoIGKo=
+
+Name: javadoc/org/eclipse/oomph/setup/git/impl/class-use/GitCloneTaskI
+ mpl.html
+SHA-256-Digest: PjzIZWEi7NSay2djiJ9eR79K2W66UQN/p3apLCbxBGk=
+
+Name: javadoc/org/eclipse/oomph/setup/workingsets/class-use/SetupWorki
+ ngSetsPackage.html
+SHA-256-Digest: ywYxIm7Wi//j6uYhmpBf2JtNwln3RS08KJLFXQEn6Bk=
+
+Name: images/trees/KUQNQbxRJQF78uiKUcV5Jhqohf4=.png
+SHA-256-Digest: yzpHJXTb+0oqiBlzOdsYSonh4nZIXQp0c+i1Me+pPZ8=
+
+Name: javadoc/org/eclipse/oomph/setup/projectset/class-use/ProjectSetI
+ mportTask.html
+SHA-256-Digest: pmsUtRTLmARROqqYLa2gKzBKTd1ynZe+J5XQ24mzgIM=
+
+Name: schemadoc/schema.css
+SHA-256-Digest: WxjUlghlR4LTEdsoXWXrnbzLtVJsm5XAA8VuE9sV76c=
+
+Name: images/formatter-java.gif
+SHA-256-Digest: KioimDI1U/sEwXmyAdefUYJcXu/RHvTj1QEQCLTjjYw=
+
+Name: javadoc/org/eclipse/oomph/setup/git/util/class-use/GitSwitch.htm
+ l
+SHA-256-Digest: iGczG28frVxnw9cRD6o2QgTrDcHWCvtbqEcdQzqq9RI=
+
+Name: javadoc/org/eclipse/oomph/setup/mylyn/util/MylynAdapterFactory.h
+ tml
+SHA-256-Digest: y/31MzkgGfmGzdSwETPUE5z3YqnWlEhmGVPKx0MT/Bw=
+
+Name: javadoc/org/eclipse/oomph/setup/SetupPackage.html
+SHA-256-Digest: CbpUdGWdOlJmTdbCp3oq+Nr2DHEFUmX8kgGD7IyrwNI=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/class-use/ProductVersionImp
+ l.html
+SHA-256-Digest: X3JoK7SZOzkElK4NaNR9DCSjF9ESq2s0PRPc5snR2No=
+
+Name: javadoc/org/eclipse/oomph/setup/class-use/ProjectCatalog.html
+SHA-256-Digest: gGVSznV1bY4JdF/q0CINKfWcgId+mQBWAp9ysyAir80=
+
+Name: images/trees/S6iPPxM28shdYu396Wlp4WERVb4=.png
+SHA-256-Digest: fnIDJukNGFqRt5tSzjkko+y/2hqxqQDbXi8ocbyKllM=
+
+Name: javadoc/org/eclipse/oomph/setup/targlets/util/SetupTargletsSwitc
+ h.html
+SHA-256-Digest: 9ajRJcA1P2/JzYZ1eHRzMTEOo7qbP2gau9z3fO6XIcE=
+
+Name: images/trees/da9MsJLhqNIoVi8Wahq1klv757E=.png
+SHA-256-Digest: ALrZ1fnrj0LSZvoYBWku3md/DFUXJGo37ZDmhBDUxbg=
+
+Name: javadoc/org/eclipse/oomph/setup/launching/LaunchingFactory.html
+SHA-256-Digest: YgwMg5ZQKvFVZ2NnokXsHmu1xrnbGlwdJcgUG3gVizU=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/class-use/IndexImpl.html
+SHA-256-Digest: PaA1gpe6C4+8c55JyXhEw/C9gyqFENA5QVxU/KET2Kw=
+
+Name: javadoc/org/eclipse/oomph/setup/EAnnotationConstants.html
+SHA-256-Digest: gScy93ueKUCuQeKL+5Ah6WuHPWwxqgT521frrDG9QwY=
+
+Name: javadoc/org/eclipse/oomph/setup/jdt/impl/class-use/JDTPackageImp
+ l.html
+SHA-256-Digest: 0zFL2zHRt/9dJwk2/BdNVbpgt4bPQ8YOxuwCj7/MpQI=
+
+Name: javadoc/org/eclipse/oomph/setup/jdt/util/JDTSwitch.html
+SHA-256-Digest: 9Z+b/FcdFPtIZlpF/6otKkWyyBaSRDlrVNLZCzgNhfM=
+
+Name: images/trees/97uzqFxKTfqdSIrMotuNtazSEY0=.png
+SHA-256-Digest: cxk8nK2tNlO0my6Pm1/7Q993mJIkBiwTiNPf61wqzJA=
+
+Name: javadoc/org/eclipse/oomph/setup/targlets/SetupTargletsPackage.Li
+ terals.html
+SHA-256-Digest: r28aBtKc8hIfJWIadZoOzp0a7C30D8SrvJt2nLUtE/w=
+
+Name: javadoc/org/eclipse/oomph/setup/pde/impl/PDEFactoryImpl.html
+SHA-256-Digest: 248cBTZhzpFNDT4pVDIWvrCBDdRYp02zxdZyLWuu3nQ=
+
+Name: images/callout-2.png
+SHA-256-Digest: ZU2/i6WCXoBnzUcDs3WygObDmV9fX3iWrDrfIiRF0wQ=
+
+Name: javadoc/org/eclipse/oomph/setup/projects/class-use/PathVariableT
+ ask.html
+SHA-256-Digest: P54dBao3PsYz2PrcFJ1R2zD74dfBnvBIEMAePz1oku8=
+
+Name: javadoc/org/eclipse/oomph/setup/pde/impl/TargetPlatformTaskImpl.
+ html
+SHA-256-Digest: ZxJmnB3i49a+FLgwAF7+c5jNBFcrygwIOWYELoRET1s=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/class-use/CommandParam
+ eter.html
+SHA-256-Digest: YkOQlilWc+9RAVhb8ZlccPmf4/5uj5kAP3JpEwYb7mc=
+
+Name: javadoc/org/eclipse/oomph/setup/launching/class-use/LaunchingPlu
+ gin.Implementation.html
+SHA-256-Digest: xHBH+18MjTYWNi8cWlbX5j02fqe5QVD3pC7c3Lwjm+s=
+
+Name: javadoc/org/eclipse/oomph/setup/pde/impl/class-use/PDEFactoryImp
+ l.html
+SHA-256-Digest: aTzRquBOhaOvsqg3g35DOasDbzkJ7MK5eivtzj8UcTY=
+
+Name: javadoc/org/eclipse/oomph/setup/p2/util/class-use/SetupP2Switch.
+ html
+SHA-256-Digest: FZLQ3cFrqsflY4eZUa2KkCZpEhYMkhQ9pyYNJuET4qM=
+
+Name: html/concepts/DocBundlePool.html
+SHA-256-Digest: luwp11StswPH6F5NdBBsnuhV6C74ZH/EvkbJv6JGqp0=
+
+Name: html/reference/schema/index.html
+SHA-256-Digest: CeLT7/zh0IMXkf009Dbm0iko3m7wExJAAWwwy7kqnu4=
+
+Name: javadoc/org/eclipse/oomph/setup/projectset/impl/package-frame.ht
+ ml
+SHA-256-Digest: efkvQDXGHs76R06IoSIslVjxOodYvFwhZw95lYXk2zY=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/TextModificationImpl.html
+SHA-256-Digest: 7FMv7+E3rnOTJaeQXan1vVDvW+wZIirVexg6dcgQPJM=
+
+Name: javadoc/org/eclipse/oomph/setup/ProjectCatalog.html
+SHA-256-Digest: Suqem1tWmHohHXTJ86c/gGiUz5O/EVLbjlr9jc23X9U=
+
+Name: javadoc/org/eclipse/oomph/setup/maven/util/class-use/MavenSwitch
+ .html
+SHA-256-Digest: MnKC7rQjIzdXcfSAGVfCPMPgu+GGzCGsqq+GU6nZpUs=
+
+Name: javadoc/org/eclipse/oomph/setup/Project.html
+SHA-256-Digest: 3rnwVSrdhz1TDigGUFp2N6C9K4f93BHzkWL+viSbPHw=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/class-use/SetupTaskContaine
+ rImpl.html
+SHA-256-Digest: i0Ap0qwlt7+cJ3NhBxPpc8AdbPN7f97moFyjn7Tnskc=
+
+Name: plugin.properties
+SHA-256-Digest: w8PzHGE9OTI5BUyr0Zy/ffE7CnJuZhRiCAQMZjZbsHo=
+
+Name: images/trees/8e5IrwgzVvR4OMsSnWfydvsCyWg=.png
+SHA-256-Digest: IJHApX3uuPSLF1vuYjkfJv/EuzfpnRhKh3aVyTVSgGs=
+
+Name: javadoc/org/eclipse/oomph/setup/launching/impl/package-use.html
+SHA-256-Digest: ty40yyP0WfkPHgggi9uVpx9OYHz+nfBIvxB3O2vOARA=
+
+Name: images/minus.gif
+SHA-256-Digest: 3U7eC1Ec14pGX1LUpNcohKyL3/UReobaQaaUQKllSn4=
+
+Name: javadoc/org/eclipse/oomph/setup/projectset/impl/class-use/Projec
+ tSetImportTaskImpl.html
+SHA-256-Digest: 8NBauHT6CBHmeQxb7BNXQCdwY5vLyP/MavFXvvoFkFI=
+
+Name: images/trees/6nJ6YXPsvAEtPWeILBlIXip1O5Y=.png
+SHA-256-Digest: WHKYZtKgfzRy+hURy7FooLUYw1VrDWzsVMYWRGd4+Y4=
+
+Name: javadoc/org/eclipse/oomph/setup/editor/class-use/ProjectTemplate
+ .Container.html
+SHA-256-Digest: 17UwdZYs1fHUiXj9gEyQEROaHs8SBwcq+Ng/caoUjwg=
+
+Name: javadoc/org/eclipse/oomph/setup/projects/class-use/ProjectsPacka
+ ge.Literals.html
+SHA-256-Digest: 7cgCE226sb9IZcQdKAMqjkSG0+YCnXQzNQDy8agGDMg=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/FileAssociationsTask.h
+ tml
+SHA-256-Digest: jkg7TEvm2Wvqy0QGDel8yO9Kr/TMvr2tisGwHl7SOA0=
+
+Name: html/user/wizard/DocProjectPage.html
+SHA-256-Digest: jU+DvBgDL/wdIwxR6z/wgIhJd4+a6zIHjm++1fNhPuI=
+
+Name: javadoc/org/eclipse/oomph/setup/jdt/class-use/JDTPackage.Literal
+ s.html
+SHA-256-Digest: qNYXZ99pnK9EDS7kpsWY5DYsfwmHaqfFCipNKTE5g5k=
+
+Name: images/trees/hdvTwuV2MkeVj1bxBcbz2apLWFY=.png
+SHA-256-Digest: W8Or0msQ6+smoddKToyipZBEIhyFDkS6lWvQJyS/hrw=
+
+Name: images/trees/37udEs0XtIiD_sFwjxuCfulTWFQ=.png
+SHA-256-Digest: cm+zTg3e3kw2mq6EElfV7RaVAtnKpLKwZ4YvDAuTkyQ=
+
+Name: javadoc/org/eclipse/oomph/setup/util/class-use/SetupAdapterFacto
+ ry.html
+SHA-256-Digest: a8e75k5ZZg+fVHxpu4gPXaa5sbv3TDWHO3npwAs1e/c=
+
+Name: html/concepts/DocTaskExecution.html
+SHA-256-Digest: B7OsuUmlYZU9SZmFTk4rIzZNv8Hn3y/yAxGPLhK0IKw=
+
+Name: javadoc/org/eclipse/oomph/setup/TextModification.html
+SHA-256-Digest: S5mVML0gG6FuKny7AgpG6VWiTcjUie+O67eLDbfKmgM=
+
+Name: javadoc/org/eclipse/oomph/setup/maven/package-use.html
+SHA-256-Digest: poCz/EXh05gejPBeqVK1YYXbZIv6E2hygCTVKoAXP0c=
+
+Name: javadoc/org/eclipse/oomph/setup/log/class-use/ProgressLog.html
+SHA-256-Digest: J//p9X3/JWL0EEyNMrY1xEtl/NSY013vjLHEXUdJQQw=
+
+Name: javadoc/org/eclipse/oomph/setup/projects/impl/PathVariableTaskIm
+ pl.html
+SHA-256-Digest: kRcbULiTqlh6eEslTc2LYrGwyrgCfZ4encErINqDWns=
+
+Name: html/user/wizard/DocImportWizard.html
+SHA-256-Digest: UEzSl7/NznLzJfvIJ5hSNVQHeIBp8VdB1JMHiIP+/Nw=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/class-use/CompoundTaskImpl.
+ html
+SHA-256-Digest: ocbDKKWxeaGSWTu9HDYX8NvRqPJ9QZeuzfdB/SgdG1o=
+
+Name: javadoc/org/eclipse/oomph/setup/projectset/class-use/ProjectSetP
+ lugin.html
+SHA-256-Digest: yX0YGY8BIs9sczVYB2bOVf5eFRod6By19i/mrsQx+Ds=
+
+Name: javadoc/org/eclipse/oomph/setup/impl/VariableTaskImpl.html
+SHA-256-Digest: 92CkNNR4UXzMAvZbqcf4llz6+NKi6lB4yVlYxKrhDwM=
+
+Name: javadoc/org/eclipse/oomph/setup/ScopeType.html
+SHA-256-Digest: t4R3jWSuWoqywZL5m3c/C4ucPYpoUYv9xXL/6zRvuik=
+
+Name: images/editor-rst-hover.png
+SHA-256-Digest: GLmuxrwlSDL0KE0QQDk1ollHbixHgUX6grAHyQFbyas=
+
+Name: about.html
+SHA-256-Digest: ZYczHLHHJbJ2GSLe/MBOpU/zRznwNG9X6G0P5BecAYs=
+
+Name: html/user/wizard/InstallerFooter.images
+SHA-256-Digest: t1k74NLUal1ZCv+x4oF/FPdgnxO3tahBYG7m4EZl7KA=
+
+Name: javadoc/org/eclipse/oomph/setup/log/ProgressLog.html
+SHA-256-Digest: g3oPLuvucBP70gj9T7/Z6KdPk8prGc7K8ESVJb5gUfQ=
+
+Name: javadoc/org/eclipse/oomph/setup/p2/impl/class-use/SetupP2Factory
+ Impl.html
+SHA-256-Digest: fFgWutiEZFL/VZ9huBlEx5iXKWO3QZr/n0gcuz1fEWE=
+
+Name: javadoc/org/eclipse/oomph/setup/workbench/impl/class-use/Workben
+ chFactoryImpl.html
+SHA-256-Digest: C/CxmLA6KyMxe383CNEia++M5RLN2333qFAR5B2Yu8o=
+
+Name: javadoc/org/eclipse/oomph/setup/util/OS.html
+SHA-256-Digest: O2DrI/DAwDh4rCerVc2anUUoPhlN4r0IZJrABwvitO8=
+
+Name: javadoc/org/eclipse/oomph/setup/projectset/ProjectSetPackage.htm
+ l
+SHA-256-Digest: lCDUStwPdzNc8b9j0WASQmqpADE391UyMhFRMdgFMcg=
+
+Name: images/callout-1.png
+SHA-256-Digest: 0OgclcWdH4ZLUWc+PbzFfWgJ/Y0HowjIGqO2EHUTgTw=
+
+Name: images/trees/KD6edj8ieVN60Ezz2NeSuhXfrro=.png
+SHA-256-Digest: EBg6FnUvt8doku1pxsaBTcgSWLJ/uk6UD6ypZzWtMMc=
+
+Name: javadoc/org/eclipse/oomph/setup/ProjectContainer.html
+SHA-256-Digest: oirkWVfmPyIQGRzg54/nKKY+S/n607EeCzGKm8cqyQI=
+

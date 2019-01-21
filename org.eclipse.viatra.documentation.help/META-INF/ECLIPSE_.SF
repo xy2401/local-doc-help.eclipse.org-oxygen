@@ -1,0 +1,195 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: tJF9Aaowbz+KnSaSvIktJXLpPIpEw
+ GSVdV8UKDxWfz0=
+SHA-256-Digest-Manifest: gaH+R7xcOAVDIUGl+UjPLNxkUIoAgtRkkJusDlxDKp8=
+Created-By: 1.8.0_131 (Oracle Corporation)
+
+Name: html/tutorial/images/viatraIncr_example1.png
+SHA-256-Digest: kNbafTzgJ8ikgZpibVeL0kYzC3F0o/M2nr2MVp9oABg=
+
+Name: plugin.xml
+SHA-256-Digest: YwotDprFkLXnSh2RoIAnSJolmnnlZBaAzP1ywbQOtBs=
+
+Name: html/cps/VIATRA-Transformation-API-based-QRT-MTM-Transformation.
+ html
+SHA-256-Digest: QJYNqYR6pTPKip12Yp2AfdkWwpjliY7svz230N3gPIs=
+
+Name: html/tutorial/intro.html
+SHA-256-Digest: CCT5TsdxbtYly50qsEE5KMtkQy5oyI3bG9FJZRyQ+sE=
+
+Name: html/cps/Query-result-traceability-M2M-transformation.html
+SHA-256-Digest: xUanmzgWlRwSUYZI6Ul9+8mBCKfJTiVBZY+fkeMj6v0=
+
+Name: html/tutorial/images/install.png
+SHA-256-Digest: +ZiXyzS5qsmLAv43iRYHsJJ5PMTbZDekTNVMeKo1XAI=
+
+Name: html/cps/Plan-Executor.html
+SHA-256-Digest: x5Jb/QSegXYbDDQp2pmiRyw5/cqgFVcnHCrrGh4hQ5o=
+
+Name: viatra.toc.xml
+SHA-256-Digest: 0hukdl9DPPc3yNBR1IN76jJhn+LHxyYmY5yjgV5QtyI=
+
+Name: html/cps/images/modelgenerator.png
+SHA-256-Digest: ry6p8Pyl1fV3ZceIl6wt1XiiGhn7vflGSFdC1q8S9ck=
+
+Name: META-INF/maven/org.eclipse.viatra/org.eclipse.viatra.documentati
+ on.help/pom.xml
+SHA-256-Digest: MfGOgSRYK6cHeYw2+L5PIcA1h/2OWdaxZ19ChMFUCjA=
+
+Name: html/tutorial/images/viatraIncr_example2.png
+SHA-256-Digest: 5FO9xrez23JD3ccahg36KxjGV2voG6oIglSiAYLpL/4=
+
+Name: build.properties
+SHA-256-Digest: qstw7jzM7bEdxhSqd7gutFRmK2cw9GcbPBaI6D6PkSk=
+
+Name: html/cps/Home.html
+SHA-256-Digest: 4PhySYYhMGoWNbAH6HfbVAtkP60z7tisWpxY4CoWfp8=
+
+Name: html/cps/Model-Generator.html
+SHA-256-Digest: QMqAMO1zpcK0vW/jp8AjRvvoQ7dBexzDVy0h8FrtXzQ=
+
+Name: html/tutorial/images/eventdriven_transformation_wizard_type.png
+SHA-256-Digest: 4XZBiVe3wMAlHI3x3g4bV4LtqCw05WFHONFg4emSpN0=
+
+Name: html/cps/Alternative-transformation-methods.html
+SHA-256-Digest: yXY19dObCy1Maslq9BmeonrR7ddVLyIU2ZiUInOGsL4=
+
+Name: html/tutorial/images/query_runtime.png
+SHA-256-Digest: fV/rNjU5DRvSgsMWkowGduTCF6ldsnU8CiYfJbK4XIA=
+
+Name: html/cps/Partial-batch-M2M-transformation.html
+SHA-256-Digest: wdh0NkmI2vFqjRbSc+Bmzg3iSTLZpK5YSKsHiX/qWgM=
+
+Name: org.eclipse.viatra.documentation.help.contexts.xml
+SHA-256-Digest: 5ezibRIsiWwWYyNstU78UMPe13QMP8aRV8l99Zm/4Do=
+
+Name: html/tutorial/images/batch_transformation_wizard_type.png
+SHA-256-Digest: 1R8y+SHGPb4s9dh2hEDZ8VO3ba0uPBnefW8cEaSkX2I=
+
+Name: html/tutorial/images/query_generated_code.png
+SHA-256-Digest: ehzh+xEmdQnXs4VBplhGuaneUVBT8FLpYPdgADLE8Fo=
+
+Name: cps.toc.xml
+SHA-256-Digest: /ytWDGppw8bYvsAY35DASFKWiI3Sut5rDVK8eu842SI=
+
+Name: html/cps/CPS-to-Deployment-Unit-Tests.html
+SHA-256-Digest: LMWfcPQ5yBHdIe/MeW09goyQGEvv1+qlYG5kELTCW3w=
+
+Name: html/tutorial/images/viatraIncr_example4.png
+SHA-256-Digest: mMNS2jMG43Dd42RLtsIHRpa8yVLzhoGEW9cV3MGzYqQ=
+
+Name: html/cps/Deployment-change-monitor.html
+SHA-256-Digest: rVW7WsCnuZGTPq/TMZsDNX0pDbKfq7qVoPLGoIXhL3s=
+
+Name: html/tutorial/environment.html
+SHA-256-Digest: 8ALCA/sXa7f8z/NTzhgaR/zrYl2raaVzg6Gw+WuY7JA=
+
+Name: html/cps/Generate-CPS-models.html
+SHA-256-Digest: zemE/wJPtp6m5pE8Gv9GJuQ9ZGeTsZaYY1QhClKooO0=
+
+Name: html/tutorial/queries.html
+SHA-256-Digest: EiwwLk1j/tQI8xibQU0lpdwmiUGHzn1jQVnDDZUfKtU=
+
+Name: html/tutorial/batch-transformations.html
+SHA-256-Digest: smUfSkWdA8qncT8VJ0ITueYiOpNfg5bX5JSu9Uht2wA=
+
+Name: html/cps/Simple-and-optimized-Xtend-batch-M2M-transformation.htm
+ l
+SHA-256-Digest: zLC2CgEQQnbMI1hLwUqZc5K64SNNyPyfSnVsFKiLXn0=
+
+Name: html/cps/images/cps_ecore.png
+SHA-256-Digest: Eoy6xlKaf9GarC1oikwY1i6/Um6uJ6qqK+UpwLWMRK4=
+
+Name: html/cps/Incremental-Viewers.html
+SHA-256-Digest: nNI34crXkLx0JSxFnEE0JtJlmLE5P2rApj4NHB+Wuww=
+
+Name: html/tutorial/images/generate_cps_example.png
+SHA-256-Digest: FMxIj+XGbmQOpJB+3Ebf5FjhcbYv6cUE3ffCU+Rmmzc=
+
+Name: html/tutorial/images/viatraIncr_example3.png
+SHA-256-Digest: Hq3ZI7iVWq2Oofd7hNIsIJgycv6qoHpFCKUicAylGLg=
+
+Name: html/cps/images/codegenerator.png
+SHA-256-Digest: GRG375sq3jFg8wkNizPpqzpflznPR3iTFS0HGPC+IVI=
+
+Name: html/cps/images/overview.png
+SHA-256-Digest: frjaAAlQZNSPhpp+vEIC+idIarRNvJiC4LvWkvi3Sbw=
+
+Name: html/tutorial/images/viatrabatch.png
+SHA-256-Digest: MKLsJEC0ADVgp+XxgsUQtRgPhDLIOi0T5E6yd2QOJuY=
+
+Name: META-INF/maven/org.eclipse.viatra/org.eclipse.viatra.documentati
+ on.help/pom.properties
+SHA-256-Digest: FrwGsKwblNkqX/aJkKg0opnwonuXiOjc/DjFo1jJvKE=
+
+Name: html/tutorial/images/viatraIncr_example6.png
+SHA-256-Digest: OnNlcGuIzEgwp8MWlHB7+mfufst+shTMTiDc7228bRo=
+
+Name: html/cps/Code-Generator-Distributed-realization-Xtend-templates.
+ html
+SHA-256-Digest: zU4Tir0W0pCOCMMi5FL5JVCpj9P5Sz9vsZQJ9DNlyNQ=
+
+Name: html/cps/CPS-to-Deployment-Transformation.html
+SHA-256-Digest: /anKsfdHoZHYw6BWz4z1Q5NOL4TcEzanBmmSv0y0PgQ=
+
+Name: html/language/usagecounting.html
+SHA-256-Digest: KVIRMFTXaMpvjrqSYJEENXYF/Mfgc2yQV8zeANtrfE8=
+
+Name: html/tutorial/images/viatraIncr_example5.png
+SHA-256-Digest: oiYIpGzbQiDyJ/erHgiNyaBNsIwEajL7Ovp4Xwlp86A=
+
+Name: html/cps/VIATRA-transformation-API-based-batch-M2M-transformatio
+ n.html
+SHA-256-Digest: l1DNJzz4n5EjPaPM4ip/+l47IY417xiPElaWuvJ7Xkk=
+
+Name: html/tutorial/images/run_headless_application.png
+SHA-256-Digest: EgM3CbMFSj2Cr8Kh90rm1G+PCs35PpDI2TbsIHrbLa0=
+
+Name: html/cps/images/traceability_ecore.png
+SHA-256-Digest: wLHqSLVWNQninH1AG+YfJ67HMezuqrKLe4AcpLo1h88=
+
+Name: about.html
+SHA-256-Digest: XIAW3iP7OQU3Woo0skVEm9BKSc2o6t+OCZxcDCq/f0k=
+
+Name: html/tutorial/images/eventdriven_transformation_wizard_name.png
+SHA-256-Digest: ba80HKkHfqhkpD82FCY/ii5YRWQEDHtyfq8M1TiCrHU=
+
+Name: html/tutorial/query-api.html
+SHA-256-Digest: BPXb+QLRN6E6OIDac3ijm5Ky14Ujbw+2MqzHN0yEAlM=
+
+Name: tutorial.toc.xml
+SHA-256-Digest: /ijYKsGUMhkX4wIaLkxZcVe3yVyuSAmyDIWdEcZUGlA=
+
+Name: html/tutorial/images/transformation_wizard.png
+SHA-256-Digest: FXoyQcETnvqDB0XruA6XIVMm7EmHpL1dxWBsQxWcK4c=
+
+Name: html/tutorial/incremental-transformations.html
+SHA-256-Digest: 6BNIowMEa1kLE5gCCwgkBTwKFQ2XLuxAWZb2HIraO4k=
+
+Name: html/cps/Simple-Xtend-and-Query-M2M-transformation.html
+SHA-256-Digest: z8Yd+iKv4O96/yqFVpCxtpKkVZAWih6EijnxFnjxuG0=
+
+Name: html/cps/images/deployment_ecore.png
+SHA-256-Digest: UNNe7/+rBUMVC1X+DIk2WXbmMz2uhJpCs1Yqi31zzU0=
+
+Name: html/cps/images/plan.png
+SHA-256-Digest: BoZanDBWGIdCtWJjoF3Vfv3Hxtp2TDdn8cLFycKehSY=
+
+Name: html/cps/Domains.html
+SHA-256-Digest: loJTNM7vq2YV2Esw50x0YdbhzhIPytJq7j5jyB8WD+4=
+
+Name: html/tutorial/images/batch_transformation_wizard_name.png
+SHA-256-Digest: FPYuNhJQFFEYdxOQnl3qly1MCGDUa0mcPrKNxIkkU2w=
+
+Name: html/cps/Explicit-traceability-M2M-transformation.html
+SHA-256-Digest: uR5OJu5PId8Flm3HM0ynnDY3W94m7zWhzYEEY2LHYEQ=
+
+Name: html/cps/images/planexecutor.png
+SHA-256-Digest: xw+bjtL/IMLDxBQZ6pCnKcmbqCZ8wSPwgr3lAz4Lw3Q=
+
+Name: html/tutorial/images/queryresultview.png
+SHA-256-Digest: 9YfpVYSAy0ALZ225qh8sznASmJApd9R+MPbr3cUsopg=
+
+Name: html/cps/Live-Validation.html
+SHA-256-Digest: 4ZVsm7WEHRhd4/GOKAd/2W5RatIJgMydN7hiQtSoNtA=
+

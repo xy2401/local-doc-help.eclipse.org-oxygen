@@ -1,0 +1,182 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.9.6
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-SymbolicName: org.eclipse.egf.doc.user; singleton:=true
+Require-Bundle: org.eclipse.help
+Created-By: 1.8.0_121-b13 (Oracle Corporation)
+Bundle-Version: 1.3.0.v20170418-1840
+Bundle-ManifestVersion: 2
+
+Name: html/gettingStarted/nutshell_fcore/images/egf_pic5.png
+SHA1-Digest: 1wRp68eMKs852Uj9Gr8KSVqKctQ=
+
+Name: html/gettingStarted/nutshell_fcore/images/egf_pic6.png
+SHA1-Digest: aVNWS3o6yw4+ayP24vu/Xae9dvc=
+
+Name: html/gettingStarted/nutshell_fcore/images/egf_pic7.png
+SHA1-Digest: 8k6kdYmExYx52G1dFqycyiJFbE8=
+
+Name: html/notices.html
+SHA1-Digest: A5KZBVqBdwc1HzqCsAiDNaNKIIw=
+
+Name: html/gettingStarted/nutshell_fcore/images/egf_pic9.png
+SHA1-Digest: jAgxC68dDufMPIg/0pFKirM+1/M=
+
+Name: html/gettingStarted/nutshell_pattern/images/egf_pic1.png
+SHA1-Digest: phGRwTUSsGPWvFNrBqZemaISp/0=
+
+Name: html/gettingStarted/nutshell_examples/nutshell_examples.html
+SHA1-Digest: b3BQ2TykLQlkkAhk363xUZe6g4I=
+
+Name: html/gettingStarted/nutshell_examples/images/Thumbs.db
+SHA1-Digest: 6PqUM4Gb+RryoPdDlCda9vZcUlc=
+
+Name: html/gettingStarted/nutshell_fcore/images/egf_pictures.ppt
+SHA1-Digest: tqPWy1G1bonIM+tUS3K+mOD3FTY=
+
+Name: html/gettingStarted/installation/installation.html
+SHA1-Digest: /Ama5aYMX8HFVdUTYtsXslEP0DY=
+
+Name: html/gettingStarted/mainFeatures/mainFeatures.html
+SHA1-Digest: dauhTItW9sdjCVnjxIoPwrG55M0=
+
+Name: html/gettingStarted/nutshell_pattern/images/egf_pictures.ppt
+SHA1-Digest: Pw4sLqsWBlFcvE6pNMrzfRlvDJk=
+
+Name: html/gettingStarted/nutshell_examples/images/EMFWrapper_1.png
+SHA1-Digest: 8/CJaiuLRV8UfZrKg4SMoA5gCcQ=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: html/whatsNew/egf_whatsnew.html
+SHA1-Digest: Xhbe8TcP5A6+Kr6NfDVISk7D9yQ=
+
+Name: html/gettingStarted/nutshell_fcore/nutshell_fcore.html
+SHA1-Digest: TCIF9L30NGu5ihsYHjMhjBLbEis=
+
+Name: html/gettingStarted/nutshell_pattern/images/egf_pic1_2_commented
+ .png
+SHA1-Digest: vpbe2QR6JoT7V+6fjETFw/FsBI8=
+
+Name: html/gettingStarted/nutshell_pattern/images/egf_pic1_3.png
+SHA1-Digest: S1eDu4rmcfeHVCN0dLqIEYa9UAg=
+
+Name: html/overview/images/exampleFCAssembly.jpg
+SHA1-Digest: f1t0OoeStQA/0Ok/6GMuYjal/Gg=
+
+Name: html/gettingStarted/nutshell_fcore/images/egf_pic2_commented.png
+SHA1-Digest: BAwLTd16Y1ywDuvsv9SE8FySN9A=
+
+Name: html/gettingStarted/nutshell_pattern/images/egf_pic1_4.png
+SHA1-Digest: lzBwu3PcvLOe3MlbniNRmIBtBfg=
+
+Name: html/gettingStarted/nutshell_pattern/images/egf_pic1_5.png
+SHA1-Digest: CDGbe9n2x2UAMvS53inESH5G+eU=
+
+Name: html/gettingStarted/nutshell_fcore/images/egf_pic4_commented.png
+SHA1-Digest: 3M1plnfe42t9vSvpwfrfIAJUe4c=
+
+Name: html/gettingStarted/nutshell_pattern/images/egf_pic1_6.png
+SHA1-Digest: BsFYOoV3VumNl2VKg4wV8As437w=
+
+Name: html/gettingStarted/nutshell_pattern/images/egf_pic1_8_commented
+ .png
+SHA1-Digest: 5SxE3a4vQi+PMpidt9mnza36m00=
+
+Name: html/gettingStarted/nutshell_fcore/images/egf_pic8_commented.png
+SHA1-Digest: PZKx/kmtgVdgSsLUUc+1iNBzZXo=
+
+Name: html/gettingStarted/nutshell_pattern/images/Thumbs.db
+SHA1-Digest: g0H+c9x0/EvBoITfJON/AJNJkBs=
+
+Name: html/overview/images/exampleFCAssemblyLarge.jpg
+SHA1-Digest: 0dyqGVP1mFcSxoqARRROy99Vf2c=
+
+Name: html/gettingStarted/nutshell_fcore/images/egf_pic10_commented.pn
+ g
+SHA1-Digest: cGIil1SMQUlVRYc1d4gLjKXDat8=
+
+Name: html/gettingStarted/nutshell_fcore/images/egf_pic10.png
+SHA1-Digest: GMqCut17mDMNxjMinZZ+DizPqNM=
+
+Name: html/gettingStarted/nutshell_fcore/images/egf_pic11.png
+SHA1-Digest: nNr5KaKM5xkPfSBTb+rRKtKCBRM=
+
+Name: plugin.properties
+SHA1-Digest: OzHkEo7oeIa1+J2wSwUkDbNDemc=
+
+Name: html/overview/overview.html
+SHA1-Digest: eX9P3mIbYmTsnqB8jzqryQ/Q5nA=
+
+Name: html/about.html
+SHA1-Digest: 9AkSL2EXwsAcbBPtoMhMIQpBrL8=
+
+Name: html/overview/images/egfPerspective.jpg
+SHA1-Digest: ucCPRbXrVxEH+OoGcgqjZOlPUVQ=
+
+Name: html/overview/images/egfPerspectiveLarge.jpg
+SHA1-Digest: 6XaZHWJFeoYA4m/YoDneXnxXztU=
+
+Name: html/gettingStarted/nutshell_examples/images/EMFWrapper_1_1.png
+SHA1-Digest: 8FSPWT8fdXjOQstBrW6K58U6pmk=
+
+Name: html/gettingStarted/nutshell_pattern/nutshell_pattern.html
+SHA1-Digest: 7rZPMo8Www/s58DTNHw2bS2RJ3Y=
+
+Name: plugin.xml
+SHA1-Digest: ZX756QDNC7J5Re2gpkORZWAJIf0=
+
+Name: html/overview/overview-complete.html
+SHA1-Digest: /yc8TWF/y1YS+uU+0taJGUIDCQI=
+
+Name: topics_GettingStarted.xml
+SHA1-Digest: HxJrCjBz64VDvwJqTjgxTq6OSug=
+
+Name: html/book.css
+SHA1-Digest: iz/ufXiaLQAnqVNuwWJTOYyOHg0=
+
+Name: about.html
+SHA1-Digest: NIJtBuujI9i0f1fp1AfGme2MG3w=
+
+Name: topics_FactoryComponents.xml
+SHA1-Digest: vQaHAj2PCcFoFKoEGrfNdU8H81Y=
+
+Name: toc.xml
+SHA1-Digest: 8KBJmvTroUYAjgrTXAoy3+VsmrI=
+
+Name: html/gettingStarted/nutshell_examples/images/egf_pictures.ppt
+SHA1-Digest: 0biXjJV4UEX7PjRpTA+Qp5hj6Ow=
+
+Name: html/gettingStarted/nutshell_pattern/images/egf_pic1_1_commented
+ .png
+SHA1-Digest: 6+1hipkkn3kR0miZZ7/ed0Jf24w=
+
+Name: topics_Reference.xml
+SHA1-Digest: 9qtWrc98OHsQGNzcYQGj+O1Rlss=
+
+Name: html/gettingStarted/nutshell_fcore/images/egf_pic1_commented.png
+SHA1-Digest: GSXAZmYWf+VLS7cTiz9NEABKL3Y=
+
+Name: html/gettingStarted/nutshell_fcore/images/egf_pic1.png
+SHA1-Digest: YjLiELwGM8NBM26zV3OO9BYD8aU=
+
+Name: html/gettingStarted/nutshell_fcore/images/egf_pic3_commented.png
+SHA1-Digest: uwoJg2BhwHS0lwY9PX79kt+H+9M=
+
+Name: html/gettingStarted/nutshell_fcore/images/egf_pic2.png
+SHA1-Digest: Ls1I4lfMg9Pbf5m3iwsqOQnLr9w=
+
+Name: html/gettingStarted/nutshell_fcore/images/egf_pic3.png
+SHA1-Digest: ioi//p9xV4i9ntMxpAwgiHwISHI=
+
+Name: html/gettingStarted/nutshell_pattern/images/egf_pic1_7_commented
+ .png
+SHA1-Digest: B8dq5CJVvTy3UFWGHRNIkayt6oU=
+
+Name: html/gettingStarted/nutshell_fcore/images/egf_pic4.png
+SHA1-Digest: 7TR3tzAMoUAPJZXpHlO4InDsrEU=
+

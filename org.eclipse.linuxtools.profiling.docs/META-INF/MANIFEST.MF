@@ -1,0 +1,92 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.eclipse.linuxtools.profiling.docs
+Bundle-SymbolicName: org.eclipse.linuxtools.profiling.docs;singleton:=
+ true
+Archiver-Version: Plexus Archiver
+Built-By: genie.linuxtools
+Require-Bundle: org.eclipse.help
+Bundle-ManifestVersion: 2
+Bundle-Vendor: %provider
+Bundle-Name: %bundleName
+Bundle-Version: 1.0.0.201803061555
+Bundle-Localization: plugin
+Created-By: Apache Maven 3.5.2
+Build-Jdk: 1.8.0_162
+
+Name: about.html
+SHA-256-Digest: 1fuYr0bu6NsJZCAmSom5QtnvnV0Cg8DwLn77Dd1Ql24=
+
+Name: plugin.xml
+SHA-256-Digest: UB0ymZFdWHTBl8dVe9MiyS8WFgOeDMjM+/hfyuwMuhQ=
+
+Name: images/home.gif
+SHA-256-Digest: 4cB3uzSzawBtPtcQboiWU16+RMytdhxFuZZGzwENCF8=
+
+Name: images/next.gif
+SHA-256-Digest: IFqoxpwo9EXNAc2xh0M2KmlZWC1RBMxv8nWCwhMwRtI=
+
+Name: Linux_Tools_Project/Profiling/User_Guide/Updating-This-Document.
+ html
+SHA-256-Digest: siH9pF1cF/iyQabDoZ9vlji0zISq3ZJGEHNm5bCVIGw=
+
+Name: images/prev.gif
+SHA-256-Digest: I4Bs/TypPpF2FValAaI3lNDWuD4KFikkGjdaeiyR4Yc=
+
+Name: Linux_Tools_Project/Profiling/User_Guide/images/LinuxToolsProfil
+ ingConfigurations.png
+SHA-256-Digest: 4cA2hKcOjdJhQpateyogiAi0vR5mRggTudIJm+VtIcM=
+
+Name: Linux_Tools_Project/Profiling/User_Guide/images/LinuxToolsProfil
+ ingPreferences.png
+SHA-256-Digest: CWJ3oDDXfZjr1tR5s/x80XNDkHLTdPcPd6dEXnmDppI=
+
+Name: help.css
+SHA-256-Digest: UCuR8Qyhx1o7HqT9o8lvZb2d5k/w0hlkeZGQT0LLn0Y=
+
+Name: Linux_Tools_Project/Profiling/User_Guide/images/LinuxToolsProfil
+ ingProperties.png
+SHA-256-Digest: RpTsSR3ZQas1oYL02/9bQJxD39qDXe2WQFLIcLmJFZg=
+
+Name: Linux_Tools_Project/Profiling/User_Guide/Profiling-Categories.ht
+ ml
+SHA-256-Digest: rxBNyqltl3v9yJk/n1B+m1p5T5GQQfTsBp9mpt3zeUQ=
+
+Name: META-INF/maven/org.eclipse.linuxtools.profiling/org.eclipse.linu
+ xtools.profiling.docs/pom.xml
+SHA-256-Digest: AiRMiJ3XsfcaJ5sU/6hpVhQsVjNuwDikoq9AGYHtt+E=
+
+Name: META-INF/maven/org.eclipse.linuxtools.profiling/org.eclipse.linu
+ xtools.profiling.docs/pom.properties
+SHA-256-Digest: I8WEv1w8CkWLN0zsfH9FCwEj4ku2zIwZfxxEs+0JA7Q=
+
+Name: book.css
+SHA-256-Digest: UCuR8Qyhx1o7HqT9o8lvZb2d5k/w0hlkeZGQT0LLn0Y=
+
+Name: Linux_Tools_Project/Profiling/User_Guide/Profiling-Configuration
+ s.html
+SHA-256-Digest: ebGlxDLSNQ839c19DhU8n0FnPKFl77179oOKcggY/qY=
+
+Name: toc.xml
+SHA-256-Digest: K9j9b7I5lTcbbGdijPomkA/1g3lld4IPiYrziF1JGps=
+
+Name: Linux_Tools_Project/Profiling/User_Guide/User-Guide.html
+SHA-256-Digest: 1vu4FeXxste6CF8lPzFFqVE0Ivjp2iD7vQU1iq1QvvE=
+
+Name: plugin.properties
+SHA-256-Digest: DvZSvbOFVylNjqFvuLciGkOqhHJWA6WPL1SWJbpXF5w=
+
+Name: Linux_Tools_Project/Profiling/User_Guide/images/LinuxToolsMemory
+ ProfilingTab.png
+SHA-256-Digest: xG3z1r9i51rZ14izp0SG/nZus5R4gnNb5PBZ+scUL+4=
+
+Name: Linux_Tools_Project/Profiling/User_Guide/images/LinuxToolsMultip
+ leProfilingConfigs.png
+SHA-256-Digest: KOkAocP1Li3/oqoc1DfHVWGh/Y5Tr8uHeLkH2P8Z81w=
+
+Name: Linux_Tools_Project/Profiling/User_Guide/images/LinuxToolsProfil
+ ingNewIcon.png
+SHA-256-Digest: kUOo0WaK0/3vP66OvBsOc1AFNWv+q7Sj1KPEpTaI0/s=
+
+Name: contexts_PROFILING.xml
+SHA-256-Digest: hR532WWyDlZpttssQtC5eygzax+9CnzSRkcZ9ZmS0h8=
+

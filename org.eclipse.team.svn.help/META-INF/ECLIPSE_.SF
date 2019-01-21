@@ -1,0 +1,755 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: 6l4KweI5N40sLtO3jbVsrayhjoA=
+Created-By: 1.6.0 (IBM Corporation)
+SHA1-Digest-Manifest-Main-Attributes: VMcP/KnxILG5vcDsHvIYogbmrH4=
+
+Name: images/next.gif
+SHA1-Digest: vLNo31Omy4xcDZn4pEu7vz608Z0=
+
+Name: teamSupport/SVNaction/extract.html
+SHA1-Digest: Cyy+vaZ4q+C1wxiLDMAweAN8XEU=
+
+Name: about.ini
+SHA1-Digest: 1w1LMzmtbR6GU9+8JXLOyYsYsQ8=
+
+Name: images/share_repos.png
+SHA1-Digest: wsaiIw0zaXrvWqNnfJUZBDAQzw0=
+
+Name: images/update_sites.png
+SHA1-Digest: Ty4qR/y0B4AWwJf2lLd4KyP4WxI=
+
+Name: teamSupport/SVNaction/tag.html
+SHA1-Digest: FkN420cqA53Hae2Avr014enJXj4=
+
+Name: teamSupport/SVNaction/branch.html
+SHA1-Digest: /TP+3fTtCgWIxcups1Zt5GwSUUo=
+
+Name: images/pref_error_reporting.png
+SHA1-Digest: pfmWhQwmFnWopmSRAXByQmyUHfg=
+
+Name: images/synch_button.gif
+SHA1-Digest: 5uzJWoq6gXlGBNQLvqh+dij05HI=
+
+Name: images/unlock.gif
+SHA1-Digest: LLGp+bHxn8DSdTpB6RXa16T4890=
+
+Name: images/collapseall.gif
+SHA1-Digest: t81XVjiTt0TmA1oiB+2WzR65lj4=
+
+Name: images/check_out_into_project.png
+SHA1-Digest: 8QH3XRVeAX6WAwIP6keSOpgIJ5w=
+
+Name: images/show_out.gif
+SHA1-Digest: a5fOV5N/HddtXyRS8Z/xuXxoO84=
+
+Name: teamSupport/SVNaction/set_externals.html
+SHA1-Digest: qUNyRMNvtNB+FJQ1vUBNj8DsyVQ=
+
+Name: images/find_and_update.png
+SHA1-Digest: 3/6NpyQrHupZeZbtoZBmJriOYYI=
+
+Name: images/update_site_subversive.png
+SHA1-Digest: NniF2VQ/ZIqlLeZa5DPwULYcD1A=
+
+Name: teamSupport/SVNaction/set_keys.html
+SHA1-Digest: zYaW3ZfBqUlJxJnLJmPpJnpGnJM=
+
+Name: teamSupport/console.html
+SHA1-Digest: Br9EPMI+H90Wo9D1lBirbmcMHsM=
+
+Name: preferences.xml
+SHA1-Digest: pn9+It52whcdSuk2HOnBO7Ph0F0=
+
+Name: teamSupport/SVNaction/share.html
+SHA1-Digest: Bl0m6qjrV9oZK0Y0H78KX0k24ng=
+
+Name: images/discovery_connectors.png
+SHA1-Digest: Yuo2tvBBKVJqoz1wd9trU3G1KHQ=
+
+Name: images/pref_pass_manage.png
+SHA1-Digest: eZy6g/Jca92AVr+6MOFKqOQtn34=
+
+Name: prefs.html
+SHA1-Digest: 8HhPbq1UctbUgW4iKka8s6F36mM=
+
+Name: images/modules.png
+SHA1-Digest: jwWy9HMSMFvKfNHjxFQZgtPxWOM=
+
+Name: images/check_out1.png
+SHA1-Digest: 3JZcqOIjoBklYLHvOKLzMr0i7pw=
+
+Name: teamSupport/layouts.html
+SHA1-Digest: uGLg3NhQhOVeMUbtIxmUmnuYo74=
+
+Name: images/mylyn2.png
+SHA1-Digest: xA2yi514OL2C8DCueZwHkLf+bYU=
+
+Name: teamSupport/compareEditor/compare_oc.html
+SHA1-Digest: 1011tdndbenbkxaP0Ymaf7fMN94=
+
+Name: images/grey_color.png
+SHA1-Digest: fKnDX20jIpFRj3l9gxkWvMK2a4U=
+
+Name: images/add_to_vc.png
+SHA1-Digest: UMYVm6HMOUvoJ3ku7CHPKJpZZxg=
+
+Name: images/lock.gif
+SHA1-Digest: ewAHa8MF90OWYMK2y7D9yDtIXt4=
+
+Name: teamSupport/actions.html
+SHA1-Digest: QaVUNyYDevIHJcDu4tJwb4Kg+qk=
+
+Name: teamSupport/refactor.html
+SHA1-Digest: ESdNB+lHZis+i+m6og7diz5X7F0=
+
+Name: teamSupport/SVNaction/location_ie.html
+SHA1-Digest: suB3lAQCCag5UvFX7cZxre/M86Q=
+
+Name: images/install.png
+SHA1-Digest: E5xvDGOeShevr/2zAbasGWHdaZk=
+
+Name: images/install_license.png
+SHA1-Digest: Bt1/tn1/ZHDbAMR13uFDW4NTmT8=
+
+Name: teamSupport/SVNaction/add_vc.html
+SHA1-Digest: 2G80TBCAEuWO1XbVLIeDAYhQUbo=
+
+Name: preferences/pref_pass.html
+SHA1-Digest: 2d9vcRvOAy7JJWqxLgUFMk+aKxw=
+
+Name: gettingStarted/subversion/svn_diffs.html
+SHA1-Digest: 7XKJ/5Tp7AMVqswoJfufe65rVyY=
+
+Name: teamSupport/keys.html
+SHA1-Digest: Q4QFm7eaXjreBo6fewy2H0/7XGo=
+
+Name: images/add_externals.png
+SHA1-Digest: rtI42+DepRXwNWR39BohIkY1oRA=
+
+Name: images/migrate.png
+SHA1-Digest: 9g9/C1mG+P4VZ60TpM4H7dBPoAU=
+
+Name: teamSupport/revision_graph.html
+SHA1-Digest: Y4xs33yiJs86jynDh0Igq9vzzuE=
+
+Name: images/pref_label_decors.png
+SHA1-Digest: w5KvJTuxpet+lUI+zHIxXUpGy5A=
+
+Name: teamSupport/repos_persp.html
+SHA1-Digest: lWRjnu++KCmtXhNpqESZneKj93U=
+
+Name: svn_team.xml
+SHA1-Digest: pnsRbkdZYaXUylP9nhYQgFICTIM=
+
+Name: gettingStarted.html
+SHA1-Digest: VsW+Y1eZZ1Ttr0ObyMIZWsXha5w=
+
+Name: preferences/pref_autoprops.html
+SHA1-Digest: twXwok3ab3ws/GUrpXQ/uYlujc0=
+
+Name: images/svn_locks_view.png
+SHA1-Digest: UiOSdWBsz6BzoXOdv2R6EojGXSY=
+
+Name: images/switch.png
+SHA1-Digest: uRbN8mWWUj2RPmBpn1h6ablf1xQ=
+
+Name: preferences/pref_annotate.html
+SHA1-Digest: NbMaJZfmxsZVFmzSUYfRbC+Mj90=
+
+Name: images/install_finish.png
+SHA1-Digest: o8MBfx2L3W3ftGtTUcwzm++ruOM=
+
+Name: images/guide_1.gif
+SHA1-Digest: OxQPO14ehXDL/rFLoM3rVtJijig=
+
+Name: images/add_keyword.png
+SHA1-Digest: yTqXIQTBnIi90m1EVld2t6c6wHY=
+
+Name: images/create_patch2.png
+SHA1-Digest: Vq6LpHYmhuJzJQHIhuLk/QnFsJc=
+
+Name: teamSupport/errors.html
+SHA1-Digest: RLR9zRVHFscNVYz4zaGozcur/C0=
+
+Name: toc.xml
+SHA1-Digest: SBCAGJPu6m36A85WM4Oniqw1/3w=
+
+Name: images/svn_info.png
+SHA1-Digest: ii1k4Tfv8zI3c14jhH0RS7h62qM=
+
+Name: images/edit_tree_conflicts.png
+SHA1-Digest: F2oYi2jUs0iRbvevQj7yV9B5fhA=
+
+Name: teamSupport/repos_view.html
+SHA1-Digest: uSPo/o5t7hzk25aUaik+eW02t80=
+
+Name: teamSupport/tree_conflicts.html
+SHA1-Digest: mbm4jOvRGPZSa9qS3Z2QM4Ua+j8=
+
+Name: images/commit.gif
+SHA1-Digest: kKF665LfoRksh+9pCy2b//o/d5A=
+
+Name: teamSupport/create_repository.html
+SHA1-Digest: Rs27bm2+a89tMi8LZ3DHCoqCvuc=
+
+Name: images/manage_configuration.png
+SHA1-Digest: 9Y5wJAoIHzQwpF2iFcsqoWD3pQU=
+
+Name: images/pref_label_decors3.png
+SHA1-Digest: x1DqcsixB9PWzKdHzuIFN6KdyuI=
+
+Name: gettingStarted/aboutSubversive/linux.html
+SHA1-Digest: NeXXk7Ay1pp9SjOFwD6ZK9tEWg8=
+
+Name: subversive.xml
+SHA1-Digest: LRGw1G3CEsnSV1QTEZvcYyahV2Y=
+
+Name: gettingStarted/aboutSubversive/arch.html
+SHA1-Digest: Rzu+vR1Bk0g94op28hpTDT80rSE=
+
+Name: images/conflict_changeC.png
+SHA1-Digest: bPbGAN8iRdWOtOFf28AfbS0CyXk=
+
+Name: gettingStarted/aboutSubversive/extensions.html
+SHA1-Digest: xJOqLQ9he8pmUzeSU6sWo8rhzGQ=
+
+Name: images/svn_props_view.png
+SHA1-Digest: 4lxBejsPvgP8ETXmM0mlg8t/mn8=
+
+Name: images/rep_loc_layout.png
+SHA1-Digest: o3pkr5ns5glPEovrSXwF2DJRDwc=
+
+Name: images/lock.png
+SHA1-Digest: ZZQPQFDU7guma3VpRDaaSXhvqjY=
+
+Name: teamSupport/compareEditor/compare_ac.html
+SHA1-Digest: ypeYXpgzzAOUtc3N0wFjRdb2gP8=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: SAqY+5ITAL0mkdYeijlSRhyIaZk=
+
+Name: images/svn_menu.png
+SHA1-Digest: ZR2W4DTF2sKQKmklyb4oWFrXDfw=
+
+Name: teamSupport/svn_main_menu.html
+SHA1-Digest: Tz81zG9NiyGnj0H0d+hqYVRdgOM=
+
+Name: images/conflict_add.png
+SHA1-Digest: 5f0VGnP8v6t3STkf2xF3JRNcm4k=
+
+Name: images/synch_view.png
+SHA1-Digest: WaCt/OllViP9sEkiukn72QR+7oQ=
+
+Name: images/remote_change.png
+SHA1-Digest: yQ3htom2gIVQNsLRYTC552gM8xo=
+
+Name: images/share_exists.png
+SHA1-Digest: b5EzJYQyPbYOynHaR+A4Hs9RTYY=
+
+Name: images/mylyn1.png
+SHA1-Digest: jK6Cxgd7qCKN71vk7YIJjD3XkXA=
+
+Name: getting_started.xml
+SHA1-Digest: 2nRwYPBVnx0A3taXFrb5K6FHa/E=
+
+Name: images/revert.gif
+SHA1-Digest: a8H2NqNXUfLr45Q7dRlkELDxn+k=
+
+Name: images/new_rl_ssh.png
+SHA1-Digest: a16DPckZ2TlWoUTje45T5N1FmrI=
+
+Name: images/showhistory.gif
+SHA1-Digest: m0eQxJe5JMp5j3OuGKliWgTdUAQ=
+
+Name: images/create_patch.png
+SHA1-Digest: qsrocN/LiL6dyny9MqK5dOzOmkk=
+
+Name: images/new_rl_ssl.png
+SHA1-Digest: bCpLfMEGwIm0ukcMP77QUHcXNEA=
+
+Name: images/open_perspective.png
+SHA1-Digest: Eqoi+ukdDq+xq8bVJ4DfCLuwngk=
+
+Name: images/pref_general.png
+SHA1-Digest: myfs2GLnhlANttKb7vPf98Z5cNE=
+
+Name: teamSupport/new_location_wiz.html
+SHA1-Digest: TDomQZ77CViy5fBTnnqetYiXQKQ=
+
+Name: preferences/pref_comments.html
+SHA1-Digest: GozmDRC6hBE8PIZXneGG+isR01Q=
+
+Name: Subversive.png
+SHA1-Digest: VIWUUpmBic7lrSzHDRfdzIGYG2Q=
+
+Name: images/expandall.gif
+SHA1-Digest: Qj/9qAg7fs1IUm5yBiTB2yjaTZo=
+
+Name: images/graph_dialog.png
+SHA1-Digest: GV/yFnDBiTFDow9LNhcZcAoA11w=
+
+Name: images/label_decors.png
+SHA1-Digest: Uz7ologlxVbPwv6w9r9+x6EyR64=
+
+Name: images/outgo_change.png
+SHA1-Digest: QlUYlT/a9HjYRUwL/uWzN6wa1uc=
+
+Name: plugin.properties
+SHA1-Digest: gR7OyUBijw/eV3pxcOp6ETXuMs0=
+
+Name: gettingStarted/aboutSubversive/mylyn.html
+SHA1-Digest: KSI/KtSYpN15mPMa7cRNOtwfi0k=
+
+Name: preferences/pref_graph.html
+SHA1-Digest: n8ngDi6jxYBhNqZjsQcu9PiSZwc=
+
+Name: images/create_repository.png
+SHA1-Digest: Deduk5qA50B56h10sGVNXMrWi28=
+
+Name: images/revision_selection.png
+SHA1-Digest: Icpc30FVcWXHnDckvrseLANhxyA=
+
+Name: plugin.xml
+SHA1-Digest: 7sc8Jgfv/lCAKznhZj7H3Hq1JY0=
+
+Name: images/arch_diagram.png
+SHA1-Digest: 7BGWt7HsrI86SD25KtC5vbkeNtg=
+
+Name: gettingStarted/aboutSubversive/modules.html
+SHA1-Digest: NrYRiEkJXWU7eW2/TDgPeyNIpOQ=
+
+Name: images/install_search_res.png
+SHA1-Digest: vHRoqiv743ovVbmpXgqXNzkGntc=
+
+Name: installation.html
+SHA1-Digest: qCe2jUci4L2ER/KwzQnq7VSlhwo=
+
+Name: teamSupport/SVNaction/override.html
+SHA1-Digest: ztmNgKyATmatYl8sS87a52DJXak=
+
+Name: images/pref_graph.png
+SHA1-Digest: vPvLNTWj7xJdBh2yZsGN3kTREoE=
+
+Name: images/commit.png
+SHA1-Digest: uKT7SJxx55esALT2amTQMiYto54=
+
+Name: images/pref_perf.png
+SHA1-Digest: RIgMWeMduy5UOezXpGeGtOm0e4U=
+
+Name: teamSupport/merge_dialog.html
+SHA1-Digest: ILKoUPJIJ327l2l8JV1WeC+Kyao=
+
+Name: images/pref_comment_templates.png
+SHA1-Digest: LLQEm3eRArXsgGi8IYaubDBmTKU=
+
+Name: teamSupport/workspace_synch.html
+SHA1-Digest: SOQUauvyjpB8pvL9VFBl/4LYSfc=
+
+Name: images/guide.gif
+SHA1-Digest: Slz8Hy1Pjdvrt2KroyXqSP49t/k=
+
+Name: preferences/pref_label_decors.html
+SHA1-Digest: JQlE5LvXpOFgYXWUHzh0vsaHQXk=
+
+Name: teamSupport/SVNaction/locks.html
+SHA1-Digest: wK5T63vyatIlgqd2OBFgLbfH+KY=
+
+Name: images/rep_expl_persp.png
+SHA1-Digest: FSYEB5pkvh47s6GaISGsWYFGVG0=
+
+Name: gettingStarted/subversive.html
+SHA1-Digest: 5M8z4Tm7hpgYwMH2+1uh5rF6wJc=
+
+Name: overview.html
+SHA1-Digest: 8xokNYe3xnUY/VfC7RDQN14tu3w=
+
+Name: images/new_update_site.png
+SHA1-Digest: TmRd+7AuJi/GQlE/51hgChea3HM=
+
+Name: images/reintegrate.png
+SHA1-Digest: /dtscgJzbVKdep6qwLrG4yNAFFA=
+
+Name: teamSupport/SVNaction/revert.html
+SHA1-Digest: Cq9Ez5hKp3THJHq2gqWk7I/+GPY=
+
+Name: gettingStarted/aboutSubversive/protocols.html
+SHA1-Digest: DES+vKU5mcFZUoNWQlw1NzDMN4k=
+
+Name: images/propertiesedit.gif
+SHA1-Digest: 0zgUCa2B9CTp0VagDt0GtCD3kbo=
+
+Name: images/show_view.png
+SHA1-Digest: faYwC+GMk52nLr5jYfO6e66uA/I=
+
+Name: images/single_pr_layuot.png
+SHA1-Digest: 9oKqaT1yirp8YaCN3ZBO5StdsWo=
+
+Name: images/pref_label_decors2.png
+SHA1-Digest: VOJtHmQQ9tNlXkbCeURuE6tWkmE=
+
+Name: images/update_diagram.png
+SHA1-Digest: wTzqHvtUmHSAIpFs8IiL6S3tOlQ=
+
+Name: images/conflict_del.png
+SHA1-Digest: /D/htAlkyrRUpTg6NikpcuaD0IU=
+
+Name: gettingStarted/aboutSubversive/features.html
+SHA1-Digest: DVyfuxg3TKB4N28Zg01seSzd28E=
+
+Name: preferences/pref_svn.html
+SHA1-Digest: +t6GCmQOHRwKelG3E+3mdy84Uzc=
+
+Name: images/new_rl_general.png
+SHA1-Digest: ZYPfYpUFnlkUE92CUt/4YtRAQws=
+
+Name: images/repos_view.png
+SHA1-Digest: nobhbowwmiDmYhVgcqMp2PHt5N8=
+
+Name: images/rel_tops.png
+SHA1-Digest: dJ3ilPqV+MZYggmvUkHFJXG5AR0=
+
+Name: images/revert.png
+SHA1-Digest: Qw1Qv1HD8QVHCATgC00hI6HTRqg=
+
+Name: images/update.gif
+SHA1-Digest: BQs5AmZxUSu3EVAPnjyICpTBZ/k=
+
+Name: images/add_site.png
+SHA1-Digest: MmOKg6/ZhcBlMb0Ot2qlkMun2qY=
+
+Name: notices.html
+SHA1-Digest: q7XSWmh0rd/ixMJSN1FhiX7lJCw=
+
+Name: teamSupport/locks_view.html
+SHA1-Digest: 2frkYMD2Zw8VPq00zLh+nzrM1d4=
+
+Name: teamSupport/repos_browser_view.html
+SHA1-Digest: yntLZKi2uG3ucx9uEWRbXLMVXso=
+
+Name: teamSupport/compareEditor/compare_cc.html
+SHA1-Digest: 8VDCzx0DWidIFVucwNm/42OGr64=
+
+Name: images/multi_pr_layout.png
+SHA1-Digest: SuXZBblS+7QQrfWI7RWD25U7n3s=
+
+Name: images/feature_updates.png
+SHA1-Digest: p8Q45Nu1P1ORboNpChYumhNW9UU=
+
+Name: preferences/pref_console.html
+SHA1-Digest: azyJkHpWdI8AzuXAQFC2T+il3jk=
+
+Name: teamSupport/SVNaction/ignore_vc.html
+SHA1-Digest: QxFp+Z5i0Jox9Z9ldxABU5IR+ws=
+
+Name: images/inside.png
+SHA1-Digest: NwLrxCexBehlWScGndT97Jp0+yg=
+
+Name: images/changeset.gif
+SHA1-Digest: zNstZLRupVK4QQEq6gK/4Z8DZBk=
+
+Name: images/add_prop.png
+SHA1-Digest: wpuEVax98N6EhB4JfANXXCkJyn4=
+
+Name: images/checkout_repos.png
+SHA1-Digest: 4bW+dtKgnGZm6/hteIoJvb+sjMc=
+
+Name: images/income_add.png
+SHA1-Digest: /f3bHnRND7Ix9C1Nr4bwXaCMq7w=
+
+Name: images/graph_merges.png
+SHA1-Digest: Bn4zvXOWRLjhoJpO3bbXMruiRXs=
+
+Name: images/tag.png
+SHA1-Digest: Un17C31qFKRB/35obaDNVRnuPwY=
+
+Name: images/monolit_pr_layout.png
+SHA1-Digest: nEHP6l1dpOEkzVxWwBFHVYTiLCI=
+
+Name: images/prev.gif
+SHA1-Digest: 69IWBPxbvPGvsOcrm6/7mSQS3IU=
+
+Name: teamSupport/SVNaction/update.html
+SHA1-Digest: 0Soi9B09YQVsyL9ntaw+b/P7jEA=
+
+Name: images/black_color.png
+SHA1-Digest: nmGmjFebIc0CqjK8fUHNU1UML3g=
+
+Name: gettingStarted/aboutSubversive/install.html
+SHA1-Digest: t5ZO6z0Wh2H72hxEuSKQ+wWlcX8=
+
+Name: teamSupport/history_view.html
+SHA1-Digest: tOpmvIrNwcpZ77L9DDGuLadc8vs=
+
+Name: images/repos_browser_view.png
+SHA1-Digest: 15GLIiVaLEg/qNgIQkyy+h4Knis=
+
+Name: images/merge_url_15.png
+SHA1-Digest: vQHwFmLhsTxc+MTVjMuRis5JOVA=
+
+Name: images/share_select.png
+SHA1-Digest: lyVW8OR9o/N15rAJ86P9f+DqOx8=
+
+Name: teamSupport/svn_toolbar.html
+SHA1-Digest: 4c7PUNNGjtk1M5pIuL2MiNyFB5A=
+
+Name: teamSupport/svn_label_decor.html
+SHA1-Digest: PytI8Fhv0x0qMf0opCGyx6Cs2GM=
+
+Name: teamSupport/compare.html
+SHA1-Digest: GCAHrwHzB/Xnz+OlStNHq31cFvw=
+
+Name: images/remove.gif
+SHA1-Digest: V19O1h5u76Cc6jI+bFWXvmxy5j0=
+
+Name: images/pin.gif
+SHA1-Digest: 7mzopGKwLXhr7HeMI+ai5KvmL5c=
+
+Name: images/merge_2url.png
+SHA1-Digest: esOzuASoNPWd7ukKKyTiInUWGR0=
+
+Name: images/pref_repos.png
+SHA1-Digest: BO5A37xBXrVka+lZrdbk2OPGJTA=
+
+Name: images/graph_merge_info.png
+SHA1-Digest: m097PRyCv8e7vnvx4DbAg77NA0Y=
+
+Name: teamSupport/SVNaction/patch.html
+SHA1-Digest: 22CzkM2ytI2+eSqSYlvs8IVsEfA=
+
+Name: images/add_to_ignore.png
+SHA1-Digest: LatwCj/o0GFByaVPiICR6+pVCfQ=
+
+Name: gettingStarted/aboutSubversive/buckminster.html
+SHA1-Digest: 5dtBi6D0XMHB7xzAjhk1odHUb40=
+
+Name: images/command_link.png
+SHA1-Digest: wV3ZVyVzuzU6fhxBWfS+X+nBmW4=
+
+Name: images/conflict_change.png
+SHA1-Digest: NRjCC7kXF36egDuALDOuVsqyxwc=
+
+Name: images/history_view.png
+SHA1-Digest: hvG/jburiP7CgN0DJvudVKeRfMs=
+
+Name: teamSupport.html
+SHA1-Digest: YUq74WN9JE5FQjGxn1u6kaQQ6T4=
+
+Name: images/income_change.png
+SHA1-Digest: kwtmMjYl6eFSQOuftUFDKJYigyU=
+
+Name: teamSupport/SVNaction/merge.html
+SHA1-Digest: ZnJ2EeCPwE8letxH0NNMUe2llLQ=
+
+Name: about.html
+SHA1-Digest: sLxuFQ6NrxUndHtF6A2wEUhriH8=
+
+Name: preferences/pref_performance.html
+SHA1-Digest: kT3OK+vMPuX9L9xLjQ1lyFQKpfs=
+
+Name: images/branch.gif
+SHA1-Digest: vKYQhcJS33yYqUXhu39R8VBdpy8=
+
+Name: images/pref_customprops.png
+SHA1-Digest: TI7fVtU9LB6dD7d/YL8YpYhMENU=
+
+Name: teamSupport/svn_info.html
+SHA1-Digest: XNHPdD6G9CaICAVWWk+uoOntYgE=
+
+Name: images/update_site_connectors.png
+SHA1-Digest: hHZvgwsqwrgqwsmGj0wDN27vBJ0=
+
+Name: images/outgo_add.png
+SHA1-Digest: 5zHD9vhONCraHMo8XN5CG6o5AYo=
+
+Name: book.css
+SHA1-Digest: fvKalh6LHUDbFQK038ZrI28UMr8=
+
+Name: teamSupport/annotation_view.html
+SHA1-Digest: OoFrfckOXu70rky2SpPhNGGA81Y=
+
+Name: images/show_both.gif
+SHA1-Digest: xF8kar3hyvd0yb7jleDMK3cTiDw=
+
+Name: faq.html
+SHA1-Digest: Zdhx7uH81ZzNXR5ux3SF+NUPcDM=
+
+Name: gettingStarted/aboutSubversive/fast_track.html
+SHA1-Digest: IpABt6J1lRgdp3S6DeWgH8G5o1w=
+
+Name: images/pref_client.png
+SHA1-Digest: hGe+rrL0tu5ojzY0aA6f+8bZ754=
+
+Name: images/check_out_location.png
+SHA1-Digest: JVgBreribvtVputtsIqYkapDXQg=
+
+Name: preferences/pref_diff_viewer.html
+SHA1-Digest: vxeWA8/OHyK/igGjips3GRufjYE=
+
+Name: images/pref_view_settings.png
+SHA1-Digest: CLNR6RMogauZ2Y4r1mezH9WZn4Y=
+
+Name: images/graph_props_view.png
+SHA1-Digest: TYhxq+htoBNFqLzmt0I8Rjniy78=
+
+Name: teamSupport/SVNaction/commit.html
+SHA1-Digest: WXAUtxzEevAAHGe9klPMoOfmsiU=
+
+Name: images/red_color.png
+SHA1-Digest: a1PZoZIRBMg2fRmxp3KTPyZnJFo=
+
+Name: images/redbrown_color.png
+SHA1-Digest: Kq2r9nIHYQVhqgAICx2fWrJ5BQ4=
+
+Name: images/find_and_install.png
+SHA1-Digest: eR/iM7MpPkNQSEAGDQqKQmNzZFA=
+
+Name: images/svn_team_pr_conf.png
+SHA1-Digest: UOsmMVehrtm7rtBrPmv9LObT9t8=
+
+Name: images/show_conf.gif
+SHA1-Digest: 7inU730N77kEhHOqZ3CgJ1L75Bk=
+
+Name: teamSupport/connectors_discovery.html
+SHA1-Digest: MnKsdXYD/RZne3z2H0X5zNRdyrs=
+
+Name: gettingStarted/subversion/svn_intro.html
+SHA1-Digest: /rXErwnfqpODIemDrAMx1sHDeIU=
+
+Name: images/svn_console.png
+SHA1-Digest: 0hvKjSlJW3xIgObL5aNIt5kgntc=
+
+Name: images/income_del.png
+SHA1-Digest: DgN5knlg5nd7/jghYcvhEgCVMR0=
+
+Name: images/restart_dialog.png
+SHA1-Digest: UnDAU84Xay0oe4RVcTNhmvFkNnY=
+
+Name: images/share_pr_name.png
+SHA1-Digest: ZZr2QJKqIN9HEyPMpeGoA+HGv/A=
+
+Name: images/pref_console.png
+SHA1-Digest: 62KdSopScjRzAG/j8Cgdv6teGgI=
+
+Name: gettingStarted/subversion/svn_folders.html
+SHA1-Digest: 4hvOoAujQQ9o55SDl+mz/efsCcE=
+
+Name: images/new_rl_advance.png
+SHA1-Digest: EzAlEcWCib5vdtZy9N1PUdfSAHU=
+
+Name: images/mylyn3.png
+SHA1-Digest: i23247tTq3KOqjT9rrSwe/pgeW4=
+
+Name: compare_editor.xml
+SHA1-Digest: bm0t5IKLoo4W+MTxYcMNGX038sw=
+
+Name: thanks.html
+SHA1-Digest: foUiuHa6c0WxvsfKF1+modUX2TU=
+
+Name: images/install_verification.png
+SHA1-Digest: RV9Y97IkFvUtP0YIC39T198Tgt8=
+
+Name: teamSupport/SVNaction/set_props.html
+SHA1-Digest: 3wHcb2gXLL+d1zdvs++tMn4WCUI=
+
+Name: teamSupport/find_check_wiz.html
+SHA1-Digest: Yv6oOS6cXr9J+bbRspDjOpVJNKo=
+
+Name: teamSupport/sharing_wiz.html
+SHA1-Digest: bhoCGe0LjV2H8aLWO5iKI9FdKJQ=
+
+Name: images/tree_conflicts.png
+SHA1-Digest: zWR7GgundEE/J7oDG5zffXu6O20=
+
+Name: images/remove_all.gif
+SHA1-Digest: DAsd2g/jUClLBjLGOTyTx7XfbuI=
+
+Name: images/pref_autoprops.png
+SHA1-Digest: bHoi3hv9fHm+wDsrKbnHTCGbM3c=
+
+Name: teamSupport/SVNaction/switch.html
+SHA1-Digest: 0WQ92L7Qu7f2V/g9PMlWrt20Czk=
+
+Name: images/own_change.png
+SHA1-Digest: lk1haC3A3Lj5ABuYa4IS060H7LE=
+
+Name: images/some_project.png
+SHA1-Digest: IRF3D6l4KGGPJN3bZwMvRYgX2EU=
+
+Name: subversion.xml
+SHA1-Digest: jpNFxAcN0o+aGEjjTNY+dzUzw6w=
+
+Name: images/svn_annotate_view.png
+SHA1-Digest: 3Y7dGk0gb5RJNUH0xwLtR83MSMg=
+
+Name: images/prop_changed.png
+SHA1-Digest: e8w8pujSBwVN1/mkdf4A3mqfVzU=
+
+Name: gettingStarted/aboutSubversive/management.html
+SHA1-Digest: UhHtjkGSQtigjk1r91VTjJ5L0WM=
+
+Name: images/svn_toolbar.png
+SHA1-Digest: H8fzJmKsdOG/UMfqyrmkzlcE7Uw=
+
+Name: gettingStarted/subversion/svn_more.html
+SHA1-Digest: uyM7+uKQsD/LqGPd8KvaPw+LBCk=
+
+Name: images/merge_url_14.png
+SHA1-Digest: riQctl+VnNJYXF/OplLMXpTHwCk=
+
+Name: contexts.xml
+SHA1-Digest: 5MEJsMbaffITMViAFR6CAsfm8Hs=
+
+Name: svn_actions.xml
+SHA1-Digest: F9IMXfohHphSVjpx4TNv9woKvvY=
+
+Name: images/branch.png
+SHA1-Digest: 2Wdpi9wf1wQUvG5N/N0TgVV7KwU=
+
+Name: images/manage_configuration_about.png
+SHA1-Digest: koTGLiqIc7ouPQ7r8MgyNsnyKMs=
+
+Name: images/pref_diff_viewer.png
+SHA1-Digest: r07YzM6MBdoFW3R+7fRSWrlOt88=
+
+Name: images/share_comment.png
+SHA1-Digest: Lgvgfm7ib/JKQ8C3GlNq8KdGHNk=
+
+Name: images/show_in.gif
+SHA1-Digest: KY+C/qMWfcNwBr2R0NcKPKu7cs4=
+
+Name: images/outgo_del.png
+SHA1-Digest: 2azLBSRwW55BhvrdXbeIaKlBCDA=
+
+Name: teamSupport/props_view.html
+SHA1-Digest: wGPEeQ+Lfxqsrfq/VjSD6agqjWU=
+
+Name: images/connectors_discovery.png
+SHA1-Digest: acZGsnlATYedu7+P2KED/UcOE5w=
+
+Name: teamSupport/SVNaction/check_out.html
+SHA1-Digest: A8C+IzZBFoazdAxn5MjWjRiM8PE=
+
+Name: images/updates.png
+SHA1-Digest: 7cOwQFkeAe0tqkXzRv/PzMyvF4k=
+
+Name: images/graph_toolbar.png
+SHA1-Digest: 5OG9p2l2XTe7dZYDwTKH+EdDysg=
+
+Name: images/guide_2.gif
+SHA1-Digest: bhYZ7uK9dJwXlpSWv5gUCaCWh1g=
+
+Name: images/svn_revision_graph.png
+SHA1-Digest: o3+ZxK/xI0FW9gXgpnv3Cd69U0o=
+
+Name: images/blue_color.png
+SHA1-Digest: cv1otzT3kXy/GugrZpVsaArJUa0=
+
+Name: images/create_patch3.png
+SHA1-Digest: b3jGsFYfGjvVwayW6g3VbJa6VfY=
+
+Name: gettingStarted/aboutSubversive/update_eclipse.html
+SHA1-Digest: vChnidA38AHmxhSYH7XeNcqT9Ak=
+
+Name: images/merge_view.png
+SHA1-Digest: S5biRx71+3tlM7OdrJUJ9Q4VR3c=
+

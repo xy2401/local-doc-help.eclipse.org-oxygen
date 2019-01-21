@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- Copyright (c) 2006-2017 THALES GLOBAL SERVICES.
+			All rights reserved. This program and the accompanying materials
+			are made available under the terms of the Eclipse Public License v1.0
+			which accompanies this distribution, and is available at
+			http://www.eclipse.org/legal/epl-v10.html -->
+<toc topic="EMF-DiffMerge.html" label="EMF-DiffMerge">
+	<topic href="EMF-DiffMerge.html" label="Basic Usage">
+		<topic href="EMF-DiffMerge.html#Overview" label="Overview"></topic>
+		<topic href="EMF-DiffMerge.html#Opening_the_Diff.2FMerge_GUI" label="Opening the Diff/Merge GUI"></topic>
+		<topic href="EMF-DiffMerge.html#Features_of_the_GUI" label="Features of the GUI">
+			<topic href="EMF-DiffMerge.html#Main_interface" label="Main interface"></topic>
+			<topic href="EMF-DiffMerge.html#Vertical_sections" label="Vertical sections"></topic>
+			<topic href="EMF-DiffMerge.html#Horizontal_sections" label="Horizontal sections"></topic>
+			<topic href="EMF-DiffMerge.html#Locking_models" label="Locking models"></topic>
+			<topic href="EMF-DiffMerge.html#Differences_navigation" label="Differences navigation"></topic>
+			<topic href="EMF-DiffMerge.html#Filter_and_Focus_capabilities" label="Filter and Focus capabilities"></topic>
+			<topic href="EMF-DiffMerge.html#Dealing_with_differences" label="Dealing with differences"></topic>
+			<topic href="EMF-DiffMerge.html#Textual_comparison" label="Textual comparison"></topic>
+		</topic>
+		<topic href="EMF-DiffMerge.html#Merge_process_in_a_nutshell" label="Merge process in a nutshell">
+			<topic href="EMF-DiffMerge.html#Opening_the_GUI" label="Opening the GUI"></topic>
+			<topic href="EMF-DiffMerge.html#Resolving_differences" label="Resolving differences"></topic>
+			<topic href="EMF-DiffMerge.html#Saving_merge_decisions" label="Saving merge decisions"></topic>
+		</topic>
+		<topic href="EMF-DiffMerge.html#Version_Control" label="Version Control">
+			<topic href="EMF-DiffMerge.html#Local_File_History" label="Local File History"></topic>
+			<topic href="EMF-DiffMerge.html#Eclipse_Team" label="Eclipse Team"></topic>
+		</topic>
+	</topic>
+	<anchor id="additions"/>
+</toc>

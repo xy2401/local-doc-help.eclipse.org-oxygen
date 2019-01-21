@@ -1,0 +1,128 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.eclipse.tracecompass.gdbtrace.doc.user;single
+ ton:=true
+Archiver-Version: Plexus Archiver
+Built-By: genie.tracecompass
+Require-Bundle: org.eclipse.help
+Bundle-ManifestVersion: 2
+Eclipse-SourceReferences: scm:git:git://git.eclipse.org/gitroot/tracec
+ ompass/org.eclipse.tracecompass.git;path="doc/org.eclipse.tracecompas
+ s.gdbtrace.doc.user";commitId=4c3b381e7b2ea39e990e5fa516d097e0607167c
+ 4
+Bundle-Vendor: %Bundle-Vendor
+Bundle-Name: %Bundle-Name
+Bundle-Version: 3.3.0.201803071910
+Bundle-Localization: plugin
+Created-By: Apache Maven 3.5.2
+Build-Jdk: 1.8.0_162
+
+Name: index/segments_1
+SHA-256-Digest: vxGtMdW2TVC7YfHQOQ0+jRy7yGFNpKgAnMKI0atpiPw=
+
+Name: plugin.xml
+SHA-256-Digest: w+Bqi50HZUlzQaKVdIOmW71zkNVHznAVyEqOTSIhbSs=
+
+Name: doc/Importing-Tracepoint-Data.html
+SHA-256-Digest: 7ghzqpck7wcr3+UiOmM9kJBOCUfnWVtufHpT1Qblwuw=
+
+Name: index/indexed_docs
+SHA-256-Digest: FkvAVj8lwAHNZzqZgTopmtV3OY8zd6QlWNL4cQBRf6E=
+
+Name: doc/images/home.gif
+SHA-256-Digest: 4cB3uzSzawBtPtcQboiWU16+RMytdhxFuZZGzwENCF8=
+
+Name: doc/Collecting-Tracepoint-Data.html
+SHA-256-Digest: DWyd1rF3JjaraxqLuTRWyZbxgtrXd36/cnLSu01v7Pg=
+
+Name: index/_1.si
+SHA-256-Digest: 2rMT/ZUXo8TOnWfj0+2bYnrHwrqL4Nmg1dONfweVrws=
+
+Name: index/_1_Lucene50_0.doc
+SHA-256-Digest: pe4uy/qDmR6hByMLj8qSNZYjF17thlPossGujrkiGag=
+
+Name: doc/images/gdb_icon16.png
+SHA-256-Digest: T5c7B2Z97Y+3t4GPWKutPe6tb3HRcCkB2ygLpg4DE2k=
+
+Name: doc/User-Guide.html
+SHA-256-Digest: MSTMtI0ZOpgK3nE4VIIh4Qv5DULMCvtdp19i/RQnrHM=
+
+Name: index/_1.nvm
+SHA-256-Digest: WBRqp1YSgoZDzdxVfCpRlGRPDX/Q7wL4gOhmWps73Is=
+
+Name: index/_1.fnm
+SHA-256-Digest: qhlhGwwFQtG07j4YMKXXAs/lgTN1R9GNkhW6178mw/M=
+
+Name: META-INF/maven/org.eclipse.tracecompass/org.eclipse.tracecompass
+ .gdbtrace.doc.user/pom.properties
+SHA-256-Digest: DLSflvLsxuaMYzG08dpnC0QMeCYfaZVRWUHfgVh7Gg0=
+
+Name: index/_1.fdx
+SHA-256-Digest: ht5FBbLO2o+Jz7DPMaSXlXDQx4XANa9G3trzjZqTeUM=
+
+Name: book.css
+SHA-256-Digest: UCuR8Qyhx1o7HqT9o8lvZb2d5k/w0hlkeZGQT0LLn0Y=
+
+Name: plugin.properties
+SHA-256-Digest: 3Kkc/AQKn/dLwcCrsYiHv0T57RetTddokMLmcMHD3Ik=
+
+Name: doc/images/next.gif
+SHA-256-Digest: IFqoxpwo9EXNAc2xh0M2KmlZWC1RBMxv8nWCwhMwRtI=
+
+Name: doc/User-Guide-toc.xml
+SHA-256-Digest: X/xWQ6WYBTTXBGk+QEq/21Siva3OFRsQDdTbOsqixUU=
+
+Name: index/_1.fdt
+SHA-256-Digest: Pc8zD/I/090dRaGmp0kADytllhlu6rIBrBto1Ih/IAw=
+
+Name: doc/Getting-Started.html
+SHA-256-Digest: OQ7wPqh2vE7IiocjJHES0wmA5rCaNPRcC08lTQc5cMA=
+
+Name: index/_1_Lucene50_0.pos
+SHA-256-Digest: U1ItY715N7iWqHDB6SRMHFzn+ePFTMfEl74BLy8LnGU=
+
+Name: about.html
+SHA-256-Digest: 1fuYr0bu6NsJZCAmSom5QtnvnV0Cg8DwLn77Dd1Ql24=
+
+Name: index/write.lock
+SHA-256-Digest: 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+
+Name: doc/User-Guide.mediawiki
+SHA-256-Digest: i7tXYualACOJ2SRiuF5Hekrp8SKLEZg4upeK33bXsf8=
+
+Name: META-INF/maven/org.eclipse.tracecompass/org.eclipse.tracecompass
+ .gdbtrace.doc.user/pom.xml
+SHA-256-Digest: owj8GXd5DJ1XJJH9mBN4iRzhRIhKfcGX4DWLPDJCyrs=
+
+Name: doc/images/GDBTracePerspective.png
+SHA-256-Digest: UjPaIio3SH4+9wxAEGyiuP+fFoaaF5NFp3w/oFPx0dk=
+
+Name: index/_1_Lucene50_0.tim
+SHA-256-Digest: Rrvj6jz05h2eHEOTd0nQw9ZUV0tJfHOwBLRz5m1zNpA=
+
+Name: doc/References.html
+SHA-256-Digest: CIRc60AdjAjmsmF00QxMCziDvudNIx/k8xPsgnzX06o=
+
+Name: index/_1_Lucene50_0.tip
+SHA-256-Digest: /YWB5W/WQtbdTp4b4enRItv1h/hnFYNOwlZr8mTYMmU=
+
+Name: doc/GDB-Trace-Perspective.html
+SHA-256-Digest: Y18rQ9RnVhl9m+0ChpfHMdtV6XVBRjQO4IXRUz1ZrfI=
+
+Name: index/indexed_dependencies
+SHA-256-Digest: 4EZI52i+a+y2NZVi1irzaMOYoi+GDXNUvf4Jda36RH8=
+
+Name: index/_1.nvd
+SHA-256-Digest: 7iY70wjyQSZFB/xEUJeslwSQf3xtBosT4alY7uI5U7o=
+
+Name: index/indexed_contributions
+SHA-256-Digest: dkFGOyM/WqKioXP3aQ7LYXeHUyPMOo/p+sSRxC+xQHA=
+
+Name: doc/Overview.html
+SHA-256-Digest: XRRO5C7Q4of7GOTvzbOS4P3e55pZFCdjCrGd/0SgN50=
+
+Name: doc/images/prev.gif
+SHA-256-Digest: I4Bs/TypPpF2FValAaI3lNDWuD4KFikkGjdaeiyR4Yc=
+
+Name: doc/Visualizing-Tracepoint-Data.html
+SHA-256-Digest: 9D8IS8EHwZ3+oKhmrNs/k3yOaq2E0pjYgqFLk9ZQ2Bo=
+

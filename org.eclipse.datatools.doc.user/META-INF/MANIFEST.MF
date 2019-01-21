@@ -1,0 +1,54 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.6.5
+Bundle-SymbolicName: org.eclipse.datatools.doc.user; singleton:=true
+Bundle-Name: %pluginName
+Bundle-Version: 1.7.0.20090521092446
+Bundle-Localization: plugin
+Built-By: TPS_build ditamap.pipeline.1-1_20090521092446
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Created-By: 1.5.0_15-b04 (Sun Microsystems Inc.)
+
+Name: about.properties
+SHA-256-Digest: A8pp7IJS46ViBmIbQAgBCZcKDl6MlZxBIx8aaLmVN7s=
+
+Name: about.html
+SHA-256-Digest: hv/vjIKJqt75Kj2jbHNNrhz0QCN6IN28Jy0QngZDfJU=
+
+Name: plugin.xml
+SHA-256-Digest: DHi22XOqOgcqxDxOvH4lpkuiCN1rxMZtAFTGLrWFiCg=
+
+Name: styles/doc.css
+SHA-256-Digest: rckFoYXKd9HdQakUwGGJEIyPdbayD9tkuv6ZxvsAU1s=
+
+Name: styles/commonrtl.css
+SHA-256-Digest: HebeUHgFbvcZkJUCbLeWRCx3K4i4mbKlu2rUaIC1NTY=
+
+Name: styles/book.css
+SHA-256-Digest: RYWOqAuws9iAo7re/Qxdo6ijfX2hS1iXtaB8zOV5oIA=
+
+Name: styles/commonltr.css
+SHA-256-Digest: 0/ZxttAYzjIWDXkcBZMsKsxeUCKvY3+FXo/KKfkOPqg=
+
+Name: eclipse32.png
+SHA-256-Digest: OSRlXgvZ3i3wfVilJGmf0LCWkDaCVPWx7HaW9scdnSY=
+
+Name: about.mappings
+SHA-256-Digest: fL0yxTec9AWrH3zSTZTCywNBsT4QD9h4OEymigLsGDQ=
+
+Name: about_files/eclipse32.png
+SHA-256-Digest: OSRlXgvZ3i3wfVilJGmf0LCWkDaCVPWx7HaW9scdnSY=
+
+Name: about.ini
+SHA-256-Digest: kq7kQ0VyCHM5wBVt1le4vN5s31MR1MC8+KAgHAFOLUo=
+
+Name: index.xml
+SHA-256-Digest: vyou/txZZc92QTVzyrf3kbl3EXbIC8bXRoz3JqHKBtM=
+
+Name: toc.xml
+SHA-256-Digest: iUdo7EZbNuYCDcHvGtgEGeROaVkOJK6yzTYKc3ATg5A=
+
+Name: plugin.properties
+SHA-256-Digest: kg515BYXSSwbA1jvyeP+A37qDkwNj85islRkXL8oJgs=
+

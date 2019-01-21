@@ -1,0 +1,1352 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.eclipse.gef.mvc.doc;singleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: genie.gef
+Require-Bundle: org.eclipse.core.commands;bundle-version="[3.6.0,4.0.0
+ )";resolution:=optional,org.eclipse.ui.views;bundle-version="[3.6.0,4
+ .0.0)";resolution:=optional,org.eclipse.gef.common;bundle-version="[5
+ .0.0,6.0.0)";resolution:=optional,org.eclipse.gef.geometry;bundle-ver
+ sion="[5.0.0,6.0.0)";resolution:=optional,org.eclipse.gef.geometry.co
+ nvert.fx;bundle-version="[5.0.0,6.0.0)";resolution:=optional,org.ecli
+ pse.gef.fx;bundle-version="[5.0.0,6.0.0)";resolution:=optional,org.ec
+ lipse.gef.fx.swt;bundle-version="[5.0.0,6.0.0)";resolution:=optional,
+ org.eclipse.gef.fx.jface;bundle-version="[5.0.0,6.0.0)";resolution:=o
+ ptional,org.eclipse.platform.doc.isv;bundle-version="[3.0.0,5.0.0)",o
+ rg.eclipse.gef.common.doc;bundle-version="[5.0.0,6.0.0)",org.eclipse.
+ gef.geometry.doc;bundle-version="[5.0.0,6.0.0)",org.eclipse.gef.fx.do
+ c;bundle-version="[5.0.0,6.0.0)"
+Bundle-ManifestVersion: 2
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse/gef.git;p
+ ath="org.eclipse.gef.mvc.doc";commitId=51a73027b7d9c631d94e98b0ac97ff
+ 7a1e83f51e
+Bundle-Vendor: Eclipse GEF
+Import-Package: com.google.common.collect;version="[12.0.0,22.0.0)";re
+ solution:=optional,com.google.common.reflect;version="[12.0.0,22.0.0)
+ ";resolution:=optional,com.google.inject;version="[1.3.0,1.4.0)";reso
+ lution:=optional,com.google.inject.binder;version="[1.3.0,1.4.0)";res
+ olution:=optional,com.google.inject.multibindings;version="[1.3.0,1.4
+ .0)";resolution:=optional,com.google.inject.assistedinject;version="[
+ 1.3.0,1.4.0)";resolution:=optional,javax.inject;version="[1.0.0,2.0.0
+ )";resolution:=optional
+Bundle-Name: GEF MVC Developer Documentation
+Bundle-Version: 5.0.2.201711130301
+Created-By: Apache Maven 3.1.1
+Build-Jdk: 1.8.0_131
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/class-use/Abstra
+ ctCompositeOperation.html
+SHA-256-Digest: 7t5R6AB5a7wy7D97IMxZ5BKNYQPg6kRVgJjgz4lrjII=
+
+Name: plugin.xml
+SHA-256-Digest: CQgWR+rG/LUqZwAHN3RyMSHVUbvOql9krUvdsuw+OOo=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/class-use/Change
+ FocusOperation.html
+SHA-256-Digest: GsjzHzgYWXzuWsKRDMwG8JUY0S0pIDg8Ls5pzNHGKPg=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/class-use/MvcFxBundle.html
+SHA-256-Digest: udM7OfzWlWS7b6I6cpT7w9ypLaWatwYahIW+dkTDR7U=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/class-use/IVisualPart
+ .html
+SHA-256-Digest: b6VJqDmjlgQQLn4SRM7JOXU5wFeH95EgAzVF1fZE2lg=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/providers/TopLeftSnappingLo
+ cationProvider.html
+SHA-256-Digest: ZoLae92kJc2zCmc5s9vdPLD2R3y8yGqWVs1DeCkLwYU=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/package-summary.
+ html
+SHA-256-Digest: AqCHCh0gcRQikHFxLbrl9yuYua9E2WAuscn6hwR1PJE=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/package-summary.html
+SHA-256-Digest: jgeTpvsGRkiLVJb3iYnTnkoI+SnRfqaEZdR+ib5seMg=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/class-use/Resize
+ ContentOperation.html
+SHA-256-Digest: fc2YIVw28rkT/fq2F1FWTy9kYtGBLaKbKzlyeRi5zIk=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/behaviors/FocusBehavior.htm
+ l
+SHA-256-Digest: sbfn2Lgkp40nGLXT2iVL/Xeutlr9pfPLXQDiK9GKPfA=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/policies/DeletionPolicy.htm
+ l
+SHA-256-Digest: TUjJcvhZXtr4OhS412HIXXRunjuWPvkStRJySuXBCXE=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/domain/package-tree.html
+SHA-256-Digest: HxzM1GkJU1eWTvIMLFrHgcrnKK3lCEgsMeOgp205NRY=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/class-use/ITrans
+ actionalOperation.html
+SHA-256-Digest: k/mL4i0Luikdj99pxzyMjIyy8w5dM2saVchYkadbWxg=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/providers/GeometricOutlineP
+ rovider.html
+SHA-256-Digest: gMRf40GY9lr9mdROpO749R2QhAM1qhbYdG7oBgLGpHs=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/RectangleSegmentHandl
+ ePart.html
+SHA-256-Digest: o2KQNCkRD07KtiQvOhK7z+h4z9Zapm+aQOokdNWn0nM=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/SelectionFeedbackPart
+ .html
+SHA-256-Digest: WHzDIeJyRR9CyXch19W6H86n6HAb9wzqgPJpIryjamg=
+
+Name: reference/wiki/images/mvc/GEF-MVC-FX-domain.png
+SHA-256-Digest: nOmR015fvjwiL5+388bhLdlaIl9L0P7wb+r88NZ/JOk=
+
+Name: book.css
+SHA-256-Digest: HdP1y6AatpMY94LakfFFop2kNUsDpFjmDHgoQVOH6ZI=
+
+Name: about.ini
+SHA-256-Digest: dJnpCx3Bbij7WuygdxEHHHdTDeteCiPLA3svbr565Tw=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/domain/class-use/Historiciz
+ ingDomain.html
+SHA-256-Digest: D17S/lcTeEisqtAx2ptE/e740cG9i+ZkGfxAwoJed9g=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/parts/package-tree.html
+SHA-256-Digest: uFvpIYaWCpwEc47a4Rd+RepMxlj0qVrdd+Co9XoIapo=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/package-tree.html
+SHA-256-Digest: j6B7MywKuoKZBagMSMKM2MCyyL5mQJYFviHpWr7Y4Ao=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/class-use/IBendableCo
+ ntentPart.BendPoint.html
+SHA-256-Digest: nFiCxSzuj5m09Au6Wz9F9Tm1ryiCUwka1Z9NTP871Y0=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/policies/ResizePolicy.html
+SHA-256-Digest: ajMFZ6lUp5RUAl7xjVvPtAxJZynYqGzX8VxEOFMr08o=
+
+Name: reference/api/index-files/index-12.html
+SHA-256-Digest: Y99k5ALLq+BtT/sKM2z6DNsKUMl5M8lMcazWR+PGzSE=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/behaviors/package-summary.h
+ tml
+SHA-256-Digest: 7z1s7qMlpox2Dljjk8jwtWhIYCN63a5BfnBVlPcpD8E=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/class-use/MvcFxUiBundle.
+ html
+SHA-256-Digest: sipMklbs3LaQx0zNUVVilhITF7qRdppYAbZmmf2ZIa4=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/MvcFxUiModule.html
+SHA-256-Digest: b9c2hv+ri6LklHE9SV7d7wAcwa0fJz0pgAzfaVa6Zf4=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/providers/IAnchorProvider.h
+ tml
+SHA-256-Digest: h2gvMA1/bBnGIQYbypIR8LIVpnsncw0CRafilp11QEc=
+
+Name: reference/wiki/images/mvc/GEF-MVC-FX-UI-properties.png
+SHA-256-Digest: n07SoAZkaOaEa91KYuUxgTysvzrbbC/c7QvZDKadx4Y=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/package-use.html
+SHA-256-Digest: dN0OQ1Mylh2Cr28C08WavXlmRGdLSnd5/PSAluJ0WmQ=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/parts/IDirtyStateProvide
+ rFactory.html
+SHA-256-Digest: 7N8NXBoDBbgGn7G9nJP3u1rmKIwwyrN0meAt15Xm4yA=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/class-use/Detach
+ FromContentAnchorageOperation.html
+SHA-256-Digest: 7msfuismq3OhVecMM3zT280MzkJDfE4tlT9/bO8yuYA=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/IResizableContentPart
+ .html
+SHA-256-Digest: gSPsl6QbcMAaJ6bpeKb3epGmvV6w51fDY07rbNRgCvk=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/providers/class-use/Connect
+ ionSnappingLocationProvider.html
+SHA-256-Digest: Yvgk32b74RbVmwbYYRpLCy0yUl2S2osVbRENBFDEMd0=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/parts/ISelectionProvider
+ Factory.html
+SHA-256-Digest: NDVpRY6oIiPepGzjdOlBhmwNsD+CaXIt1gxvNqF9pVE=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/domain/IDomain.html
+SHA-256-Digest: GeOIeoeiBMtFP+Ze83e5e8vLOBGesMu7ghoaylFLMno=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/properties/package-tree.
+ html
+SHA-256-Digest: sWx9gGpnIChkIxYXaUpHmzs5y1YIyrmbC2MqVIOnKJ8=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/package-use.html
+SHA-256-Digest: hjUDBXBamRJCvEjAu+Ux0MGlVQJFOUpp/TRLZ1Kz+fA=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/package-frame.html
+SHA-256-Digest: Li+E8T3ztsx5STdBnOL4dlbgOqmuKkyZAMj+I9rW31U=
+
+Name: reference/wiki/images/mvc/GEF-MVC-FX-providers.png
+SHA-256-Digest: 88wY64Rf8vW76TEr/2FP+Hw4ccrbwH9nglNid48fSvA=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/behaviors/class-use/GridBeh
+ avior.html
+SHA-256-Digest: HFwL8DK/347wfgWBgv816sQbgGQHZk51EuHQpP4+r/A=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/class-use/HoverFeedba
+ ckPart.html
+SHA-256-Digest: Ci7xeFDpMe9NkEjjkfD3ycI3mbuC6FL4k5CsYLt6eP0=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/properties/class-use/Set
+ PropertyValueOperation.html
+SHA-256-Digest: UBbnsS9rpGM1D2AJ29Ya4rdYbqurypYMlBOMxYJRPL0=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/viewer/package-frame.html
+SHA-256-Digest: 3rWP+lxMtAtf6nePPetSvoxWFBTYmMF3kpgpKCe43vM=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/behaviors/package-use.html
+SHA-256-Digest: EftlqrJq0M1STksYPcbTQbN1913OscQPa7nno+/dhGE=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/models/package-use.html
+SHA-256-Digest: 71pR374Ctq9friSPvq6kvAr0wzLK4yNysVXNWY2QiuY=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/parts/class-use/IDirtySt
+ ateProviderFactory.html
+SHA-256-Digest: fUvqK5mFvq3aK7sIgT0q6dC3nt2ZrAcksTxCCPReLDs=
+
+Name: reference/api/index-files/index-5.html
+SHA-256-Digest: NiiiM0KY9ZE4gjCjg41sgd4Mguw7GivS8QJgljy0qtg=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/policies/IPolicy.html
+SHA-256-Digest: NXEwrZuGJjgZq1Hc29jPNEDZdf4IetcN4UW1XYB8Lpw=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/policies/class-use/Abstract
+ Policy.html
+SHA-256-Digest: a1JaL5f5opa4EyGUQSMkWGpdr2frx4Eq0FVRH894qpM=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/IContentPart.html
+SHA-256-Digest: Ezjk5M36r1Bw22c4pp/p0uNboEFDOHCLpxGR6QRi1Zc=
+
+Name: reference/api/index-files/index-14.html
+SHA-256-Digest: VClyrN8AD2JMxtKlIO53cLCi6bxbKyTNve5OOqS7z60=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/models/class-use/FocusModel
+ .html
+SHA-256-Digest: 3fh8B1xlBMUQNiQDj6h8pYBfvdZSV0R8XGED9NE0WvQ=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/properties/UndoablePrope
+ rtySheetPage.html
+SHA-256-Digest: pFR0rKajouWj3VY7mQ0t3CsDKiipDE+ub+c4hNe8ytQ=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/behaviors/class-use/FocusBe
+ havior.html
+SHA-256-Digest: TZy5NV6TXXCyqoQJceZbAhkIVfnlKymAzaaNMEMXoJo=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/providers/class-use/Geometr
+ icBoundsProvider.html
+SHA-256-Digest: UmzwKCaPAlnskj6ltvXFKcYvwGbrJggZI3SFLtzmbxs=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/DetachFromConten
+ tAnchorageOperation.html
+SHA-256-Digest: 7vx9g3yqvUgiVIkRqQv3zCQfqTcClj3ox6A4MBa8ySQ=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/models/class-use/SelectionM
+ odel.html
+SHA-256-Digest: xCzPPBGxmA05euT3ha3otm/BRq2JCJsrTAaISO9tNsE=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/providers/class-use/Geometr
+ icOutlineProvider.html
+SHA-256-Digest: TQUPWndYnBEiCSjqAG3vR18IL9NTBzUW7z2FMB4kLvc=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/models/package-frame.html
+SHA-256-Digest: +udm+YCWGMUI6UrtgE4BOdPpHRW37ypBU/xPurMSw68=
+
+Name: about.mappings
+SHA-256-Digest: FCeCoTwoH96P03/2E5K2D2FLCoLskkJJZjm4YOit68g=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/policies/class-use/ResizePo
+ licy.html
+SHA-256-Digest: CrCN9szPY+qXA8Y/QwMPyxKCOdM7ugifYCNGVhcX8fw=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/providers/TransformProvider
+ .html
+SHA-256-Digest: UJyVHmwvRXRxyqQPT9GfgNrsMV81Y7hMlqVHhIkWOhs=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/class-use/IFeedbackPa
+ rtFactory.html
+SHA-256-Digest: LJHUgfKMhUy585oZi+OVdrYICQi5oqPv9Yjiu1P1vKI=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/parts/class-use/ContentS
+ electionProvider.html
+SHA-256-Digest: 9EY9EyEFsbyWynQq26U2shx2iu+G5l3/PvooutQ0xTU=
+
+Name: reference/api/index-files/index-9.html
+SHA-256-Digest: W3qq4TqOPen2zusFhyWlpVNHUaBpVvT2EfvZNq+BCYE=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/models/class-use/SnappingMo
+ del.SnappingLocation.html
+SHA-256-Digest: ttKdaCIk4NxqxusnV9FoMTkZvvKuLjYD7TQvoP/Zfgw=
+
+Name: reference/api/index-files/index-3.html
+SHA-256-Digest: OUh5KFKRS3c8ne8IlaVrd0R7GM+/1zOZ2b+sAKi+DsQ=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/models/SelectionModel.html
+SHA-256-Digest: kivQx4zxLoNnu9p7QY3AUmMGw1OpLls9GhZK75M51cg=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/class-use/SelectionFe
+ edbackPart.html
+SHA-256-Digest: LEYCFtU9ImKeYcK6ILDkoyf+wvDGULiSeX9IJbtvWbc=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/parts/class-use/Abstract
+ FXView.html
+SHA-256-Digest: VkBhRoaHy9pGy++RAhh3KV3PsUu0hxp9DKkqqge/YV0=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/behaviors/HoverIntentBehavi
+ or.html
+SHA-256-Digest: c8yfaoo/01YFps1yHay8Peu2mlCsFrZLLgIUWnl69pY=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/class-use/Revers
+ eUndoCompositeOperation.html
+SHA-256-Digest: vLoIWkoxWUYoPdSJ/omOMugu5neo4sIUxQ/aBvTFsvY=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/policies/BendConnectionPoli
+ cy.html
+SHA-256-Digest: 69az1h/OVLDgHa2XOTwtFlBAUueQMPcCpV7R1itDLQw=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/viewer/package-summary.html
+SHA-256-Digest: F5xk/Jzs/gLyzxkp6Qk4mdnIcn7p8o13ZnFEcthFT9E=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/class-use/DefaultSele
+ ctionFeedbackPartFactory.html
+SHA-256-Digest: fpvmWSo//U7UK4msko8WCZVacaagOINE6lfP7tHDKK0=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/models/class-use/HoverModel
+ .html
+SHA-256-Digest: 1F2iPJaY+cwMH7jhnVpbmYGYUXdoVvnNDtuXXFbj5ao=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/IHandlePart.html
+SHA-256-Digest: s5s3j7MdB2uXOfXjXiguyXEqvnXClW9pEn5Fqk0C2B4=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/policies/AbstractPolicy.htm
+ l
+SHA-256-Digest: aTlmqcYJ69Jh58M+1/o0yUrnkaqZcayDUr3ZbpixRag=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/package-frame.ht
+ ml
+SHA-256-Digest: gJ+rP2Hp7UutNjOoHaJLN1+lFvJPZr28j7h6+mJOShU=
+
+Name: reference/wiki/images/mvc/GEF-MVC-FX-tools.png
+SHA-256-Digest: 3NE1r51eXlNRS8SbPf7FcaQ08dPsR/8Vez3dcKf71Kc=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/class-use/SelectionLi
+ nkFeedbackPart.html
+SHA-256-Digest: /g/pkJ28wrvDOlzX0nYqfNx3pC0oC93V1YMvSUQOyhA=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/providers/package-summary.h
+ tml
+SHA-256-Digest: s15E0iNBJWIcZpGua+Qfae/+qj/5/9/Y/0f9xIe3jps=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/providers/package-frame.htm
+ l
+SHA-256-Digest: aY8Nioz8Ssq0sebLYx4O6KjZ8LVPHEnQese84ZPZV4Q=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/ChangeFocusOpera
+ tion.html
+SHA-256-Digest: XUq2N+q3/YYiysRgSC49zTzjxVm/Q1s/mGpoNvNHIb4=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/policies/FocusTraversalPoli
+ cy.html
+SHA-256-Digest: aQ3HF5bPzGly+INUlJY08g6x8esH1VZnzNnpxkFhNhI=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/AbstractHandlePart.ht
+ ml
+SHA-256-Digest: ekch4+AmocFmiK0Twa2uS5hx0l7QQEemcQIikqq+0ew=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/behaviors/class-use/HoverIn
+ tentBehavior.html
+SHA-256-Digest: MDktGIo8Fw4QmsNGXI+F3IWX1u/BGw1LHLAEE1ohG3g=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/IFeedbackPartFactory.
+ html
+SHA-256-Digest: 7Ap/KlbrAmQBAY2aTlIUC3Z9gvmiqN/pxc3sbfCPf+I=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/class-use/AddCon
+ tentChildOperation.html
+SHA-256-Digest: usxnTAUsvVQaGAW6tJHq7NjCkG3LMvxolitEFVd2r8E=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/class-use/AbstractSeg
+ mentHandlePart.html
+SHA-256-Digest: y/0aCan+weIA2XQgNihrsV3sGlm5a2JRBbqn7msQgQk=
+
+Name: reference/wiki/images/mvc/GEF-MVC-tools.png
+SHA-256-Digest: YXf33xfGHXyM1JBGOgJUtQ4kl8FQeBk/zp/jhq51j4k=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/FocusFeedbackPart.htm
+ l
+SHA-256-Digest: 3aNUaODSTPSC37dcA/vyXbCYM6wpykpXNHwrux1MMvU=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/domain/package-summary.html
+SHA-256-Digest: jmg5WDvZy0bNji3zsBnHSmm8QcJTjsWTko1ONuGsSL0=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/class-use/Transf
+ ormContentOperation.html
+SHA-256-Digest: pQs5nZchGkASciW546oaS9Ylxd6by7Rxy23ol3cqWlA=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/class-use/IFeedbackPa
+ rt.html
+SHA-256-Digest: Ac9XGhWhiKndRnffl0QzQjAYV3sBPr5TvLY3LboeOC0=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/RemoveSnapToStra
+ tegyOperation.html
+SHA-256-Digest: 7TLnO1syq7t+sQpB/5ha0MueMU/mhTGg4xhUCHBrpzo=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/behaviors/package-tree.html
+SHA-256-Digest: 3Di9sKSem/l7IOvi6EFZQVkoFrC6OVDJ4MqXyF4w0gk=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/IContentPartFactory.h
+ tml
+SHA-256-Digest: MXUp4z6INQGu0l9teI1NZFrxCQawG4l2zALXs/DgJ2s=
+
+Name: reference/api/index-files/index-20.html
+SHA-256-Digest: UyI5LYPwZz9FXFe4CQYJ6CdbIvbqMFByBJK8tp69XhQ=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/providers/class-use/IAnchor
+ Provider.html
+SHA-256-Digest: 6mfL8aO1ebPdKHQGN39UPELfuH/HlfPWtrQd23vYMaA=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/class-use/IBendableCo
+ ntentPart.html
+SHA-256-Digest: 2R8wkLIno2nFgy+2tCk+pFq8DGzKirVnhNH2Tuf1ekM=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/behaviors/RevealPrimarySele
+ ctionBehavior.html
+SHA-256-Digest: lKBakT13KAgdRDJuczRVJJCOM9MmWTP+cocNLKBVX+0=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/package-frame.html
+SHA-256-Digest: Q7bdatoUWPrUQy1lkp7dSduq6ispDeKtIzmqqo8nLnY=
+
+Name: reference/api/script.js
+SHA-256-Digest: UGOTFhtpJWj1iNaL6uz5rV0z8UerrZCdnN4SkY2857c=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/viewer/IViewer.html
+SHA-256-Digest: m19mpWDm6rYkv/d1xlQa1TMrtIMufiyUaH4vLtG+cmU=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/behaviors/ConnectionClickab
+ leAreaBehavior.html
+SHA-256-Digest: M54pwC5Ymg2ol8czUt6f3HGRPSqQXRxUBTVRCO6QxK0=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/policies/package-summary.ht
+ ml
+SHA-256-Digest: 3IQo0cRScVdoIpApBxdeYoqdFIXh16JlCpkxG1b0urI=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/behaviors/class-use/IBehavi
+ or.html
+SHA-256-Digest: +dYxrpXu2lwxRpqbUxzSBfmHJk4mX6llwclpHqEpn4s=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/behaviors/GridBehavior.html
+SHA-256-Digest: DfOOx2SzIJfBRtVOEab5bxtWobA1ebyuO97pTE/yCpY=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/behaviors/HoverBehavior.htm
+ l
+SHA-256-Digest: 4pg+Nf/0V5EAGMN/uXpc+F28+yoRfv4hNvQHM5rSBQA=
+
+Name: reference/wiki/images/mvc/GEF-MVC-root.png
+SHA-256-Digest: PQqZzMDYY/hoq6368U9G6bC2OzuOhavxvUWWkdYy2GA=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/class-use/Attach
+ ToContentAnchorageOperation.html
+SHA-256-Digest: nSX4AyWVNDGBQHywJ+VDAAvVoa9qvrNElSBt2T6ljQs=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/behaviors/class-use/Selecti
+ onBehavior.html
+SHA-256-Digest: Wdu6TGuSNF7aLkeEd6jtMvLkhVKDvnws7XE6FksLEV8=
+
+Name: reference/wiki/images/mvc/GEF-MVC-viewer.png
+SHA-256-Digest: aN6sjXZIwtQsUmxKFNfu1H3Y7BCKanQXvBBTJyyZRsg=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/AbstractComposit
+ eOperation.html
+SHA-256-Digest: +bJM+GelU2Leh6YRMg6j7gh00Jr0FKL37rbfMzoAI1g=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/Messages.html
+SHA-256-Digest: G4CR4/7BapRq9atuUa992xNg4Loh3PmqOkSBCx3oKwg=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/behaviors/package-frame.htm
+ l
+SHA-256-Digest: 0JsJ4uUcb3hqJybS82V62kwkq3Eb7mb/gVlaAqymNxg=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/IBendableContentPart.
+ html
+SHA-256-Digest: WvcVk0SVhKO6PH4107dsBXxf94yG5rIoPXeNLkeRtH0=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/behaviors/class-use/HoverBe
+ havior.html
+SHA-256-Digest: D9hrPYmVN7gu+xndJ6I0sX+ovSzVIuVX5bLzqWc/PY8=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/providers/ResizableTransfor
+ mableOutlineProvider.html
+SHA-256-Digest: X+oFcg7IgIWIWZJzLN01UOI6CRvP9TszkVUQN4VCO20=
+
+Name: reference/api/index-files/index-17.html
+SHA-256-Digest: 77304m+mKsgz6O2tWnhlRQjeRC3fWTDxzoWX7kD2+cs=
+
+Name: reference/api/allclasses-frame.html
+SHA-256-Digest: XvLFSXm+NifkeUiUQ5YxqjCcvbFG2IKk8eK2Kb7fIx4=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/CircleSegmentHandlePa
+ rt.html
+SHA-256-Digest: IyDSF0VhdFitJWZ/foN2fgOCu+akhqdcwTWC7ZlRpkA=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/BendContentOpera
+ tion.html
+SHA-256-Digest: MEFCkVYJH3rJso+N8vomsN2RE/C2TTL+Ajrsa3fMJvY=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/class-use/AbstractCon
+ tentPart.html
+SHA-256-Digest: 0veuAbvQF5yiEh2yO0Baif0DSIYySfkgvhkATHw75yY=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/behaviors/class-use/Content
+ Behavior.html
+SHA-256-Digest: Mqydt//Drqj2L7YIJnmhvb4p3Zvt9E6rfLAT8nnq1eY=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/package-use.html
+SHA-256-Digest: Qws5e9I3qTVn1N34fFS9VqV/Tzr+uyK65GbDAfiOsck=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/DefaultSnappingFeedba
+ ckPartFactory.html
+SHA-256-Digest: YozSLCnvFbqaOy7a+D2EB45x2WvNXhqB7ACG4hXIuEU=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/behaviors/class-use/Snappin
+ gBehavior.html
+SHA-256-Digest: MrpUKGJm+gDQAvUXga0PSLdx7/1+8dIFDMIyCxAVM5M=
+
+Name: reference/api/index-files/index-16.html
+SHA-256-Digest: 6/9tRAHRc6CNTttXqRJvA/NnVI9W31zcUl7SNMycnRQ=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/class-use/Select
+ Operation.html
+SHA-256-Digest: K6VBmUZ8dCHtpruoSfUz+PifIENLx8vvqNb4zlZmV08=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/class-use/RectangleSe
+ gmentHandlePart.html
+SHA-256-Digest: LjaRgzhtEJKrGJfriSv3kTEwBAc2eRDoo9+CllzMkR8=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/class-use/Remove
+ SnapToStrategyOperation.html
+SHA-256-Digest: 4bE2J9iQgWID+nGOkD8Vejkc5pFwwoa8fyO2FFs2NWE=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/providers/class-use/ISnappi
+ ngLocationProvider.html
+SHA-256-Digest: DuB30zMHjSUmppeWYOz+UBoLJ0Gp9CEDSDielHA6eag=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/models/package-summary.html
+SHA-256-Digest: 9YcQ7H1O/2/r5P9EhVTy0iEb7S9KCRzsQQdRduGvKLI=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/properties/class-use/Und
+ oablePropertySheetEntry.html
+SHA-256-Digest: 0XeG5mf3j1r8E3lHVl7ETJHePsJTcK81cakSRfrzmP4=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/policies/class-use/ContentP
+ olicy.html
+SHA-256-Digest: +b0oFTaupykoW9uCniJIr5dlQaRUeXNEPmNq19RCYNw=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/class-use/Transf
+ ormVisualOperation.html
+SHA-256-Digest: Hn6p9fjtgItxT0VYsapJR9CeBp6MJXl6B0ZwXKl3Ptc=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/DefaultSelectionHandl
+ ePartFactory.html
+SHA-256-Digest: ciozBZNQsvleqatd/jsv/TaXW0m8NestNX/omxFaoOE=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/ITransactionalOp
+ eration.html
+SHA-256-Digest: +51WWD6x5oDQ00BGBtt+biSlHX4Hsne6PX7zysdn15A=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/class-use/SquareSegme
+ ntHandlePart.html
+SHA-256-Digest: UYG7o2rWqPkFfKyBKG1TKU/tfSFmYfOptmKmxnMUtm8=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/class-use/DefaultSele
+ ctionHandlePartFactory.html
+SHA-256-Digest: Q0a2irI2GfEHdyY0oL7UX0xeyDf3EAW/fKbkLjmPKXs=
+
+Name: reference/api/index-files/index-7.html
+SHA-256-Digest: gtJxnPX+8TnaWc1ZGafjMzj5xZDtAVVbhmYLLL7bd24=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/SelectOperation.
+ html
+SHA-256-Digest: 7QI9CH/bRdu1MSautUo+qko7U9bqq4qXBpVk6pw4YAo=
+
+Name: reference/api/index-files/index-1.html
+SHA-256-Digest: yqswI6molaUApz7s8EOcm6pfH/ifUhN6UcXl/WeEcz4=
+
+Name: reference/wiki/images/mvc/GEF-MVC-FX-policies-transaction.png
+SHA-256-Digest: rWAwxH/WmtgCVZL/JFdio0DkVdXpppHob8rSppxVfEo=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/AddSnapToStrateg
+ yOperation.html
+SHA-256-Digest: UzyDOB/16gtRyyMnzX3ICqalpdNL2it1o35EDnLkOV0=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/ForwardUndoCompo
+ siteOperation.html
+SHA-256-Digest: HGAVA/pMJOzWNEGxijuhkzWCxBSzjZ4hoA7ry9IC7gc=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/domain/package-frame.html
+SHA-256-Digest: +m8NjfbQHIT0rPWLeaKW/7NQLa8pm3R5aHS/caZjz4o=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/parts/ContentSelectionPr
+ ovider.html
+SHA-256-Digest: 8HP4R7dOYPJTx6+AG51klqq8F+sP4sUiqxLiEfglY4U=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/properties/FXPaintProper
+ tyDescriptor.html
+SHA-256-Digest: sg6VO5ZWh+mNY997U7sdOld0kSmvXg9bUg3DR5W9W44=
+
+Name: reference/wiki/MVC-toc.xml
+SHA-256-Digest: XoKv6kgsXFfxsMaZix+jQz6te2FhfR0eb+0vh1r3VTI=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/class-use/AddSna
+ pToStrategyOperation.html
+SHA-256-Digest: neAELMXBNCldZmeAtUtFg0EgL/yrTtTq/Rq7M3vdgdU=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/MvcFxUiBundle.html
+SHA-256-Digest: 9mhjMpDr7+0xpSsnn8DfuEn5f1TSz14PA0w9xLq9WJo=
+
+Name: reference/api/index-files/index-10.html
+SHA-256-Digest: /Ku4knB/bu9a5G/jgft5BaUrGO6eyL+BRaAJNVC1ExE=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/parts/AbstractFXEditor.h
+ tml
+SHA-256-Digest: NEKQ/8YZJJojybRYJkaWUB9qkSKkl57MTdqep7192Mc=
+
+Name: reference/wiki/MVC.html
+SHA-256-Digest: vqB8dh+7/8cpM+HvGhOtBPMfk4iM0jWsi/S6khZAgtM=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/IVisualPart.html
+SHA-256-Digest: zQ5dVR5gQfumYPbAM9c0BlWZJxD5bUSxWYrJMKSLoLA=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/policies/class-use/BendConn
+ ectionPolicy.html
+SHA-256-Digest: 1+vcMErSNMv66woz2XRFIo940bp3/OZ71ExtSc5HeIA=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/viewer/package-tree.html
+SHA-256-Digest: dYx55fM2xCAoATd38kYi4Zd6mLGMI/X3y/I1zavtZ4E=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/package-tree.html
+SHA-256-Digest: aKRslwVv81MxpHTP2zG0kGCVnmNhG25ANkmkcSOPMxI=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/class-use/ITransforma
+ bleContentPart.html
+SHA-256-Digest: Gd3g5oP0TjtH175CTJ1fZwDMcIARSCvsJm9hKxkW588=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/class-use/SetRef
+ reshVisualOperation.html
+SHA-256-Digest: 3d+1gXU+0aDBYaAP+rzzX82nWuudOvnmpmun4bW7Mz0=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/providers/class-use/Resizab
+ leTransformableOutlineProvider.html
+SHA-256-Digest: bCnf+wmWTgGasjO1/UYVOvaTinAhluuXs3/5aY/0xgc=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/properties/IPropertyShee
+ tPageFactory.html
+SHA-256-Digest: OBaxjuQY5/7ArchPvH8vcSKyCImmjkU45PQb2rUcmWk=
+
+Name: reference/wiki/images/mvc/components.mvc.jpeg
+SHA-256-Digest: +zKj9hKqOIkHj4TTox3ENZgTPRjgDrxo31i2B129cfk=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/class-use/DefaultSnap
+ pingFeedbackPartFactory.html
+SHA-256-Digest: ljRk1H4goQeZF7+JylSI6L66Dto1ubvcMVUbzUhzzCw=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/package-tree.htm
+ l
+SHA-256-Digest: Cc1rm1zUucT82Pv2tKPqJtiKPUjNw8wSvn4byerLocg=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/class-use/Change
+ ContentsOperation.html
+SHA-256-Digest: tLqhV7UkconbDk6lvTvUQkFV7fGJEnfI1ieZ5rsf74Y=
+
+Name: reference/api/overview-tree.html
+SHA-256-Digest: hvB1x85jyr0+IWcD/NloEgHdY0alHcZeghl8fsONFX0=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/class-use/Desele
+ ctOperation.html
+SHA-256-Digest: XqYSiuzoU6rRktvqTTjSZwywkojLjxSBAWKITIENnz0=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/class-use/MvcFxModule.html
+SHA-256-Digest: +c69VTLjLSka/ven5hhJS7qNPSjNVW26o5PD36eoFvA=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/class-use/Change
+ SelectionOperation.html
+SHA-256-Digest: G+ykY28hRxacmQaYWS5+ijKOGgDSKeK08xwnVEgFtns=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/BendVisualOperat
+ ion.html
+SHA-256-Digest: vBPTUW0Tuam0023JrsQmrkX/ic5WDKhGg+p9+dXT+4Y=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/class-use/DefaultHove
+ rFeedbackPartFactory.html
+SHA-256-Digest: YIx9MJplJnMhgECDEzaZwUkmp6NZoOPnqgK5/IytZ9U=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/providers/ISnappingLocation
+ Provider.html
+SHA-256-Digest: W1DGfeNA51j+juN99rULFrr0t0gQExyrX0QSJz4C3Kg=
+
+Name: reference/api/index-files/index-13.html
+SHA-256-Digest: PuCsjC395ubh8kMVlNcvu4ih2rDwBo+B86KdEEQxkmY=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/class-use/Remove
+ ContentChildOperation.html
+SHA-256-Digest: KC2yakTja4n//iNF/MFEOr8/JCs/tu57gamTyKC0ueo=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/DeselectOperatio
+ n.html
+SHA-256-Digest: IEAQG28LruCYRMnFoI2g6tSKuKa0YesgzaDCwcp6zYk=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/class-use/Messages.html
+SHA-256-Digest: 0byAH2dH9kkNY0jTy7rwI5gnz1g2Ox/AAM+OULAAGTQ=
+
+Name: reference/wiki/images/mvc/GEF-MVC-UI-root.png
+SHA-256-Digest: mSVQKt9YpxYCbuhpKqw2VP+Pg6VHkmaVKgNHvXwJIdc=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/domain/class-use/IDomain.ht
+ ml
+SHA-256-Digest: 0+X+baXS70DDJ4DwSzfno1YJkMRhWk2CjMP9p7SLD9M=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/policies/package-tree.html
+SHA-256-Digest: iYBiagNKjbKz8hFP4lMwJ4KoCdgXjmKYlmm0vgMarn8=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/models/GridModel.html
+SHA-256-Digest: LTTleJR9KQR0gN915uz+nw+YY1w6J/bBlAFgPTPnVek=
+
+Name: reference/wiki/images/mvc/GEF-MVC-FX-operations.png
+SHA-256-Digest: vxjru4DR2aelzbXelPB9Gek8zIEVV//PSvXm39vAsDc=
+
+Name: reference/wiki/images/mvc/GEF-MVC-FX-policies-interaction.png
+SHA-256-Digest: Nd2oWfVNxjJqU03Oq142Hu+n1IC1sWuTURXoxA0s/io=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/properties/package-summa
+ ry.html
+SHA-256-Digest: hkzWICvguR/nBrqvhPuHCnWIYALOGEvr7MvcaZE4CYA=
+
+Name: reference/api/index-files/index-6.html
+SHA-256-Digest: XalkDvKmWvIJ72/t5q1adVB9EVu9+WDpVoMZBCxnW4w=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/providers/class-use/ShapeBo
+ undsProvider.html
+SHA-256-Digest: EjS6KGL/8Q+RFQSJ4wd8evgYWPfDDNKtM9fLz19rEno=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/properties/class-use/IPr
+ opertySheetPageFactory.html
+SHA-256-Digest: zx5z99jZqUvqfAd6Bwrk5nLG5p+5DZBgMyAs89BCDG0=
+
+Name: reference/wiki/images/mvc/GEF-MVC-FX-parts-utils.png
+SHA-256-Digest: CvsLtn1UmDG4NVltBzEwijJ8C37EG4d2gtGiNRTpgBA=
+
+Name: reference/api/index-files/index-11.html
+SHA-256-Digest: POeC3PKNZdixI4wyFTndaLWWzfcr9MxBFyifUYnCzZs=
+
+Name: reference/wiki/images/mvc/GEF-MVC-domain.png
+SHA-256-Digest: /vMNGwdGqky5wUg/SI1gDC4yDCgTaWEN94bRZVsF6GM=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/providers/GeometricBoundsPr
+ ovider.html
+SHA-256-Digest: 1evFZ8LmnfRn2A10bLGzjcZ9J+0m5EnATU5ktix00Po=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/parts/class-use/HistoryB
+ asedDirtyStateProvider.html
+SHA-256-Digest: H25rgIycKuPmiyAmuF2mpPPlXp2j9u8edIUJ4+JUlhc=
+
+Name: reference/wiki/images/mvc/GEF-MVC-UI-parts.png
+SHA-256-Digest: V7DB2zpjAQsO06dAZB0m1XMcPoy51XIP+jeOSZbgMj0=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/DefaultHoverIntentHan
+ dlePartFactory.html
+SHA-256-Digest: /XPeL6coG2fTGTXQGb6Sj+1L/ZwjuYd4ij3HclnN5MY=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/IRootPart.html
+SHA-256-Digest: ynrPs3r6YWkKTeBYJIf+kazN0SpcfO7tgXpus0Sxu48=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/class-use/Forwar
+ dUndoCompositeOperation.html
+SHA-256-Digest: 4q6nsmKlmQc/6Mu7RwVcKZbWEHjY99vnOZggUerMfTQ=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/viewer/class-use/InfiniteCa
+ nvasViewer.html
+SHA-256-Digest: fvcAGV5JQUpTyn5CiOfDPcnRpGDIWO2MmkRSVRwrvGg=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/class-use/IContentPar
+ t.html
+SHA-256-Digest: vr0PAFRJfB4NAAnrYFM4NvTyt6R6/JdKoEllgN1cVpM=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/class-use/Reveal
+ Operation.html
+SHA-256-Digest: 6XGh87gYka4fFaorkQ/BF5sf6fLr7VfG36Z8shC1UqE=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/parts/class-use/FXEditor
+ ActionBarContributor.html
+SHA-256-Digest: yzNA8ZjaqtxN1g0XU+Z6xCpqY7EgAzcrYMf1TdJG40c=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/providers/BoundsSnappingLoc
+ ationProvider.html
+SHA-256-Digest: uX8pfxR1NEFoVCph5qvZ2YRvcjDQ9JdnBERevsk40/0=
+
+Name: reference/api/index-files/index-8.html
+SHA-256-Digest: iFg+F1RSmWSaKEZke2GeDTopsVQIqYqenbX31KgDjDY=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/HoverFeedbackPart.htm
+ l
+SHA-256-Digest: HXTqJ7rFCCsv7NKg6Fpp9hTWv0qFWPG8n5h9gd/N5iY=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/providers/class-use/TopLeft
+ SnappingLocationProvider.html
+SHA-256-Digest: zidzj442N099FPWoVQuAboAWMJlvvSQwvj/bkJjd27E=
+
+Name: toc.xml
+SHA-256-Digest: 3Iy2SeuTa7AfYNHDaHsuKwtwoSYpDqYqCy1+svvLCrE=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/AbstractFeedbackPart.
+ html
+SHA-256-Digest: 0Fv8Z4q28ks3DI9GPq4IvIB1fKtM2CZ/cUx4I0iWIfw=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/PartUtils.html
+SHA-256-Digest: Qj7ZISTBxuuv31rKiLxqvsiVt8krE3/loDZkzaMwcZs=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/behaviors/ContentPartPool.h
+ tml
+SHA-256-Digest: JA54MBznQilg/bSzJITr63xgvHZu7afd9wSzM6Cm+j4=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/policies/class-use/IPolicy.
+ html
+SHA-256-Digest: r+I0+ycUOxQefJ4NxOz8HVdloq+3+DZ9uow/Moqe0Yw=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/class-use/Change
+ ViewportOperation.html
+SHA-256-Digest: e+obQeELXT5jy3BjQ4+oxs3d8t+cwGdRSwHmBphlATQ=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/models/package-tree.html
+SHA-256-Digest: 9YyVIZ3acj45J8umX3NF2KBzmyvIzHjm/2DWST5Vfys=
+
+Name: reference/api/constant-values.html
+SHA-256-Digest: L8TlJZTERht/BDj5jrUjZDat1l7ZHJ49yKNOo/p06G4=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/IBendableContentPart.
+ BendPoint.html
+SHA-256-Digest: KY2EHjm6mVdIb5AOt0Y1lIw/WHo1SMrWYloz+oxLHuI=
+
+Name: reference/wiki/images/mvc/GEF-MVC-FX-parts-handles.png
+SHA-256-Digest: l+41sC5HRe/h/2K/2MvoU4Imx7cavChZUDyMlqDiZvw=
+
+Name: reference/api/index-files/index-15.html
+SHA-256-Digest: rvuLyGtzgf/Gs/9BZ5J4IkPorVFjHeB6j2zAwDOPQzI=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/parts/class-use/ISelecti
+ onProviderFactory.html
+SHA-256-Digest: JD3H/e4nMoEgk5kRsvdZyHIGq98qGanAWgY4HdxqijY=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/parts/package-frame.html
+SHA-256-Digest: SXF+fEoWGB8zwuRs1KUiJS/3Z138qzAxc3WTyJGd6DY=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/SetRefreshVisual
+ Operation.html
+SHA-256-Digest: bZM2Nu3WHF9yAvQmiqidxvjGoTFgmxeeHl+40CGwlXo=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/class-use/AbstractHan
+ dlePart.html
+SHA-256-Digest: a1Zm05q9gNa4IpJ45dsO22gspYNJCpw5BhbagC9idS8=
+
+Name: reference/api/index-files/index-2.html
+SHA-256-Digest: 2bX0Fff9tf1zV/TU1kG2Ko+iOgHfDSvL+eJJtaIN/rI=
+
+Name: reference/wiki/images/mvc/GEF-MVC-FX-parts-feedback.png
+SHA-256-Digest: dU6Kz4OQv87ZQujCICsOyNGox08rG3OVtKA8E/V6+sI=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/ChangeViewportOp
+ eration.html
+SHA-256-Digest: 7pXy4o1ou7Ld0PTCkIlp6xbVruRzWB+/ZGDJCj+ZAWc=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/parts/class-use/Abstract
+ FXEditor.html
+SHA-256-Digest: JbmB2aNcfa3iNbjbfXs25dq5WGZOmGaAisvf4g1b7Fw=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/TransformVisualO
+ peration.html
+SHA-256-Digest: LLlNvu1e1NyaYtRSpEz91z6Q661G+0cHo9od0bUyXXs=
+
+Name: reference/wiki/images/mvc/GEF-MVC-FX-UI-parts.png
+SHA-256-Digest: wVMQA1xgxUN0Gzhlkm2ateqzMufLjjNH+h0T8GlmqLI=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/behaviors/ContentBehavior.h
+ tml
+SHA-256-Digest: I9rmPjWcX/yyZs/dxm0oHf0uF/P9bkWk87YyQS3jBlg=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/models/FocusModel.html
+SHA-256-Digest: TnTlGiwb9dlik6lXRbBbuXdCjJTco9OwHKNRj2bQod0=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/policies/class-use/Creation
+ Policy.html
+SHA-256-Digest: Cs+P9Ff7/R7DsHDf9dzPcBhiiB0TGAyuHwGEC2kAwmg=
+
+Name: gef_eclipse_logo_32.png
+SHA-256-Digest: 3gjt8pGYyF7O9G8DmyVCJGnZ0uzj6jfJwG5MgJjWJoQ=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/models/SnappingModel.html
+SHA-256-Digest: e7EANYZf2yhN96auHwBV6KeRG78JcYbrmUZSFw6zpOk=
+
+Name: reference/wiki/images/mvc/GEF-MVC-parts-abstractions.png
+SHA-256-Digest: YSqTlMq2udnSOenaVABsWAPPLqoLshHtLL70Bq9fj6g=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/LayeredRootPart.html
+SHA-256-Digest: 1Ie4x+aKCeu0YFrw34ujwRAeiyn9jnV0PGzAi18uNko=
+
+Name: reference/api/deprecated-list.html
+SHA-256-Digest: hxtDg+hHC/mAOceOsnFkVz1p5u5hIubxVD147Ui33aE=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/providers/ResizableTransfor
+ mableBoundsProvider.html
+SHA-256-Digest: y1D2vUiuc7M2WgKWoZE6243t202x0xNL+98mOGhTpBw=
+
+Name: reference/wiki/images/mvc/GEF-MVC-policies.png
+SHA-256-Digest: t/nsgmjRQ1c+auX51b+lasMLJ5f+rsNQtuBcqpSk4tQ=
+
+Name: reference/api/package-list
+SHA-256-Digest: 3Fp3pdkZF6+sxAol6pgVmlj0Rxm5xmBOB8pGI8VI1xg=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/DefaultFocusFeedbackP
+ artFactory.html
+SHA-256-Digest: nJTagNNU3aoDcmqiF4dzGnORhRGK5MGXj8ZvlzfJNq0=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/parts/HistoryBasedDirtyS
+ tateProvider.html
+SHA-256-Digest: mdT/A0oHCANIktVFSlU86lgFMM+P71U9nynCWvghZFg=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/parts/class-use/IDirtySt
+ ateProvider.html
+SHA-256-Digest: OfGoFAo6hP6ApDvIQvXco9SYEf0pxbYuMUNBOtsfFO4=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/policies/package-use.html
+SHA-256-Digest: Kg8w8pw+ghKNBh4zVRSWViNDDRsdHJjgavs/THkN8Ng=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/package-tree.html
+SHA-256-Digest: UXEoPHbFw/fSjfmUavGSOH/gtRm5AFZn3z8taeAFmGo=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/providers/class-use/Transfo
+ rmProvider.html
+SHA-256-Digest: wfXfJFgniGbF5l1tKAovoG1bRDBXSOO9TxWA1+62Srk=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/behaviors/IBehavior.html
+SHA-256-Digest: 5fKNwcWyz5q2Rjxx6hThVwg+mwcsUwQuaWfgAwRMh4U=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/AttachToContentA
+ nchorageOperation.html
+SHA-256-Digest: L5HZfpGSbQD0Ff+GTVRE1V49r/an/WFWd8zvgWOf5Oc=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/viewer/package-use.html
+SHA-256-Digest: fPY6vesBtXFcMmJnQxOIE+0aUEajG9Ioi695hlpADis=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/models/SnappingModel.Snappi
+ ngLocation.html
+SHA-256-Digest: lYEk4f+xHAbjgrs7XXA0wAC06/GD4CMyHDO7i7pSMmE=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/parts/AbstractFXView.htm
+ l
+SHA-256-Digest: udPVG+o/MB8ZmYLge/JFSPk/ONT+gosQxuYHh85FBlc=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/behaviors/class-use/Connect
+ ionClickableAreaBehavior.html
+SHA-256-Digest: G79sSAfDpxDn0Axnkm8ydlBNQCn7PULk7vEol+QI4Jk=
+
+Name: reference/wiki/images/mvc/GEF-MVC-models.png
+SHA-256-Digest: 4rLK6Mq0AMmqP1nsNCUbUJktg/dvxzLrJbjcVvbUnsI=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/viewer/class-use/IViewer.ht
+ ml
+SHA-256-Digest: 5CbareBiN/zFJ2xQcANBivr0Sxfv6UvgjFORWP3D3x0=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/behaviors/class-use/Abstrac
+ tBehavior.html
+SHA-256-Digest: B9WfOJzVjH/7MYKaeRN8AIpC3kz2HMAfKPlO09Ec1Lg=
+
+Name: reference/wiki/images/mvc/GEF-MVC-operations.png
+SHA-256-Digest: mzXa+xiwRr7UY0hf2k4x4BnybuxQmRWb0RevsogbboU=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/models/HoverModel.html
+SHA-256-Digest: YwkagQUKeIXTNXuVBX/3X7wwypboJeElRAeH5kjTyeo=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/properties/package-frame
+ .html
+SHA-256-Digest: L9msJ8OYscYLePPgnDmZmNnH1vAy6MD3QPrbUL9SSDM=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/ChangeSelectionO
+ peration.html
+SHA-256-Digest: DdNrRAd4rCOhYkNHDtc1b2mWndpoolbEk3XpPWhDVqA=
+
+Name: about.properties
+SHA-256-Digest: iRIi3w6Yu1v/OjsHGNCuvdFII0tRN82mOwHmnb1ltrk=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/SquareSegmentHandlePa
+ rt.html
+SHA-256-Digest: kaM+JCYYbKsavM9G18xboJ+Q0dmCloPlj5pOKO24B4U=
+
+Name: reference/wiki/images/mvc/GEF-MVC-FX-parts-root.png
+SHA-256-Digest: SaFqvbLrv4jN9WALe0WYDqdncYNKNejQzGqdE2IWUkE=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/AbstractSegmentHandle
+ Part.html
+SHA-256-Digest: BjrKL9OR+khm+Up98PWQhWBKyjhhKfRorUw8RidIqek=
+
+Name: reference/api/index-files/index-18.html
+SHA-256-Digest: omoVKFGqyqn3iDYGC2Utmiw8c4ibnd52y2IcjzmWkn0=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/providers/class-use/Default
+ AnchorProvider.html
+SHA-256-Digest: SQ+giY9Sq7nnbNhWzuXDZcmHkQ9vyLazG9TpCFQXILc=
+
+Name: reference/api/stylesheet.css
+SHA-256-Digest: G9fhf+PVG813X/8Ib2axn8l6L0ZySPOC2DEMaxFMTV4=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/package-summary.html
+SHA-256-Digest: 424vjOYM4HS/txRGNygBas3pOdmgljjb2+mT68zNKo4=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/policies/package-frame.html
+SHA-256-Digest: dYRXzCGDvkLm919po71cPm5kusvPnbIWmSszdkde8KU=
+
+Name: reference/wiki/images/mvc/GEF-MVC-FX-root.png
+SHA-256-Digest: Sfp4h7y0ZTIUetquZr9Z21IGUWPde5AWv/Z9ls3gPWg=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/behaviors/SnappingBehavior.
+ html
+SHA-256-Digest: PBbZvWq13/y/sGshU16AJte1vspuA3njNl8WmyDCD0U=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/package-summary.html
+SHA-256-Digest: 7EpJBua8yOB8Hkyq1o8BXuBaPh6YW9LIL8lqumiZrpY=
+
+Name: reference/wiki/images/mvc/GEF-MVC-FX-UI-root.png
+SHA-256-Digest: FBMo9cjLMR4E/1jdKibocsWGFNkDaTOQHrD+8AaFx8I=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/AbstractContentPart.h
+ tml
+SHA-256-Digest: SZO4lPlo8dx1tFU4vStdFaFEW7KF6pyr5/J4SolorAo=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/SnappingFeedbackPart.
+ html
+SHA-256-Digest: WIzWScukvI2PWyRGHj2CUl9MMdg627ay0raHnJUUVuU=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/policies/CreationPolicy.htm
+ l
+SHA-256-Digest: IgwllPRM6euBZAl9erVQddDq13cYDuHEHg8Ux/jAKZQ=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/properties/SetPropertyVa
+ lueOperation.html
+SHA-256-Digest: ugjkVYqlXRVhMwH4pfdCAOMMJzqTqcRmpxZ1DHfsOcA=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/RemoveContentChi
+ ldOperation.html
+SHA-256-Digest: dez9ueCNJJit+9UrIqzpiw7ojWkDS0/vukvf5Ugx+Y8=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/class-use/IHandlePart
+ .html
+SHA-256-Digest: vNu61f2sDOVpBAzv8dHvdtsXzw8SDO7fCGRsMNktaK8=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/domain/package-use.html
+SHA-256-Digest: 3bsL6+5EHdmAGLPkxEt/S6fTEULNXfeEh8fnehyjTpY=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/package-frame.html
+SHA-256-Digest: HwUSItEnohz8ED/uxKIvwOiTAPp8385V0WxQC4wuE24=
+
+Name: reference/api/index-files/index-19.html
+SHA-256-Digest: idO5A+jWAYPMbF3S+rpfmdUKQnqgdfKs6v6Ls+ys5vA=
+
+Name: reference/wiki/images/mvc/GEF-MVC-behaviors.png
+SHA-256-Digest: Fzw8vIHwJx+gGD0+nQywNBUDMUWKhTYt5yO5gfVO4gM=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/class-use/BendCo
+ ntentOperation.html
+SHA-256-Digest: mSdyCB0CEBL7ENTkWQvo9Gjhu4SM59/tUfeBZ+1rUnY=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/providers/class-use/CenterS
+ nappingLocationProvider.html
+SHA-256-Digest: KYxzgd2hE+H48B/NIiYnAZV9UVFxb862P9h0gGvlcvE=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/MvcFxModule.html
+SHA-256-Digest: BqYxISCy3brtBQg9CiILRs8foE9/BHDSoBlGliFv8lU=
+
+Name: reference/api/help-doc.html
+SHA-256-Digest: gojGZAtlEG3/mF2jGIv0Dr5k1i8FXbr6h17i/joN6jE=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/providers/class-use/Resizab
+ leTransformableBoundsProvider.html
+SHA-256-Digest: RsUv3c/tfjDS46t9ORF4lwDiKef8Md/MI4gcR2wfFH8=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/ITransformableContent
+ Part.html
+SHA-256-Digest: 3R2Z19fP7AuKuYkP5pbklEtSJ3FhE7yxsa6I3RnNgQE=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/viewer/InfiniteCanvasViewer
+ .html
+SHA-256-Digest: Hq5t0GlbcLH0qmWXC6s1LuXwzkv50cPrdGS9U30cO9A=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/providers/DefaultAnchorProv
+ ider.html
+SHA-256-Digest: aji4n7PMILmA+rq+4X1gX3MlPeG5hXM1pfaA9U9isNI=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/DefaultHoverFeedbackP
+ artFactory.html
+SHA-256-Digest: y7BgLpGlGeDM92abAoySu0vA3MVA1BqrCqQzSZSppvM=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/properties/class-use/FXP
+ aintPropertyDescriptor.html
+SHA-256-Digest: NEEh8b+z0+U6iLwa07AY4gsrAfg/A2OJ5ySZMgel8Vg=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/models/class-use/SnappingMo
+ del.html
+SHA-256-Digest: 1Y4p2qf9WnW+gERjYYV1o5x7Y/qxy8TouKLEyVKD2eU=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/DefaultSelectionFeedb
+ ackPartFactory.html
+SHA-256-Digest: dWVQeWmsamqC0qlenAMdWM0ico6ApKGn4t8lph4XVBo=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/RevealOperation.
+ html
+SHA-256-Digest: O+WOLunMgJpjcHuAmoB+Zey/cVBS9A7IyalYlcaFT8I=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/providers/CenterSnappingLoc
+ ationProvider.html
+SHA-256-Digest: fmDg2njSu318McoUW5lE7kEd8ax379r07ATJaenv8yE=
+
+Name: reference/wiki/images/mvc/GEF-MVC-parts-realizations.png
+SHA-256-Digest: STT95JSeHt17RigWiv5eBnDd1tn61APVMuoAmMqzT9c=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/domain/HistoricizingDomain.
+ html
+SHA-256-Digest: jE74ZUNyaYaNG1pcXrmbWerQ2KiQ2TLBJGNrmndvhlY=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/policies/ContentPolicy.html
+SHA-256-Digest: gzaRb9iW00vh88KFYcaYXXN9Aua+rNkiDTOeYMAFEWI=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/AddContentChildO
+ peration.html
+SHA-256-Digest: zymquHSEVRW3l15V64fWRckBXHS8r3F6ZRByYYCuqMs=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/class-use/DefaultFocu
+ sFeedbackPartFactory.html
+SHA-256-Digest: oA3OsHiYhAUE1VHlcwYtZ37vWd8cSTN9beA0cHaBohw=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/providers/ShapeBoundsProvid
+ er.html
+SHA-256-Digest: MAFZ5PmoeCxL4Ir3EVtsTtxkZa6AgOgpiJJE0uES3FM=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/parts/package-summary.ht
+ ml
+SHA-256-Digest: Ow5xZScFeeYLgA8yDLlAne6wbvhtN1lwU7EapLEl86g=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/ChangeContentsOp
+ eration.html
+SHA-256-Digest: Bonmtldg+cIwpFjgWv0G4vauGarKw0C+0wrmlMkC7No=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/class-use/CircleSegme
+ ntHandlePart.html
+SHA-256-Digest: QtaL/J7V/oyqlMu5K1sMl7P6bMIYqNRK8xY3LKzlmmY=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/providers/ConnectionSnappin
+ gLocationProvider.html
+SHA-256-Digest: 7yLVX5G7j66NYv7Sit4jeq5HrYwVygKv9/0XGZHUSTU=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/policies/class-use/Viewport
+ Policy.html
+SHA-256-Digest: CID4E2raYGyoXafu/t1D1vlQ9AxRcGkTM1rQJ+4++LI=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/behaviors/class-use/Content
+ PartPool.html
+SHA-256-Digest: eOiP5X7LQAuZ3mOUnJRUUrM9Q3TcgFZEGaPH+/xqv8c=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/policies/class-use/Deletion
+ Policy.html
+SHA-256-Digest: tgJIByHv72RoI7tP22QlY7niRVeEOCaNFS9oHBWeJ3g=
+
+Name: reference/api/overview-summary.html
+SHA-256-Digest: 6DzaMpwK/0BwXdkKYwT7IXCsKJDtexR9KBUWL4gRixE=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/class-use/FocusFeedba
+ ckPart.html
+SHA-256-Digest: BnrFp6AYpq6w5OFouJcI0CzxvdCVp/lgzspjINeeNaY=
+
+Name: reference/wiki/images/mvc/GEF-MVC-FX-behaviors.png
+SHA-256-Digest: t51ZEQuXuzsL5ox+DykuNAY+wyPS25LptQCJg69Zkbg=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/providers/ShapeOutlineProvi
+ der.html
+SHA-256-Digest: +QtnpnDAidgzz15SRhKeQ30cNkeonc7eSlqQoW9bIII=
+
+Name: reference/api/allclasses-noframe.html
+SHA-256-Digest: 2Wf8ILBFU9sCAzcSfalkaAq8L4/sGH6g6c0GiZyGVqA=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/IFeedbackPart.html
+SHA-256-Digest: mg1+oU6Zvw4rDZwh3FXgFQ2HOS+MYS3l65SQB8DfCP4=
+
+Name: reference/api/index.html
+SHA-256-Digest: lUBU4hJeTByGdLmM5XX6s4kwN0PTf4zPkCgSN2SBGl8=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/class-use/AbstractVis
+ ualPart.html
+SHA-256-Digest: kN+yN2Qii5+zRvcawecotlBm+1SjP5yGYZ434Qy4QuY=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/SelectionLinkFeedback
+ Part.html
+SHA-256-Digest: LgqZxrszsooawVjxTAV+pgAwkGzi9DPxTmCkON6pKyQ=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/class-use/IContentPar
+ tFactory.html
+SHA-256-Digest: XFUvOVJRwOXJz/jiqX4jGrinoWY/nyzpLzsJpHZ6ywE=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/ResizeContentOpe
+ ration.html
+SHA-256-Digest: jGXJlewuv1gGVLOFBPjIp+yqYcP529FofpQyy8zhnmg=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/properties/package-use.h
+ tml
+SHA-256-Digest: U2W1+tEqcZQddenJYZor0wyEfcT3/A2pXC/MMNyhpto=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/package-use.html
+SHA-256-Digest: zJ/UyU2raoDitWbf2f5qeVy6tXx1wYPe5izLvraMWLM=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/class-use/AbstractFee
+ dbackPart.html
+SHA-256-Digest: Aqory2qdVcbeyM6eU4f7mTWOBBrU4Hl1cV4sJbPh7h4=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/behaviors/class-use/RevealP
+ rimarySelectionBehavior.html
+SHA-256-Digest: 3uOs/DBw0iElB0+27qJwtjaONJD/JVXJnuNfYG10mdc=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/class-use/LayeredRoot
+ Part.html
+SHA-256-Digest: YSfKPV3/VmQywP+aJD+dpk0xe9gf+uE+DObzU3IHVAo=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/class-use/IRootPart.h
+ tml
+SHA-256-Digest: mbdBlowWRDiSdn6MiOj4NxdzuiLhowj8ZYVVKs2lK3A=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/IHandlePartFactory.ht
+ ml
+SHA-256-Digest: PeKJGrXjpl5XHwJhwbsulPFLriaahoe7FaGV3dbAo/s=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/parts/FXEditorActionBarC
+ ontributor.html
+SHA-256-Digest: sLAutR6UqZthhmhLzbCoj3ujnl486lBN7eOgIAgT0fA=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/providers/class-use/ShapeOu
+ tlineProvider.html
+SHA-256-Digest: 6vDC4GP1V38XkxgviIqr9YfM88qOgH8Lyykg5LbEqOM=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/class-use/BendVi
+ sualOperation.html
+SHA-256-Digest: cvIL/DyfuEksgXIoyUva2mhzyDkjL8zLCCzn1/alY74=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/providers/package-tree.html
+SHA-256-Digest: 06kol46Zd8NRDpxl4LhyzZED9O3CAHHAGFLEi3N5hcE=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/class-use/Resize
+ Operation.html
+SHA-256-Digest: 716z6UXbu4DHpo1BRNdHLYIoktd1IaSETUvRzlMxxO8=
+
+Name: reference/wiki/images/mvc/GEF-MVC-UI-properties.png
+SHA-256-Digest: PlR8wKBlYPhhRSAxdbSuwFQtf+urK4ws0y+PRYJNcYw=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/policies/ViewportPolicy.htm
+ l
+SHA-256-Digest: c2er20RSUEc7Gw5zcW6/jjDdxyPreAry2qq8r4KwKhs=
+
+Name: about.html
+SHA-256-Digest: 31Y4uaBtOphfTgcHob0hh1CKroOIWaMaM86u24L7ZN8=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/ReverseUndoCompo
+ siteOperation.html
+SHA-256-Digest: lJm3uqwxeNe3q1jIwhwU5tvmcG1BIq+3ux5WoPapPlI=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/AbstractVisualPart.ht
+ ml
+SHA-256-Digest: K8VIW1+MnSST4YXtK9cQPGGELe6NHR2A9wGg9JRPUNY=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/policies/class-use/Transfor
+ mPolicy.html
+SHA-256-Digest: g/51SaWYk10vcHhJYhCNdHvx9ZfDEADsyVMb3u1+bkM=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/providers/class-use/BoundsS
+ nappingLocationProvider.html
+SHA-256-Digest: lG7YK9vMfYHy/vDMGxNge+0tq9CKRHGC2bobmhyXsLw=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/properties/UndoablePrope
+ rtySheetEntry.html
+SHA-256-Digest: Hz8Ee4JsEDVHB87VD0kSnjzecKNvA3s3+3F6S4dnVek=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/class-use/PartUtils.h
+ tml
+SHA-256-Digest: 8/TqWzr3fK1P40kz3cTpJZz/LY8RHrzp0k3fLv8buvo=
+
+Name: reference/api/index-files/index-4.html
+SHA-256-Digest: DzLnMJNYhhtCl3MSYs6oGu1O1SvatWH7rs2dnoEnRgM=
+
+Name: reference/wiki/images/mvc/GEF-MVC-FX-viewer.png
+SHA-256-Digest: Izt2t7jUMn8HjvfODnNXyxnHEM+qRMVToAxWPBT8Qg8=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/class-use/IResizableC
+ ontentPart.html
+SHA-256-Digest: T8oXlVCa5nqxtqhwaQ8inF+g+3dVFtJCWgl92dghsyA=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/policies/class-use/FocusTra
+ versalPolicy.html
+SHA-256-Digest: 2wK8mVxEzn+YpYzcKQEBdnIulUI3ylvx2EuO1Qo3D/Q=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/behaviors/AbstractBehavior.
+ html
+SHA-256-Digest: 8QfLrxArVnKqGdJG9ypqsVP70PaJDg2AHlyhhsFN0z8=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/TransformContent
+ Operation.html
+SHA-256-Digest: 8k7nT0cyGMTddzGT0iUfbUXS3EI9l3U/1FiUesjJF2g=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/class-use/DefaultHove
+ rIntentHandlePartFactory.html
+SHA-256-Digest: 9tIMS7BBL5OBiTNy6vJkSVkiIfjfvHj9yxeAV18rFDQ=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/MvcFxBundle.html
+SHA-256-Digest: +VUezjy0Rj0IWqrsgy9OCLAjFCM+V2bhtWANbIwPE/U=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/class-use/IHandlePart
+ Factory.html
+SHA-256-Digest: Bk6xcGsvV/6PGti+s4jkPsWIA+XCTawdr43h42tzITY=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/class-use/MvcFxUiModule.
+ html
+SHA-256-Digest: XJJst93a+PjrbpmLBI0ePyK8yIF3hsinh9WkES90moM=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/operations/ResizeOperation.
+ html
+SHA-256-Digest: D4M89xUKBjkUotlQd3kypx248pAZ10zhWWL6C30lGbQ=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/parts/package-use.html
+SHA-256-Digest: r2AUkENKcQzjopgw37EYgCEO3jfDoAoMNPvtIGdKU0Q=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/parts/class-use/SnappingFee
+ dbackPart.html
+SHA-256-Digest: dZWbnwYab4+U3xuBE4m00uNd/CTdSL/65H0CvLe8Bzw=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/parts/IDirtyStateProvide
+ r.html
+SHA-256-Digest: CvQpATxdcb+Q0oTrwrYAjYmyS0tHRMIv/jurgbHYlaM=
+
+Name: reference/api/overview-frame.html
+SHA-256-Digest: BgQGvEBKaWscqpZPjtF6WlUlU9qipJ9d10Ztnr3jF9Q=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/ui/properties/class-use/Und
+ oablePropertySheetPage.html
+SHA-256-Digest: mr+6BrmbtJVE/wzzFgNN+LfTRbm1lu7bGzJQuTCoZ7c=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/models/class-use/GridModel.
+ html
+SHA-256-Digest: pie40str/3PA4c3a74lBT9AdrS76DQe4F+uISItF7E8=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/providers/package-use.html
+SHA-256-Digest: DbA+uxT2WFQazB1eDjSzCnklj7wmlxMMzOcGpI+XWSo=
+
+Name: reference/wiki/images/mvc/GEF-MVC-FX-parts-contents.png
+SHA-256-Digest: r3b1kAOcaLAT+wlB7J6teKV2VfNJy8kONEwaUBO7ki0=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/behaviors/SelectionBehavior
+ .html
+SHA-256-Digest: SYlvimSbnkLduqNWb6WbYt4XIlq5LM17twWMuT1aV2Q=
+
+Name: reference/api/org/eclipse/gef/mvc/fx/policies/TransformPolicy.ht
+ ml
+SHA-256-Digest: jhYQDn82u+UHrd7kmudA96wvTb/GDe7nw6kbmn5GclE=
+

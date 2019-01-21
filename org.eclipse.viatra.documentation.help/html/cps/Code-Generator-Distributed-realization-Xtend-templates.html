@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 1.5.5">
+<title>Code Generator (Distributed realization, Xtend templates)</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
+<link rel="stylesheet" href="./asciidoctor.css">
+<link rel="stylesheet" href="./coderay-asciidoctor.css">
+</head>
+<body class="article">
+<div id="header">
+<h1>Code Generator (Distributed realization, Xtend templates)</h1>
+</div>
+<div id="content">
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>The <code>org.eclipse.viatra.query.examples.cps.m2t.distributed.generator</code> project implements a basic model-to-text transformation. It is a basic template based generator written in <em>Xtend</em> .</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_deployment_realization">Deployment realization</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The generated Java code realizes a "<em>distributed</em>" <code>Deployment</code> model where <code>Hosts</code> are the base elements of the distribution. Each host is a separated entity which can be run on <code>HostRunner</code> (threads). Hosts can communicate with each other via the <code>CommunicationNetwork</code> shared object.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/codegenerator.png" alt="Code Generator">
+</div>
+</div>
+<div class="paragraph">
+<p><code>Hosts</code> and <code>Applications</code> are data objects with states. <code>HostRunner</code> is a simple engine which triggers its hosts to fire available transitions on every applications. The communication is asynchronous and realized with queues.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_code_generator">Code Generator</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The public API of the transformation contains four methods.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="xtend">interface ICPSGenerator {
+    def CharSequence generateHostCode(DeploymentHost host) throws CPSGeneratorException
+    def CharSequence generateApplicationCode(DeploymentApplication application) throws CPSGeneratorException
+    def CharSequence generateBehaviorCode(DeploymentBehavior behavior) throws CPSGeneratorException
+    def CharSequence generateDeploymentCode(Deployment deployment) throws CPSGeneratorException
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>This implementation of the code generator is stateless. Each separate model element is generated individually.</p>
+</div>
+<div class="sect2">
+<h3 id="_host">Host</h3>
+<div class="paragraph">
+<p>The host objects keep references to their own applications.
+<mark>#</mark># Generated Code</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="java"><span class="directive">public</span> <span class="type">class</span> <span class="class">Host152661025</span> <span class="directive">extends</span> BaseHost {
+
+    <span class="directive">public</span> Host152661025(CommunicationNetwork network) {
+        <span class="local-variable">super</span>(network);
+        <span class="comment">// Add Applications of Host</span>
+        applications = Lists.&lt;Application&gt;newArrayList(
+            <span class="keyword">new</span> AlarmApplication(<span class="local-variable">this</span>),
+                        <span class="keyword">new</span> OtherApplication(<span class="local-variable">this</span>),
+        );
+    }
+
+}</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_application">Application</h3>
+<div class="paragraph">
+<p>Applications store their <code>ApplicationID</code> and their current state of the behavior (State machine).
+<mark>#</mark># Generated Code</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="java"><span class="directive">public</span> <span class="type">class</span> <span class="class">AlarmApplication</span> <span class="directive">extends</span> BaseApplication&lt;BehaviorAlarmB&gt; {
+
+    <span class="directive">protected</span> <span class="directive">static</span> <span class="directive">final</span> <span class="predefined-type">String</span> APP_ID = <span class="string"><span class="delimiter">&quot;</span><span class="content">Alarm</span><span class="delimiter">&quot;</span></span>;
+
+    <span class="directive">public</span> AlarmApplication(Host host) {
+        <span class="local-variable">super</span>(host);
+
+        <span class="comment">// Set initial State</span>
+        currentState = BehaviorAlarmB.AInit;
+    }
+
+    <span class="annotation">@Override</span>
+    <span class="directive">public</span> <span class="predefined-type">String</span> getAppID() {
+        <span class="keyword">return</span> APP_ID;
+    }
+
+}</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_behavior">Behavior</h3>
+<div class="paragraph">
+<p>Behavior represents a statemachine of the application. It stores and manages the possible state transitions.
+<mark>#</mark># Generated Code</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="java"><span class="directive">public</span> <span class="type">enum</span> BehaviorAlarmB <span class="directive">implements</span> State&lt;BehaviorAlarmB&gt; {
+     <span class="comment">///////////</span>
+    <span class="comment">// States</span>
+    AInit {
+        <span class="annotation">@Override</span>
+        <span class="directive">public</span> <span class="predefined-type">List</span>&lt;State&lt;BehaviorAlarmB&gt;&gt; possibleNextStates(Application app) {
+            <span class="predefined-type">List</span>&lt;State&lt;BehaviorAlarmB&gt;&gt; possibleStates = Lists.newArrayList();
+
+            <span class="comment">// Add Neutral Transitions</span>
+
+            <span class="comment">// Add Send Transitions</span>
+            possibleStates.add(ASent);
+
+            <span class="comment">// Add Wait Transitions</span>
+
+            <span class="keyword">return</span> possibleStates;
+        }
+
+        <span class="annotation">@Override</span>
+        <span class="directive">public</span> BehaviorAlarmB stepTo(BehaviorAlarmB nextState, Application app) {
+            <span class="comment">// Send triggers</span>
+            <span class="keyword">if</span>(nextState == ASent){
+                app.sendTrigger(<span class="string"><span class="delimiter">&quot;</span><span class="content">152.66.102.5</span><span class="delimiter">&quot;</span></span>, <span class="string"><span class="delimiter">&quot;</span><span class="content">Alarm</span><span class="delimiter">&quot;</span></span>, <span class="string"><span class="delimiter">&quot;</span><span class="content">ISSReceiving</span><span class="delimiter">&quot;</span></span>);
+                <span class="keyword">return</span> <span class="local-variable">super</span>.stepTo(nextState, app);
+            }
+
+            <span class="comment">// Other cases (wait, neutral)</span>
+            <span class="keyword">return</span> <span class="local-variable">super</span>.stepTo(nextState, app);
+        }
+    },
+    ASent {
+        <span class="annotation">@Override</span>
+        <span class="directive">public</span> <span class="predefined-type">List</span>&lt;State&lt;BehaviorAlarmB&gt;&gt; possibleNextStates(Application app) {
+            <span class="predefined-type">List</span>&lt;State&lt;BehaviorAlarmB&gt;&gt; possibleStates = Lists.newArrayList();
+
+            <span class="comment">// Add Neutral Transitions</span>
+            possibleStates.add(AInit);
+
+            <span class="comment">// Add Send Transitions</span>
+
+            <span class="comment">// Add Wait Transitions</span>
+
+            <span class="keyword">return</span> possibleStates;
+        }
+    };
+
+    <span class="directive">private</span> <span class="directive">static</span> <span class="predefined-type">Logger</span> logger = <span class="predefined-type">Logger</span>.getLogger(<span class="string"><span class="delimiter">&quot;</span><span class="content">cps.proto.distributed.state</span><span class="delimiter">&quot;</span></span>);
+
+     <span class="comment">////////////</span>
+    <span class="comment">// Triggers</span>
+
+     <span class="comment">/////////////////</span>
+    <span class="comment">// General part</span>
+    <span class="annotation">@Override</span>
+    <span class="directive">abstract</span> <span class="directive">public</span> <span class="predefined-type">List</span>&lt;State&lt;BehaviorAlarmB&gt;&gt; possibleNextStates(Application app);
+
+    <span class="annotation">@Override</span>
+    <span class="directive">public</span> BehaviorAlarmB stepTo(BehaviorAlarmB nextState, Application app){
+        <span class="keyword">if</span>(possibleNextStates(app).contains(nextState)){
+            logger.info(<span class="string"><span class="delimiter">&quot;</span><span class="content">Step from </span><span class="delimiter">&quot;</span></span> + <span class="local-variable">this</span>.name() + <span class="string"><span class="delimiter">&quot;</span><span class="content"> to </span><span class="delimiter">&quot;</span></span> + nextState.name());
+            <span class="keyword">return</span> nextState;
+        }<span class="keyword">else</span>{
+            logger.info(<span class="string"><span class="delimiter">&quot;</span><span class="content">!!! Warning: Unable to step from </span><span class="delimiter">&quot;</span></span> + <span class="local-variable">this</span>.name() + <span class="string"><span class="delimiter">&quot;</span><span class="content"> to </span><span class="delimiter">&quot;</span></span> + nextState.name()
+                    + <span class="string"><span class="delimiter">&quot;</span><span class="content"> because the target state is not possible state.</span><span class="delimiter">&quot;</span></span>);
+        }
+        <span class="keyword">return</span> <span class="local-variable">this</span>;
+    }
+
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>In addition to the generated code <code>org.eclipse.viatra.query.examples.cps.m2t.proto.distributed</code> project contains the shared part of the working code (<em>general</em> package). Implementation of the CommunicationNetwork, the HostRunner, the BaseApplication, the BaseHost, State and the interfaces are placed there.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+</div>
+</div>
+</body>
+</html>

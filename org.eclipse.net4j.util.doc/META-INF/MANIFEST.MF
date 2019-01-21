@@ -1,0 +1,4531 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.net4j.util.doc; singleton:=true
+Eclipse-SourceReferences: scm:git:git://git.eclipse.org/gitroot/cdo/cd
+ o.git
+Require-Bundle: org.eclipse.help;bundle-version="[3.3.0,4.0.0)";resolu
+ tion:=optional,org.eclipse.net4j.util;bundle-version="[3.0.0,4.0.0)";
+ resolution:=optional;visibility:=reexport,org.eclipse.net4j.util.ui;b
+ undle-version="[3.0.0,4.0.0)";resolution:=optional;visibility:=reexpo
+ rt
+Export-Package: org.eclipse.net4j.util.doc;version="4.1.500",org.eclip
+ se.net4j.util.doc.online;version="4.1.500",org.eclipse.net4j.util.doc
+ .reference;version="4.1.500",org.eclipse.net4j.util.doc.reference.api
+ ;version="4.1.500",org.eclipse.net4j.util.doc.reference.schema;versio
+ n="4.1.500"
+Bundle-Version: 4.1.500.v20161029-0945
+Ant-Version: Apache Ant 1.9.6
+Bundle-ClassPath: .
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Created-By: 1.8.0_121-b13 (Oracle Corporation)
+Bundle-ManifestVersion: 2
+
+Name: javadoc/org/eclipse/net4j/util/options/IOptionsContainer.html
+SHA1-Digest: kD78O78Uzk1J0CubYJ6Nvd1P/zM=
+
+Name: javadoc/org/eclipse/net4j/util/fsm/class-use/FiniteStateMachine.
+ html
+SHA1-Digest: bOPzLUEIQ+RRabqINmCYrE6sCIM=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/NegotiationCon
+ text.html
+SHA1-Digest: OY+zOC9/eDQaw1YjITrqeoRw33o=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/TextAndDisable.html
+SHA1-Digest: RAr7fMRm+RVv1S0A3a574UZvKNY=
+
+Name: javadoc/org/eclipse/net4j/util/container/package-frame.html
+SHA1-Digest: f1g40jDjPr9rNR66wsdRLOwO3+k=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/CompletionWorkSerializ
+ er.html
+SHA1-Digest: IyWmKhjaEvsrOkqGuc+wnJphBkw=
+
+Name: javadoc/org/eclipse/net4j/util/container/delegate/ContainerMap.h
+ tml
+SHA1-Digest: NlUhhm5Oy9YweWrersCOVypURtM=
+
+Name: javadoc/org/eclipse/net4j/util/ui/security/class-use/Credentials
+ ResetDialog.html
+SHA1-Digest: Z+TI9jJiUf2XH8BvotyHWoqEQaQ=
+
+Name: javadoc/org/eclipse/net4j/util/lifecycle/LifecycleState.html
+SHA1-Digest: LaeIWKmvKUtYyWIc609BaJs2umI=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/Predicate.ht
+ ml
+SHA1-Digest: I64iMKeA9aSR4ZiTnHNxNRoLOv8=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/FirstChildLayout.html
+SHA1-Digest: 23m3okD0+4R14r+laOjo1tOHzaE=
+
+Name: images/formatter-tree.gif
+SHA1-Digest: vpM2pk3LqM8vmjqYg2yR8umhD98=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/OMMonitorProgress.html
+SHA1-Digest: 0Ml/PUTnk8QeEPxS4U/XyBE5bfY=
+
+Name: javadoc/org/eclipse/net4j/util/container/IContainer.Modifiable.h
+ tml
+SHA1-Digest: wtZt1wnIVXqX4dIu9OgFigyJ6us=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/ExtendedDataInputStr
+ eam.html
+SHA1-Digest: zTrKkHEAc5ZloYEcZoMN58KrWGs=
+
+Name: javadoc/org/eclipse/net4j/util/om/class-use/OSGiActivator.html
+SHA1-Digest: 1NOxsG7QlyZct6dyMMJzAPzDNzo=
+
+Name: javadoc/org/eclipse/net4j/util/container/delegate/class-use/ICon
+ tainerQueue.html
+SHA1-Digest: j4OJ5kNTiH2Ij0KbVHMH3KUaAp8=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/class-use/ContainerItemP
+ rovider.AbstractContainerNode.html
+SHA1-Digest: Wm5rtpApqAae+FeXgHg4BNW7nVw=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/ContainerItemProvider.Ab
+ stractContainerNode.html
+SHA1-Digest: Zu/1BZ1ApI4YNAan4bYjtXwbFGY=
+
+Name: javadoc/org/eclipse/net4j/util/ui/security/class-use/Interactive
+ CredentialsProvider.html
+SHA1-Digest: s4X+nG/8Vr88+s4sCUX73DKPtwE=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/class-use/EclipseMonit
+ or.SynchronizedSubProgressMonitor.html
+SHA1-Digest: KnxdPiNzBrvqIoPxUUBbCdKweXE=
+
+Name: javadoc/org/eclipse/net4j/util/collection/AbstractListIterator.h
+ tml
+SHA1-Digest: ZEWymIfMdMBF33FzTDNo2hvecms=
+
+Name: javadoc/org/eclipse/net4j/util/ui/actions/package-summary.html
+SHA1-Digest: fyn1S9II3F14tI10N2aouQicalI=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/Stoppable.html
+SHA1-Digest: oTNQiysPjcx/XDrI3cfxTOHF44I=
+
+Name: javadoc/org/eclipse/net4j/util/container/class-use/SelfAttaching
+ ContainerListener.html
+SHA1-Digest: 5vy//A3Iw0pdCbD7AYtTEPnWl/w=
+
+Name: javadoc/org/eclipse/net4j/util/container/ContainerPersistence.ht
+ ml
+SHA1-Digest: BdYjSSvkLk0LOvBUL7oPM6iXF70=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/RoundRobinList.html
+SHA1-Digest: yHSUX5G0a3FvVG9+BtlXw4z/vus=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/ICredentialsPr
+ ovider.html
+SHA1-Digest: QAM6A+KkhnFTOmzA7swbCmw80sw=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/PositionProv
+ ider.html
+SHA1-Digest: K56GGFbjIiokHiJTzL8/EJ88zTc=
+
+Name: javadoc/org/eclipse/net4j/util/event/IListener.html
+SHA1-Digest: 9HTKTcZzDSqKH7SPn1aMgjdbBbo=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/class-use/MultiViewersVi
+ ew.html
+SHA1-Digest: SaJrdZ/WVHYZj7Llpz+s8601PcU=
+
+Name: javadoc/org/eclipse/net4j/util/Predicates.html
+SHA1-Digest: YHYq/pm+5E9F/20egZ562Y8Q0HY=
+
+Name: images/editor-top-left-java.png
+SHA1-Digest: uLkSuRA5yNABb/B6CQpdm6VfLj8=
+
+Name: javadoc/org/eclipse/net4j/util/class-use/UUIDGenerator.html
+SHA1-Digest: Wwk/h9I2KuDeAeAk2DRXue8BQvM=
+
+Name: javadoc/org/eclipse/net4j/util/ui/prefs/OMPreferenceStore.html
+SHA1-Digest: jP0KLFOMTHIo3y90imAYdeNqfxo=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/doc-files/standard.png
+SHA1-Digest: sEwWarijFcCO79YP/KlKSgC4qcg=
+
+Name: javadoc/org/eclipse/net4j/util/security/Credentials.html
+SHA1-Digest: EFr7AGk1bDrvGhasL9uTO4QBqkM=
+
+Name: javadoc/org/eclipse/net4j/util/options/OptionsEvent.html
+SHA1-Digest: ep6+cdJPPdTaJciyOTODel0LZm4=
+
+Name: javadoc/org/eclipse/net4j/util/container/IContainerDelta.html
+SHA1-Digest: w3HK6myYiZ88r9vFXFWxFD/teBE=
+
+Name: javadoc/org/eclipse/net4j/util/om/log/OMLogger.html
+SHA1-Digest: BuuqQZ6elQJHG0t3gZQ0Vqnm/Hg=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/ContainerItemProvider.Co
+ ntainerNode.html
+SHA1-Digest: FsMO/kfYn3gvTOi0nO5b0O6p2GQ=
+
+Name: javadoc/org/eclipse/net4j/util/factory/Factory.html
+SHA1-Digest: 2Sb6uE1CwRiVJKbzyJOSwUOkcVw=
+
+Name: javadoc/org/eclipse/net4j/util/security/FileAuthenticatorFactory
+ .html
+SHA1-Digest: EBVHkFXl0MVfxQafjXDg3GVux4Y=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/CachedFileMap.html
+SHA1-Digest: njQCc0p7yhUmu3ZdMI+XN4Vr+78=
+
+Name: javadoc/org/eclipse/net4j/util/package-summary.html
+SHA1-Digest: 3my1B7hyk0R1jY+RV072CU9budQ=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/ThreadPool.html
+SHA1-Digest: d8OSU7ffTz1974OtA7UEHO+QqoY=
+
+Name: javadoc/org/eclipse/net4j/util/ref/class-use/ReferenceValueMap.h
+ tml
+SHA1-Digest: az2fMYvfjRUyrgDUyuwbOLVEAeU=
+
+Name: javadoc/org/eclipse/net4j/util/event/class-use/EventPrinter.html
+SHA1-Digest: gkCmcxanP4H6JfvxlsoKzX2sweY=
+
+Name: javadoc/org/eclipse/net4j/util/lifecycle/LifecycleUtil.Delegator
+ .html
+SHA1-Digest: l4SNt2yXNQBgpMVzUbTemrUjTXg=
+
+Name: javadoc/org/eclipse/net4j/util/class-use/Predicate.html
+SHA1-Digest: AiAlaqtka0zS+QA9P/NUwnAzEv4=
+
+Name: javadoc/org/eclipse/net4j/util/container/delegate/class-use/Cont
+ ainerSet.html
+SHA1-Digest: flDIC3S8TX1LtnFPQuzIMkvejGc=
+
+Name: javadoc/org/eclipse/net4j/util/io/LimitedInputStream.html
+SHA1-Digest: dF5sfwAXDz8qarVqRcOghxPeLk8=
+
+Name: javadoc/org/eclipse/net4j/util/security/UserManagerFactory.html
+SHA1-Digest: L5HF6gBsg7+GTIex3WDz1PHgcCE=
+
+Name: javadoc/org/eclipse/net4j/util/event/class-use/ExecutorServiceNo
+ tifier.html
+SHA1-Digest: FBBhMgqCJW8KuCn71YZkZ1YUddA=
+
+Name: javadoc/org/eclipse/net4j/util/ui/actions/SafeAction.html
+SHA1-Digest: 79m1umG8aRcM5NH5iFpCm9IBUKA=
+
+Name: javadoc/org/eclipse/net4j/util/collection/ConcurrentArray.Unique
+ .html
+SHA1-Digest: xtS6POEGnn8BcYEl94I88Z59JPg=
+
+Name: javadoc/org/eclipse/net4j/util/properties/class-use/IProperties.
+ html
+SHA1-Digest: k10v3rT0yzic9qpoMjf9G3wcol8=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/class-use/SearchField.
+ FilterHandler.html
+SHA1-Digest: i496rvOFfYV8lVZalNCwgnA5sqQ=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/NestedMonitor.html
+SHA1-Digest: ezJ/t35LiILbsjR98OBD5sq5REc=
+
+Name: javadoc/org/eclipse/net4j/util/om/log/class-use/PrintLogHandler.
+ html
+SHA1-Digest: wq1v4RPbmwZ73kPYafvtjR86UQU=
+
+Name: javadoc/org/eclipse/net4j/util/StringUtil.html
+SHA1-Digest: 5KzQvh1IP0QwW61ktsYuUsQkH1I=
+
+Name: javadoc/org/eclipse/net4j/util/io/XOROutputStream.html
+SHA1-Digest: kx5kEY5pqAYUkws3Yhg34td+1vQ=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/CloseableIte
+ rator.html
+SHA1-Digest: Fp3Tx1nqKGTAAUfbho19NwFZf8g=
+
+Name: javadoc/org/eclipse/net4j/util/om/LegacyUtil.html
+SHA1-Digest: Mui8E/g5Q5vZN5dG5/4C4wXIje8=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/Credentials.ht
+ ml
+SHA1-Digest: TU1koAet7JPgbvjMTBQPckk0ZHA=
+
+Name: javadoc/org/eclipse/net4j/util/ui/security/class-use/Credentials
+ Dialog.html
+SHA1-Digest: 5ENQtA5NZPUmeQIrVbY2qGDs0UY=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/Worker.html
+SHA1-Digest: xGM191ngxUty29Z3x5H1YtVwYWk=
+
+Name: javadoc/org/eclipse/net4j/util/cache/ICacheMonitorEvent.html
+SHA1-Digest: Wlx/3mxMlzTIu/bZWbweG1Tpi8s=
+
+Name: javadoc/org/eclipse/net4j/util/security/NotAuthenticatedExceptio
+ n.html
+SHA1-Digest: HUUCnbCjU6yXdfAvXhNd/kGjHl4=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/DataInputExtender.ht
+ ml
+SHA1-Digest: UFKGdq3QgtFbayIGOjje5TcCRGc=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/QueueRunner2.html
+SHA1-Digest: ffTk/yvYPDpxtHT1czVt1zH5960=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/IORunnable.html
+SHA1-Digest: Msl5C97cK8xVIjquYx3jKZVbaic=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/DynamicArray
+ .html
+SHA1-Digest: XrUn31j1sLvq5/ghNg0wQqEGqeQ=
+
+Name: javadoc/org/eclipse/net4j/util/event/ValueEvent.html
+SHA1-Digest: cbtakbBBJD2K/Mk8/L/3V4t48p8=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/NotifyingMonitor.html
+SHA1-Digest: LP37xuPa+i97nBsImPugL0fXLS0=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/DelegableRee
+ ntrantLock.html
+SHA1-Digest: 4g0WBhSnf/st/wdoyNGFH2YlawU=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/NotifyingMonitor.Progr
+ essEvent.html
+SHA1-Digest: e+N3aN8ISokt2HNO4N5DYZXfhV0=
+
+Name: javadoc/org/eclipse/net4j/util/security/DiffieHellman.Server.htm
+ l
+SHA1-Digest: yfhgRsY8d7+OL6V6jqdey7ino7Y=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/class-use/Monitor.html
+SHA1-Digest: EVgX3etKugjv8nJNcBgQsMgQuaA=
+
+Name: javadoc/org/eclipse/net4j/util/security/DiffieHellman.Server.Cha
+ llenge.html
+SHA1-Digest: O1nbwZcW8a17b7A5PDkCnq9owcQ=
+
+Name: javadoc/overview-frame.html
+SHA1-Digest: jlHTmqVlyf0TlBPa532ddBsVNQQ=
+
+Name: javadoc/org/eclipse/net4j/util/factory/class-use/FactoryDescript
+ or.html
+SHA1-Digest: S9SvgVWHducXEt6RJM83sZC7+8M=
+
+Name: javadoc/org/eclipse/net4j/util/fsm/package-frame.html
+SHA1-Digest: lxMz5pNvfvxdZafuEOQR/fGu5ps=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/IRWLockManag
+ er.LockType.html
+SHA1-Digest: nOSEKJlhndGSNS//P3pAr+DTack=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/class-use/ProgressDist
+ ributor.Geometric.html
+SHA1-Digest: DHyTZn7MD0xhJYpZsAYAv5tgc+4=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/ConcurrentVa
+ lue.html
+SHA1-Digest: Jvdf/7hp601mxH4MtNMTv8/da0I=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/ContainerItemProvider.La
+ zyElement.html
+SHA1-Digest: BajpnwW3sQ0s6T7sqjv6mfktxxQ=
+
+Name: javadoc/org/eclipse/net4j/util/collection/BidiMap.html
+SHA1-Digest: PWdS3S47clN76zVjIgoIM7eXiis=
+
+Name: schemadoc/org_eclipse_net4j_util_factories.html
+SHA1-Digest: kmKKTGbE+wwu3VCAKjBWV0us+mw=
+
+Name: javadoc/org/eclipse/net4j/util/fsm/FiniteStateMachine.ChangeStat
+ eTransition.html
+SHA1-Digest: 9EmTfdCLfbLXwCIOFWngLX1TS8g=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/CustomizeableComposite
+ .html
+SHA1-Digest: 5ZQxBxUcZoc2JZWW5fduZ5JNCfU=
+
+Name: javadoc/org/eclipse/net4j/util/event/class-use/ValueEvent.html
+SHA1-Digest: YS2me2HdPNbBuLqhKQku/3pVtKY=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/ExtendedIOUtil.Class
+ LoaderClassResolver.html
+SHA1-Digest: /FzICJ/+GQyDBB1zIF24ryTnR4M=
+
+Name: javadoc/org/eclipse/net4j/util/io/StringIO.html
+SHA1-Digest: DwH0ie61AC2zGDf0oVAt2oZuZKI=
+
+Name: javadoc/org/eclipse/net4j/util/container/IManagedContainer.html
+SHA1-Digest: KobGFaWQxzHuaIPWNUMeYnK1NLk=
+
+Name: javadoc/org/eclipse/net4j/util/om/log/class-use/OMLogger.Level.h
+ tml
+SHA1-Digest: AMKZ098V21GT8yb4Izlij5AOTaM=
+
+Name: schemadoc/org_eclipse_net4j_util_elementProcessors.html
+SHA1-Digest: XSLQycLFkyebI9f5a8vN0sRuqOQ=
+
+Name: javadoc/org/eclipse/net4j/util/container/ISlow.html
+SHA1-Digest: l/2EOTvRzKeBbNksFh37uIsb2Hw=
+
+Name: javadoc/org/eclipse/net4j/util/collection/IHistory.html
+SHA1-Digest: PILby5nc90lBMQUGfwn1V5xMsnE=
+
+Name: javadoc/org/eclipse/net4j/util/om/trace/RemoteTraceServer.Listen
+ er.html
+SHA1-Digest: k04oitFkLaEMIzRB8Tu1xQIypAM=
+
+Name: javadoc/org/eclipse/net4j/util/io/TMPUtil.html
+SHA1-Digest: di+ZocYN6PN0cb8kEIXSes0roBY=
+
+Name: javadoc/org/eclipse/net4j/util/Predicates.IncludedPredicate.html
+SHA1-Digest: wl3L2jAKbdpcs0er1g2uYGZSSWk=
+
+Name: images/empty.gif
+SHA1-Digest: cD72PtfZ9U662OW6806oKon2gxc=
+
+Name: javadoc/org/eclipse/net4j/util/ui/security/CredentialsDialog.htm
+ l
+SHA1-Digest: oCsEjkZdziV4mYAyfHh1DWifuYU=
+
+Name: javadoc/org/eclipse/net4j/util/ui/handlers/class-use/AbstractBas
+ eHandler.html
+SHA1-Digest: kT3I3rvkQcggGvkYiBNXGYwkMxM=
+
+Name: javadoc/org/eclipse/net4j/util/container/class-use/IContainer.Mo
+ difiable.html
+SHA1-Digest: njJ8wMDHQnweKV+/5KvaT2Sahuk=
+
+Name: javadoc/org/eclipse/net4j/util/ui/security/package-use.html
+SHA1-Digest: CmFPXi6GVqcl3a8AwoVXVgVp8i0=
+
+Name: javadoc/org/eclipse/net4j/util/ui/class-use/StructuredContentPro
+ vider.html
+SHA1-Digest: iVz1H1SRWLWNcwVzsCPEeVX9Kok=
+
+Name: javadoc/org/eclipse/net4j/util/om/trace/OMTraceHandlerEvent.html
+SHA1-Digest: NzZmSAxYGTD1Ah09i1suWzpLWcQ=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/AsynchronousWorkSerial
+ izer.html
+SHA1-Digest: nq5q1ykglIc8rkc3rIAu3v09SQg=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/ChallengeRespo
+ nseNegotiator.Transition.html
+SHA1-Digest: yh5cBvDYXLbyc9Kdr1lTKrRljVs=
+
+Name: javadoc/org/eclipse/net4j/util/io/XMLOutput.html
+SHA1-Digest: rQgyQQyV5X8IKEaRM1p59DDjk+Q=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/class-use/SashComposit
+ e.html
+SHA1-Digest: mcjXr/HzmEgXBk6GeJfh65D9i9U=
+
+Name: javadoc/org/eclipse/net4j/util/ui/actions/SafeActionDelegate.htm
+ l
+SHA1-Digest: CRYjb+OVxU4C6KxBPZMsnBS5XrI=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/IRWOLockManager.html
+SHA1-Digest: Me/139I9YpSYLA+kaE5TTauoCOo=
+
+Name: javadoc/org/eclipse/net4j/util/container/delegate/IContainerList
+ .html
+SHA1-Digest: ga0+1YjL5I/vVjXdwEP6QWa80oE=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/ZIPUtil.ZipEntryHand
+ ler.html
+SHA1-Digest: 4X0pZyuUI7nmBnWIEyYJFU5LDbQ=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/class-use/ContainerItemP
+ rovider.LazyElement.html
+SHA1-Digest: BDgJHEj4KzFz5KshA3mUmeNSTf4=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/ExecutorWorkSerializer
+ .html
+SHA1-Digest: LljNdGlYGK6McH1FdanrD9SeS9I=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/ZIPUtil.EntryContext
+ .html
+SHA1-Digest: o+BH+4YI/+XW6xnK/GHbSQDGhlE=
+
+Name: javadoc/org/eclipse/net4j/util/om/log/package-use.html
+SHA1-Digest: DwBBquNRQMSZVgOZCHGU7uXIdSM=
+
+Name: javadoc/org/eclipse/net4j/util/io/StringCompressor.Counting.html
+SHA1-Digest: yOjW9wsm86ojPYevWhjweX9KVoA=
+
+Name: javadoc/org/eclipse/net4j/util/ui/class-use/AbstractPropertyAdap
+ terFactory.html
+SHA1-Digest: QNL5u70SOO3h3O7DoQFIzxVloE4=
+
+Name: javadoc/org/eclipse/net4j/util/ui/ValidationParticipant.html
+SHA1-Digest: 4hexdNvVScPdPV2ZiakbstnpmIs=
+
+Name: javadoc/org/eclipse/net4j/util/registry/class-use/HashMapRegistr
+ y.html
+SHA1-Digest: IV/Tj3OO4GjzMP6suM2h4WL0Aeo=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/ContainerNameSorter.html
+SHA1-Digest: lzYhYD+HfVUPkmK4cbEjYQNLSZE=
+
+Name: javadoc/org/eclipse/net4j/util/security/PasswordCredentialsUpdat
+ e.html
+SHA1-Digest: kNTRv4T8Wa614QwXxSrE9XFwsL8=
+
+Name: images/editor-top2.png
+SHA1-Digest: PWYYgryOAjtUQz7L1eOL5vzxFl4=
+
+Name: javadoc/org/eclipse/net4j/util/ref/KeyedStrongReference.html
+SHA1-Digest: imCt43WdGGcb10/AmuDFPA05tDM=
+
+Name: javadoc/org/eclipse/net4j/util/UUIDGenerator.html
+SHA1-Digest: CP7LPcwSNh2GLyHlNKmmkecnOcE=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/class-use/EclipseMonit
+ or.html
+SHA1-Digest: HymnWDLCX6jy4AK0RtjNPwTfQg0=
+
+Name: javadoc/org/eclipse/net4j/util/security/ChallengeNegotiatorConfi
+ gurer.html
+SHA1-Digest: B7XKJrWwNF4tw5bolDMIJLcGLnU=
+
+Name: javadoc/org/eclipse/net4j/util/WrappedException.html
+SHA1-Digest: zYUOkxFlPHW4ugtO+tWwYitls48=
+
+Name: javadoc/org/eclipse/net4j/util/container/delegate/package-frame.
+ html
+SHA1-Digest: 4e+TpPrAwZ9lx0bYNey4NlTWtMc=
+
+Name: images/category.gif
+SHA1-Digest: 7Sq470skXtuGy09iuvIqzEy7ZK0=
+
+Name: javadoc/org/eclipse/net4j/util/event/FinishedEvent.html
+SHA1-Digest: IAjGGyXmVJi9XW/Lw6MSuRksk50=
+
+Name: javadoc/org/eclipse/net4j/util/cache/package-summary.html
+SHA1-Digest: wp3O426Zd/h4FxYKp4sWHyeEhfA=
+
+Name: javadoc/org/eclipse/net4j/util/lifecycle/LifecycleUtil.Deactivat
+ or.html
+SHA1-Digest: T4PpMU5rCOL98E2kT9jBaG2x3Yo=
+
+Name: javadoc/org/eclipse/net4j/util/security/DiffieHellman.Client.htm
+ l
+SHA1-Digest: ThzkG89SGJ4ARWaYU+b5WdYWz7c=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/Synchronizin
+ gCorrelator.html
+SHA1-Digest: A0xH0gbDpj3HqPoy8Inw4UfAX2g=
+
+Name: javadoc/org/eclipse/net4j/util/ObjectUtil.html
+SHA1-Digest: qdM2c53l/ofxZRUtIG1JQCnLDag=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/TimeoutRuntimeExceptio
+ n.html
+SHA1-Digest: FMrfU+HIEdIpJd1DaNW4cZ3EI9Q=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/ExtendedDataOutput.h
+ tml
+SHA1-Digest: tK/V34VuGKVHC4ToHgTD3+BEzAc=
+
+Name: javadoc/org/eclipse/net4j/util/transaction/class-use/Transaction
+ Exception.html
+SHA1-Digest: enupJeqLTe0bYHUFBSeEmPZkf40=
+
+Name: javadoc/org/eclipse/net4j/util/om/log/class-use/Logger.html
+SHA1-Digest: J+Auyf+wYUJEHwwAWMgJuUZ9N74=
+
+Name: javadoc/org/eclipse/net4j/util/om/pref/package-use.html
+SHA1-Digest: jnxvhTKUtYn+PjFVxlNSLUft/cU=
+
+Name: javadoc/org/eclipse/net4j/util/collection/AbstractIterator.html
+SHA1-Digest: W8xbDq9oH/fz4qYgJTGBZEzUbPU=
+
+Name: javadoc/org/eclipse/net4j/util/ui/class-use/FactoryTypeContentPr
+ ovider.html
+SHA1-Digest: t60Ld4xo9UBfjUCbKPRxt1JBZOM=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/MultiViewersView.Message
+ Type.html
+SHA1-Digest: NFEDP3TNPA9r++GaI3LLdvTf6vk=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/class-use/TimeoutMonit
+ or.html
+SHA1-Digest: fPaERhOE6GXeYSHJz7abAL5h/As=
+
+Name: javadoc/org/eclipse/net4j/util/collection/DelegatingCloseableIte
+ rator.html
+SHA1-Digest: RhslZqseIKk/9ZBSFihLifZ/fZo=
+
+Name: javadoc/org/eclipse/net4j/util/container/class-use/IContainerEve
+ nt.html
+SHA1-Digest: /tE9Q0mu8h4mARtFBLEq5FT2lYc=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/class-use/ContainerItemP
+ rovider.ErrorElement.html
+SHA1-Digest: +g8ybRpYWvzTFiTP4qfqIzv4hv4=
+
+Name: javadoc/org/eclipse/net4j/util/confirmation/package-frame.html
+SHA1-Digest: GkqtDFBbyRQqIMWKI3ssZRFo5zM=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/HistoryEleme
+ nt.html
+SHA1-Digest: E3uBb6bGPMp/y2OOqXPbSnlPle8=
+
+Name: javadoc/org/eclipse/net4j/util/io/GZIPStreamWrapper.Factory.html
+SHA1-Digest: cY+P9a5prz7YpxitLFYFPRdIiKk=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/PriorityQueu
+ eRunner.html
+SHA1-Digest: dhQGR0fZ97tBefcBqaUhB9eH/wo=
+
+Name: javadoc/org/eclipse/net4j/util/io/IOUtil.html
+SHA1-Digest: HBXsC0kIErS2bGx5wl9/A1AvPzg=
+
+Name: javadoc/org/eclipse/net4j/util/container/ContainerDelta.html
+SHA1-Digest: uANNsc5JL5L2bWzILH9Yc6SHc2Q=
+
+Name: javadoc/org/eclipse/net4j/util/cache/class-use/ICache.html
+SHA1-Digest: +x+77fOMpirI2cgF3nrWH/QcW0c=
+
+Name: javadoc/org/eclipse/net4j/util/container/class-use/IContainer.Pe
+ rsistable.html
+SHA1-Digest: 1F0T5xWYegjfiRz3glV8my5hSg4=
+
+Name: javadoc/org/eclipse/net4j/util/container/delegate/ContainerList.
+ html
+SHA1-Digest: 7GY5c1Z1TgDy99k26fzS9MoyhAA=
+
+Name: javadoc/org/eclipse/net4j/util/collection/Pair.html
+SHA1-Digest: uu2suWAR4uxU2Tm65rznAQgUGVM=
+
+Name: javadoc/org/eclipse/net4j/util/security/IChallengeResponse.html
+SHA1-Digest: +fUZdzgzDkVYs08TiZt1LhXZbLo=
+
+Name: javadoc/help-doc.html
+SHA1-Digest: BMN9Z+Qgc0Cs7U8ehbWpCqcZwUs=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/ExtendedDataOutputSt
+ ream.html
+SHA1-Digest: BBzc/YpklKYL2Y0mW6htuzfEvaI=
+
+Name: javadoc/org/eclipse/net4j/util/event/class-use/ThrowableEventAda
+ pter.ToPrintStream.html
+SHA1-Digest: O647mK34lW0bjnguKXvhzgx08I8=
+
+Name: javadoc/org/eclipse/net4j/util/ref/Interner.html
+SHA1-Digest: aD5KKNRAk4gUYlTFKyTctdWuoMA=
+
+Name: javadoc/org/eclipse/net4j/util/container/class-use/IContainerEve
+ ntVisitor.html
+SHA1-Digest: cHcHTdaj3WAtAV7I8PxseJ0PBPs=
+
+Name: javadoc/org/eclipse/net4j/util/io/package-use.html
+SHA1-Digest: fwFl7elmAHWNIXa2c0fd6hA6Zus=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/NonFairReentrantLock.h
+ tml
+SHA1-Digest: cu0FvJuzvCr4N5GP2JX7DJwl5ho=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/class-use/DelegatingMo
+ nitor.html
+SHA1-Digest: kh0rc7IWz7gxzIgx5cFBlSRA+b4=
+
+Name: javadoc/org/eclipse/net4j/util/om/pref/doc-files/om.pref.png
+SHA1-Digest: keS46goxDDgESIa4wUNnHv5KcJs=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/TrackableTimerTask.htm
+ l
+SHA1-Digest: JoBsennBOjTYYzPHfcSmdDtGVfs=
+
+Name: javadoc/org/eclipse/net4j/util/ref/class-use/KeyedWeakReference.
+ html
+SHA1-Digest: 60UdNLBTCVr4o0xu0PH/wUXX0Og=
+
+Name: javadoc/org/eclipse/net4j/util/container/class-use/IContainerDel
+ ta.Kind.html
+SHA1-Digest: Cz2doUn6Rr21yKeBfEjHdXDOp2I=
+
+Name: schemadoc/schema.css
+SHA1-Digest: IKOCW7eQB1mMlwEmxqkQfNG/0cw=
+
+Name: javadoc/org/eclipse/net4j/util/io/ExtendedDataInput.Stream.html
+SHA1-Digest: 419vMRuz74Io11WL3MkfSY/8EFw=
+
+Name: javadoc/org/eclipse/net4j/util/transaction/TransactionUtil.html
+SHA1-Digest: TmXxlEJO1TTE5lgCCT7FvKAHuPQ=
+
+Name: javadoc/org/eclipse/net4j/util/om/trace/class-use/ContextTracer.
+ html
+SHA1-Digest: rUv1tYzc7MENy8mr4ogjaTqmEek=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/OMMonitor.Async.html
+SHA1-Digest: T1Hc0ALb/oNaVi+pMcE/+ldNKWI=
+
+Name: javadoc/org/eclipse/net4j/util/collection/History.html
+SHA1-Digest: zs7Irs1cV5ODjg/HxqcOLXZf9Fs=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/RWLockManager.LockEntr
+ yHandler.html
+SHA1-Digest: UAm/vFi6mP6DIYlNO/mgN3tnZPo=
+
+Name: javadoc/org/eclipse/net4j/util/om/doc-files/om.png
+SHA1-Digest: ReQe5FHUkKCHkpQGJUZ3O7egqNQ=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/IndexedList.
+ html
+SHA1-Digest: oCphM65ezd6LuBEld1t+CvqDP3k=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/ConcurrencyU
+ til.html
+SHA1-Digest: smjn4tL8qjqfjIsWyBdc3TKap7M=
+
+Name: images/external.gif
+SHA1-Digest: Is3QBKkyXWkd5zRFwkCqJ0+ARIE=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/Timeouter.ht
+ ml
+SHA1-Digest: dowolpQDzRMSQ7QHB+MByEk9dCM=
+
+Name: javadoc/org/eclipse/net4j/util/ui/ManagedLabelProvider.html
+SHA1-Digest: OYUKUHY8rByYxi8QFQFQ1kQ/QaI=
+
+Name: javadoc/org/eclipse/net4j/util/registry/class-use/IRegistry.html
+SHA1-Digest: aso1E1vRs+JaSyYEhLMu7HWdYQM=
+
+Name: javadoc/org/eclipse/net4j/util/ui/DefaultPropertySource.html
+SHA1-Digest: SU8i9yorFDaA0ZCjxrSsPxk4DH4=
+
+Name: javadoc/org/eclipse/net4j/util/ref/class-use/ReferenceValueMap2.
+ html
+SHA1-Digest: zqw1lMINRND1I2262IVzPN/VD/A=
+
+Name: javadoc/org/eclipse/net4j/util/io/StringCompressor.html
+SHA1-Digest: OOBCFb/l4TGsa81nxVyQQ1juzkA=
+
+Name: javadoc/org/eclipse/net4j/util/ui/TableLabelProvider.Column.html
+SHA1-Digest: TDr3snORzKvVcWjvc6xqHyzEMi4=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/CoolBarComposite.html
+SHA1-Digest: sxgHb3gu2Lh9nmZWkBNtM876pNU=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/MonitoredThr
+ ead.html
+SHA1-Digest: IUHEv/MA3e+cWnRfw/DeIsfTbBc=
+
+Name: javadoc/org/eclipse/net4j/util/security/IChallengeResponse.Event
+ .html
+SHA1-Digest: zXiGUDwddifWsOFWVG1nPPr95tg=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/ContainerView.html
+SHA1-Digest: DWR4zSRXeGytBkOfc02116n+YF8=
+
+Name: javadoc/org/eclipse/net4j/util/factory/ProductCreationException.
+ html
+SHA1-Digest: RfhRREQ8ixP4lRc/53rgeoQhqg4=
+
+Name: javadoc/org/eclipse/net4j/util/container/class-use/ContainerEven
+ t.html
+SHA1-Digest: zMLQB80MfWi56THjBrWCQBcqa2w=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/RWOLockManag
+ er.html
+SHA1-Digest: Lu2duQ5CE6IU5POnvdyvjn21LnE=
+
+Name: javadoc/org/eclipse/net4j/util/om/trace/doc-files/om.trace.png
+SHA1-Digest: 2lSskKgyHpTxH5Ly8UwLYdlha5U=
+
+Name: org/eclipse/net4j/util/doc/reference/schema/package-info.class
+SHA1-Digest: DYYYtOxvLTxEdNfAklel9G9dty4=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/package-frame.html
+SHA1-Digest: Y9a3rHP7svIK8r51WOhZRRDQY/8=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/RWLock.html
+SHA1-Digest: v04NEc+4cvgq+chOL+ZNU1TIDEs=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/RandomizerFact
+ ory.html
+SHA1-Digest: kqv2EDFKzlHw3LAXhg2Z7CDrAf8=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/SortedFileMap.html
+SHA1-Digest: jtvpfA6QB1rPjI8kcNZRj7O9K38=
+
+Name: javadoc/org/eclipse/net4j/util/ui/dnd/class-use/DNDTransfer.html
+SHA1-Digest: 6R5xjtET/0s+tOMhCx3bEEnu84g=
+
+Name: javadoc/org/eclipse/net4j/util/event/ValueNotifier.html
+SHA1-Digest: CcvsMB/9KyGu/N67f6/uHzAkm68=
+
+Name: images/editor-top1.png
+SHA1-Digest: x5uMAvKJjy2iqSjfjhz1fmxBnf8=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/AbstractIter
+ ator.html
+SHA1-Digest: NVRCxAbIBtRVgvPEqpOXo0T7g5o=
+
+Name: javadoc/org/eclipse/net4j/util/lifecycle/class-use/LifecycleEven
+ tAdapter.html
+SHA1-Digest: 0cQzBtzwGEzkBiO9cHQpIX01fiY=
+
+Name: javadoc/org/eclipse/net4j/util/security/ResponseNegotiator.html
+SHA1-Digest: 03z0t7K0wkw9iQhyVD390Gu+/Ug=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/MonitoredThr
+ ead.ThreadMonitor.html
+SHA1-Digest: p3uQyLD9RRqYE9vr91b7H//FEw4=
+
+Name: javadoc/org/eclipse/net4j/util/collection/MoveableList.html
+SHA1-Digest: PxFNZ1vXq8GfFkqz9zPMFk6apBE=
+
+Name: javadoc/org/eclipse/net4j/util/lifecycle/LifecycleEventAdapter.h
+ tml
+SHA1-Digest: xMjZE3JWTr0RWLjdvlIUkqUiA6I=
+
+Name: javadoc/org/eclipse/net4j/util/class-use/ImplementationError.htm
+ l
+SHA1-Digest: N0CpNKLYmIL45wNdpEh50Iw20xM=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/DataOutputExtender.h
+ tml
+SHA1-Digest: jqxEaMqk754l5dkVxgnu/Ipf/mc=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/UserManagerFac
+ tory.html
+SHA1-Digest: 79FvB2W1lx4YMbaeNri6M/Mhzc4=
+
+Name: javadoc/org/eclipse/net4j/util/cache/ICacheMonitor.html
+SHA1-Digest: n9QZhGddpTGcskW/g4NcnGwsNL4=
+
+Name: javadoc/org/eclipse/net4j/util/collection/HashBag.html
+SHA1-Digest: 5SFQmL6VsxhHIfiZXuildV+OEOQ=
+
+Name: javadoc/org/eclipse/net4j/util/io/IStreamWrapper.html
+SHA1-Digest: npCxRxu1RUChD6OGEap5Llza3zU=
+
+Name: javadoc/org/eclipse/net4j/util/cache/ICache.html
+SHA1-Digest: OUrp8cOxjsB+LcpWjczoug1BwaA=
+
+Name: javadoc/org/eclipse/net4j/util/lifecycle/ILifecycle.html
+SHA1-Digest: z0TVNGHlzzN5uvjPXXkIpc7yv0c=
+
+Name: javadoc/org/eclipse/net4j/util/ui/package-use.html
+SHA1-Digest: cbRImQMk5ZrS2IBRUL/tb6LhDIs=
+
+Name: javadoc/org/eclipse/net4j/util/registry/class-use/RegistryUtil.h
+ tml
+SHA1-Digest: u/YqplFkg0J64KEBF4oOu2PMXYI=
+
+Name: javadoc/org/eclipse/net4j/util/om/class-use/OMBundle.html
+SHA1-Digest: zCLgBNgWDlZcBSGPuW8gLgpHK68=
+
+Name: javadoc/org/eclipse/net4j/util/security/CredentialsProviderFacto
+ ry.html
+SHA1-Digest: CQ66CcklQKh3XQNuugui46CKehk=
+
+Name: javadoc/org/eclipse/net4j/util/om/class-use/OMBundle.Translation
+ Support.html
+SHA1-Digest: oL1HUMQM/AUDJ0oeUtM1GTY20eY=
+
+Name: html/tree.css
+SHA1-Digest: xBJ6IkyxcWqyoNvu57hZ3ml7VhY=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/IAuthenticator
+ 2.html
+SHA1-Digest: xEO9q0YL5ySiMM8j874GuyGBpU4=
+
+Name: javadoc/org/eclipse/net4j/util/om/trace/RemoteTraceServer.PrintL
+ istener.html
+SHA1-Digest: g94J3PpJa+t3M0g+vjNP4UWaeEQ=
+
+Name: javadoc/org/eclipse/net4j/util/ref/class-use/KeyedPhantomReferen
+ ce.html
+SHA1-Digest: lmet+WpJesMmUANxHXow1pB4+C0=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/IExecutorServiceProvid
+ er.html
+SHA1-Digest: mqrD8YN9BGA2cYM2b+gl3Y/Hq/0=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/IWorkSeriali
+ zer.html
+SHA1-Digest: xY6En+FNxKdTQlbkemjqERx5kXU=
+
+Name: javadoc/org/eclipse/net4j/util/ui/container/package-summary.html
+SHA1-Digest: IEqd2OYOH2oxmjX+owk9Cxf2weE=
+
+Name: javadoc/org/eclipse/net4j/util/ref/ReferenceValueMap2.Soft.html
+SHA1-Digest: NmHaANq5EOlTkybDSzp9eaJOK98=
+
+Name: javadoc/org/eclipse/net4j/util/security/UserManager.html
+SHA1-Digest: PMdqPrdDquLpC+qOk1gnIfbVI1A=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/TrackableTim
+ erTask.html
+SHA1-Digest: rDYngJ4Q3FqrXx4fXH1Hio2/sA8=
+
+Name: javadoc/org/eclipse/net4j/util/ui/security/CredentialsResetDialo
+ g.html
+SHA1-Digest: 8/eTlR0CM6ZFsmPxg4RD7phM2go=
+
+Name: javadoc/org/eclipse/net4j/util/container/delegate/IContainerSet.
+ html
+SHA1-Digest: oPfSXO4rtRJpy2TvmU8INzGrcv4=
+
+Name: javadoc/org/eclipse/net4j/util/lifecycle/ILifecycleEvent.Kind.ht
+ ml
+SHA1-Digest: P8Fxltcy2BFV/w6Cbsxd2Djz8II=
+
+Name: javadoc/org/eclipse/net4j/util/io/ExpectedFileInputStream.html
+SHA1-Digest: b++CZWcoJb2pIwIvXJPeMBVjljA=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/class-use/TextAndDisab
+ le.html
+SHA1-Digest: PmWfVk0dbQMOwClz4w462zYzaYI=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/MultiMap.htm
+ l
+SHA1-Digest: O1O/dkNNuVWrUTYFyj083cOoDCU=
+
+Name: javadoc/org/eclipse/net4j/util/container/delegate/class-use/Cont
+ ainerCollection.html
+SHA1-Digest: ybdj+lC23D+AVfDAjtTiFu29/UI=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/ParallelRunner.html
+SHA1-Digest: 3IKndPEmasELf9mlgXb3SdDYA3A=
+
+Name: javadoc/org/eclipse/net4j/util/container/class-use/FileContainer
+ Persistence.html
+SHA1-Digest: XFFsfofGN2++Hgp5qQm+2rBT1t8=
+
+Name: javadoc/org/eclipse/net4j/util/ui/container/ElementWizardComposi
+ te.WithRadios.html
+SHA1-Digest: 5uOKE6Cd/jfXjehHSlATZ/IJBkI=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/Bidirectiona
+ lIterator.html
+SHA1-Digest: Q2yiSTwi0TttETru4ocp0dmRab8=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/DelegableReentrantLock
+ .html
+SHA1-Digest: RKSw40WZbHqdiL9rALJh/J+mgOo=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/class-use/ContainerItemP
+ rovider.AbstractNode.html
+SHA1-Digest: ahxfLtvSepnPUROjoXYEkbzx3qI=
+
+Name: javadoc/org/eclipse/net4j/util/ui/container/class-use/ElementWiz
+ ardAction.html
+SHA1-Digest: 9kRp+KcDdWFtD3Z/JDHAAXrNxj8=
+
+Name: javadoc/org/eclipse/net4j/util/security/package-frame.html
+SHA1-Digest: Kk3XG+rqdowt31Afdd2OC/HjBUY=
+
+Name: javadoc/org/eclipse/net4j/util/security/IPasswordCredentialsUpda
+ teProvider.html
+SHA1-Digest: rOBRP3g8WO1jIo+rWDUBZWf2Qik=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/XOROutputStream.html
+SHA1-Digest: ihkYsyrGDRsdwCqmqe8FvxkmDO0=
+
+Name: javadoc/org/eclipse/net4j/util/ui/proposals/class-use/RegExConte
+ ntProposalProvider.html
+SHA1-Digest: uTDFlxC+N2MtkJZbQFpu1Jhk+lU=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/ContainerItemProvider.Er
+ rorElement.html
+SHA1-Digest: ps5E/NFfBaTlxbadsRcEh1Sm2Pc=
+
+Name: javadoc/org/eclipse/net4j/util/transaction/class-use/ITransactio
+ nalOperation.html
+SHA1-Digest: Pdj+xRp9i8mz4NHC3dO/1uPf3Z8=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/package-use.html
+SHA1-Digest: cPsPZig0sw6Ul6Aqdhg/ABVPGVk=
+
+Name: javadoc/org/eclipse/net4j/util/ref/class-use/CleanableReferenceQ
+ ueue.html
+SHA1-Digest: ubC2in8lwto5h33EXt6bYOLR/0o=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/GrowingRando
+ mAccessList.html
+SHA1-Digest: rrm4BdFXEIXEmdtc6ur+kjmJF0A=
+
+Name: javadoc/org/eclipse/net4j/util/ui/prefs/package-summary.html
+SHA1-Digest: fy3yT/F8ps1HVa2kngONiKP6RQ8=
+
+Name: javadoc/org/eclipse/net4j/util/properties/package-use.html
+SHA1-Digest: HstTcvhCnoq11OrmW/vUjJ6VWYk=
+
+Name: javadoc/org/eclipse/net4j/util/security/IChallengeResponse.State
+ .html
+SHA1-Digest: MunK9qnl6TW05VCASYtYyZa733A=
+
+Name: javadoc/org/eclipse/net4j/util/ui/container/class-use/ElementWiz
+ ard.html
+SHA1-Digest: i3dt9NcgLrlJc6wruyk4HpCK3CI=
+
+Name: javadoc/org/eclipse/net4j/util/container/delegate/class-use/Cont
+ ainerQueue.html
+SHA1-Digest: Adzh3f4+J71lq0Tjw7dV6gErumw=
+
+Name: javadoc/org/eclipse/net4j/util/container/ContainerEventAdapter.h
+ tml
+SHA1-Digest: 2xomU4N1p4l8x9c6gkouApJLQuY=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/AuthenticatorF
+ actory.html
+SHA1-Digest: ez+PgA4suziBOCReQG3bhc/yz6s=
+
+Name: javadoc/org/eclipse/net4j/util/ref/package-summary.html
+SHA1-Digest: FUAQMSPgGq42DbYHpKEfswfmZM0=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/UserManager.ht
+ ml
+SHA1-Digest: LNDHdiWDylWVmp7QC8t+qr55je0=
+
+Name: javadoc/org/eclipse/net4j/util/om/log/OMLogger.Level.html
+SHA1-Digest: BkdzWUsSI7FIzyp8J55Qc3aAys4=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/ExtendedInputHandler
+ .html
+SHA1-Digest: nRv47uC/WYSsod3RR7LiThEgMp0=
+
+Name: javadoc/org/eclipse/net4j/util/container/class-use/SingleDeltaCo
+ ntainerEvent.html
+SHA1-Digest: GX1i/3EecNneQKafFGO4dmJ4VOk=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/LogDialog.html
+SHA1-Digest: tDLjDZBkqapZOc8cfE8zqAb7vfE=
+
+Name: javadoc/org/eclipse/net4j/util/ReflectUtil.PrimitiveType.html
+SHA1-Digest: iC6d9Fe6w6MJtpKc9vqdGnB082E=
+
+Name: javadoc/org/eclipse/net4j/util/container/IContainer.html
+SHA1-Digest: Zo4QOxS2JyoJJaO2T2KfoO2jHFU=
+
+Name: javadoc/org/eclipse/net4j/util/container/delegate/class-use/Cont
+ ainerList.html
+SHA1-Digest: Z+/8EMAR90PFg+w8iPGtC7u1Hs8=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/StringCompressor.Cou
+ nting.html
+SHA1-Digest: Vwuf+2lrdc8TNICp18dVQNauH1U=
+
+Name: javadoc/org/eclipse/net4j/util/cache/class-use/ICacheProbe.html
+SHA1-Digest: 6sQxYEwg/KDLV9HNa6Xvu2113fc=
+
+Name: javadoc/org/eclipse/net4j/util/ui/class-use/ValidationParticipan
+ t.html
+SHA1-Digest: 2wI3AdUkU3DOU97wGs6RL9AP7uQ=
+
+Name: javadoc/org/eclipse/net4j/util/lifecycle/class-use/LifecycleUtil
+ .html
+SHA1-Digest: 6Noy6A3MLvcWX8FdcFlSuHMQz9g=
+
+Name: javadoc/org/eclipse/net4j/util/ref/ReferenceType.html
+SHA1-Digest: RBhvPrbs0vEW8LXirVOmj6KjnIs=
+
+Name: javadoc/org/eclipse/net4j/util/io/IOFilter.html
+SHA1-Digest: JtyVKjxv6fs/I5QPiOUvX+q/WBA=
+
+Name: javadoc/org/eclipse/net4j/util/properties/class-use/DefaultPrope
+ rtyTester.html
+SHA1-Digest: bkhgVIPcNapla2WoCD1J2pj+IHM=
+
+Name: javadoc/org/eclipse/net4j/util/io/IORuntimeException.html
+SHA1-Digest: NpSA6e4x1yp8aPW3ri45hvya2wc=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/class-use/PreferenceBu
+ tton.html
+SHA1-Digest: SkHKeMEunEuCkwa1xuMQB8stWbA=
+
+Name: javadoc/org/eclipse/net4j/util/ui/container/class-use/IElementWi
+ zard.html
+SHA1-Digest: VNNRl7L8avvdWqIPfVoHXGFjlAM=
+
+Name: org/eclipse/net4j/util/doc/online/Homepage.class
+SHA1-Digest: BjaPqxk9BqzTC9JCalO4NHyj7ls=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/NegotiatorFact
+ ory.html
+SHA1-Digest: doqmBs//W3Y6ZcjTWNTzi/nSSmQ=
+
+Name: javadoc/org/eclipse/net4j/util/event/class-use/INotifier.html
+SHA1-Digest: wYzG97vYal1G2kjDatBQVQdpe4c=
+
+Name: javadoc/org/eclipse/net4j/util/ui/class-use/DelegatingContentPro
+ vider.html
+SHA1-Digest: esQr8CbYV4VWTFEZSDmEUWyBbC4=
+
+Name: javadoc/org/eclipse/net4j/util/container/class-use/ManagedContai
+ ner.html
+SHA1-Digest: FssjXLF0A0l/LUiPOzrLiUp5EUc=
+
+Name: javadoc/org/eclipse/net4j/util/container/delegate/class-use/Abst
+ ractDelegator.DelegatingIterator.html
+SHA1-Digest: RMcWI6cGZRYQyQ8qIakEI6eqSMk=
+
+Name: javadoc/org/eclipse/net4j/util/event/class-use/FinishedEvent.htm
+ l
+SHA1-Digest: +szCJ/G4q5evGImY7mS7TL2dAe0=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/LimitedInputStream.h
+ tml
+SHA1-Digest: 9NE5Ia4aJ4fu5BTSeAbQoXAfXHU=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/NotAuthenticat
+ edException.html
+SHA1-Digest: ykadm/nNx96sw8br2FZcO17Hnw8=
+
+Name: javadoc/org/eclipse/net4j/util/lifecycle/class-use/LifecycleUtil
+ .Activator.html
+SHA1-Digest: mPOulNnb72mboFKqjGCi8uoUf34=
+
+Name: javadoc/org/eclipse/net4j/util/om/trace/package-use.html
+SHA1-Digest: hJNl8IrxUVtW1BshPIySmhcz5ho=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/RoundRobinLi
+ st.html
+SHA1-Digest: Yt+UhBg6mKnXeq/bwvG4SS8QYN4=
+
+Name: javadoc/org/eclipse/net4j/util/om/trace/class-use/PerfTracer.htm
+ l
+SHA1-Digest: Ta5Kbg4AvypwIzQ86N5tVYCEvgg=
+
+Name: javadoc/org/eclipse/net4j/util/ui/actions/class-use/SafeAction.h
+ tml
+SHA1-Digest: I9XYPUFxVYoohxvQ6wslwfD6w+Y=
+
+Name: javadoc/org/eclipse/net4j/util/ui/confirmation/class-use/Interac
+ tiveConfirmationProvider.html
+SHA1-Digest: mN0CLFSNBSj2I10VYJUjN/T8R/k=
+
+Name: javadoc/org/eclipse/net4j/util/ui/security/package-summary.html
+SHA1-Digest: LqRtTPNDr2ElKT7oTAwKA6pqAqE=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/AbstractMonitor.AsyncT
+ imerTask.html
+SHA1-Digest: lyaV2qKDtp+xKVI52wewL4BWVFw=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/ContainerView.Default.ht
+ ml
+SHA1-Digest: e3eU5sT1ZojaSLNK9Ndue1Im+fE=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/doc-files/full.png
+SHA1-Digest: d3r+wJsifFVZ/JKL/HBgxXq4LZg=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/QueueWorkerWorkSeriali
+ zer.html
+SHA1-Digest: GzWWW0yYDi6pqijawm79dzNyRao=
+
+Name: javadoc/org/eclipse/net4j/util/class-use/Predicates.html
+SHA1-Digest: UGixlbSDwD/EX//rz5yuz/ToKrM=
+
+Name: javadoc/org/eclipse/net4j/util/fsm/class-use/FiniteStateMachine.
+ ChangeStateTransition.html
+SHA1-Digest: fOXILnZTMAoQ1PL5GEgZISFJkPQ=
+
+Name: javadoc/org/eclipse/net4j/util/factory/package-frame.html
+SHA1-Digest: A+TixWHa0d/AWAJbSVAudjubQM0=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/StringIO.html
+SHA1-Digest: VqQoySexoGPIhlC/i5cEQAnIjS0=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/GZIPStreamWrapper.Fa
+ ctory.html
+SHA1-Digest: UeMNsnXMkJZGrZg0QyRKuFf5pZ4=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/class-use/ContainerView.
+ html
+SHA1-Digest: 322cmxoYhP8lr4OwK3fI4sh1Qe4=
+
+Name: javadoc/org/eclipse/net4j/util/om/pref/class-use/OMPreference.Ty
+ pe.html
+SHA1-Digest: dIx8qAetEl352SI1ZDQ2Cb7Gnjk=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/Negotiator.htm
+ l
+SHA1-Digest: 8twp8zi1WEeMALk+8wiGrFUSrjc=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/IUserAware.htm
+ l
+SHA1-Digest: P3sFYfIMtJrlHnvrEUgtqduvsYw=
+
+Name: javadoc/org/eclipse/net4j/util/ui/package-frame.html
+SHA1-Digest: MBGWoTzoplbLZwdsgsa/qnK44Xs=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/CompletionWo
+ rkSerializer.html
+SHA1-Digest: ZCgKQWO2hUJasbTwvswESxJrvVI=
+
+Name: javadoc/org/eclipse/net4j/util/factory/FactoryDescriptor.html
+SHA1-Digest: NfJ6bhKD3gZljz6zIa+JecsnRkw=
+
+Name: javadoc/org/eclipse/net4j/util/container/delegate/IContainerColl
+ ection.html
+SHA1-Digest: 5pJNo6gpSC2CboPIddIjo2vtW3I=
+
+Name: javadoc/org/eclipse/net4j/util/factory/class-use/FactoryCreation
+ Exception.html
+SHA1-Digest: Zn4VBOld1Vi8j6gH6IQyBs292Z4=
+
+Name: javadoc/org/eclipse/net4j/util/confirmation/class-use/IConfirmat
+ ionProvider.Factory.Default.html
+SHA1-Digest: 9U8JQHRWxxWtoSGloQI021VZ/TQ=
+
+Name: javadoc/org/eclipse/net4j/util/io/DelegatingOutputStream.html
+SHA1-Digest: Bsu13Ii9281+I1xcOWH4xrOxJN0=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/ConcurrentAr
+ ray.DuplicateCounter.html
+SHA1-Digest: GVwTpYTTU5fMPWQ3iJMmM90QKTs=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/class-use/ContainerView.
+ MessageType.html
+SHA1-Digest: EEDoEdfKbES0y1XnPRMHjVmbWjs=
+
+Name: javadoc/org/eclipse/net4j/util/io/ExtendedIOUtil.html
+SHA1-Digest: DZ1StXbCeDrjTmswL5ZlYP7BxZ4=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/RunnableWithName.html
+SHA1-Digest: BKtATmfglRuGwk+/Cvn4fCP3wSM=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/class-use/IElementFilter
+ .html
+SHA1-Digest: UqQnEb1xRDa9aCtu4YhKIkZRCK8=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/ICorrelator.html
+SHA1-Digest: AotRFnW9Rq5QR9qzqMskNgzhuuU=
+
+Name: javadoc/org/eclipse/net4j/util/fsm/class-use/FiniteStateMachine.
+ StateChangedEvent.html
+SHA1-Digest: o4d7qHF8kSacLIL1HvImyF1lIH8=
+
+Name: images/editor-bottom-left.png
+SHA1-Digest: X3fnX9uZENlf4Tb7CNGfpKxOZTk=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/PredicateIte
+ rator.html
+SHA1-Digest: Y5nEm5gCka4i8XOywWsVxBI7XRI=
+
+Name: javadoc/org/eclipse/net4j/util/fsm/FiniteStateMachine.IgnoreTran
+ sition.html
+SHA1-Digest: tEAsJxTBuTiGwG1xRQeVQWz92qc=
+
+Name: javadoc/org/eclipse/net4j/util/ui/dnd/package-frame.html
+SHA1-Digest: RZKzUxUBQm4ac+4/ety91tc0h9A=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/PasswordCreden
+ tials.html
+SHA1-Digest: 3JPZVSH+6UVunhy/uNsmrDseP98=
+
+Name: javadoc/org/eclipse/net4j/util/ui/actions/SashLayoutAction.Verti
+ cal.html
+SHA1-Digest: gKGZNpxC2TvAIaVxOvDMuSCeidU=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/ImageButton.html
+SHA1-Digest: e6KbVyQE+MEy6OjaREzKv2lp/Ko=
+
+Name: javadoc/org/eclipse/net4j/util/lifecycle/class-use/LifecycleEven
+ t.html
+SHA1-Digest: VveTfaGzCdahgqgdjPeE9gvv/kU=
+
+Name: javadoc/org/eclipse/net4j/util/om/pref/class-use/OMPreference.ht
+ ml
+SHA1-Digest: fJr813jNa2UrRjltbY74mHx+nSE=
+
+Name: javadoc/org/eclipse/net4j/util/collection/AbstractFilteredIterat
+ or.html
+SHA1-Digest: Yg/+woUgw8xEECB4MQqSUVu+5X4=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/MonitoredThr
+ ead.MultiThreadMonitor.html
+SHA1-Digest: wvf/tdB9wjZMKjYUsPCM5DYqjAQ=
+
+Name: javadoc/org/eclipse/net4j/util/ui/actions/class-use/SelectionLis
+ tenerAction.html
+SHA1-Digest: oQjCkcRpsnQ3e2ZlEcZEVwJLpGo=
+
+Name: javadoc/org/eclipse/net4j/util/ui/TableLabelProvider.html
+SHA1-Digest: OAmDlIpslxJQz8pEKfjXTyUxryo=
+
+Name: html/reference/schema/index.html
+SHA1-Digest: EtjnoV38gq7rPfIv5u9HU6fVfZw=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/class-use/OMMonitor.As
+ ync.html
+SHA1-Digest: jqpkOTHGWsPd3r8zTvUWcq0fPh4=
+
+Name: javadoc/org/eclipse/net4j/util/container/IContainer.Persistable.
+ html
+SHA1-Digest: 3PKO3tuQ/w3IcCpuUAlsnOh4/As=
+
+Name: javadoc/org/eclipse/net4j/util/security/PasswordCredentialsProvi
+ der.Delegating.html
+SHA1-Digest: Bch6ueC3wxEj3o3M8LQkjbisfok=
+
+Name: javadoc/script.js
+SHA1-Digest: WOUVHUkgmi4SuYjoTpp0t4HGii4=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/RWLockManage
+ r.LockEntry.html
+SHA1-Digest: vYNm8AmRqkjmfBfqB/F36BWMCk0=
+
+Name: javadoc/org/eclipse/net4j/util/collection/Closeable.html
+SHA1-Digest: jmOlBIkK4Qzr+JHdlcOggle0z84=
+
+Name: images/editor-rst-hover.png
+SHA1-Digest: eZSnoBI4r30EPsT9K8keEtmaYAQ=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/ContainerItemProvider.Ab
+ stractNode.html
+SHA1-Digest: YNO2NqMVa6zGEoPnYGaskZXD5U8=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/ChallengeNegot
+ iatorFactory.html
+SHA1-Digest: xm+mqpqNkWe/ByppoCOjDK9rQVQ=
+
+Name: javadoc/org/eclipse/net4j/util/io/IOVisitor.html
+SHA1-Digest: Q4+IXFtRiAbiokt1L/ZLbtYeUEg=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/DelegatingOutputStre
+ am.html
+SHA1-Digest: JIMTy4URv8UkMhof7htoQAMka6Y=
+
+Name: javadoc/org/eclipse/net4j/util/ui/prefs/class-use/PrefText.html
+SHA1-Digest: e46saN0TvOY0exIAOsknHCRGAvc=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/IChallengeResp
+ onse.html
+SHA1-Digest: dOd9XvMfU83aWSgGeZBYb0+f7qk=
+
+Name: javadoc/org/eclipse/net4j/util/om/trace/class-use/RemoteTraceSer
+ ver.PrintListener.html
+SHA1-Digest: n45Rtc1fdPaF71SdnnQ4f6REfw0=
+
+Name: javadoc/org/eclipse/net4j/util/registry/HashMapDelegatingRegistr
+ y.html
+SHA1-Digest: fhWnkZck7pGVwdfmnyRTIWvsQ50=
+
+Name: javadoc/org/eclipse/net4j/util/om/trace/class-use/PrintTraceHand
+ ler.html
+SHA1-Digest: +Ny4uu5FDNlvP45Yz9Go/qGs6Sg=
+
+Name: javadoc/org/eclipse/net4j/util/container/IContainerEventVisitor.
+ html
+SHA1-Digest: 0Z4/kHwwCPgfNnFEpmt9ZFF1l4w=
+
+Name: javadoc/org/eclipse/net4j/util/ui/class-use/DefaultPropertySourc
+ e.html
+SHA1-Digest: O5cc8bleGMCOOySpeE/Kqxe/L2Q=
+
+Name: javadoc/org/eclipse/net4j/util/ui/proposals/package-summary.html
+SHA1-Digest: ww/Y2pF3iUekhtQoEeil3UeVMQk=
+
+Name: javadoc/org/eclipse/net4j/util/ref/KeyedPhantomReference.html
+SHA1-Digest: zhUINg/m+YMyrmOCov/6HDKTHRA=
+
+Name: javadoc/org/eclipse/net4j/util/ui/DefaultActionFilter.html
+SHA1-Digest: oEjyvMVHQPjrmYU88Uiq5+BTHhE=
+
+Name: javadoc/org/eclipse/net4j/util/Predicates.UniquePredicate.html
+SHA1-Digest: /aUMg/0vn8VG/yhnxBRWVfu4UxM=
+
+Name: javadoc/org/eclipse/net4j/util/container/class-use/IContainer.Pe
+ rsistence.html
+SHA1-Digest: Ne9KduQVOa5npAGi4V/bszj8CRg=
+
+Name: javadoc/org/eclipse/net4j/util/fsm/FiniteStateMachine.html
+SHA1-Digest: mVxZPyO+ix7j8DPpebotIoyEMIs=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/class-use/ItemProvider.h
+ tml
+SHA1-Digest: cXdNiBprPyUqXTfwidZxH33PV5Q=
+
+Name: javadoc/org/eclipse/net4j/util/om/log/class-use/OMLogHandler.htm
+ l
+SHA1-Digest: UMX2CB0fAtKLv7D2KCZQw6iu44I=
+
+Name: javadoc/org/eclipse/net4j/util/ui/actions/LongRunningActionDeleg
+ ate.html
+SHA1-Digest: dKCV1vMb2vA+LT1jQQ9r5ELIflU=
+
+Name: javadoc/org/eclipse/net4j/util/container/delegate/class-use/ICon
+ tainerSet.html
+SHA1-Digest: hiqfSeeXPn6PxUoKQkugqzBO6i4=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/DelegableReentrantLock
+ .DelegateDetector.html
+SHA1-Digest: KfkizMOycjXfSDGcZJ9d5XGYEaA=
+
+Name: javadoc/org/eclipse/net4j/util/class-use/StringUtil.html
+SHA1-Digest: Pnn5a9QUDiI6Vzu5jXGkDSE04pY=
+
+Name: javadoc/org/eclipse/net4j/util/security/IAuthenticator.html
+SHA1-Digest: MfZvQmjUP1Q1skEZYzy//CMO6kg=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/DelegableRee
+ ntrantLock.DelegateDetector.Factory.html
+SHA1-Digest: c6uoU5SZC7C9FnCnUF3xkfoY/+M=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/ResultSynchronizer.htm
+ l
+SHA1-Digest: yLzmZWC+K+nyjBZ8ezX2a0KSV0Q=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/QueueRunner.html
+SHA1-Digest: XG+2jF8ON6s3mTsH9z1JlWl292k=
+
+Name: javadoc/org/eclipse/net4j/util/io/DelegatingStreamWrapper.html
+SHA1-Digest: IjlVU8bpvT6+VaimsBVSC8Watg8=
+
+Name: javadoc/org/eclipse/net4j/util/registry/RegistryUtil.html
+SHA1-Digest: 8FPn5DFwMRNWmHszX3kMkUV8wqA=
+
+Name: javadoc/org/eclipse/net4j/util/cache/class-use/CacheRegistration
+ .html
+SHA1-Digest: JFIMt7ZSXSYjxEhC0UISpfDkdkY=
+
+Name: javadoc/org/eclipse/net4j/util/ui/class-use/TableLabelProvider.h
+ tml
+SHA1-Digest: //odxyH1JGwqXD5dxNeH1a6WQjI=
+
+Name: images/minus.gif
+SHA1-Digest: D4O+thJcmwSR+GTrZPYaKLYyKaM=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/SecurityUtil.h
+ tml
+SHA1-Digest: 3PRPfOEOzeeDEPuseYAKPoaipq8=
+
+Name: javadoc/org/eclipse/net4j/util/registry/UnmodifiableRegistry.htm
+ l
+SHA1-Digest: aS3GyGBu7Im9ahH9v8DkSe/kAls=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/PasswordCreden
+ tialsUpdate.html
+SHA1-Digest: xPBjDX66O6vBe9D/QBFmj1YzTD8=
+
+Name: javadoc/org/eclipse/net4j/util/om/class-use/OMBundle.DebugSuppor
+ t.html
+SHA1-Digest: dV0RflbcSI/Rt4tgyDKELyxehWY=
+
+Name: javadoc/org/eclipse/net4j/util/event/class-use/ValueNotifier.htm
+ l
+SHA1-Digest: /GzxQtjN1+FK/PKGzeeeLz1a1qI=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/MapEntry.htm
+ l
+SHA1-Digest: 40fCKbYaCx9zydz5dyhd1mf1Z9w=
+
+Name: javadoc/org/eclipse/net4j/util/factory/FactoryKey.html
+SHA1-Digest: 8SOrO+USo+b1vwTN6ihdt3T7q2U=
+
+Name: javadoc/org/eclipse/net4j/util/ui/actions/package-frame.html
+SHA1-Digest: Z/6ML7kW/SXtL+B2QkvkwwJ6lvw=
+
+Name: javadoc/org/eclipse/net4j/util/container/class-use/SelfAttaching
+ ContainerListener.DoNotDescend.html
+SHA1-Digest: d5VL5UKzMXTxoeSSiRAUXBK2o2s=
+
+Name: javadoc/org/eclipse/net4j/util/lifecycle/package-frame.html
+SHA1-Digest: BcQeipUY1p2D9vDRO2w3ZPBxiHY=
+
+Name: javadoc/org/eclipse/net4j/util/om/log/class-use/AbstractLogHandl
+ er.html
+SHA1-Digest: m1XYxHTU+OR6XRqq9dVw0WeURd8=
+
+Name: javadoc/org/eclipse/net4j/util/ui/dnd/class-use/DNDDragListener.
+ html
+SHA1-Digest: UjwgLmiw0VD/ZeVrQFsbCaJ41uA=
+
+Name: images/plugin.gif
+SHA1-Digest: LVsiyRKRPkp8aQeWiD2r/1fMRb8=
+
+Name: javadoc/org/eclipse/net4j/util/io/DataInputOutputFile.html
+SHA1-Digest: XYWo/oRXpCAsDL2bQD5Zs5endPA=
+
+Name: javadoc/org/eclipse/net4j/util/event/INotifier.html
+SHA1-Digest: DH71HspgL2XhPsGUDwJ+lJXFp2g=
+
+Name: javadoc/org/eclipse/net4j/util/security/IPasswordCredentialsProv
+ ider.html
+SHA1-Digest: ppTHblNc/LAUmE/GcoJjug5PO88=
+
+Name: javadoc/org/eclipse/net4j/util/ui/handlers/package-summary.html
+SHA1-Digest: e9aFNAZ7JKf0Cqyveir3ponBDOo=
+
+Name: javadoc/org/eclipse/net4j/util/om/trace/doc-files/om.trace.ucls
+SHA1-Digest: P9FS2V8erjxrEL1HonE/R1ee+TI=
+
+Name: images/editor-left.png
+SHA1-Digest: Qg3PQPXu5L1x5BIDfp/Ts1dQ0rA=
+
+Name: javadoc/org/eclipse/net4j/util/io/ExtendedDataInput.Delegating.h
+ tml
+SHA1-Digest: MLZwMQBvPRJWO5I8077EyGXnq/s=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/DiffieHellman.
+ Client.Response.html
+SHA1-Digest: IjZYYPkLlWn4+Br+Gl19kr9M7qE=
+
+Name: javadoc/org/eclipse/net4j/util/lifecycle/class-use/LifecycleUtil
+ .Deactivator.html
+SHA1-Digest: Yph/M814mlkF66seHqwvM2kwVUQ=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/package-use.html
+SHA1-Digest: wnxIE5Fk+UsgxITL0JvLCTW0WGU=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/Randomizer.htm
+ l
+SHA1-Digest: JmXWXMzfNBs7YROiHPbaO0/hBDE=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/ConcurrentAr
+ ray.Unique.html
+SHA1-Digest: LpXhQZuCzS8ptyXKvL4VgzGKDd4=
+
+Name: javadoc/org/eclipse/net4j/util/container/class-use/ContainerEven
+ tAdapter.html
+SHA1-Digest: 0Wo8WitPAZvx1ZnCfubmTof/vIM=
+
+Name: javadoc/org/eclipse/net4j/util/om/trace/Tracer.html
+SHA1-Digest: maG1o6sCD8Vcb2ZD/hEjfEA2tgI=
+
+Name: javadoc/org/eclipse/net4j/util/io/DataInputExtender.html
+SHA1-Digest: ZzDHLIrAViIqm3/Zb+7wRX+0vMM=
+
+Name: javadoc/org/eclipse/net4j/util/ref/class-use/ReferenceQueueWorke
+ r.html
+SHA1-Digest: VLWKuejhnkpflvi9neqIxNyKKrk=
+
+Name: javadoc/org/eclipse/net4j/util/container/delegate/IContainerQueu
+ e.html
+SHA1-Digest: nCkPtXI9eKuVz+4SiLk/IospsgM=
+
+Name: javadoc/org/eclipse/net4j/util/cache/class-use/ICacheMonitor.Con
+ dition.html
+SHA1-Digest: i7e4X+Vy9976GAKYpWvdq7wqeEo=
+
+Name: javadoc/org/eclipse/net4j/util/om/pref/OMPreferences.html
+SHA1-Digest: fQNaBqMvph12CKBNKd48QV5I6BU=
+
+Name: javadoc/org/eclipse/net4j/util/om/package-frame.html
+SHA1-Digest: 5xKFsWbqCB6g0ejQAt9v0CITMs0=
+
+Name: javadoc/org/eclipse/net4j/util/class-use/ArrayUtil.html
+SHA1-Digest: uRXb2VRFUOyQG0xZYzd5Kc9+ayg=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/Monitor.html
+SHA1-Digest: niNOHu3Ud45nyc9RJpqxHJunkBk=
+
+Name: javadoc/org/eclipse/net4j/util/ref/ReferenceValueMap.html
+SHA1-Digest: bivNtr6BI2IKFzh+WyLGHXxmKmg=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/NIOUtil.html
+SHA1-Digest: 7EurkGXv16PXrUdNW/MjlwG3tzw=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/ContainerPathItemProvide
+ r.html
+SHA1-Digest: P97y/8Tw1H5LCvIDlWnx5vAz4MA=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/class-use/ProgressDist
+ ributable.html
+SHA1-Digest: psEIUojhevdwZbKTptnYM6Vh7V0=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/ResponseNegoti
+ ator.html
+SHA1-Digest: aS36J8EOPXR4WINl+v0941NzPV8=
+
+Name: javadoc/org/eclipse/net4j/util/Predicate.html
+SHA1-Digest: ntaEKSeacJtpemo3fnAATpHIg78=
+
+Name: javadoc/org/eclipse/net4j/util/om/trace/package-frame.html
+SHA1-Digest: zYAPaUOv8n0cn5FkZ9/ZAgfwyCc=
+
+Name: javadoc/org/eclipse/net4j/util/lifecycle/class-use/LifecycleStat
+ e.html
+SHA1-Digest: VsRtoWyjY/fmqliAT+0nAXBIo9g=
+
+Name: javadoc/org/eclipse/net4j/util/container/package-use.html
+SHA1-Digest: tW+MWVJtY4EXpAJ3uXQcVHhHcKE=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/IHistoryElem
+ ent.html
+SHA1-Digest: auirROvKgbsuO/mDeyrpfxs3d9s=
+
+Name: javadoc/org/eclipse/net4j/util/container/delegate/ContainerColle
+ ction.html
+SHA1-Digest: bg9EQzLByTAv+Jk1HDPHGh3Z0ec=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/RWOLockManager.LockSta
+ te.html
+SHA1-Digest: BTrz+DGeHs97chHplgC7i9NBxRc=
+
+Name: images/editor-5.png
+SHA1-Digest: 13CxpoxLGdLgyqXPRxRp1Na4XJA=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/MasterDetailsView.Refres
+ hAction.html
+SHA1-Digest: OuTlheC3dqJXOY6pJrNImDes8PE=
+
+Name: javadoc/org/eclipse/net4j/util/container/class-use/IContainerDel
+ ta.html
+SHA1-Digest: xSTbHN24853cjTr4/uvAT7R6T6U=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/ResultSynchr
+ onizer.html
+SHA1-Digest: Fo7S1SHN5xdZ5osKFZh9SYvAKco=
+
+Name: javadoc/org/eclipse/net4j/util/collection/PreferenceHistory.html
+SHA1-Digest: ZCK5ArYonYUp6hD9/3xm+RBy19w=
+
+Name: javadoc/org/eclipse/net4j/util/ui/UIActivator.html
+SHA1-Digest: Hgd0BsOZo4IQfC96kGOZLp83Q+4=
+
+Name: org/eclipse/net4j/util/doc/Legal.class
+SHA1-Digest: 72sXBY/gKOVOna3Od9/6yjCnsGY=
+
+Name: javadoc/org/eclipse/net4j/util/container/delegate/class-use/ICon
+ tainerCollection.html
+SHA1-Digest: UVYRh8fDx4E2n0JRTIBPVK/lUME=
+
+Name: javadoc/org/eclipse/net4j/util/ui/confirmation/InteractiveConfir
+ mationProvider.html
+SHA1-Digest: UTB+I5IuvmC2u5POk5sBBviJ12g=
+
+Name: javadoc/org/eclipse/net4j/util/ref/Interner.Entry.html
+SHA1-Digest: kr7PJt7ZvV3EdVfqufxOeuGRrUE=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/class-use/ToolButton.h
+ tml
+SHA1-Digest: uKPsGRUDQSytz3DuCN5X2Pz3wKk=
+
+Name: javadoc/org/eclipse/net4j/util/ref/class-use/Interner.html
+SHA1-Digest: UFrp+Y/psKu8HFkq+HT5R7KL5UQ=
+
+Name: javadoc/org/eclipse/net4j/util/om/trace/PrintTraceHandler.html
+SHA1-Digest: Yn1aP4J98R4LiTmaLq3sabLd6Mw=
+
+Name: javadoc/org/eclipse/net4j/util/collection/ArrayIterator.html
+SHA1-Digest: YqKXIiuWRKj13RJhw0RNS+LpvGI=
+
+Name: javadoc/org/eclipse/net4j/util/om/log/EclipseLoggingBridge.html
+SHA1-Digest: Zt/cK2i12R2hoZDHRRIG9egjsx4=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/AbstractMonitor.html
+SHA1-Digest: udLo0pXWTkh17kSUMhixZj7X7w4=
+
+Name: javadoc/org/eclipse/net4j/util/ui/dnd/package-use.html
+SHA1-Digest: mY+mzhJot6QclEjSDDD+NgiVKGU=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/NegotiationExc
+ eption.html
+SHA1-Digest: TjGMmLTpSG+vHLwc3pllJEbcFvM=
+
+Name: javadoc/org/eclipse/net4j/util/collection/RoundRobinBlockingQueu
+ e.html
+SHA1-Digest: v+ef/FER5LFfP3h/pCj3GAycXaM=
+
+Name: javadoc/org/eclipse/net4j/util/collection/IHistoryChangeEvent.ht
+ ml
+SHA1-Digest: y+/QL2tYH1ppXmCpsXk857vHHDA=
+
+Name: javadoc/org/eclipse/net4j/util/cache/class-use/ThresholdConditio
+ nPolicy.html
+SHA1-Digest: jpIGpXIElsIw2FJjJlaZhDK4VDA=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/IPasswordCrede
+ ntialsProvider.Provider.html
+SHA1-Digest: cbZkziwy5fGw8LDkPF/psAbVLU8=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/SashComposite.html
+SHA1-Digest: FHcDC74P+BjcPApKBxAhbL05qkg=
+
+Name: javadoc/org/eclipse/net4j/util/io/FileLock.html
+SHA1-Digest: q82TUT6XlB9+rQ54TeuZDPXJQjw=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/package-use.html
+SHA1-Digest: h/fR7eRDIYikrgvnlX7xxWG+1u0=
+
+Name: javadoc/org/eclipse/net4j/util/container/delegate/ContainerQueue
+ .html
+SHA1-Digest: YBYiIwFnbXgrpL2buiokfDvTzHg=
+
+Name: javadoc/org/eclipse/net4j/util/collection/FastList.html
+SHA1-Digest: 72BqeY+evcJCoJoWxBWOIea9qG0=
+
+Name: javadoc/org/eclipse/net4j/util/class-use/ObjectUtil.html
+SHA1-Digest: Q/uyiX63ChA1xJw48BHunE84ZII=
+
+Name: javadoc/org/eclipse/net4j/util/event/class-use/Event.html
+SHA1-Digest: QwgTmxMUPEm25XC7/SIlvvr0ApA=
+
+Name: javadoc/org/eclipse/net4j/util/ui/container/package-frame.html
+SHA1-Digest: 7vgOHoZKlK47rDEBmf9dPsdePYQ=
+
+Name: javadoc/org/eclipse/net4j/util/om/class-use/OSGiApplication.html
+SHA1-Digest: 3KWeBV0TU4J1Nvf/nJu1hIs1nF8=
+
+Name: javadoc/org/eclipse/net4j/util/security/RandomizerFactory.html
+SHA1-Digest: HMYRbQQwPyv0evvD0XrxbWUvslA=
+
+Name: javadoc/org/eclipse/net4j/util/om/log/PrintLogHandler.html
+SHA1-Digest: AmhJP7tXTyQln7YKvTY/OsmRkOE=
+
+Name: javadoc/org/eclipse/net4j/util/om/trace/OMTraceHandler.html
+SHA1-Digest: MjmvyQzzsdphmX4UrYfeeSA04Us=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/ConcurrentAr
+ ray.html
+SHA1-Digest: Bg9M+EKuN8CFlsfnv+zerFnUtyw=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/ProgressDistributor.ht
+ ml
+SHA1-Digest: 1hM3fFt08K8r9j8FMdv/tqF4IYw=
+
+Name: javadoc/org/eclipse/net4j/util/container/delegate/ContainerBlock
+ ingQueue.html
+SHA1-Digest: znKw9Nm0bUiaVp0qrm2K2Y2dZKg=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/ExtendedOutputHandle
+ r.html
+SHA1-Digest: BtWS3F26kjX564J8eQr9x+g+GLs=
+
+Name: javadoc/org/eclipse/net4j/util/lifecycle/ILifecycleEvent.html
+SHA1-Digest: n1673/9rxJAyoVKC86luKg8Wq0Y=
+
+Name: javadoc/org/eclipse/net4j/util/lifecycle/LifecycleException.html
+SHA1-Digest: aZMofziJyfQfYEV0YW8shRV3Tu0=
+
+Name: javadoc/org/eclipse/net4j/util/ui/actions/SelectionListenerActio
+ n.html
+SHA1-Digest: QVgSoTAVF6dEy247caxjH1v/nh4=
+
+Name: javadoc/org/eclipse/net4j/util/fsm/class-use/ITransition.html
+SHA1-Digest: DLofPXw4hXHSj+V6ROBcg7YJeus=
+
+Name: javadoc/org/eclipse/net4j/util/security/SecurityUtil.html
+SHA1-Digest: JPEb9SHssONIwOqT1t8kvCNaVyA=
+
+Name: javadoc/org/eclipse/net4j/util/ref/class-use/ReferenceValueMap2.
+ Weak.html
+SHA1-Digest: Ev/3xjZ+X3dE1yGSAMUxzO0qWdA=
+
+Name: javadoc/org/eclipse/net4j/util/container/class-use/ContainerDelt
+ a.html
+SHA1-Digest: zfvKGplX+xeGD2b6b6EGcN4+0+A=
+
+Name: javadoc/org/eclipse/net4j/util/om/log/doc-files/om.log.png
+SHA1-Digest: OBB15Bkih8wagn6UNzcRff2gjbk=
+
+Name: javadoc/org/eclipse/net4j/util/container/class-use/LifecycleEven
+ tConverter.html
+SHA1-Digest: E9ysYAn7fTlnbCNpRgSU8brb3yA=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/RWLockManage
+ r.LockStrategy.html
+SHA1-Digest: zdkvS7I4UvHUNv65sLXGQKQ86fo=
+
+Name: javadoc/org/eclipse/net4j/util/event/class-use/Notifier.html
+SHA1-Digest: m0cq/1wzV1HYnowBmgzXDxy7tWc=
+
+Name: html/online/index.html
+SHA1-Digest: KXe/ZpOdASCQaPrls2MSWHRTqAs=
+
+Name: javadoc/index.html
+SHA1-Digest: vU6Bws/jS7aEDeuMV4c+dBnUlNU=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/BidiMapper.h
+ tml
+SHA1-Digest: CumD+zi/djcaVMxV/MWiZJw/DSs=
+
+Name: javadoc/org/eclipse/net4j/util/security/ResponseNegotiatorFactor
+ y.html
+SHA1-Digest: LXeXfCizMdnCI3jjdVw01VxmfQk=
+
+Name: javadoc/org/eclipse/net4j/util/ui/dnd/package-summary.html
+SHA1-Digest: SEv4QgTsiFbg83ANFOGGbNnfBc4=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/Sleeper.html
+SHA1-Digest: h0YIeQO7wltd6fcbOEc5wxSV70M=
+
+Name: javadoc/org/eclipse/net4j/util/cache/class-use/Cache.html
+SHA1-Digest: SbIbCTjjxe8WS5DaZ4Ckrp70914=
+
+Name: javadoc/org/eclipse/net4j/util/io/XORInputStream.html
+SHA1-Digest: 0KpsTMWx5UlZm/v6JKuGnxgR9JA=
+
+Name: javadoc/org/eclipse/net4j/util/cache/Cache.html
+SHA1-Digest: X7XvjaanOYpsu9SUj8mjs/uityw=
+
+Name: javadoc/org/eclipse/net4j/util/container/class-use/IElementProce
+ ssor.html
+SHA1-Digest: WEoSE+wl7n4PSQbTgwgKy05XWhs=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/DelegatingExecutorServ
+ ice.html
+SHA1-Digest: 2vprblSCWwyK7TqHBPLooXGDCSY=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/IRWLockManager.LockTyp
+ e.html
+SHA1-Digest: VJOhsyWClWHDl7atzade0cnTIg0=
+
+Name: javadoc/org/eclipse/net4j/util/ui/container/ElementWizardDialog.
+ html
+SHA1-Digest: DCxe7eopnPLDTnFTpDnR3bHQ64A=
+
+Name: javadoc/org/eclipse/net4j/util/ui/actions/class-use/SashLayoutAc
+ tion.html
+SHA1-Digest: rghs7RFfpDVlYYnadF/RIWO9oFU=
+
+Name: javadoc/org/eclipse/net4j/util/om/log/package-summary.html
+SHA1-Digest: we39wq3d+OLdREmNjBnypEjtJVU=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/ICredentialsPr
+ ovider2.html
+SHA1-Digest: ZMgwb013H3Grx2o86Kie0QPW/2A=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/ExtendedDataInput.ht
+ ml
+SHA1-Digest: P4MTcHkt6/ck8CZ9QSNBxLY12KA=
+
+Name: javadoc/org/eclipse/net4j/util/security/ICredentialsProvider2.ht
+ ml
+SHA1-Digest: uUz1dHTYed/JD/2/aZdxpROKIog=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/ICorrelator.
+ html
+SHA1-Digest: syTjJ5cB4nJiHf1r/+V/A++LlaM=
+
+Name: javadoc/org/eclipse/net4j/util/ui/confirmation/package-summary.h
+ tml
+SHA1-Digest: iCHPqPc7G/RM1Jla0JY2EapGRF0=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/OMMonitor.html
+SHA1-Digest: DIUD/wMrmrIfb6cJpJ95hLfs/Z0=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/FileAuthentica
+ torFactory.html
+SHA1-Digest: g321aPTy9l4Mi/nE0YcZXh0iIH8=
+
+Name: javadoc/org/eclipse/net4j/util/container/delegate/class-use/ICon
+ tainerSortedSet.html
+SHA1-Digest: cAW+yncKaTVSNyN9h14mA8ktPRQ=
+
+Name: images/editor-4.png
+SHA1-Digest: PWYYgryOAjtUQz7L1eOL5vzxFl4=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/ContainerItemProvider.ht
+ ml
+SHA1-Digest: tc++qEfn9FZEyyOX4e7WxNE2BpY=
+
+Name: javadoc/org/eclipse/net4j/util/security/INegotiationContext.html
+SHA1-Digest: yETrOqFojY5UZkzlGVeml0gNWEI=
+
+Name: javadoc/org/eclipse/net4j/util/om/pref/class-use/OMPreferencesCh
+ angeEvent.html
+SHA1-Digest: 5JKMf5P9Yi8zTOMLUWRv8EAocVU=
+
+Name: javadoc/org/eclipse/net4j/util/lifecycle/IDeactivateable.html
+SHA1-Digest: XsFClB0h4MKTSmoVSqHo464ANlE=
+
+Name: images/editor-top-left-xml.png
+SHA1-Digest: zjo1/+XZPEmUow6MKTuD4wT8dBw=
+
+Name: javadoc/overview-summary.html
+SHA1-Digest: RVOSm+Bg8EyzOwTfY49J87bni9c=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/HistoryText.html
+SHA1-Digest: VM478c1Y/WmdIJfrf+yhwwaNteo=
+
+Name: javadoc/org/eclipse/net4j/util/fsm/package-summary.html
+SHA1-Digest: R2UFI5F/s+di7uJPCYLou9jHvgE=
+
+Name: javadoc/org/eclipse/net4j/util/container/FactoryNotFoundExceptio
+ n.html
+SHA1-Digest: 3PKmcI3ivdcs29MEMcljTQQfLBI=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/Closeable.ht
+ ml
+SHA1-Digest: Tg5wzN4NQZHTWzUUXJlg8atr0ls=
+
+Name: javadoc/org/eclipse/net4j/util/om/trace/ContextTracer.html
+SHA1-Digest: lb+Kn5Did8a88qEk/JYutQzRGQk=
+
+Name: javadoc/org/eclipse/net4j/util/ReflectUtil.ExcludeFromDump.html
+SHA1-Digest: EUjdvfHF2iA5aAf2vb/XRUifijI=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/IElementFilter.html
+SHA1-Digest: jBtJRDS40QaDhfsSAzZBj3bf8OM=
+
+Name: javadoc/org/eclipse/net4j/util/ui/confirmation/InteractiveConfir
+ mationProvider.Factory.html
+SHA1-Digest: WAWB5kfq2vmK3pjkX8vqG2UpQsg=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/IOFilter.html
+SHA1-Digest: WxILRXeFKE+pFDm/rIf+PXxpQD8=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/CaseInsensit
+ iveStringSet.html
+SHA1-Digest: /p2HnaMme9sQR78zjY+YJ8ypT8g=
+
+Name: html/book.css
+SHA1-Digest: tlnkEvOokXgaQ+Q9SJSJi12Lq4U=
+
+Name: javadoc/org/eclipse/net4j/util/ui/prefs/PrefTextAndDisable.html
+SHA1-Digest: 1cED6tCyYC1GeYYjyXQfwfTqrfc=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/MoveableList
+ .html
+SHA1-Digest: lrPKozQat9LDbZ6gbwQZXoyXZ+0=
+
+Name: javadoc/org/eclipse/net4j/util/ui/prefs/package-frame.html
+SHA1-Digest: 0+wCIuoCu+9lmNy//lVGURwr0UQ=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/QueueRunner.
+ html
+SHA1-Digest: wDJTb7A2KYABiasK50JGjIOzCCo=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/IRWOLockMana
+ ger.html
+SHA1-Digest: Pqykf0BqWuyGqjWvCrNQV/RIVGg=
+
+Name: javadoc/org/eclipse/net4j/util/container/class-use/Container.htm
+ l
+SHA1-Digest: sps43X7G2dHZib9KFsTbpHxPmeg=
+
+Name: javadoc/org/eclipse/net4j/util/ref/ReferenceValueMap.Strong.html
+SHA1-Digest: nNJaIniQyBVj8yGeo80ZCSar4Ig=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/ProgressDistributable.
+ html
+SHA1-Digest: hGYVvLE4Pn+dWVW59F9MwNS61R4=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/SubProgressMonitor.htm
+ l
+SHA1-Digest: qK8MBm9Q5xB1PoApNJ9wEAFDwYw=
+
+Name: javadoc/org/eclipse/net4j/util/AdapterUtil.html
+SHA1-Digest: Rh+d3GIGbThmPscDcuaEEKAnh+8=
+
+Name: javadoc/org/eclipse/net4j/util/options/package-use.html
+SHA1-Digest: ieiqU4VJ/UyjEel2w8nTW2zpN6g=
+
+Name: modeling32.png
+SHA1-Digest: ADlLWFV0eQ74YnLvHnPFkYLeLrs=
+
+Name: javadoc/org/eclipse/net4j/util/collection/IHistoryElement.html
+SHA1-Digest: alfSVGfWLCh2qzfa4mzTyk8edmE=
+
+Name: html/Overview.html
+SHA1-Digest: cynJI73SDWL41zG3rAE08cLYiSY=
+
+Name: javadoc/org/eclipse/net4j/util/container/IContainer.Persistence.
+ html
+SHA1-Digest: x6l7bQMopHW+Fr8L2e20WM/cyI8=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/LimitedReader.html
+SHA1-Digest: 8rwr1VfjJE4gMGL4MV7Sj2zbvzs=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/class-use/ImageButton.
+ html
+SHA1-Digest: EQ6DdbDP39uHphPv6kCPXhDE8zM=
+
+Name: javadoc/org/eclipse/net4j/util/registry/Registry.Transaction.htm
+ l
+SHA1-Digest: zrKh5LE8IzeQIqQcyWFIWbesOcs=
+
+Name: javadoc/org/eclipse/net4j/util/container/class-use/ISlow.html
+SHA1-Digest: WDuNdinLjXAU39hMf1QlfjdjWe8=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/DelegatingMonitor.html
+SHA1-Digest: Xi9y2UK2nxfYUT4Yb15OFj9Go3A=
+
+Name: javadoc/org/eclipse/net4j/util/security/NegotiatorFactory.html
+SHA1-Digest: 1FhGOK4lrJilBzn9mAPdiWWFeyc=
+
+Name: javadoc/org/eclipse/net4j/util/om/log/class-use/EclipseLoggingBr
+ idge.html
+SHA1-Digest: DFNx+HUia2kWl3R3nBXR2fE3KsM=
+
+Name: javadoc/org/eclipse/net4j/util/collection/package-summary.html
+SHA1-Digest: GnrQCREkrdXNnch5nlebhRpub/M=
+
+Name: javadoc/org/eclipse/net4j/util/io/StreamWrapperChain.html
+SHA1-Digest: zk0uHelXqNDSM5ycmpC0fPtV8ic=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/package-frame.html
+SHA1-Digest: jPEcwdCTfP6P44qvoyMUnM8IACA=
+
+Name: images/editor-close.png
+SHA1-Digest: LdJpjAoOchMpDp4ajgjXy3WuRS4=
+
+Name: javadoc/org/eclipse/net4j/util/ui/handlers/SafeHandler.html
+SHA1-Digest: Nrez1iMPOppoXG14aLmgozS+zk4=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/Triplet.html
+SHA1-Digest: cP9IxsX1aLkW6zVl9SEyuDWH02A=
+
+Name: javadoc/org/eclipse/net4j/util/io/ExtendedOutputHandler.html
+SHA1-Digest: Y/mjqhDrZUfZ+6yRpUxY7m7yqsM=
+
+Name: javadoc/org/eclipse/net4j/util/cache/CacheMonitor.html
+SHA1-Digest: HQYf01cBZTAURRdoM7W5vEdGLSY=
+
+Name: javadoc/org/eclipse/net4j/util/om/log/class-use/OMLogFilter.html
+SHA1-Digest: qsbs+rWBygYKdqEihosRA9PEjAw=
+
+Name: javadoc/org/eclipse/net4j/util/ref/ReferenceValueMap2.Strong.htm
+ l
+SHA1-Digest: UGmkQJ92oN5dk0vLIHXzFebJkug=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/ParallelRunn
+ er.html
+SHA1-Digest: wFsP8VkjIcjmD/6vQGaPihG6Orw=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/SynchronizingCorrelato
+ r.html
+SHA1-Digest: o3sIbWIoePlOKJsQEoSX8fz9jWo=
+
+Name: javadoc/org/eclipse/net4j/util/collection/IndexedList.html
+SHA1-Digest: 24v9mFjNtc70iZp1GY6GNZqLG+c=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/IORuntimeException.h
+ tml
+SHA1-Digest: P+v5vEk22Y6G9GLDUCcnyyL5ch4=
+
+Name: images/extpoint.gif
+SHA1-Digest: prINNz2Vw9Kt1ors6uYW11k4Ya8=
+
+Name: javadoc/org/eclipse/net4j/util/security/UserManagerAuthenticator
+ .html
+SHA1-Digest: cA51+LB7FDJ5OBlzrY7qRl7wm5U=
+
+Name: javadoc/org/eclipse/net4j/util/HexUtil.html
+SHA1-Digest: Fg3uR0/di2Y9L9TRUvOkZh3plGA=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/IHistoryChan
+ geEvent.html
+SHA1-Digest: 7fak+ZhoWT3EDjCGslFiqgri5cA=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/Worker.html
+SHA1-Digest: P+/jizTIYlcTQqpdF/k2/mavTQ0=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/Sleeper.html
+SHA1-Digest: hbtVYJdNtUNly3ns1sw0PKbmOPs=
+
+Name: javadoc/org/eclipse/net4j/util/container/delegate/class-use/Cont
+ ainerMap.html
+SHA1-Digest: BShHqSW7g+QkhdpFV8o0wR29JE0=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/ExtendedIOAdapter.ht
+ ml
+SHA1-Digest: c+H6cvefHIXE8fYHWmC6iytuRYU=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/NonBlockingL
+ ongCounter.html
+SHA1-Digest: Ah8sqASAPbT1Vuhp+tQezXMj96U=
+
+Name: javadoc/org/eclipse/net4j/util/cache/class-use/ICacheMonitorEven
+ t.html
+SHA1-Digest: npTYBv74selY2mK3kFiZf3wSY30=
+
+Name: javadoc/org/eclipse/net4j/util/cache/ICacheProbe.html
+SHA1-Digest: 4nLNBoaChYaCXLy+OAL1NDsciGE=
+
+Name: javadoc/org/eclipse/net4j/util/ui/proposals/package-frame.html
+SHA1-Digest: uyBIq/3+zvxJTxxSnr5+JU6+y6E=
+
+Name: javadoc/org/eclipse/net4j/util/collection/MoveableArrayList.html
+SHA1-Digest: mzZp0BXc79e+ppekHGW21NBIb3A=
+
+Name: javadoc/org/eclipse/net4j/util/event/class-use/ThrowableEventAda
+ pter.html
+SHA1-Digest: jFDkqqOREB2NlJMPnxEFe3xOv6c=
+
+Name: javadoc/org/eclipse/net4j/util/om/OSGiApplication.html
+SHA1-Digest: Xs6Ag9dPif0N9tPzGgN4n6e1DaI=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/ContainerItemProvider.Sl
+ owElement.html
+SHA1-Digest: gGT3oep9sf1r+3L8zXOi4uesf9w=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/IExecutorSer
+ viceProvider.html
+SHA1-Digest: T5QolcFnz2NMWYZOLfd6lJ+oec4=
+
+Name: javadoc/org/eclipse/net4j/util/ReflectUtil.html
+SHA1-Digest: yVBkg8Qr23uYyDs7l48jqTHDGOQ=
+
+Name: images/callout-9.png
+SHA1-Digest: JFwWZVkrDW4YQewk0ENW1emzdP8=
+
+Name: org/eclipse/net4j/util/doc/online/Wiki.class
+SHA1-Digest: 1h/Rf6N3MHWwKpeypsjGqK67Rdc=
+
+Name: javadoc/org/eclipse/net4j/util/io/IOTimeoutException.html
+SHA1-Digest: +p3NvPNTxWskHjNoq0nsl6bZuck=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/ThreadPool.h
+ tml
+SHA1-Digest: 49hwButiJ5zpA5ZJFUILq4ixKfE=
+
+Name: javadoc/org/eclipse/net4j/util/collection/ConcurrentArray.html
+SHA1-Digest: rbhBV397ccJxHjeSwGjttX1f+Ns=
+
+Name: javadoc/org/eclipse/net4j/util/collection/package-use.html
+SHA1-Digest: zBfQ/oXfB4ob8BE3QtHfSiy0LwU=
+
+Name: images/editor-3.png
+SHA1-Digest: LdJpjAoOchMpDp4ajgjXy3WuRS4=
+
+Name: javadoc/org/eclipse/net4j/util/container/class-use/IManagedConta
+ iner.ContainerAware.html
+SHA1-Digest: hgfnJUPzJjSo/T6c5+D2gnphkUc=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/MasterDetailsView.html
+SHA1-Digest: R8QscbtY3pMgF+Io8vcnD5jJ9g4=
+
+Name: javadoc/org/eclipse/net4j/util/security/ICredentialsProvider.htm
+ l
+SHA1-Digest: GF1OZ6G8IAsDo6ZVzz6y1kfl9H0=
+
+Name: javadoc/org/eclipse/net4j/util/container/class-use/ContainerPers
+ istence.html
+SHA1-Digest: azmrPPWZpfgCX2eQXDtIRYNDU78=
+
+Name: javadoc/org/eclipse/net4j/util/event/package-frame.html
+SHA1-Digest: 7oByr1GCrUWBIMyk5YuOd5TuTdY=
+
+Name: javadoc/org/eclipse/net4j/util/ui/UIActivator.WithState.html
+SHA1-Digest: ShLstrk7iOoC4tiYxKxl29zZH9s=
+
+Name: javadoc/org/eclipse/net4j/util/class-use/ReflectUtil.ExcludeFrom
+ Dump.html
+SHA1-Digest: Hr3yG+ydJJ2XY6ITph6hhGleVK0=
+
+Name: javadoc/org/eclipse/net4j/util/io/ExtendedDataInputStream.html
+SHA1-Digest: b7LUju7n79qnxfylQvn4He2A51k=
+
+Name: org/eclipse/net4j/util/doc/reference/package-info.class
+SHA1-Digest: RRXtwIJmM5dzquPLgp/dWvryQ4Q=
+
+Name: javadoc/org/eclipse/net4j/util/lifecycle/Lifecycle.html
+SHA1-Digest: X2mpCw4oVxCKWiWct+zNvx0o2w4=
+
+Name: javadoc/org/eclipse/net4j/util/security/IPasswordCredentialsProv
+ ider2.html
+SHA1-Digest: fOw7JNypN/4aqUwjFZuWVkxtGk8=
+
+Name: javadoc/org/eclipse/net4j/util/properties/IPropertiesContainer.h
+ tml
+SHA1-Digest: Sk6rdCXmd9ftzSFoP2z/AAYQCPI=
+
+Name: javadoc/org/eclipse/net4j/util/ui/class-use/TableLabelProvider.C
+ olumn.html
+SHA1-Digest: Rhjg8QK0KlOr82fTRoRvQlp8qOw=
+
+Name: javadoc/org/eclipse/net4j/util/io/CachedFileMap.html
+SHA1-Digest: HxEm7ef6GVAq6jIAIdnbkcg771E=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/class-use/AbstractMoni
+ tor.html
+SHA1-Digest: c4RxbeGAxlywMISJ2NpaYFxr8KI=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/PriorityQueueRunnable.
+ html
+SHA1-Digest: bM2Un1HgGikEbFuqeaZjbYgYXp8=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/XMLOutput.html
+SHA1-Digest: 2KQbe6nsPGHecSrWOG8KoevR3Y4=
+
+Name: javadoc/org/eclipse/net4j/util/om/log/class-use/FileLogHandler.h
+ tml
+SHA1-Digest: ksb/lrwOur7EGOH1BJNZeG6y58M=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/DiffieHellman.
+ html
+SHA1-Digest: hRzfCjlO2j/FaVxHUa2am6JXah0=
+
+Name: javadoc/org/eclipse/net4j/util/container/delegate/ContainerList.
+ DelegatingListIterator.html
+SHA1-Digest: 6ffOlI/irDn03+wimjnZU4QoNXQ=
+
+Name: javadoc/org/eclipse/net4j/util/ui/actions/LongRunningAction.html
+SHA1-Digest: desC9Wiy0zER+22YHkm+60lE0IM=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/DelegableReentrantLock
+ .DelegateDetector.Factory.html
+SHA1-Digest: /fCQvzU0BybGPqhzSbQDbIXqdTw=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/IPasswordCrede
+ ntialsProvider.html
+SHA1-Digest: iv+2crEyTR45uymNOsndOPzISzE=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/AsyncWriter.html
+SHA1-Digest: wJY1rwv8PhRUXBrF6DUleF1ADuY=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/RWLockManage
+ r.html
+SHA1-Digest: As//cvlSxNob67sHcHByjHMa8Js=
+
+Name: javadoc/org/eclipse/net4j/util/container/IElementProcessor.html
+SHA1-Digest: TPle4pMygBRyU6f1orb7ANK93TE=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/FileUserManage
+ rFactory.html
+SHA1-Digest: 7lWyjT4EJaHAtQxQT1LLBlFrQpo=
+
+Name: javadoc/org/eclipse/net4j/util/io/IORunnable.html
+SHA1-Digest: hw3ryPV6YNv2pgXqu5zNsbOtGHI=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/PasswordCreden
+ tialsProvider.Delegating.html
+SHA1-Digest: BPY4yyu9llixjZIli27MrdkP0Pw=
+
+Name: javadoc/org/eclipse/net4j/util/ui/container/class-use/ElementWiz
+ ardFactory.html
+SHA1-Digest: BZT5HwVne0HnoR+9DMB0hYhuN60=
+
+Name: javadoc/deprecated-list.html
+SHA1-Digest: xZjrrHfEfkpR/9FmYu46sxi+5ms=
+
+Name: javadoc/org/eclipse/net4j/util/event/ThrowableEventAdapter.ToPri
+ ntStream.html
+SHA1-Digest: /8EqrgCgyW+J4LgCuly6ekJoBlA=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/class-use/ContainerItemP
+ rovider.SlowElement.html
+SHA1-Digest: h2hvtHu1X9T9MaqENcosDhSEc+4=
+
+Name: javadoc/org/eclipse/net4j/util/ui/FactoryTypeContentProvider.htm
+ l
+SHA1-Digest: ZGgQlM+tu5bNnzjArDX4K8Y6LqI=
+
+Name: images/editor-bottom-right.png
+SHA1-Digest: B6xfwHg7D5JIJTORXTPj1XbHPUA=
+
+Name: javadoc/org/eclipse/net4j/util/container/SelfAttachingContainerL
+ istener.Delegating.html
+SHA1-Digest: IkXiMj1cAJX6nnixgjQW1IiJIZw=
+
+Name: javadoc/org/eclipse/net4j/util/ui/class-use/DefaultPropertySourc
+ e.DelegatingPropertyDescriptor.html
+SHA1-Digest: NqiTdWz7tQRLjQuv38VIeKghebg=
+
+Name: javadoc/org/eclipse/net4j/util/collection/HistoryElement.html
+SHA1-Digest: zotCqHO9hBOE3fTpgHj9p4S/qYE=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/ChallengeNegot
+ iatorConfigurer.html
+SHA1-Digest: YiaiZR32gIt0a22QTZj2UvdA5s8=
+
+Name: javadoc/org/eclipse/net4j/util/transaction/ITransactionalOperati
+ on.html
+SHA1-Digest: xEwuL88CHmznG1ZTBBbuO1kV2zI=
+
+Name: javadoc/org/eclipse/net4j/util/ImplementationError.html
+SHA1-Digest: rOf+rNfqB+zeUDZ+U5YEh2B2rp8=
+
+Name: javadoc/org/eclipse/net4j/util/options/package-frame.html
+SHA1-Digest: o1xbMibbwhKgIkJqOE2wmZC/NyA=
+
+Name: javadoc/org/eclipse/net4j/util/ui/class-use/UIActivator.html
+SHA1-Digest: 9G4AxPxKikPUK2gzI1JiMj7QLV0=
+
+Name: javadoc/org/eclipse/net4j/util/transaction/class-use/Transaction
+ Util.html
+SHA1-Digest: bAVs28jklLY8sGlafqpBHUU3QRY=
+
+Name: javadoc/org/eclipse/net4j/util/io/ZIPUtil.EntryContext.html
+SHA1-Digest: qvCtnUYx1xrviVCRS8ufzB7VBek=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/IOUtil.FileCollector
+ .html
+SHA1-Digest: k/QsLgDq4hAlT9ITq+zTaWqHYQw=
+
+Name: javadoc/org/eclipse/net4j/util/factory/IFactory.html
+SHA1-Digest: sfYunrmJxLO/lksBbwIHDvcSP3I=
+
+Name: javadoc/org/eclipse/net4j/util/properties/Properties.html
+SHA1-Digest: NxtrvIDMPIkLJwL80JMtiNBh0fE=
+
+Name: javadoc/org/eclipse/net4j/util/io/IStreamWrapper.Factory.html
+SHA1-Digest: ICVjs6k4v8WkHjPHcQbQTLjMSME=
+
+Name: javadoc/org/eclipse/net4j/util/properties/class-use/Property.htm
+ l
+SHA1-Digest: DAPZCaIeETrOM86Qdth9HPcbUco=
+
+Name: javadoc/org/eclipse/net4j/util/properties/package-summary.html
+SHA1-Digest: rnNoZPUHU5sZ2cDxAODwlC6Nf1k=
+
+Name: javadoc/org/eclipse/net4j/util/registry/class-use/HashMapDelegat
+ ingRegistry.html
+SHA1-Digest: KgJag5GcRgIqefxdrOdZjFGwdPU=
+
+Name: org/eclipse/net4j/util/doc/Overview.class
+SHA1-Digest: uX3b1HTDQwwgM4eKtjb3CwKVRSs=
+
+Name: javadoc/org/eclipse/net4j/util/om/pref/class-use/OMPreferences.h
+ tml
+SHA1-Digest: e9gpJ4M+iMAm0H6mfNf95+nb0kg=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/MonitorCanceledExcepti
+ on.html
+SHA1-Digest: 613qLaKZFJP5z91aLBB0Sj7gHMg=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/CoolBarComposite.CoolB
+ arLayout.html
+SHA1-Digest: 06tlXo+wNItD5lR3Ke8UCk860l8=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/ZIPUtil.FileSystemUn
+ zipHandler.html
+SHA1-Digest: isZrx7gvIAVIvjse8NOTIi9z93Y=
+
+Name: javadoc/org/eclipse/net4j/util/properties/IPropertyProvider.html
+SHA1-Digest: CcfSWXgXYi3jWl/oZlX+uwdhAcg=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/IHistory.htm
+ l
+SHA1-Digest: l9R6Ba+i4RlMjAQBLizzKQ2krRU=
+
+Name: images/editor-rst.png
+SHA1-Digest: QRTvTn009xD+5JREKW7GJnGGZDo=
+
+Name: images/editor-max-hover.png
+SHA1-Digest: mITdDxuvaNTVK398a02IVTyLPaA=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/HistoryUtil.
+ html
+SHA1-Digest: wjGhNVLE1UWdhue+ry6q3X1BIzM=
+
+Name: javadoc/org/eclipse/net4j/util/lifecycle/class-use/LifecycleExce
+ ption.html
+SHA1-Digest: T4nppqmPcT8aU7F28q23ZEyLzh8=
+
+Name: javadoc/org/eclipse/net4j/util/io/AsyncWriter.html
+SHA1-Digest: zV1Dl8RWxI3ULzwy/HbgIR66omI=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/CollectionUt
+ il.html
+SHA1-Digest: nt5AlKZ7m3/jz6YqPtU3cm6au9E=
+
+Name: javadoc/org/eclipse/net4j/util/transaction/Transaction.html
+SHA1-Digest: T7resjIjHVY+YoRmeluu55BdhlI=
+
+Name: javadoc/org/eclipse/net4j/util/security/ChallengeNegotiatorFacto
+ ry.html
+SHA1-Digest: XNbo+6Tn760/FVHMmsevBstWF50=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/IStreamWrapper.Facto
+ ry.html
+SHA1-Digest: 3gzwCwJoANY2x0jCXiSV5SUv2Nw=
+
+Name: javadoc/org/eclipse/net4j/util/event/package-use.html
+SHA1-Digest: tegYFlfMxHdasKfFFgpFw6OGcfU=
+
+Name: javadoc/org/eclipse/net4j/util/collection/BidirectionalIterator.
+ html
+SHA1-Digest: 7E2w8E0ppmuwLaBSznfjkiOi9Yo=
+
+Name: javadoc/org/eclipse/net4j/util/security/ChallengeNegotiator.html
+SHA1-Digest: 1/AI6I5mM67vkqf9XxHpfwJp+IU=
+
+Name: javadoc/org/eclipse/net4j/util/io/ZIPUtil.FileSystemZipHandler.h
+ tml
+SHA1-Digest: Ha4X7DBey3DsBUHJyrXESJc5vi4=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/ZIPUtil.html
+SHA1-Digest: Qg9cCKSsbiq/s9vYP511uStvQpA=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/NonBlockingIntCounter.
+ html
+SHA1-Digest: Wd1iurWiqM0+kRLafkmIKFgqS7k=
+
+Name: javadoc/org/eclipse/net4j/util/container/class-use/SelfAttaching
+ ContainerListener.Delegating.html
+SHA1-Digest: C5Of4UTpCA7VQBYEnDdshN8s73E=
+
+Name: javadoc/org/eclipse/net4j/util/om/pref/class-use/OMPreference.Pa
+ rticipant.html
+SHA1-Digest: OsrgysYnbSp++TZhaHWBgw2NG68=
+
+Name: images/callout-8.png
+SHA1-Digest: w3Si0bUYnTgHopLQtSRgZRy8WWY=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/DigestWriter.html
+SHA1-Digest: v+E1xAzfErvwcTMyQsWMOsn3jkQ=
+
+Name: javadoc/org/eclipse/net4j/util/container/SelfAttachingContainerL
+ istener.html
+SHA1-Digest: 0zm4BOtCcR/powA+v6XYF6cNfQc=
+
+Name: javadoc/org/eclipse/net4j/util/collection/MultiMap.ListBased.htm
+ l
+SHA1-Digest: 11fi63ejyrBp+5nJQqEhbD/M6Z0=
+
+Name: javadoc/org/eclipse/net4j/util/container/delegate/IContainerSort
+ edSet.html
+SHA1-Digest: s9/BX977JbsDNTy/6tz4uVv6n8A=
+
+Name: images/editor-2.png
+SHA1-Digest: x5uMAvKJjy2iqSjfjhz1fmxBnf8=
+
+Name: javadoc/org/eclipse/net4j/util/collection/IndexedList.ArrayBacke
+ d.html
+SHA1-Digest: s/qtpt24X4nw/giPISjbxy+yGlg=
+
+Name: javadoc/resources/background.gif
+SHA1-Digest: 6i5/TbiDPkrWsHkUqPSP5STqo5c=
+
+Name: javadoc/org/eclipse/net4j/util/ui/handlers/class-use/SafeHandler
+ .html
+SHA1-Digest: vjpwaPINss6p3siyS75GLd0iz9g=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/IChallengeResp
+ onse.Event.html
+SHA1-Digest: 54nZeg8pAZFeUwmCUn4GNjtv6+0=
+
+Name: javadoc/org/eclipse/net4j/util/security/FileUserManagerFactory.h
+ tml
+SHA1-Digest: Y8layFD10C8K0KJvRycpxPoEWM8=
+
+Name: javadoc/org/eclipse/net4j/util/ref/KeyedReference.html
+SHA1-Digest: P2DlevreVF5AHeGRDWBFEfmFGOA=
+
+Name: javadoc/org/eclipse/net4j/util/cache/package-use.html
+SHA1-Digest: a9aFmQC8W1xPsoSzJNm78jER/w0=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/DiffieHellman.
+ SkipParameterSpec.html
+SHA1-Digest: njTliBH27h4iIAtE933l8+Ti2E0=
+
+Name: javadoc/org/eclipse/net4j/util/ref/class-use/ReferenceValueMap2.
+ Strong.html
+SHA1-Digest: yzM4OTeLjuezcpBsdl2lMrmd4yk=
+
+Name: javadoc/org/eclipse/net4j/util/confirmation/package-use.html
+SHA1-Digest: EcY5svYTJHDa1gGajbx6OboL06U=
+
+Name: javadoc/org/eclipse/net4j/util/registry/Registry.html
+SHA1-Digest: idfx6Yz8kL4oEKZLqi2Xz4uRWk0=
+
+Name: javadoc/org/eclipse/net4j/util/ui/package-summary.html
+SHA1-Digest: 6npUZbiuvt4/Gdg3ecZa+57derY=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/IPasswordCrede
+ ntialsUpdate.html
+SHA1-Digest: dSh2Ez/wxHnbRyZdDE3jbJDWQLQ=
+
+Name: javadoc/org/eclipse/net4j/util/factory/class-use/ProductCreation
+ Exception.html
+SHA1-Digest: vQgV0NImS0Y0m+WOD/Jov07YuPk=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/FileLock.html
+SHA1-Digest: kqiGXuDFUk8gSihSS7pctL5d7gE=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/ContainerItemProvider.No
+ de.html
+SHA1-Digest: +3jNEhPliH7lcvVRrUzlTsLcLuQ=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/QueueWorkerW
+ orkSerializer.html
+SHA1-Digest: Xs1hqasXwYfDuyT4/ZVzCjxg8go=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/IPasswordCrede
+ ntials.html
+SHA1-Digest: P/di+I4/tDVQQIki9+irHoPgO5k=
+
+Name: javadoc/org/eclipse/net4j/util/ui/container/ElementWizardComposi
+ te.WithCombo.html
+SHA1-Digest: vh/X4wwxxY+KJX+NGDDjPXon9vs=
+
+Name: javadoc/org/eclipse/net4j/util/io/DigestWriter.html
+SHA1-Digest: OGxDuwHoM5Z9N/kIWEisKRhUID4=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/XORStreamWrapper.htm
+ l
+SHA1-Digest: L6PWW+yUndJunRW9bZ0MJYrT3Uk=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/Stoppable.ht
+ ml
+SHA1-Digest: YHTl/1adF0idg8VId7WHebfQaZ4=
+
+Name: javadoc/org/eclipse/net4j/util/io/NIOUtil.html
+SHA1-Digest: xGIPnkNR96diEIEPGRg5wm59faA=
+
+Name: html/reference/index.html
+SHA1-Digest: W1kO6xqgjBvw1pYAWu7rwON1lPs=
+
+Name: images/editor-bottom.png
+SHA1-Digest: qgHqLh+WykvcShfIOh4ASaN2BsM=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/ExtendedDataInput.De
+ legating.html
+SHA1-Digest: RNV/HmEjtfNULWZ2aiKgLUD3+OU=
+
+Name: javadoc/org/eclipse/net4j/util/properties/class-use/Properties.h
+ tml
+SHA1-Digest: XyqPdGKKOoPiSpZ2+UAtzbyiU0o=
+
+Name: javadoc/org/eclipse/net4j/util/properties/IProperties.html
+SHA1-Digest: jlVn3tpUjS6kFgEUE3Z5x2quxx4=
+
+Name: javadoc/org/eclipse/net4j/util/class-use/XMLUtil.ElementHandler.
+ html
+SHA1-Digest: a0YKys0PjhGJmhhWTSf7BlwfKzc=
+
+Name: javadoc/org/eclipse/net4j/util/om/trace/RemoteTraceHandler.html
+SHA1-Digest: ItyPglH5QoP5TF4+qeO67qZ3P6o=
+
+Name: javadoc/org/eclipse/net4j/util/class-use/Predicates.ExcludedPred
+ icate.html
+SHA1-Digest: /ioxIakJ0ZrjtSAB+QAxSSRkVPU=
+
+Name: javadoc/org/eclipse/net4j/util/om/pref/doc-files/om.pref.ucls
+SHA1-Digest: 9tiROPGVva+ueK8m6J/b6fE5niw=
+
+Name: javadoc/org/eclipse/net4j/util/io/ExpectedFileReader.html
+SHA1-Digest: 4TxM9Zys+CfD/7Z4YtSjeqU0IJs=
+
+Name: javadoc/org/eclipse/net4j/util/properties/class-use/IPropertiesC
+ ontainer.html
+SHA1-Digest: gL6EfdjbTTvGZMyDAsWGs98a9Z0=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/SynchronousWorkSeriali
+ zer.html
+SHA1-Digest: O1H9UIdk2xvFdgNzI767+MLwbWc=
+
+Name: javadoc/org/eclipse/net4j/util/collection/BidiMapper.html
+SHA1-Digest: QQhVtJR5EHg/mPfS9FQhvZlDYeM=
+
+Name: javadoc/org/eclipse/net4j/util/container/delegate/class-use/Cont
+ ainerSortedSet.html
+SHA1-Digest: M0YVwH6ZIevD7enqLI6ZA3kjEuc=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/class-use/SubMonitor.h
+ tml
+SHA1-Digest: mxzlfMGUOhUO9ehDBh8LxI1qkNA=
+
+Name: javadoc/org/eclipse/net4j/util/ui/security/class-use/Credentials
+ UpdateDialog.html
+SHA1-Digest: fOd63yIrMh2GRO0TI3ZNMHn6i8o=
+
+Name: javadoc/org/eclipse/net4j/util/collection/CloseableIterator.html
+SHA1-Digest: CvwWuufZnkwXVXmOd4OJLXdKvb8=
+
+Name: javadoc/org/eclipse/net4j/util/cache/class-use/ICacheMonitor.htm
+ l
+SHA1-Digest: UFPmM/thlpXEPYo2UEKGX563ybU=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/BaseDialog.html
+SHA1-Digest: kdrtOe6IVvln8VzeYxNEvC8mUQo=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/class-use/HistoryText.
+ html
+SHA1-Digest: x2gETQwZTdrWwERw70v6ZsSAEfQ=
+
+Name: javadoc/org/eclipse/net4j/util/event/IEvent.html
+SHA1-Digest: oKjFy9S4UAALfithMEbj4tfAFSw=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/ExtendedIOHandler.ht
+ ml
+SHA1-Digest: NrR7Pt9PxKSKdDMo/+KHmJg3FCs=
+
+Name: javadoc/org/eclipse/net4j/util/ui/class-use/UIUtil.html
+SHA1-Digest: kJybF6ZXBoyw+UM4jVKHuxXNQCk=
+
+Name: javadoc/org/eclipse/net4j/util/security/DiffieHellman.SkipParame
+ terSpec.html
+SHA1-Digest: P0G/kXvTFBIBV8Cp629LHZKodA0=
+
+Name: images/formatter-java.gif
+SHA1-Digest: aFCIWZZQTPVqzU03+yrs572vJ5s=
+
+Name: javadoc/org/eclipse/net4j/util/ref/KeyedSoftReference.html
+SHA1-Digest: t/9Vu/GZOvJIIGgTBBujIvc62e4=
+
+Name: javadoc/org/eclipse/net4j/util/ui/confirmation/package-frame.htm
+ l
+SHA1-Digest: lumy6+IxSbcSlI0t/c43wRtM/2o=
+
+Name: javadoc/org/eclipse/net4j/util/om/OSGiActivator.WithState.html
+SHA1-Digest: AYLbsk8ovF0tLUU4Hx8JFZneJ9M=
+
+Name: javadoc/org/eclipse/net4j/util/ref/package-use.html
+SHA1-Digest: gRZ/m7vQxteUEPW6cKvAMzTFQDs=
+
+Name: javadoc/org/eclipse/net4j/util/om/trace/class-use/RemoteTraceHan
+ dler.html
+SHA1-Digest: I9Exhno30/+Q2oZfQXE46QV3zRA=
+
+Name: javadoc/org/eclipse/net4j/util/class-use/HexUtil.html
+SHA1-Digest: MbEm1UBgIoRss4QJ85CCog+pHNo=
+
+Name: javadoc/org/eclipse/net4j/util/ui/prefs/class-use/PrefIntegerAnd
+ Disable.html
+SHA1-Digest: ARCXSL4eTA0r8kFq0uDjNLgHmc0=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/PriorityQueu
+ eRunnable.html
+SHA1-Digest: GGy7b3qJsjWwI6s8czvff0Lu3fY=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/ResponseNegoti
+ atorFactory.html
+SHA1-Digest: YC7P+39IlyN5HVsi167ZFo8KGew=
+
+Name: javadoc/org/eclipse/net4j/util/om/trace/class-use/OMTraceHandler
+ .html
+SHA1-Digest: Y8SXc4+vdYfySEj/dOm12UlXU18=
+
+Name: javadoc/org/eclipse/net4j/util/container/class-use/IPluginContai
+ ner.html
+SHA1-Digest: vvpin2hrASnoIf7+0gtThU15YM8=
+
+Name: javadoc/org/eclipse/net4j/util/container/IManagedContainer.Conta
+ inerAware.html
+SHA1-Digest: eg2bwmBswSOA6M/16s0ssX5eORQ=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/ZIPUtil.UnzipHandler
+ .html
+SHA1-Digest: gI120NsLrNgYsJvxoIdMWOGgiLk=
+
+Name: javadoc/org/eclipse/net4j/util/ui/security/package-frame.html
+SHA1-Digest: W9MU5Be/7qa/l3BjdofQ3La68+c=
+
+Name: javadoc/org/eclipse/net4j/util/class-use/WrappedException.html
+SHA1-Digest: OifUpbvakO3DwGy5SehW1uwARKo=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/IStreamWrapper.html
+SHA1-Digest: xH3lIk8PWhZcg/7n83SmmlgJFAg=
+
+Name: javadoc/org/eclipse/net4j/util/transaction/package-use.html
+SHA1-Digest: giSjJ4iNIH98THWhQCxE6wPEeeI=
+
+Name: javadoc/org/eclipse/net4j/util/io/ZIPUtil.ZipEntryHandler.html
+SHA1-Digest: RDGQLrMxaAcWnMT8KrHClzjzl4w=
+
+Name: javadoc/org/eclipse/net4j/util/container/delegate/package-use.ht
+ ml
+SHA1-Digest: QSwcYEAMorRMUHQ3ZE6u5SkAFOc=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/ExtendedDataInput.St
+ ream.html
+SHA1-Digest: xuHhTBl+Cao6RXgctSIikBhDiP0=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/IChallengeResp
+ onse.State.html
+SHA1-Digest: PTsASf04O8erCtR1QxEbYEzsstM=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/class-use/NestedMonito
+ r.html
+SHA1-Digest: 0tCtkGvz20Y33WRlH5o36lrs9xU=
+
+Name: javadoc/org/eclipse/net4j/util/ui/security/InteractiveCredential
+ sProvider.html
+SHA1-Digest: +6c7pTK/McXLi/vLVHMPMFJ2f50=
+
+Name: javadoc/org/eclipse/net4j/util/ui/container/class-use/ElementWiz
+ ardComposite.WithCombo.html
+SHA1-Digest: IPhpfMFWc+4K6W9yRIa2ast7ypc=
+
+Name: images/callout-7.png
+SHA1-Digest: buJp9Lbpypg1ZXK+gYk5mweafO4=
+
+Name: javadoc/org/eclipse/net4j/util/ui/class-use/ManagedLabelProvider
+ .html
+SHA1-Digest: Ini+7lZoaxnWR8w3WeU1dO99Hck=
+
+Name: javadoc/org/eclipse/net4j/util/container/delegate/ContainerSet.h
+ tml
+SHA1-Digest: PKSq7QL4BH6k3ick+tsE10+stX8=
+
+Name: images/editor-1.png
+SHA1-Digest: eWsYwjM7x9Hel36BIGmPTXXoNH8=
+
+Name: javadoc/org/eclipse/net4j/util/lifecycle/class-use/ILifecycleEve
+ nt.html
+SHA1-Digest: Ra2lxPytWzatgvDLUP7cmk2Gv1w=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/NonBlockingLongCounter
+ .html
+SHA1-Digest: t1LJVfi8/q70rOO7Ef4QV6OTYp4=
+
+Name: javadoc/org/eclipse/net4j/util/ui/handlers/package-use.html
+SHA1-Digest: mBp2F6slaP4ZiOoltALK4ey1Cso=
+
+Name: javadoc/org/eclipse/net4j/util/ui/class-use/UIActivator.WithStat
+ e.html
+SHA1-Digest: 5sIUm6YFADU9wUM2I5nEJbJdvio=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/PasswordCreden
+ tialsProvider.html
+SHA1-Digest: sFicFX7jEwx2aOzZ0BsRW7jYW58=
+
+Name: javadoc/org/eclipse/net4j/util/om/trace/package-summary.html
+SHA1-Digest: XfbC1wZ0EJQcwleOS00r6lM42W8=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/package-summary.html
+SHA1-Digest: BE94PKOCGmYyDU0/sIk2Na3gXkU=
+
+Name: javadoc/org/eclipse/net4j/util/class-use/CheckUtil.html
+SHA1-Digest: 1Uc3a/L9bg6m8pVZRNlhQrLrPa4=
+
+Name: javadoc/org/eclipse/net4j/util/cache/ICacheRegistration.html
+SHA1-Digest: OP2CzQOHRfYwSmwmVGJDVjG2in0=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/RWLockManager.LockEntr
+ y.html
+SHA1-Digest: Nau01ubrcqdqChdtsyE5fmXs0Yg=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/RWOLockManag
+ er.LockState.html
+SHA1-Digest: I1UbB4asV7coAG+Bw+9OkTGtNEU=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/package-summary.html
+SHA1-Digest: 8ZxqBWS4uFKVd4boHfxYB9kSIOE=
+
+Name: javadoc/org/eclipse/net4j/util/om/trace/class-use/RemoteTraceSer
+ ver.Event.html
+SHA1-Digest: k8HXUxilr2tqrSOz4EqwFMVVvOw=
+
+Name: javadoc/org/eclipse/net4j/util/lifecycle/ShareableLifecycle.html
+SHA1-Digest: gV1tAuCftypKNi6RivwHwfy2fv8=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/IPasswordCrede
+ ntialsUpdateProvider.html
+SHA1-Digest: HbrOFLeBSCbQ7kjlQGU9vl0ePlc=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/TimerLifecycle.html
+SHA1-Digest: c8RY+mSMFKeSbWBMzFwx7qZQ2Lg=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/NonFairReent
+ rantLock.html
+SHA1-Digest: k4ZffKCqkoy+3uuWF1sWEDJuGfc=
+
+Name: javadoc/org/eclipse/net4j/util/ArrayUtil.html
+SHA1-Digest: GYbMcxIMXL0XkJ+adgN7EpvUPc8=
+
+Name: javadoc/org/eclipse/net4j/util/container/ManagedContainer.html
+SHA1-Digest: oKqZVDReTCGGNc6JDCVgk6clWcc=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/DelegatingCl
+ oseableIterator.html
+SHA1-Digest: dLQEVnu2XQxLlK3sChICFVEgigc=
+
+Name: javadoc/org/eclipse/net4j/util/io/ExtendedIOUtil.ClassResolver.h
+ tml
+SHA1-Digest: ltmnjlkG171/lZZjoRpLCqlrVjI=
+
+Name: javadoc/org/eclipse/net4j/util/ui/actions/class-use/LongRunningA
+ ction.html
+SHA1-Digest: AUmNwuCekMKuT+wII93+bqLmODo=
+
+Name: javadoc/constant-values.html
+SHA1-Digest: BC8CEAqx19GhF3XnP2t+iR7n9LA=
+
+Name: javadoc/org/eclipse/net4j/util/ref/ReferenceValueMap.Weak.html
+SHA1-Digest: y/Squ5Zo3/ykg0YK9XqPXlYLvxU=
+
+Name: javadoc/org/eclipse/net4j/util/om/pref/OMPreferencesChangeEvent.
+ html
+SHA1-Digest: SuiYRDOmTF7bSJearoLJSKJOoZc=
+
+Name: javadoc/org/eclipse/net4j/util/om/log/doc-files/om.log.ucls
+SHA1-Digest: zp/1CRDF/HcvzvLcNSrL71kzkl8=
+
+Name: javadoc/org/eclipse/net4j/util/container/delegate/IContainerMap.
+ html
+SHA1-Digest: NvEACxzn6/bTzYd2+kCVj1m6UL4=
+
+Name: javadoc/org/eclipse/net4j/util/security/IPasswordCredentialsProv
+ ider.Provider.html
+SHA1-Digest: 02NYzBivgRzoC/j+7xIcb4iLqww=
+
+Name: javadoc/org/eclipse/net4j/util/om/log/OSGiLoggingBridge.html
+SHA1-Digest: kGh2W/aZzrK+/bjSiLHZEB0gwmc=
+
+Name: javadoc/org/eclipse/net4j/util/container/delegate/AbstractDelega
+ tor.html
+SHA1-Digest: jgNzYbiGa8RrwQe2BBX+p5H05ec=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/class-use/FirstChildLa
+ yout.html
+SHA1-Digest: bLZasDb4qsXCxT4UV42VjhKN0G4=
+
+Name: javadoc/org/eclipse/net4j/util/transaction/class-use/ITransactio
+ n.html
+SHA1-Digest: pyqtc2hy+0bMzPU8T+sWdWO4HQM=
+
+Name: javadoc/org/eclipse/net4j/util/factory/class-use/IFactory.html
+SHA1-Digest: FFP4cQphoMOktZAJMuXfzJFYisk=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/ChallengeRespo
+ nseNegotiator.html
+SHA1-Digest: UxolDdqyXq+H8p9GeNVham2cstU=
+
+Name: javadoc/org/eclipse/net4j/util/registry/class-use/Registry.html
+SHA1-Digest: FT8QtCdxhh2QsuTV50AOI8xPp7o=
+
+Name: javadoc/org/eclipse/net4j/util/cache/class-use/CacheMonitor.html
+SHA1-Digest: 5u7cL/jLEr0QYoZxEnOxOpCqV4U=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/BidiMap.html
+SHA1-Digest: OJzfokvUsVFJGqx1Xn9Id8wDD+s=
+
+Name: javadoc/org/eclipse/net4j/util/event/package-summary.html
+SHA1-Digest: mPwywSyP4T56A1ctRsvm0wEMxLc=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/ContainerView.MessageTyp
+ e.html
+SHA1-Digest: suUB0NJQX5uSSZVvHzvbgR+77I8=
+
+Name: javadoc/org/eclipse/net4j/util/lifecycle/LifecycleUtil.html
+SHA1-Digest: HkZqL9aGTjUmvnAbio4tC+dv14Q=
+
+Name: javadoc/org/eclipse/net4j/util/event/Event.html
+SHA1-Digest: sS6KkDJte6pSsItnHasJV1hDBYg=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/NonBlockingI
+ ntCounter.html
+SHA1-Digest: FmywdVvN6i2MndLP7BdsIU94Uhc=
+
+Name: javadoc/org/eclipse/net4j/util/io/SortedFileMap.html
+SHA1-Digest: VDnybmYGsKC6JSJ0bObFDLP87JI=
+
+Name: javadoc/org/eclipse/net4j/util/om/OMBundle.DebugSupport.html
+SHA1-Digest: imolP85hIQdfqKbtMdaNnplCZxY=
+
+Name: javadoc/org/eclipse/net4j/util/io/ExtendedInputHandler.html
+SHA1-Digest: 5a9BUNuKsOaaSlxiozf0bK+s/a4=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/DiffieHellman.
+ Server.html
+SHA1-Digest: JGO/kFPU3PZ1vGyRvAI6y5kJDyI=
+
+Name: javadoc/org/eclipse/net4j/util/io/package-summary.html
+SHA1-Digest: eD9dfal91n5vlZNJXVzhqPHlkJU=
+
+Name: javadoc/org/eclipse/net4j/util/event/EventPrinter.html
+SHA1-Digest: bQFH3lguMtwvU1LJFZxfu6Vzc8Y=
+
+Name: javadoc/org/eclipse/net4j/util/om/log/FileLogHandler.html
+SHA1-Digest: fiW7BsrtmZqWtBJklaU3WiKaJCQ=
+
+Name: javadoc/org/eclipse/net4j/util/ui/prefs/class-use/OMPreferenceSt
+ ore.html
+SHA1-Digest: U2gP3GnBc+szIQPuRNzAEhvdY0o=
+
+Name: images/package.gif
+SHA1-Digest: wFVrKlQyVuji8kEXyTb1AdN1xag=
+
+Name: javadoc/org/eclipse/net4j/util/container/class-use/ContainerUtil
+ .html
+SHA1-Digest: eGNfjGZnGghyVLAy1AtweZTvPj0=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/INegotiatorAwa
+ re.html
+SHA1-Digest: Qr/qk7PlFGjq7AWuHXh4FMaZawk=
+
+Name: javadoc/org/eclipse/net4j/util/options/class-use/IOptionsEvent.h
+ tml
+SHA1-Digest: Y+D7/pGaMkVUO32l9YcCxX592fg=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/IAuthenticator
+ .html
+SHA1-Digest: UYIW4DKu1MUzPOcqvrrXaL9ixF0=
+
+Name: javadoc/org/eclipse/net4j/util/lifecycle/class-use/IDeactivateab
+ le.html
+SHA1-Digest: FUm26h4KQBkWH0III18ouoXfcNQ=
+
+Name: javadoc/org/eclipse/net4j/util/ui/handlers/AbstractBaseHandler.h
+ tml
+SHA1-Digest: 6YnGulcVlGYLa0ukkEj6UuIAzvw=
+
+Name: javadoc/org/eclipse/net4j/util/om/trace/class-use/OMTraceHandler
+ Event.html
+SHA1-Digest: L2REGWpu9kzzQz5uAy2E7HKQGcY=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/PreferenceButton.html
+SHA1-Digest: maO0uI2u2Fl4TcceV3CLclFaigg=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/ProgressDistributable.
+ Default.html
+SHA1-Digest: QsYFp6ZRFhtGLAvRcj8T/I1gE80=
+
+Name: javadoc/org/eclipse/net4j/util/om/log/AbstractLogHandler.html
+SHA1-Digest: 9KFBD/uW4d7MJcgXQkuoc0BTIZY=
+
+Name: javadoc/org/eclipse/net4j/util/package-use.html
+SHA1-Digest: 9GYEd4y+3i+myDNffBAs53FVCM8=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/ISynchronize
+ r.html
+SHA1-Digest: 42xJVj59qUJySTGeh+/MI/28p+g=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/Timeouter.html
+SHA1-Digest: QJ6tdRw1Iv6pWNFTzRn1QUUiwLc=
+
+Name: javadoc/org/eclipse/net4j/util/lifecycle/class-use/LifecycleUtil
+ .Delegator.html
+SHA1-Digest: oNDfIL4nAtK1QosGVijUxq6pswg=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/RoundRobinBl
+ ockingQueue.html
+SHA1-Digest: nxRKom1Vl9SFGBqlHCrecb+mloY=
+
+Name: javadoc/org/eclipse/net4j/util/om/trace/class-use/RemoteTraceSer
+ ver.html
+SHA1-Digest: PrT/J5dfpkAJzGCF2AOAKafnYyk=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/StreamWrapperChain.h
+ tml
+SHA1-Digest: fD/x4a7+lbMSfeexygSRwUCjHJY=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/PriorityQueueRunner.ht
+ ml
+SHA1-Digest: LbrRW5AOcMRhPqQWtZES8wqCn10=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/IRWLockManager.html
+SHA1-Digest: JntrQKDjnjUhcyICyQKDpInFHPo=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/RWLockManage
+ r.LockEntryHandler.html
+SHA1-Digest: oiKo3a60ZwUoz11MHtXYR0QBLLY=
+
+Name: javadoc/org/eclipse/net4j/util/io/ExtendedDataInput.html
+SHA1-Digest: t6ozw9LSX8H58H1DjZO3HDY5wDg=
+
+Name: images/callout-6.png
+SHA1-Digest: 4NigN4yvFiY7ifcU6zfgBm1t9TE=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/DataInputOutputFile.
+ html
+SHA1-Digest: OQE/w1jk8Jeynem6gaCExnIq9n4=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/class-use/ProgressDist
+ ributor.Arithmetic.html
+SHA1-Digest: NQdD4UHNfadn8sCdSPUcaCEJ3YU=
+
+Name: javadoc/org/eclipse/net4j/util/ui/class-use/UIQueueRunner.html
+SHA1-Digest: VyQCBRm3cFM4edapVvHH357Zpf8=
+
+Name: javadoc/org/eclipse/net4j/util/container/IManagedContainerFactor
+ y.html
+SHA1-Digest: hLrlP72BOVwWVcHIcWUqHztRgQs=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/DiffieHellman.
+ Server.Challenge.html
+SHA1-Digest: /AGq6rg59GarREBZgMXPk6/5Pu0=
+
+Name: javadoc/org/eclipse/net4j/util/event/class-use/ThrowableEvent.ht
+ ml
+SHA1-Digest: CW5In7mtWtrYFgHwZAXlVLhoLRg=
+
+Name: javadoc/org/eclipse/net4j/util/transaction/package-frame.html
+SHA1-Digest: vOSl+yALbVacc9FLlS2aAcThfn0=
+
+Name: javadoc/org/eclipse/net4j/util/om/log/package-frame.html
+SHA1-Digest: r2rS4+skpZ3yzrh1v1wb5c/a4OI=
+
+Name: javadoc/org/eclipse/net4j/util/ref/class-use/ReferenceValueMap.W
+ eak.html
+SHA1-Digest: u9vtSVNOHGQhJfV42eGMqKsDtZQ=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/class-use/SubProgressM
+ onitor.html
+SHA1-Digest: 89dtnrOR2fcBDLGnRU6c4crz6F8=
+
+Name: javadoc/org/eclipse/net4j/util/confirmation/Confirmation.html
+SHA1-Digest: zYx7hzc95w5/DyCtgXpyBGUWV+I=
+
+Name: javadoc/org/eclipse/net4j/util/lifecycle/LifecycleUtil.Activator
+ .html
+SHA1-Digest: FY/rJxovljaeASiJVBfS0IeMYdI=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/class-use/ProbingSubMo
+ nitor.html
+SHA1-Digest: ymIKGUwiDptVJzgY0mXmXvB+5Lc=
+
+Name: javadoc/org/eclipse/net4j/util/ui/AbstractPropertyAdapterFactory
+ .html
+SHA1-Digest: KvIQ/fYB9RN+N9u4HM+7QZfSI4s=
+
+Name: javadoc/org/eclipse/net4j/util/container/class-use/IContainer.ht
+ ml
+SHA1-Digest: tosXpwWgJalPJ89PeyQGYNeunUs=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/IOVisitor.html
+SHA1-Digest: pN11o8fTtFIsaQq2cFQyLuRCRvg=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/class-use/ContainerItemP
+ rovider.ContainerNode.html
+SHA1-Digest: Rrm+QaUBzegT/SXfINQC71ZvUag=
+
+Name: javadoc/org/eclipse/net4j/util/ui/container/ElementWizard.html
+SHA1-Digest: yD4IrsRl9Y5ghpotxwKvN2GA31s=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/ExtendedIOUtil.html
+SHA1-Digest: zjlpDY4+3NCfDbl2CXiv6jTG71U=
+
+Name: javadoc/org/eclipse/net4j/util/Predicates.ExcludedPredicate.html
+SHA1-Digest: foPS1Ocf4Icoo8+wN/nz3lGgByE=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/ArrayIterato
+ r.html
+SHA1-Digest: KK0yeQXcfq+HfYY8/Dm6shdGMC0=
+
+Name: images/background-2.gif
+SHA1-Digest: uIB/EwbuoCpkO9cUNQ5xNEyGdlE=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/IOTimeoutException.h
+ tml
+SHA1-Digest: asWGxd8vHchfZ0B3eRZoNoOYekQ=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/DelegatingEx
+ ecutorService.html
+SHA1-Digest: 56l81HDOtsF+gisB0gl8u5aZ+Sg=
+
+Name: about.html
+SHA1-Digest: mLkmRLtG3amkcY0I7KSYZX6qKhs=
+
+Name: org/eclipse/net4j/util/doc/reference/api/package-info.class
+SHA1-Digest: O0UcOWiwsHFJeoSR0mSKC2x/yZA=
+
+Name: javadoc/org/eclipse/net4j/util/transaction/class-use/Transaction
+ .html
+SHA1-Digest: F004G2DoBuYS4K0L7L339W9HRxY=
+
+Name: javadoc/org/eclipse/net4j/util/security/INegotiator.html
+SHA1-Digest: f041VMHrTWebjccaH3fE6G0vZC4=
+
+Name: javadoc/org/eclipse/net4j/util/options/class-use/IOptions.html
+SHA1-Digest: m/o/krGhRbcvH035vN1zWLYZQK8=
+
+Name: javadoc/org/eclipse/net4j/util/io/ExtendedDataOutput.Delegating.
+ html
+SHA1-Digest: ImwDFdYrcP9R3Epu3TaFO9OOY8s=
+
+Name: javadoc/org/eclipse/net4j/util/container/class-use/FactoryNotFou
+ ndException.html
+SHA1-Digest: egoSO2fdzl25c5sN+tV0MyG1GYM=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/class-use/Customizeabl
+ eComposite.CompositeCustomizer.html
+SHA1-Digest: Z90EEhbyj9mpdopO+U+bEj6sAXU=
+
+Name: javadoc/org/eclipse/net4j/util/ref/ReferenceQueueWorker.html
+SHA1-Digest: fJjN2+Xjf5XU0myVdox90ajpVCM=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/DiffieHellman.
+ Client.html
+SHA1-Digest: P1rkqLQHdl2L6h8FtdmjFf5vCUU=
+
+Name: javadoc/org/eclipse/net4j/util/om/log/class-use/OMLogger.html
+SHA1-Digest: 8bL15nAYiOaGavQuQhyOYPYEU3g=
+
+Name: javadoc/org/eclipse/net4j/util/security/AuthenticatorFactory.htm
+ l
+SHA1-Digest: XED82cHrxDM7HW0lDpzgVsXeiBM=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/LimitedItera
+ tor.html
+SHA1-Digest: 6xiRXF0YaEx4QrHjS3QYKufZEps=
+
+Name: javadoc/allclasses-frame.html
+SHA1-Digest: KEtylkL/bspiCcHOd5SSX7jMrGM=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/AsyncOutputStream.ht
+ ml
+SHA1-Digest: MCQVtqrWVG9zlEUntGQypgghCiE=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/class-use/ProgressDist
+ ributor.html
+SHA1-Digest: FymvnEgY+P3aywfNvHQeuBaYGmw=
+
+Name: javadoc/org/eclipse/net4j/util/container/SelfAttachingContainerL
+ istener.DoNotDescend.html
+SHA1-Digest: D7EhzMQ9HOb4XpGkaNt3aqIJp8o=
+
+Name: javadoc/org/eclipse/net4j/util/ui/handlers/LongRunningHandler.ht
+ ml
+SHA1-Digest: IVDtY4M/GRLvpetJcap/Cltqz6E=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/TimerLifecycle.DaemonF
+ actory.html
+SHA1-Digest: oOQsNXtXvtIEGFkNjN7CyKuNVfM=
+
+Name: javadoc/org/eclipse/net4j/util/container/class-use/SetContainer.
+ html
+SHA1-Digest: 0VYOVRyYkV1Z9JWbA2ySVuDLoks=
+
+Name: javadoc/org/eclipse/net4j/util/options/IOptions.html
+SHA1-Digest: Qr8l59Gk0q5Rfeo3nUsG02D1/Bk=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/History.html
+SHA1-Digest: ZTVa3FlOV07zvhdYWXk/czfiqlo=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/DiffieHellman.
+ ParameterSpecGenerator.html
+SHA1-Digest: pJKPWuYK+2OYFj4FnYpze/wNZto=
+
+Name: javadoc/org/eclipse/net4j/util/event/class-use/EventUtil.html
+SHA1-Digest: Og3omStGK9ADOEYdeFtR/RQygm0=
+
+Name: javadoc/org/eclipse/net4j/util/ui/confirmation/class-use/Interac
+ tiveConfirmationProvider.Factory.html
+SHA1-Digest: jShtTPHGxSaHhrcLjZPfD0ICQKQ=
+
+Name: javadoc/org/eclipse/net4j/util/om/OSGiActivator.html
+SHA1-Digest: HQ7bwQqGTIUpE5GECo5tMJ5q7jE=
+
+Name: javadoc/org/eclipse/net4j/util/ref/class-use/ReferenceValueMap2.
+ Soft.html
+SHA1-Digest: hl0Pu2R2EAqFWqo5BTvT1/hWFco=
+
+Name: javadoc/org/eclipse/net4j/util/container/LifecycleEventConverter
+ .html
+SHA1-Digest: WnAxsREA/9+fa3gNvL8gqOFMoUU=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/SearchField.html
+SHA1-Digest: QB4yJeb2DcRBLV7gLRPgFNLeOuk=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/ICredentials.h
+ tml
+SHA1-Digest: erp+mo/RanMf2FhxV77YQuc26eg=
+
+Name: javadoc/org/eclipse/net4j/util/registry/package-frame.html
+SHA1-Digest: vTQZJ/HFUd0y0KthVLaK3yDr+ek=
+
+Name: javadoc/org/eclipse/net4j/util/registry/IRegistry.html
+SHA1-Digest: m7u7svY7Gmo534jHM/4vL1zwipU=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/GZIPStreamWrapper.ht
+ ml
+SHA1-Digest: k/lc1eK3ewxw/y0Mfkr9yw2q9qM=
+
+Name: javadoc/org/eclipse/net4j/util/container/IContainerDelta.Kind.ht
+ ml
+SHA1-Digest: yNDmyZWHZFWBtN5S2cmzpenC5O4=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/EclipseMonitor.html
+SHA1-Digest: /Nx+ACUWD07lR4P28byPfwFIN18=
+
+Name: javadoc/org/eclipse/net4j/util/security/INegotiationContext.Rece
+ iver.html
+SHA1-Digest: u5IKO+P6bhI2JOWJw7jTC4hSI5E=
+
+Name: javadoc/org/eclipse/net4j/util/class-use/ReflectUtil.PrimitiveTy
+ pe.html
+SHA1-Digest: dcu6Vuf7nqFC0C0ISUHkC8yASy4=
+
+Name: javadoc/org/eclipse/net4j/util/container/delegate/class-use/ICon
+ tainerMap.html
+SHA1-Digest: CecEKNbKJ03ffMYX+2XWAwdXef4=
+
+Name: javadoc/org/eclipse/net4j/util/container/delegate/IContainerBloc
+ kingQueue.html
+SHA1-Digest: HcfqmF4dNZB+r6ZQoTUf/1AG3cw=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/INegotiator.ht
+ ml
+SHA1-Digest: Yas9r1zJhKnyg/KTwl6/JrxOWU4=
+
+Name: javadoc/org/eclipse/net4j/util/om/trace/RemoteTraceServer.html
+SHA1-Digest: BozVEsl3KzcUxF+OxWHLu2QLXmM=
+
+Name: javadoc/org/eclipse/net4j/util/io/ExtendedIOAdapter.html
+SHA1-Digest: CksA9I3d9nL4GfkDn0hREZ2Tjp8=
+
+Name: javadoc/org/eclipse/net4j/util/ui/container/class-use/ElementWiz
+ ardComposite.WithRadios.html
+SHA1-Digest: eWfhP+jLWeX2XEH4ToUY+oo9pek=
+
+Name: images/editor-right.png
+SHA1-Digest: 0smPsZSXyzeY8zXK64KzBDMNohM=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/package-summary.html
+SHA1-Digest: PpYwAnUolEgIrQRNbjmFb4brmko=
+
+Name: javadoc/org/eclipse/net4j/util/lifecycle/class-use/ILifecycle.ht
+ ml
+SHA1-Digest: ME4y7d+EIpP1kh4bLndc4Rr+diY=
+
+Name: javadoc/org/eclipse/net4j/util/transaction/TransactionException.
+ html
+SHA1-Digest: CvMFE0bnFnOGpM474kl0Foie8vU=
+
+Name: images/article.gif
+SHA1-Digest: dBI4fgx0qDQl5Yfiih3xqb56xio=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/RWLockManager.LockStra
+ tegy.html
+SHA1-Digest: HmxRWX9p76JmmgwPQbyA4B18LCM=
+
+Name: javadoc/stylesheet.css
+SHA1-Digest: 4cT/M9bXfav3g921qWATOh+Wk3Y=
+
+Name: images/callout-5.png
+SHA1-Digest: NdKtWLsABnp6FbAVZiVZLhhbJEI=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/TimeoutMonitor.html
+SHA1-Digest: 8BT+GPjkVx8lDtAo+in2OBQ4Cyk=
+
+Name: images/empty-icon.gif
+SHA1-Digest: 1i2Z6Zp2brHlqxl+GQxsFQPu2Sw=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/MonitoredThread.Thread
+ Monitor.html
+SHA1-Digest: dFzOQFiExqLQ3WWUIRKBU4J977M=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/HashBag.html
+SHA1-Digest: 5AUj/49u3fsrO958OItPw1VI7Ks=
+
+Name: javadoc/index-all.html
+SHA1-Digest: NXOGC7kmJxUbow1QSu+GRIIeDF0=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/class-use/OMMonitorPro
+ gress.html
+SHA1-Digest: QuL50B6XQkW+VewMT+LAvJgrpCQ=
+
+Name: javadoc/org/eclipse/net4j/util/ref/CleanableReferenceQueue.html
+SHA1-Digest: QcHrAMFbDqNU2ka6rons3N4u4lM=
+
+Name: javadoc/org/eclipse/net4j/util/io/ExtendedDataOutputStream.html
+SHA1-Digest: G3acNRryOp1GJPVm2I+5e9luW9M=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/ResponseNegoti
+ atorInjector.html
+SHA1-Digest: Ir2z/PEcMUifasP9CKafSgEvaIQ=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/class-use/ContainerView.
+ Default.html
+SHA1-Digest: T6sqYilGXKc/O+d5GW8mt7pidBg=
+
+Name: javadoc/org/eclipse/net4j/util/security/IRandomizer.html
+SHA1-Digest: T0fPgsrAMOFghub3uMxJ/JuK+4c=
+
+Name: javadoc/org/eclipse/net4j/util/om/OMBundle.TranslationSupport.ht
+ ml
+SHA1-Digest: 8Qw//KjwNhwaA5x4j8GNk6m2MCI=
+
+Name: javadoc/org/eclipse/net4j/util/om/pref/OMPreference.Participant.
+ html
+SHA1-Digest: o2WzLUMh7T3qZjGKzBGkKtleaws=
+
+Name: javadoc/org/eclipse/net4j/util/ui/container/package-use.html
+SHA1-Digest: opzHZkkqF1LdVm/BEJ2MFqcnSQY=
+
+Name: javadoc/org/eclipse/net4j/util/ui/prefs/class-use/OMPreferencePa
+ ge.html
+SHA1-Digest: ABXjs9c314Ij+uhYXPiOTim53u0=
+
+Name: images/background-1.gif
+SHA1-Digest: N+r4UwHUEr02kFKX0sUgq+8InYU=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/DelegableRee
+ ntrantLock.DelegateDetector.html
+SHA1-Digest: DNFA6I3W2uBtu0KbcMNa2zZRvg8=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/StackComposite.html
+SHA1-Digest: nVSesiOqvAgVyY/OeSVL5I1m6jw=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/ExpectedFileInputStr
+ eam.html
+SHA1-Digest: cenvW+UNz4mqd53ol4JTW5/hl6s=
+
+Name: javadoc/org/eclipse/net4j/util/cache/package-frame.html
+SHA1-Digest: cxvFBn5WeZColzJJdYKepfeSllk=
+
+Name: javadoc/org/eclipse/net4j/util/om/trace/class-use/RemoteTraceSer
+ ver.Listener.html
+SHA1-Digest: QUXbc2kCTxV/Eb69CXUr1Lq1ehU=
+
+Name: javadoc/org/eclipse/net4j/util/class-use/AdapterUtil.html
+SHA1-Digest: /4+unaP5m5aliEziurfpZGRzNtQ=
+
+Name: javadoc/org/eclipse/net4j/util/ui/container/class-use/ElementWiz
+ ardDialog.html
+SHA1-Digest: 1gjP4Y9+Lx15tCw+l34i1Ke980M=
+
+Name: javadoc/org/eclipse/net4j/util/collection/ByteArrayWrapper.html
+SHA1-Digest: KZKRWP9MSGd7t8XxOwmt8iUbSTU=
+
+Name: javadoc/org/eclipse/net4j/util/confirmation/IConfirmationProvide
+ r.Factory.Default.html
+SHA1-Digest: qKHFZRS1gHY3o5SnCF/WBvaRmHc=
+
+Name: javadoc/org/eclipse/net4j/util/cache/CacheRegistration.html
+SHA1-Digest: bfN1+tDa7YuiklK4OJ/maDQ3xVQ=
+
+Name: javadoc/org/eclipse/net4j/util/ui/StaticContentProvider.html
+SHA1-Digest: Ar87+eOrtqWLV2zJvuhq1w9aruo=
+
+Name: javadoc/org/eclipse/net4j/util/package-frame.html
+SHA1-Digest: +VX3ykZXOxH39dxid39XJIR/0hQ=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/SearchField.FilterHand
+ ler.html
+SHA1-Digest: dNhioTJFpKnpxYtfsZDVW2P3fIE=
+
+Name: javadoc/org/eclipse/net4j/util/io/ZIPUtil.html
+SHA1-Digest: TaQoSpzUXiY/fPMu3WDvkQDKo6k=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/class-use/NotifyingMon
+ itor.ProgressEvent.html
+SHA1-Digest: pdF/3TF9Xw+8E+dEr6NTEvRRM/Q=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/class-use/OMMonitor.ht
+ ml
+SHA1-Digest: qoBvQq/1tXLDUpsc2GMovQtReYA=
+
+Name: javadoc/org/eclipse/net4j/util/ui/DefaultPropertySource.Augmente
+ d.html
+SHA1-Digest: 8xzsbTL8tsuD39/GAw3oCf61Pk0=
+
+Name: javadoc/org/eclipse/net4j/util/confirmation/class-use/IConfirmat
+ ionProvider.html
+SHA1-Digest: ngoZAcoXaR4lU0DhphS1n340l3o=
+
+Name: javadoc/org/eclipse/net4j/util/collection/CaseInsensitiveStringS
+ et.html
+SHA1-Digest: a25V71JzvF+MAvtNEOTSzcvdZNs=
+
+Name: javadoc/org/eclipse/net4j/util/io/XORStreamWrapper.html
+SHA1-Digest: 62nDX6VD7pqezFqFFWZl6TtQ27w=
+
+Name: javadoc/org/eclipse/net4j/util/om/class-use/OMPlatform.html
+SHA1-Digest: d8bQzDgI7UTOYRhAhB1pmpJa1KM=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/ExecutorServ
+ iceFactory.html
+SHA1-Digest: aPJdBR7bYu8XrrqcYhl5PBRQBPQ=
+
+Name: javadoc/org/eclipse/net4j/util/lifecycle/class-use/ShareableLife
+ cycle.html
+SHA1-Digest: TRjXOip22e3M9A90ozLNyOz8Uto=
+
+Name: javadoc/org/eclipse/net4j/util/ui/dnd/DNDDragListener.html
+SHA1-Digest: yKvwiLifGhZxftFea5hz7p+DfRM=
+
+Name: javadoc/org/eclipse/net4j/util/ui/ValidationContext.Aggregator.h
+ tml
+SHA1-Digest: pIRtKTK5ixXiWdPhS2MYKgnP3xY=
+
+Name: about.ini
+SHA1-Digest: KQMVTFcyVja5dvVmIh2o+qDsslY=
+
+Name: javadoc/org/eclipse/net4j/util/security/Negotiator.html
+SHA1-Digest: nA5ctCNA02NJUzjtskBeob9MFRk=
+
+Name: javadoc/org/eclipse/net4j/util/security/IUserAware.html
+SHA1-Digest: ttillZXYCANyLeOO91ZNz0yT+CU=
+
+Name: javadoc/org/eclipse/net4j/util/cache/ThresholdConditionPolicy.ht
+ ml
+SHA1-Digest: bP0PdEsogA1H5cG63JJXWHwefbg=
+
+Name: javadoc/org/eclipse/net4j/util/registry/package-summary.html
+SHA1-Digest: n/NroD6laxJ1wNLJ/HkeYGkZiX4=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/class-use/MasterDetailsV
+ iew.html
+SHA1-Digest: OY0p4uJQb3m/X0i6SvQpkU2QuCQ=
+
+Name: javadoc/org/eclipse/net4j/util/lifecycle/class-use/ILifecycleEve
+ nt.Kind.html
+SHA1-Digest: oiJid7MByzcFHyQNa5Wc5F3HJ8Y=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/package-summary.html
+SHA1-Digest: xOhVubSOQJoA9ODce/RfxbJE0Zw=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/CredentialsUpd
+ ateOperation.html
+SHA1-Digest: L7FjE+Rp1451sH1oqVMhws9Azyo=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/MultiViewersView.html
+SHA1-Digest: hu/qws+A1dXaXAB8s036x0VyrRE=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/IRandomizer.ht
+ ml
+SHA1-Digest: nfe2klaB/IbtEbKHnRx7q21m8ew=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/Pair.html
+SHA1-Digest: Iy31AI7NrEMscIGb81lSvLSYUtE=
+
+Name: javadoc/org/eclipse/net4j/util/event/EventUtil.html
+SHA1-Digest: 0gF2GyCvOvvYlRALrkZmNPsGbQY=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/ZIPUtil.FileSystemZi
+ pHandler.html
+SHA1-Digest: X+QOYdxfgjODvRsQztB0AGIWUy0=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/ExpectedFileReader.h
+ tml
+SHA1-Digest: 6kqqy0KPuQrx3VS/yakcmnTUvF0=
+
+Name: javadoc/org/eclipse/net4j/util/security/package-use.html
+SHA1-Digest: KCgXlNP+ZuGS2DNj1uXCmCo55Ks=
+
+Name: javadoc/serialized-form.html
+SHA1-Digest: 58nk9TwLbza/Oi42voWmtP6yX0c=
+
+Name: javadoc/org/eclipse/net4j/util/ui/handlers/class-use/LongRunning
+ Handler.html
+SHA1-Digest: L4ND2wmYd6TsOaFsct8ERPU46H4=
+
+Name: javadoc/org/eclipse/net4j/util/ref/class-use/KeyedStrongReferenc
+ e.html
+SHA1-Digest: LaJCs4fbfupU8cMkqmq6Kfr00+g=
+
+Name: javadoc/org/eclipse/net4j/util/XMLUtil.html
+SHA1-Digest: NQpsTdMiEHARsR9HehnEhMc//gk=
+
+Name: javadoc/org/eclipse/net4j/util/container/delegate/class-use/ICon
+ tainerBlockingQueue.html
+SHA1-Digest: Y1IOdgTZ3DTTvA/At02pTvnem9c=
+
+Name: javadoc/org/eclipse/net4j/util/properties/package-frame.html
+SHA1-Digest: HRmRhpyNfguNTM0JGsYyemP58C0=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/TimerLifecyc
+ le.DaemonFactory.html
+SHA1-Digest: K/0Jy7cafdwltUPxddtMNPM9iiw=
+
+Name: javadoc/org/eclipse/net4j/util/collection/ComposedIterator.html
+SHA1-Digest: DWYulObpnIlG/10xfKwapJRs5fg=
+
+Name: javadoc/org/eclipse/net4j/util/om/OMBundle.html
+SHA1-Digest: 91U3xBKButM1Gv5k/i9A+FCtFWg=
+
+Name: javadoc/org/eclipse/net4j/util/security/IPasswordCredentialsUpda
+ te.html
+SHA1-Digest: htqZXF+tnocBZ8UMKV0KifF2EPM=
+
+Name: javadoc/org/eclipse/net4j/util/fsm/class-use/FiniteStateMachine.
+ FailTransition.html
+SHA1-Digest: /w03qlD8k+WjrChPri5fR7mioc0=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/RWLockManager.html
+SHA1-Digest: JJi7sYAgc6SXggjFs3Ckmczl0hY=
+
+Name: javadoc/org/eclipse/net4j/util/options/package-summary.html
+SHA1-Digest: Jdvq8raxChwPMyrCstDJeWC3Ce8=
+
+Name: javadoc/org/eclipse/net4j/util/event/class-use/IEvent.html
+SHA1-Digest: FL30rAPmjClFa/G63p4GlIZXE3M=
+
+Name: javadoc/org/eclipse/net4j/util/fsm/FiniteStateMachine.FailTransi
+ tion.html
+SHA1-Digest: MLsT78Rlr84HhJbP0101uj87Hd4=
+
+Name: javadoc/org/eclipse/net4j/util/ref/class-use/ReferenceType.html
+SHA1-Digest: YxcDOM5ohkDpU4oQVaiqz5s+ysg=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/ConcurrentValue.html
+SHA1-Digest: DC4RTSw52xtXn1EcmMf6ENpG6AM=
+
+Name: about.properties
+SHA1-Digest: 2wWPRT2DBmOdp43BJ5v207nXfh4=
+
+Name: javadoc/org/eclipse/net4j/util/confirmation/class-use/IConfirmat
+ ionProvider.Provider.html
+SHA1-Digest: Nu0KnEKLDVBzzj/OCDjl1fd2FAY=
+
+Name: javadoc/org/eclipse/net4j/util/ref/class-use/Interner.Entry.html
+SHA1-Digest: MmVMzJ0wPIsuOuZQ9lgGDWzYob0=
+
+Name: javadoc/org/eclipse/net4j/util/event/Notifier.html
+SHA1-Digest: ytEVflmTXDtDpqKoqBiBiDpbel8=
+
+Name: javadoc/org/eclipse/net4j/util/properties/DefaultPropertyTester.
+ html
+SHA1-Digest: Cji9H/5wKUY89oqEde9p0mGOUYc=
+
+Name: images/callout-4.png
+SHA1-Digest: 9mAeeDE0PN9b2By2GTeH6i1jAnU=
+
+Name: javadoc/org/eclipse/net4j/util/ui/prefs/OMPreferencePage.html
+SHA1-Digest: W6U0picNjGYq1ADZBI1KVM6A0Qc=
+
+Name: javadoc/org/eclipse/net4j/util/security/ICredentials.html
+SHA1-Digest: ap7amL0Og0zD4Ncs88NHOJPV5bw=
+
+Name: javadoc/allclasses-noframe.html
+SHA1-Digest: WFIuB0h1e/RCduDDqPMTsk9XHu0=
+
+Name: javadoc/org/eclipse/net4j/util/class-use/ReflectUtil.html
+SHA1-Digest: xmCBycv8bhEO8wQNFUuhgPMpX80=
+
+Name: javadoc/org/eclipse/net4j/util/ui/actions/class-use/SashLayoutAc
+ tion.Vertical.html
+SHA1-Digest: 27f+WyIvHL94wYb0IOhNSL5mvIk=
+
+Name: javadoc/org/eclipse/net4j/util/security/FileUserManager.html
+SHA1-Digest: Ns/kQQc0e59+7C17LUxGbT8GTY0=
+
+Name: javadoc/org/eclipse/net4j/util/collection/LimitedIterator.html
+SHA1-Digest: 2oLCM0ckqpPkSTtWngYRGjHbyDc=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/Asynchronous
+ WorkSerializer.html
+SHA1-Digest: EDJjkyJv6jUkMLqnEylMNDCrTWE=
+
+Name: javadoc/org/eclipse/net4j/util/collection/PredicateIterator.html
+SHA1-Digest: c/jcW8yH/vY5co2lVaPRZ9uxupM=
+
+Name: javadoc/org/eclipse/net4j/util/confirmation/IConfirmationProvide
+ r.Factory.html
+SHA1-Digest: HyianFGNqgTEOfu9inZXk+Yktbo=
+
+Name: javadoc/org/eclipse/net4j/util/class-use/Predicates.UniquePredic
+ ate.html
+SHA1-Digest: X7PMDMoE0YFd0JKxtfuOtFGgAl8=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/AbstractClos
+ eableIterator.html
+SHA1-Digest: O3ZAidKKh/Pw117eU6UVjpQFX7Y=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/class-use/MasterDetailsV
+ iew.RefreshAction.html
+SHA1-Digest: vYY4nCCdb2Iz7e8g3USmVs8NQ9w=
+
+Name: javadoc/org/eclipse/net4j/util/ui/prefs/class-use/PrefTextAndDis
+ able.html
+SHA1-Digest: ZIK9Yoy/e+L6jlmTDtiVYtVap7M=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/class-use/CoolBarCompo
+ site.html
+SHA1-Digest: WrJYJ/b/vcVoEHRa57UYZHAtYP0=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/XORInputStream.html
+SHA1-Digest: gI7Ueoku8eCXWCMmSQJC/ckR5hA=
+
+Name: javadoc/org/eclipse/net4j/util/collection/MultiMap.html
+SHA1-Digest: D9z4GxbrPriBJT/ZWqdQDgpsQ4E=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/ByteArrayWra
+ pper.html
+SHA1-Digest: 7eqawnf/GrsKQLCaPY4RE46zRSg=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/CustomizeableComposite
+ .CompositeCustomizer.html
+SHA1-Digest: iCcG5eVX8xOJSAIQb02tNBRvfyo=
+
+Name: javadoc/org/eclipse/net4j/util/ui/StructuredContentProvider.html
+SHA1-Digest: 3TA/yri8RodZHn59gYhMF/t2rb4=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/FastList.htm
+ l
+SHA1-Digest: E1wR3V7q1T7h2hsWJkO8XQj7gak=
+
+Name: javadoc/org/eclipse/net4j/util/event/class-use/ExecutorServiceNo
+ tifier.ThreadPool.html
+SHA1-Digest: PYDsYXWNkKioZ86zFTlFsdxC/T4=
+
+Name: javadoc/org/eclipse/net4j/util/io/package-frame.html
+SHA1-Digest: X71R9fIZh/eEdC8GfPN5/ggicUY=
+
+Name: javadoc/org/eclipse/net4j/util/ui/confirmation/ConfirmationDialo
+ g.html
+SHA1-Digest: fcEhrBMatIyMA7vBvNMRR49lGcI=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/RWLock.html
+SHA1-Digest: PHITr5PFMCkDWmMEb+Lch/TLooY=
+
+Name: javadoc/org/eclipse/net4j/util/properties/class-use/IPropertyPro
+ vider.html
+SHA1-Digest: 0syZWhYIjcDu397FuUQYmG/0oQA=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/class-use/LogDialog.ht
+ ml
+SHA1-Digest: PV5Qs55Qr2EXa9FjYz7+ro1rFmo=
+
+Name: javadoc/org/eclipse/net4j/util/ui/actions/class-use/LongRunningA
+ ctionDelegate.html
+SHA1-Digest: vsbdsOes0dqV2k+CpiAiOOIzKZ8=
+
+Name: javadoc/org/eclipse/net4j/util/ui/actions/package-use.html
+SHA1-Digest: 1JzZ8Owi0T73z7zOeVlMrrg9KX8=
+
+Name: javadoc/org/eclipse/net4j/util/ui/prefs/PrefIntegerAndDisable.ht
+ ml
+SHA1-Digest: 32tLVyWbEFQR7PhjlXHgyGXjcD8=
+
+Name: javadoc/org/eclipse/net4j/util/ui/class-use/ValidationContext.Ag
+ gregator.html
+SHA1-Digest: X3rNKUbgVP9HR6tOFXuMK/IQQSI=
+
+Name: images/forward.png
+SHA1-Digest: rhzODvfR+fHPUu0Iif+UrL1uquA=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/ProgressDistributor.Ge
+ ometric.html
+SHA1-Digest: STfsV0xJndqViK9TbbpFSKld7XY=
+
+Name: toc.xmi
+SHA1-Digest: iag3fKnRYumLeWKWV/SrrxFQMQ0=
+
+Name: javadoc/org/eclipse/net4j/util/security/Randomizer.html
+SHA1-Digest: NfiTirWh4oJ/KT7OdevFxEgxaFA=
+
+Name: javadoc/org/eclipse/net4j/util/collection/HistoryUtil.html
+SHA1-Digest: LoYIfhjnHK+iFHtAVmDUmdNtQYU=
+
+Name: javadoc/org/eclipse/net4j/util/class-use/IErrorHandler.html
+SHA1-Digest: mPNR+jdHFrH3GJAaGhfUjfx8kKs=
+
+Name: toc.xml
+SHA1-Digest: DieQRYFwtLz/kwt1WYGwCo/uhnY=
+
+Name: javadoc/org/eclipse/net4j/util/confirmation/class-use/Confirmati
+ on.html
+SHA1-Digest: 9r2jSkY0E0foCZwGKNGKTZVwoM0=
+
+Name: javadoc/org/eclipse/net4j/util/ref/package-frame.html
+SHA1-Digest: h89nMH+ZqSqeclfW+ZNckmXd0NA=
+
+Name: javadoc/org/eclipse/net4j/util/om/trace/class-use/TraceHandlerEv
+ ent.html
+SHA1-Digest: 3IHFpUL6lIp4gRYcg47mxgpNyks=
+
+Name: javadoc/org/eclipse/net4j/util/ref/class-use/KeyedSoftReference.
+ html
+SHA1-Digest: oyHvwolCFRrR9kMDiu3ziRJUB6A=
+
+Name: javadoc/org/eclipse/net4j/util/io/ExtendedIOUtil.ClassLoaderClas
+ sResolver.html
+SHA1-Digest: sf2iHQC/YdOiy2sE1nlEryfcVQs=
+
+Name: javadoc/org/eclipse/net4j/util/ui/dnd/DNDTransfer.html
+SHA1-Digest: bdbbyuRPzUi4HmLZqTGagIDSWTI=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/UserManagerAut
+ henticator.html
+SHA1-Digest: Prpmq6gDG8FUoSeAvyNE/TolFYc=
+
+Name: javadoc/org/eclipse/net4j/util/security/NegotiationException.htm
+ l
+SHA1-Digest: YmZgrJlhOlcoOtW0uWdP7lPS540=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/IndexedList.
+ ArrayBacked.html
+SHA1-Digest: mlCk4a9akHPe0UKFf52aoi7gqKI=
+
+Name: javadoc/org/eclipse/net4j/util/factory/package-use.html
+SHA1-Digest: fq6SCjhJy4KOW+PScomIuxaJ/CA=
+
+Name: javadoc/org/eclipse/net4j/util/ui/security/CredentialsUpdateDial
+ og.html
+SHA1-Digest: dhPz0AlsAL4UxnxiQD9R9MAsry4=
+
+Name: javadoc/org/eclipse/net4j/util/container/delegate/class-use/Cont
+ ainerList.DelegatingListIterator.html
+SHA1-Digest: +5Na1dc3BzlXZU8maFsnQGKAVnY=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/INegotiationCo
+ ntext.html
+SHA1-Digest: 9pARm5p10dGlWJhroLpw97GrdtI=
+
+Name: javadoc/org/eclipse/net4j/util/ref/class-use/ReferenceMonitor.ht
+ ml
+SHA1-Digest: ID0G2xdeVMfjdGPJ65VcNTzNdas=
+
+Name: javadoc/org/eclipse/net4j/util/om/doc-files/om.ucls
+SHA1-Digest: uyM/h8hEVDkGxNALkNBORbfo0GQ=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/class-use/SecondaryToo
+ lItem.html
+SHA1-Digest: G9aOTEKys4VVEtDP1DIVoPycGPw=
+
+Name: javadoc/org/eclipse/net4j/util/ui/prefs/package-use.html
+SHA1-Digest: xUB0GtzpvHePPy6F+p8szimx08E=
+
+Name: javadoc/org/eclipse/net4j/util/transaction/ITransaction.html
+SHA1-Digest: MXkhsha1hlfLTEAdjgnPaJch92o=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/ComposedIter
+ ator.html
+SHA1-Digest: gzfx+1ikTKIdbgobobo+gk/P9CY=
+
+Name: javadoc/org/eclipse/net4j/util/security/PasswordCredentialsProvi
+ der.html
+SHA1-Digest: 8n0KKaXPNufhrBeSyGK/ZBFJ14I=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/TimeoutRunti
+ meException.html
+SHA1-Digest: ePfCXY9s517F5Vpz2F7XPHm0rws=
+
+Name: javadoc/org/eclipse/net4j/util/io/ExtendedIOHandler.html
+SHA1-Digest: mB5Sig7OSQsdjfpw85u9TcuCaf8=
+
+Name: javadoc/org/eclipse/net4j/util/registry/class-use/UnmodifiableRe
+ gistry.html
+SHA1-Digest: 9eLZLbkIs238gvuu9rwHXYf8bDA=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/ContainerItemProvider.Le
+ afNode.html
+SHA1-Digest: PEj2CALX6g1sH/y+c9oDeZwdl68=
+
+Name: javadoc/org/eclipse/net4j/util/ui/proposals/package-use.html
+SHA1-Digest: UGL7w6oRp9VQVssdTEOukPmH6Eo=
+
+Name: javadoc/org/eclipse/net4j/util/ui/class-use/DefaultActionFilter.
+ html
+SHA1-Digest: iVD35RRNFXrxAYMPREkLCJdqJaY=
+
+Name: javadoc/org/eclipse/net4j/util/factory/class-use/FactoryKey.html
+SHA1-Digest: wp+jj8yP7A+bAz7o/a4gsS+BdKI=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/class-use/HistoryTextD
+ ialog.html
+SHA1-Digest: qVhY3N/IxexpJiCgfm/XrMBH7vk=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: S5IDiH9RaVB95qZB2k7CEBpx2iA=
+
+Name: javadoc/org/eclipse/net4j/util/event/ThrowableEvent.html
+SHA1-Digest: qZYqBEwqms1CJVBOgUJZLRMUlIk=
+
+Name: javadoc/org/eclipse/net4j/util/factory/IFactoryKey.html
+SHA1-Digest: pbRzefUva7Anzg6f9VEOlaU2/z4=
+
+Name: about.mappings
+SHA1-Digest: t8eWtVq1fOeI5KA/BFHEfb1/s/s=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/DelegatingStreamWrap
+ per.html
+SHA1-Digest: EkB4r0utMMNOddVgUvvCxkYh7rI=
+
+Name: javadoc/org/eclipse/net4j/util/options/class-use/OptionsEvent.ht
+ ml
+SHA1-Digest: o6xIc8jJZ1emb2zwQgUQO3gicoQ=
+
+Name: javadoc/org/eclipse/net4j/util/container/IContainerEvent.html
+SHA1-Digest: tqd1MKJ1VXGmsgPJy5A5yrDQ+ZU=
+
+Name: javadoc/org/eclipse/net4j/util/ui/actions/SashLayoutAction.Layou
+ tMenu.html
+SHA1-Digest: BAC+CY/94nRszCOJYPWJA9KYGPY=
+
+Name: javadoc/org/eclipse/net4j/util/registry/DelegatingRegistry.html
+SHA1-Digest: rUGMCtoYtRDAt8E3NjH+Anpq8IU=
+
+Name: javadoc/org/eclipse/net4j/util/cache/class-use/HysteresisConditi
+ onPolicy.html
+SHA1-Digest: cKObg09qhoy+L+8bzUF2e+aOlpU=
+
+Name: javadoc/org/eclipse/net4j/util/collection/DynamicArray.html
+SHA1-Digest: OGg/UaRxLEXP0HHedpgp90V6A7A=
+
+Name: javadoc/org/eclipse/net4j/util/io/ExtendedDataOutput.Stream.html
+SHA1-Digest: nkxQEVNQxkn7wXSCmKajxXhd7Zw=
+
+Name: javadoc/org/eclipse/net4j/util/security/ChallengeResponseNegotia
+ tor.html
+SHA1-Digest: Rvbugw3SM79YdNxXUuZtMxNBvAA=
+
+Name: images/editor-max.png
+SHA1-Digest: jM2+s/85h+Zm/f42vBgTIIHKs5c=
+
+Name: javadoc/org/eclipse/net4j/util/ui/class-use/DefaultPropertySourc
+ e.Augmented.html
+SHA1-Digest: oL+5wB1+Ko1w86nuarAQjWNg3uA=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/class-use/ContainerItemP
+ rovider.Node.html
+SHA1-Digest: euTQo4MIGHhccVEHeqCwy17vSf0=
+
+Name: images/callout-3.png
+SHA1-Digest: 4lbr7jHFAKTB7HwjrhOoiKnlyQg=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/SubMonitor.ProbingMode
+ .html
+SHA1-Digest: q7g4uEdJkfvbqB+fkKvYLqvM8y0=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/SynchronousW
+ orkSerializer.html
+SHA1-Digest: EHtjgMVFC3NmPz1nBg7wYQmlZ3E=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/ItemProvider.html
+SHA1-Digest: EHcMND9RRdIt+I2w391T50XHmkk=
+
+Name: javadoc/org/eclipse/net4j/util/om/log/OMLogHandler.html
+SHA1-Digest: bFGFQynGaqhNZxF0MILkgldfOzE=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/class-use/SashComposit
+ e.OrientationChangedEvent.html
+SHA1-Digest: PJk1JGDWFbpQXF/r2Ae92zxECCg=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/TimerLifecyc
+ le.html
+SHA1-Digest: u1F7KouXSV8Vnb/MYp8wmxcAJM4=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/class-use/MultiViewersVi
+ ew.MessageType.html
+SHA1-Digest: N5jBx9V6Ft3dm1tIeZNlPRxiprY=
+
+Name: javadoc/org/eclipse/net4j/util/registry/package-use.html
+SHA1-Digest: fdM/yLMLnBWJ0EVqvsTb+VO1z2A=
+
+Name: javadoc/org/eclipse/net4j/util/ui/ComboAutoCompleter.html
+SHA1-Digest: /zavKoWmWvyqyycMcsB9gKJfRPk=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/ExtendedIOUtil.Class
+ Resolver.html
+SHA1-Digest: YMUyJrHmvQIFV74hVY/54N55Dvc=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/PreferenceHi
+ story.html
+SHA1-Digest: lMtanNARpKflOu9iqX1LMdOupjY=
+
+Name: javadoc/org/eclipse/net4j/util/cache/ICacheMonitor.ConditionPoli
+ cy.html
+SHA1-Digest: bIG9/oJcw8A/vuqQYVCzAl6dGas=
+
+Name: plugin.properties
+SHA1-Digest: D29e4BFvUTRSn5KHhiMEitm9gOo=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/DelegatingInputStrea
+ m.html
+SHA1-Digest: aEKUi3haKLHTfmWX3tdTlDGsXew=
+
+Name: javadoc/org/eclipse/net4j/util/om/OSGiActivator.StateHandler.htm
+ l
+SHA1-Digest: w21qoAEaYalarLsz8OqVGa5i2fs=
+
+Name: javadoc/org/eclipse/net4j/util/om/class-use/OSGiActivator.WithSt
+ ate.html
+SHA1-Digest: +u2RhdrKV5Fwz/KJ2QpqF0JPUTU=
+
+Name: javadoc/org/eclipse/net4j/util/ui/container/IElementWizard.html
+SHA1-Digest: bVV8Mkx2yc4olzPjxkz/D9ecbrc=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/IPasswordCrede
+ ntialsProvider2.html
+SHA1-Digest: alHFTQ/QBUEru0uE37gv8xsTOak=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/ConcurrencyUtil.html
+SHA1-Digest: PF/w1pXHaC6v9LQU6QGZ/qPclLY=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/Worker.WorkContext.htm
+ l
+SHA1-Digest: yiIIrX+SIhh8ByajLdahWvruoA8=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/class-use/SearchField.
+ html
+SHA1-Digest: dOzpdO/PnpvqAfo7/AtWTcagMPs=
+
+Name: javadoc/org/eclipse/net4j/util/om/pref/package-summary.html
+SHA1-Digest: Lhg4H8Y6/7FxXriATTXZD4UdJ5k=
+
+Name: plugin.xml
+SHA1-Digest: dIYEP6rSep5Xz5JEa+zV9JZiGik=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/QueueWorker.html
+SHA1-Digest: oQW3w2EAM97AnYaXdswHa5VP2uw=
+
+Name: javadoc/org/eclipse/net4j/util/collection/package-frame.html
+SHA1-Digest: vKn8fa8AsQgVCbhKUY8qbxbu4tU=
+
+Name: javadoc/org/eclipse/net4j/util/security/NegotiationContext.html
+SHA1-Digest: /52yEIC0HHGXSiWgGaU24D4UudA=
+
+Name: javadoc/org/eclipse/net4j/util/factory/class-use/IFactoryKey.htm
+ l
+SHA1-Digest: DY7wSX4ABwfSaRgKO/MtnJeu65Q=
+
+Name: javadoc/org/eclipse/net4j/util/ui/handlers/package-frame.html
+SHA1-Digest: 1Bv2Z/xp3BbQUa7m1h4y9yh7pPo=
+
+Name: javadoc/org/eclipse/net4j/util/lifecycle/package-use.html
+SHA1-Digest: xytGyPkiVUj/e4id7wTcX+hQD9U=
+
+Name: javadoc/org/eclipse/net4j/util/security/package-summary.html
+SHA1-Digest: BIVr+p5slcezrAyURZzhZ2LnJZk=
+
+Name: html/editor.css
+SHA1-Digest: jalt+K9n5DF9/r3xXf2YUjoJnE4=
+
+Name: javadoc/org/eclipse/net4j/util/security/DiffieHellman.html
+SHA1-Digest: Id5eXQ977yHre+675OTmIUSEdgw=
+
+Name: javadoc/org/eclipse/net4j/util/container/SetContainer.html
+SHA1-Digest: Y+IaGfXzFO459sGvggVg7KzWNx8=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/MonitoredThread.html
+SHA1-Digest: OphgVX6Dtb/e8K9kG3nABUgBa7Q=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/package-frame.html
+SHA1-Digest: TCD4EsSArYqmTZ9L1JEO7kg/oPE=
+
+Name: javadoc/org/eclipse/net4j/util/ui/class-use/ComboAutoCompleter.h
+ tml
+SHA1-Digest: L43FJ3I445Q++V1I/JI6ddjmaqA=
+
+Name: javadoc/org/eclipse/net4j/util/container/delegate/class-use/Cont
+ ainerBlockingQueue.html
+SHA1-Digest: VCVtuqmxbalOWT+NcHv9/7CndMg=
+
+Name: javadoc/org/eclipse/net4j/util/properties/Property.html
+SHA1-Digest: zbqq1+H5EMZs97cMMbxmFexFcLU=
+
+Name: javadoc/org/eclipse/net4j/util/om/trace/PerfTracer.html
+SHA1-Digest: uPgaEtv0zn8ekYaD+VWLZdDVoa0=
+
+Name: javadoc/org/eclipse/net4j/util/container/package-summary.html
+SHA1-Digest: GyWliqG9eQ8thN+v70kXJO9+qjg=
+
+Name: javadoc/org/eclipse/net4j/util/ui/class-use/StaticContentProvide
+ r.html
+SHA1-Digest: lMWvfG7N2QwRSaqWoD1Bk5jW8cE=
+
+Name: javadoc/org/eclipse/net4j/util/container/delegate/package-summar
+ y.html
+SHA1-Digest: oLwJXlmhzvkATBsGnXX29ZeMY2Y=
+
+Name: javadoc/org/eclipse/net4j/util/ui/container/ElementWizardComposi
+ te.html
+SHA1-Digest: iTsPbc4rV68GHoXULqMFbONi9m0=
+
+Name: javadoc/org/eclipse/net4j/util/ui/class-use/ValidationContext.ht
+ ml
+SHA1-Digest: GB3IYxSm7zkfGVqbLze4NTBvDDY=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/IUserManager.h
+ tml
+SHA1-Digest: jrI/fj91gFlzxgXGKzV4rAEVYNg=
+
+Name: javadoc/org/eclipse/net4j/util/om/trace/TraceHandlerEvent.html
+SHA1-Digest: V+AvHiON8Y+Lj0q6hpVksclMuuQ=
+
+Name: javadoc/org/eclipse/net4j/util/fsm/class-use/FiniteStateMachine.
+ IgnoreTransition.html
+SHA1-Digest: RUkeIRJp9iPumXIOC8dQ0wOojDI=
+
+Name: javadoc/org/eclipse/net4j/util/registry/HashMapRegistry.html
+SHA1-Digest: Oy/XGTaWYP6Sb6TzVyTnyLAex5c=
+
+Name: javadoc/org/eclipse/net4j/util/io/ZIPUtil.FileSystemUnzipHandler
+ .html
+SHA1-Digest: UjPwhz0Bb/dTel45p2O0yt5DFmQ=
+
+Name: javadoc/org/eclipse/net4j/util/ui/container/ElementWizardAction.
+ html
+SHA1-Digest: YcCzHj5hfQNg6HDxAt8oq9kfDmk=
+
+Name: javadoc/org/eclipse/net4j/util/io/LimitedReader.html
+SHA1-Digest: WMdbQ3Wwe3X1NAAvPmvfBKzKiyw=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/TMPUtil.html
+SHA1-Digest: 5EtyHpDXpeXcIqtyTLlr+Hy9hls=
+
+Name: javadoc/org/eclipse/net4j/util/security/PasswordCredentials.html
+SHA1-Digest: 4VQnzKzl5lB6WMBdB+ZbzAxD6o4=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/AbstractList
+ Iterator.html
+SHA1-Digest: FXLtzGd6LaV9ogZ1CFccG8dm2tg=
+
+Name: org/eclipse/net4j/util/doc/online/package-info.class
+SHA1-Digest: OQN0Jk/vAmvLNAfQGtvI3y1hutA=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/class-use/ContainerItemP
+ rovider.html
+SHA1-Digest: iaiq8EY9sW1dCqIe5gdYEo5+MJo=
+
+Name: javadoc/org/eclipse/net4j/util/options/IOptionsEvent.html
+SHA1-Digest: JczM92ECA4gkTz8HL5PSPu14gxE=
+
+Name: javadoc/org/eclipse/net4j/util/ui/dnd/class-use/DNDDropAdapter.h
+ tml
+SHA1-Digest: /qqWJ+Pw4L6IPCZlQrTntEXugqo=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/INegotiationCo
+ ntext.Receiver.html
+SHA1-Digest: s3VC+MuXa//FXfdS/bA+gDUkrzk=
+
+Name: javadoc/org/eclipse/net4j/util/ref/class-use/ReferenceValueMap.S
+ trong.html
+SHA1-Digest: SGMux3zePVY0S7pwfQ6S+t+wJ7A=
+
+Name: javadoc/org/eclipse/net4j/util/collection/CollectionUtil.html
+SHA1-Digest: e4Laoz7QdI0p+sr7nbJS590lAbA=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/OneBorderComposite.htm
+ l
+SHA1-Digest: SLYWg66I02O/KVRN3PPNpiOxjS8=
+
+Name: javadoc/org/eclipse/net4j/util/collection/Predicate.html
+SHA1-Digest: O2U0y+4TptXQVu3XzfjZH+94xmU=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/SecondaryToolItem.html
+SHA1-Digest: /Ws3m6AM3bp2YkCFE8ZsQ67fTW8=
+
+Name: javadoc/org/eclipse/net4j/util/ref/ReferenceValueMap2.Weak.html
+SHA1-Digest: JFulsv8qFvHEJ7Mbf3BtP+kJV/I=
+
+Name: javadoc/org/eclipse/net4j/util/XMLUtil.ElementHandler.html
+SHA1-Digest: aDxsEIBd8QER5NegLCmIsE7xDAM=
+
+Name: javadoc/org/eclipse/net4j/util/ui/container/ElementWizardFactory
+ .html
+SHA1-Digest: JUmEiMKyZXEbJ7Yp8ncxk4hP1T8=
+
+Name: javadoc/org/eclipse/net4j/util/ui/actions/SashLayoutAction.Horiz
+ ontal.html
+SHA1-Digest: p9bOD1eRE/KKYeVxVRQSbnj+lNE=
+
+Name: javadoc/org/eclipse/net4j/util/CheckUtil.html
+SHA1-Digest: k75mJDsTKH7os3r8E0jnSb3RNjo=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/IRWLockManag
+ er.html
+SHA1-Digest: iTBp8XhBoei6G70Qppb2cRoYxVc=
+
+Name: javadoc/org/eclipse/net4j/util/factory/class-use/Factory.html
+SHA1-Digest: /zjCpnkK4Q6+pHZgE+vGOV7CIxE=
+
+Name: javadoc/org/eclipse/net4j/util/collection/MapEntry.html
+SHA1-Digest: lprN8oWTlWjvDE7HUZ4fE/oQhSQ=
+
+Name: javadoc/org/eclipse/net4j/util/ui/container/class-use/ElementWiz
+ ardComposite.html
+SHA1-Digest: 5ii8gAACly+VqHyODjEGCjgXFhA=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/ExecutorServiceFactory
+ .html
+SHA1-Digest: 1qmcgiTnpsyjcdrqJH4ig9Xeuvs=
+
+Name: javadoc/org/eclipse/net4j/util/container/delegate/ContainerSorte
+ dSet.html
+SHA1-Digest: yTnuFhtb6313XsastyDo3Lgm8Mc=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/class-use/SubMonitor.P
+ robingMode.html
+SHA1-Digest: oGGs6eehAV7Aro9dHWOg0z3i/SA=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/IWorkSerializer.html
+SHA1-Digest: 45TDUYUzbYhkrNgAwCEuDae3WIs=
+
+Name: javadoc/org/eclipse/net4j/util/om/trace/RemoteTraceServer.Event.
+ html
+SHA1-Digest: 17Imc+oB5zIGa4RIxKdEzJtEHoI=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/OnePendingExecutor.htm
+ l
+SHA1-Digest: spILSkVjTwiOhaNrRALT55kNMO4=
+
+Name: javadoc/org/eclipse/net4j/util/class-use/XMLUtil.html
+SHA1-Digest: 7wnhZgRsEyP9NtOCbFJKNJTPI5M=
+
+Name: javadoc/org/eclipse/net4j/util/lifecycle/class-use/ILifecycle.De
+ ferrableActivation.html
+SHA1-Digest: +T5lSTIOhKTRVs+tbLHbN94p2Eg=
+
+Name: javadoc/org/eclipse/net4j/util/security/INegotiatorAware.html
+SHA1-Digest: 30m2lIiztH5HGuBEmc9Lg6D+L0U=
+
+Name: javadoc/org/eclipse/net4j/util/om/class-use/LegacyUtil.html
+SHA1-Digest: F0Dzw7eBIyDSnx+YQ3iX/AGCSzs=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/HistoryTextDialog.html
+SHA1-Digest: dMfevnKGJAliulDwcWRxyQyZSjc=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/package-frame.html
+SHA1-Digest: lkxTqe30RBaPskIDcJ9oX5MLr1k=
+
+Name: images/plus.gif
+SHA1-Digest: +6u6C2+Ji/bBEJ0Xd3cGyjX7Xwg=
+
+Name: javadoc/org/eclipse/net4j/util/ui/dnd/DNDDropAdapter.html
+SHA1-Digest: BdUWstczWMC06sM8DyZn9YQ4qH8=
+
+Name: javadoc/org/eclipse/net4j/util/om/pref/OMPreference.Type.html
+SHA1-Digest: znEFDAvJ9MPqG4YxA790lWxgG1Q=
+
+Name: javadoc/org/eclipse/net4j/util/io/IOUtil.FileCollector.html
+SHA1-Digest: zqbHdsq0O8p0I5wr/kSmJTOWSD8=
+
+Name: javadoc/org/eclipse/net4j/util/container/Container.html
+SHA1-Digest: On+07R3mc9ong1YOzx/QPp4JT8w=
+
+Name: javadoc/org/eclipse/net4j/util/om/log/class-use/OSGiLoggingBridg
+ e.html
+SHA1-Digest: wN3tbfT0kSfCiIqlV6cjQDp+OjI=
+
+Name: javadoc/org/eclipse/net4j/util/container/delegate/class-use/Abst
+ ractDelegator.html
+SHA1-Digest: iu4gqsmECZCqjohgL4SIITdSakc=
+
+Name: javadoc/org/eclipse/net4j/util/security/DiffieHellman.ParameterS
+ pecGenerator.html
+SHA1-Digest: 1QDD8MbV6lDjd1h0RlvDU35PZ3g=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/class-use/OneBorderCom
+ posite.html
+SHA1-Digest: GcxSFFtalkVNv2vv6yq6UgsCn18=
+
+Name: org/eclipse/net4j/util/doc/reference/api/Javadoc.class
+SHA1-Digest: ZzkdXuGJojSSBC6Pq6xgqzabxaU=
+
+Name: javadoc/org/eclipse/net4j/util/om/log/Logger.html
+SHA1-Digest: LvZovrUSo+2UDGwJ+ycHsTjtNgE=
+
+Name: javadoc/org/eclipse/net4j/util/om/pref/package-frame.html
+SHA1-Digest: rszAyDdEQacR9KZDWTLts9dBlww=
+
+Name: javadoc/org/eclipse/net4j/util/container/IContainerEventVisitor.
+ Filtered.html
+SHA1-Digest: I3pX+D2mTR8aGDrVyd74IxGY7hY=
+
+Name: javadoc/org/eclipse/net4j/util/IErrorHandler.html
+SHA1-Digest: EzkgrlpoIx/dM4F+5jZfoUle+cQ=
+
+Name: javadoc/org/eclipse/net4j/util/event/ExecutorServiceNotifier.Thr
+ eadPool.html
+SHA1-Digest: OTkTNmTrE09xMlJ39dix6rlBVm8=
+
+Name: javadoc/org/eclipse/net4j/util/cache/HysteresisConditionPolicy.h
+ tml
+SHA1-Digest: mfqg5ci69VgA4q0bnDrnxwqQmWs=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/QueueRunner2
+ .html
+SHA1-Digest: s9r9I2SGYzZPkL+wc140UimocRw=
+
+Name: javadoc/org/eclipse/net4j/util/om/trace/class-use/Tracer.html
+SHA1-Digest: djg7Ahj4MXIehj5DnubPRxeAoUs=
+
+Name: images/callout-2.png
+SHA1-Digest: YhhKBxHe3UYZT8fRI6G+0xhHSKU=
+
+Name: javadoc/org/eclipse/net4j/util/security/ChallengeResponseNegotia
+ tor.Transition.html
+SHA1-Digest: 3fSLdk4Aoqd48LcVRdB3jdZZdbs=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/class-use/NotifyingMon
+ itor.html
+SHA1-Digest: DcvAeYNLIZoETajdFoLIMosAevw=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/Worker.WorkC
+ ontext.html
+SHA1-Digest: MTULqd6onu9pTt0vuTJ6V2+6f00=
+
+Name: javadoc/org/eclipse/net4j/util/ui/UIQueueRunner.html
+SHA1-Digest: tZfzKJykcIIJCruOtWM/erMJ7Qs=
+
+Name: javadoc/org/eclipse/net4j/util/factory/package-summary.html
+SHA1-Digest: B0yzGS6fIOcBl8y2eJCOXKa8RX4=
+
+Name: javadoc/org/eclipse/net4j/util/om/package-summary.html
+SHA1-Digest: mZQu8qNu/3mdxgUL1plapduXiys=
+
+Name: javadoc/org/eclipse/net4j/util/collection/AbstractCloseableItera
+ tor.html
+SHA1-Digest: +/CT7Obs7rODUaWA+VQQcwllEHc=
+
+Name: javadoc/org/eclipse/net4j/util/container/ContainerUtil.html
+SHA1-Digest: 9ql6Et5tRbMZoYac5lgrv0Whi5k=
+
+Name: javadoc/org/eclipse/net4j/util/factory/FactoryCreationException.
+ html
+SHA1-Digest: JRQdUSrskCMOEIMQCvTKMQmoHyY=
+
+Name: javadoc/org/eclipse/net4j/util/collection/Triplet.html
+SHA1-Digest: hdIxPF4PuEemlc7lqmv2ORMZZrw=
+
+Name: javadoc/org/eclipse/net4j/util/fsm/ITransition.html
+SHA1-Digest: q+kx/a2pOiyTbzoyUsoCXbDcCKI=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/IOUtil.html
+SHA1-Digest: cjK26lugBIRJSxkL6jyQXIsMaJQ=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/class-use/ProgressDist
+ ributable.Default.html
+SHA1-Digest: m5ns9RT9XvHCkmgev5+6zk8jstU=
+
+Name: javadoc/org/eclipse/net4j/util/io/DelegatingInputStream.html
+SHA1-Digest: 8iVXRwPJE0hsvTslD9i+b9CfJgA=
+
+Name: javadoc/org/eclipse/net4j/util/lifecycle/class-use/Lifecycle.htm
+ l
+SHA1-Digest: Got4CM8PQO+vlPsWPAJGeHeqUFk=
+
+Name: javadoc/org/eclipse/net4j/util/fsm/FiniteStateMachine.StateChang
+ edEvent.html
+SHA1-Digest: qbdZFicwkfuBDA8peeoYUGmtCvA=
+
+Name: javadoc/org/eclipse/net4j/util/om/trace/class-use/OMTracer.html
+SHA1-Digest: 7dFeGf9S9v+Tu2oNsl2m5wR5yYE=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/RunnableWith
+ Name.html
+SHA1-Digest: Vf6DL6fvagYQsg2mDcPHpf06duQ=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/class-use/Customizeabl
+ eComposite.html
+SHA1-Digest: 4NsEOliIHwl2UfjT9RmWruFUc1A=
+
+Name: javadoc/org/eclipse/net4j/util/om/OMPlatform.html
+SHA1-Digest: swR+x0wxOuRpaLuIgc5BC3IwDZ8=
+
+Name: javadoc/package-list
+SHA1-Digest: QdNaAwYmk4HRtsvJis0yA6uBn9c=
+
+Name: javadoc/org/eclipse/net4j/util/om/pref/OMPreference.html
+SHA1-Digest: 9kbYPGufz7REcJHjUEC91i5MRhc=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/ISynchronizer.html
+SHA1-Digest: ftyA6amZN1+/QDFY+hckEes8fOQ=
+
+Name: javadoc/org/eclipse/net4j/util/ref/KeyedWeakReference.html
+SHA1-Digest: yYxRXAUa4REg6PIEKMaeYfDHfd0=
+
+Name: javadoc/org/eclipse/net4j/util/container/delegate/AbstractDelega
+ tor.DelegatingIterator.html
+SHA1-Digest: 7Xw6NM3GvSUjmU7Jj7lRSe0hr6Q=
+
+Name: javadoc/org/eclipse/net4j/util/lifecycle/ILifecycle.DeferrableAc
+ tivation.html
+SHA1-Digest: qjSm+h5srbmFozckMSQfNub6hi0=
+
+Name: javadoc/org/eclipse/net4j/util/ui/actions/class-use/SashLayoutAc
+ tion.LayoutMenu.html
+SHA1-Digest: H/ojqt/7J6wznH+vbzgF9/M3yBU=
+
+Name: javadoc/org/eclipse/net4j/util/container/class-use/IManagedConta
+ inerFactory.html
+SHA1-Digest: N9raU2XECZqSgYJcCGiXE5bTcj8=
+
+Name: org/eclipse/net4j/util/doc/reference/schema/Schemadoc.class
+SHA1-Digest: AwrDSzJShtyKmuVh4BDZWBRD6vY=
+
+Name: javadoc/org/eclipse/net4j/util/transaction/package-summary.html
+SHA1-Digest: L1L1uTUEyczVN1dgfMZD+6X3Enw=
+
+Name: javadoc/org/eclipse/net4j/util/io/ExtendedDataOutput.html
+SHA1-Digest: LtpLd0C1SYrVzqnBZzDXhIwQbY0=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/ChallengeNegot
+ iator.html
+SHA1-Digest: 5cVWaX5Kt2EOjbbGupC8OujrkXA=
+
+Name: javadoc/org/eclipse/net4j/util/ref/ReferenceValueMap.Soft.html
+SHA1-Digest: bgaYIMv6qEJne/Lc1CVFWt54GRY=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/class-use/AbstractMoni
+ tor.AsyncTimerTask.html
+SHA1-Digest: xYTyybkyuQOZNhdmsN2tzaVheRU=
+
+Name: javadoc/org/eclipse/net4j/util/om/trace/OMTracer.html
+SHA1-Digest: I/8Lt6JZGJI/D1che2Q8MRcsq1M=
+
+Name: javadoc/org/eclipse/net4j/util/om/class-use/OSGiActivator.StateH
+ andler.html
+SHA1-Digest: saAgtfp5gK9ks33aYkv87xKxsf0=
+
+Name: javadoc/org/eclipse/net4j/util/ui/ValidationContext.html
+SHA1-Digest: pC0HP7pPNQb9SikjvYKefqp2SLg=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/class-use/ContainerItemP
+ rovider.LeafNode.html
+SHA1-Digest: FIQqnEBH2gKIIIHOmMK2SZzrMew=
+
+Name: javadoc/org/eclipse/net4j/util/ref/ReferenceValueMap2.html
+SHA1-Digest: CD8I7WC5QjoutljQ37cbvJQ/q/c=
+
+Name: javadoc/org/eclipse/net4j/util/ui/confirmation/package-use.html
+SHA1-Digest: NZm5URh6mlNAUSKaBqlX2Lyiqf8=
+
+Name: javadoc/org/eclipse/net4j/util/options/class-use/IOptionsContain
+ er.html
+SHA1-Digest: PMd3N3DZ0YwltWbm8QedtZwkpQQ=
+
+Name: javadoc/org/eclipse/net4j/util/confirmation/class-use/IConfirmat
+ ionProvider.Factory.html
+SHA1-Digest: Njo7c/AkSYtgKsv/G+rUxSpjlz4=
+
+Name: javadoc/org/eclipse/net4j/util/io/AsyncOutputStream.html
+SHA1-Digest: 22ONLAn2KX9FIXxHn6YahS2O6tE=
+
+Name: javadoc/org/eclipse/net4j/util/container/IPluginContainer.html
+SHA1-Digest: 1T6ND2kSiGjjpwunNANKuLaxLzE=
+
+Name: javadoc/org/eclipse/net4j/util/om/package-use.html
+SHA1-Digest: xkLc86Q46fssHBQSemX1kaFeK1k=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/OnePendingEx
+ ecutor.html
+SHA1-Digest: kulhOOEQ3/V5hFI3HFdz0yUJCW0=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/class-use/StackComposi
+ te.html
+SHA1-Digest: WgftSdihg5u2nwhFcB9RV+7+mpM=
+
+Name: javadoc/org/eclipse/net4j/util/ui/DelegatingContentProvider.html
+SHA1-Digest: Mtjib4+GQDRU3xDfMM/+nMQGwpw=
+
+Name: javadoc/org/eclipse/net4j/util/ui/actions/class-use/SafeActionDe
+ legate.html
+SHA1-Digest: WJCZWB1Hdq3LRnnyJAkx5aEWnTQ=
+
+Name: javadoc/org/eclipse/net4j/util/container/FileContainerPersistenc
+ e.html
+SHA1-Digest: iT7SaOkPx46BLC0S3LKY8rNpj90=
+
+Name: javadoc/org/eclipse/net4j/util/container/ContainerEvent.html
+SHA1-Digest: kigDiPF1wMiFUv9E98W6ihy+1PI=
+
+Name: javadoc/org/eclipse/net4j/util/fsm/package-use.html
+SHA1-Digest: SOIY4z7fKEuebcNGAP5Jd5LO6II=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/RWOLockManager.html
+SHA1-Digest: sDvQqmzHgZVoGtj0gRva7Jn+4TI=
+
+Name: javadoc/org/eclipse/net4j/util/confirmation/package-summary.html
+SHA1-Digest: lRfO1Hl1TspEhzFdEoq4mevAxaY=
+
+Name: javadoc/org/eclipse/net4j/util/registry/class-use/DelegatingRegi
+ stry.html
+SHA1-Digest: RJW8S4DnYwhTnmPZncW81rNAGxo=
+
+Name: javadoc/org/eclipse/net4j/util/security/DiffieHellman.Client.Res
+ ponse.html
+SHA1-Digest: 1sE7UG0zk3l6Jmm6ks/xfrRF0ms=
+
+Name: javadoc/org/eclipse/net4j/util/collection/GrowingRandomAccessLis
+ t.html
+SHA1-Digest: qEuGBS4s5MIaHa/TQ8+/rizDT44=
+
+Name: javadoc/org/eclipse/net4j/util/om/log/OMLogFilter.html
+SHA1-Digest: C9DfMK7v+LNvAw1rwmEiVbu2Uow=
+
+Name: images/formatter-xml.gif
+SHA1-Digest: fb3OpZ+9I8kMTAYsqkONep/waCQ=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/ProbingSubMonitor.html
+SHA1-Digest: baf1XZ4lQNKsU0p8qIseq2l/8Sg=
+
+Name: javadoc/org/eclipse/net4j/util/security/IUserManager.html
+SHA1-Digest: apVqXN8TdyhpWPJYznSnZD5Pva8=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/package-use.html
+SHA1-Digest: SI5OIfKKr4KMv1dNS5C5b/ecb3Q=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/SubMonitor.html
+SHA1-Digest: efbrbaEj2I3eyi82lr6tGsojdiA=
+
+Name: javadoc/org/eclipse/net4j/util/lifecycle/LifecycleEvent.html
+SHA1-Digest: 3zBk0/dpiqADlArJiw3p9y82XMM=
+
+Name: javadoc/org/eclipse/net4j/util/registry/class-use/Registry.Trans
+ action.html
+SHA1-Digest: nAltIuWL4OzHdSo2sTM8kcAE2FE=
+
+Name: javadoc/org/eclipse/net4j/util/container/SingleDeltaContainerEve
+ nt.html
+SHA1-Digest: Ty9U76hYTZPOfF0oD2aKsz5Jq18=
+
+Name: javadoc/org/eclipse/net4j/util/io/GZIPStreamWrapper.html
+SHA1-Digest: MtEi7qIkB+mys8Lu5olhxbtDKgw=
+
+Name: javadoc/org/eclipse/net4j/util/lifecycle/package-summary.html
+SHA1-Digest: ClVDPRdADRA2U6TLe0SOx6CaEnM=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/AbstractFilt
+ eredIterator.html
+SHA1-Digest: eG/LVMYxuSH70FKa4zYrX187FlM=
+
+Name: javadoc/org/eclipse/net4j/util/event/ExecutorServiceNotifier.htm
+ l
+SHA1-Digest: xbDOleUCHY/pa8hNC+VtmNx0PN4=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/class-use/BaseDialog.h
+ tml
+SHA1-Digest: lnz3qcbfcBjCF9PyQJl1gpXqufs=
+
+Name: javadoc/org/eclipse/net4j/util/ref/class-use/KeyedReference.html
+SHA1-Digest: w1Rjx1AzgPNHWrFXKIQC92yXcX4=
+
+Name: javadoc/org/eclipse/net4j/util/security/ResponseNegotiatorInject
+ or.html
+SHA1-Digest: t+XBqyU5udKcPFezVwhxCeUJaIQ=
+
+Name: javadoc/org/eclipse/net4j/util/container/class-use/IContainerEve
+ ntVisitor.Filtered.html
+SHA1-Digest: UaulvbrXOaosvojfQbzPJcBzRl8=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/ExtendedDataOutput.S
+ tream.html
+SHA1-Digest: kj4qSpVZSW/ZpRO2qng0V9qVPO4=
+
+Name: javadoc/org/eclipse/net4j/util/event/class-use/IListener.html
+SHA1-Digest: s6MGQz/f+gKBVv5MfVcn2HXBlIE=
+
+Name: javadoc/org/eclipse/net4j/util/ui/prefs/PrefText.html
+SHA1-Digest: xvdem/hdN/ZW4BLRmFCng8kfEDg=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/CredentialsPro
+ viderFactory.html
+SHA1-Digest: iYmAaeS+AkKO+KvjeFLOh8gfvaY=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/MoveableArra
+ yList.html
+SHA1-Digest: TpyFDcuBpN84HHYyMCWtOpC0TA4=
+
+Name: images/editor-top-right.png
+SHA1-Digest: 2JFf9SKPJBcUcDOfbme7PBvmJzQ=
+
+Name: images/callout-1.png
+SHA1-Digest: yqD5lscySbEpyV7XecAk+umYOsk=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/ToolButton.html
+SHA1-Digest: jUt6kwYCXjdM8gmSP8CJ6OHUtX8=
+
+Name: images/formatter-tree-properties.gif
+SHA1-Digest: uMozJgCLAD3XL4cmpwtst01gdlc=
+
+Name: javadoc/org/eclipse/net4j/util/event/ThrowableEventAdapter.html
+SHA1-Digest: hHusYEbWywD28SUmh4fk6oXYJJ0=
+
+Name: javadoc/org/eclipse/net4j/util/confirmation/IConfirmationProvide
+ r.html
+SHA1-Digest: Mx+CXOw5KhPm+PJLafTzvVmUjsI=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/class-use/MonitorCance
+ ledException.html
+SHA1-Digest: ZjCpZ8rnC6XNuzglZP8WGjRbSaw=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/StringCompressor.htm
+ l
+SHA1-Digest: ByU706XkLspZs8KWoeDMy2YBxNU=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/class-use/CoolBarCompo
+ site.CoolBarLayout.html
+SHA1-Digest: 0dldrNo9MslCkUle7Qyc74adtP8=
+
+Name: javadoc/org/eclipse/net4j/util/ui/widgets/SashComposite.Orientat
+ ionChangedEvent.html
+SHA1-Digest: 6ABncj9LXz6gwUVyRQ3ifVlK/SI=
+
+Name: javadoc/org/eclipse/net4j/util/cache/class-use/ICacheMonitor.Con
+ ditionPolicy.html
+SHA1-Digest: enQrZfrgBbes3s1o9oZxvBe8dIc=
+
+Name: javadoc/org/eclipse/net4j/util/io/ZIPUtil.UnzipHandler.html
+SHA1-Digest: k8DiIMxA5kaPd00u0nLRIC8moNk=
+
+Name: javadoc/org/eclipse/net4j/util/ui/actions/SashLayoutAction.html
+SHA1-Digest: HU7yhBobtZho6+HuNyjLuP+5VoQ=
+
+Name: javadoc/org/eclipse/net4j/util/ui/actions/class-use/SashLayoutAc
+ tion.Horizontal.html
+SHA1-Digest: 0HaHqGGxr4Gouunvo8RbQXhIvOs=
+
+Name: javadoc/org/eclipse/net4j/util/container/delegate/class-use/ICon
+ tainerList.html
+SHA1-Digest: 2KlBABDryFJp+LK7cfpzo9PtMso=
+
+Name: javadoc/org/eclipse/net4j/util/collection/ConcurrentArray.Duplic
+ ateCounter.html
+SHA1-Digest: UepYDdEdsexctwD4qIYwDT9B+lM=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/ExecutorWork
+ Serializer.html
+SHA1-Digest: uJxPLk4ys77fSfI5rP7Eck5CsI0=
+
+Name: javadoc/org/eclipse/net4j/util/collection/PositionProvider.html
+SHA1-Digest: 1ITaqbsfOWYb47waqT/R88kLIz0=
+
+Name: javadoc/org/eclipse/net4j/util/confirmation/IConfirmationProvide
+ r.Provider.html
+SHA1-Digest: X0aP5GXrimemySnnZTC0dA8RsIo=
+
+Name: images/backward.png
+SHA1-Digest: cl9ZfaqoXdxRdnorITSHKnQmdiE=
+
+Name: javadoc/org/eclipse/net4j/util/ref/class-use/ReferenceValueMap.S
+ oft.html
+SHA1-Digest: 9sBXN//0Z+06C2hM5arsvF+aA/w=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/class-use/QueueWorker.
+ html
+SHA1-Digest: 5o5unxgwKMR3I6QFxAj0n+qSe6U=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/ProgressDistributor.Ar
+ ithmetic.html
+SHA1-Digest: sjF4ZL1htyEaQYGVAVo75+WyYpg=
+
+Name: javadoc/org/eclipse/net4j/util/security/IAuthenticator2.html
+SHA1-Digest: 4m63tmaKK/ZYUE8XPUqGpGfs054=
+
+Name: javadoc/org/eclipse/net4j/util/cache/ICacheMonitor.Condition.htm
+ l
+SHA1-Digest: /LfLV6PbzujHGa39OZO1KVQACfg=
+
+Name: javadoc/org/eclipse/net4j/util/om/monitor/EclipseMonitor.Synchro
+ nizedSubProgressMonitor.html
+SHA1-Digest: /sKCbZOkStYdQdyEbgcw4W1kyds=
+
+Name: javadoc/org/eclipse/net4j/util/ui/proposals/RegExContentProposal
+ Provider.html
+SHA1-Digest: hfE4kcP+YbHsCPaj3C7zx9wDWms=
+
+Name: javadoc/org/eclipse/net4j/util/ui/DefaultPropertySource.Delegati
+ ngPropertyDescriptor.html
+SHA1-Digest: lPt4BNkNEDURIrFmiELzSUW/Xjc=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/class-use/ContainerPathI
+ temProvider.html
+SHA1-Digest: P15vddtfZJHCxi7xPTJxsWyitFQ=
+
+Name: javadoc/org/eclipse/net4j/util/io/DataOutputExtender.html
+SHA1-Digest: r/WrC8x3bcns8V94G/A5gbVm960=
+
+Name: javadoc/org/eclipse/net4j/util/concurrent/MonitoredThread.MultiT
+ hreadMonitor.html
+SHA1-Digest: WN392h6tI/LRBhVLWRdfS4AeKn4=
+
+Name: javadoc/org/eclipse/net4j/util/collection/class-use/MultiMap.Lis
+ tBased.html
+SHA1-Digest: OAoE975Rrm6+Na5cfk75Z5nKltA=
+
+Name: javadoc/org/eclipse/net4j/util/ref/ReferenceMonitor.html
+SHA1-Digest: uAc+3LDT5Jegsiq33ACnzxiWY3g=
+
+Name: javadoc/org/eclipse/net4j/util/ui/UIUtil.html
+SHA1-Digest: nisr3T/J/61de7qOKR4KkI+ReCo=
+
+Name: javadoc/org/eclipse/net4j/util/security/CredentialsUpdateOperati
+ on.html
+SHA1-Digest: iV/4oqF+tNFVrU2SJRBy4WLSX3A=
+
+Name: javadoc/org/eclipse/net4j/util/class-use/Predicates.IncludedPred
+ icate.html
+SHA1-Digest: QKh3udfNnYQSHF4AQxsJ5oyJH/Y=
+
+Name: javadoc/org/eclipse/net4j/util/io/class-use/ExtendedDataOutput.D
+ elegating.html
+SHA1-Digest: edovhfjf4ka4GFW4v+s1/iEKYVw=
+
+Name: javadoc/org/eclipse/net4j/util/ui/views/class-use/ContainerNameS
+ orter.html
+SHA1-Digest: WTEW7UYbfmMne21EjqE2s6ZuGAk=
+
+Name: javadoc/org/eclipse/net4j/util/security/IPasswordCredentials.htm
+ l
+SHA1-Digest: va+z2sNR8WpccUr2MwgDvfTZ4cI=
+
+Name: javadoc/org/eclipse/net4j/util/cache/class-use/ICacheRegistratio
+ n.html
+SHA1-Digest: tyHRfteEp4z2qtkGt9z0DErpW/o=
+
+Name: javadoc/org/eclipse/net4j/util/security/class-use/FileUserManage
+ r.html
+SHA1-Digest: C1iORf29zTFhCZaf6tpUbWP3am4=
+
+Name: javadoc/org/eclipse/net4j/util/ui/confirmation/class-use/Confirm
+ ationDialog.html
+SHA1-Digest: cYtXbv8xThsQnsXrCC2Zz8p7/rw=
+
+Name: javadoc/org/eclipse/net4j/util/container/class-use/IManagedConta
+ iner.html
+SHA1-Digest: dNGSYoZh8F8hU9/UZG7DTXtncwQ=
+

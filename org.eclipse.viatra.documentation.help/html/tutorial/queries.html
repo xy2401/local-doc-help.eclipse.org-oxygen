@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 1.5.5">
+<title>Using the Query Development Environment</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
+<link rel="stylesheet" href="./asciidoctor.css">
+<link rel="stylesheet" href="./coderay-asciidoctor.css">
+</head>
+<body class="article">
+<div id="header">
+<h1>Using the Query Development Environment</h1>
+</div>
+<div id="content">
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Constraints and conditions in the VIATRA framework are expressed using a graph pattern-based language. This declarative formalism allows very compact definitions of complex conditions, while it is still possible to provide live query evaluation based on the Rete algorithm.</p>
+</div>
+<div class="paragraph">
+<p>In the following we get an overview of the query development environment, starting with the definition of queries, followed by query evaluation support. Then we gain an understanding of the various language elements by creating more and more complex queries.</p>
+</div>
+<div class="paragraph">
+<p>A graph pattern encodes a <em>named</em> query with some <em>parameters</em> defined as a <em>disjunction</em> of pattern <em>bodies</em>, while each body consists of a <em>set</em> of constraints.  The result of a graph pattern, called <em>match set</em>, is a <em>set</em> of (model element) tuples where the elements fulfill all constraints defined in at least one of the pattern bodies.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+The pattern language always works on sets: neither the constraints nor the match set is ordered; and match set never includes multiple tuples with exactly the same model elements.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_define_your_first_query">Define your First Query</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>To define queries, first a  <em>VIATRA Query Project</em> has to be created with the standard <em>New Project Wizard</em> of Eclipse. Such projects are specialized Eclipse plug-in projects with preconfigured VIATRA dependencies and the query generator initialized. Query specifications have to be added to the Java classpath of the projects, more specifically into Java packages. Based on these observations the creation of the first query consists of the following steps:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Create a new VIATRA Query project in the host Eclipse with the following name: <code>org.eclipse.viatra.examples.cps.queries</code>.</p>
+</li>
+<li>
+<p>Add <code>org.eclipse.viatra.examples.cps.model</code> to the Plug-in dependencies</p>
+</li>
+<li>
+<p>Create a new query definition in a package named <code>org.eclipse.viatra.examples.cps.queries</code> and a file named <code>CPSQueries.vql</code>. In the wizard create an empty query. Fill the first query:</p>
+<div id="app-listing" class="listingblock">
+<div class="title">queries.vql</div>
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="vql">// Java package declaration, must match the container of the file
+package org.eclipse.viatra.examples.cps.queries
+
+// EPackage import
+import &quot;http://org.eclipse.viatra/model/cps&quot;
+
+// Pattern declaration
+pattern hostIpAddress(host: HostInstance, ip : java String) {
+    // Type constraint stating that variables 'host' and 'ip' are connected via a 'nodeIp' attribute
+    HostInstance.nodeIp(host,ip);
+}</code></pre>
+</div>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Looking at the pattern header, we see that this pattern has two parameters, meaning its results will be a pair of values, the first selecting a <code>HostInstance</code> from the model, while the second one a <code>String</code> literal. The connection between these elements is described by a single constraint ensuring that <code>ip</code> variable stores the <code>nodeIp</code> attribute of a corresponding <code>HostInstance</code>.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_evaluate_queries_in_the_query_results_view">Evaluate Queries in the Query Results View</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>VIATRA includes a view to evaluate the results of queries over various editors, and reacts on changes in the editor.</p>
+</div>
+<div class="paragraph">
+<p>The <strong>Query Results</strong> view is the primary tool for debugging graph patterns. Open the view by selecting <em>Window/Show View/Query Results</em> or you can simply press the <span class="keyseq"><kbd>CTRL</kbd>+<kbd>3</kbd></span> shortcut and start to type the name of the view. The view allows loading models and queries, and display (and update) the results of queries automatically. Together with the installed metamodels there is also an example instance model included that will be used in this tutorial as an example.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/generate_cps_example.png" alt="Generate CPS example">
+</div>
+<div class="title">Figure 1. Initialize the example CPS demonstrator project</div>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Open our example instance model (/org.eclipse.viatra.examples.cps.instances/example.cyberphysicalsystem)</p>
+</li>
+<li>
+<p>Make sure "ReteEngine" is selected in the toolbar of the Query Results view</p>
+</li>
+<li>
+<p>then press the 'Load model from active editor' (first button on the toolbar)</p>
+</li>
+<li>
+<p>Open the query specification (vql file)</p>
+</li>
+<li>
+<p>then press the 'Load queries from the active editor' button</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>At this point the <em>Query Results</em> view should contain the matches of the freshly created pattern. Using the example model, you can see that there are 6 matches for the pattern, each consisting of a HostInstance-IP address pair. Note that the <em>Query Results</em> view provides live results: by updating the model in the model editor file, e.g. adding a new host instance or changing its IP address, the results update automatically.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/queryresultview.png" alt="Query Results View in Action">
+</div>
+<div class="title">Figure 2. Query Results View</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+If the 'Load model from active editor' button is not enabled, it either means, the current editor does not contain a model, or VIATRA does not understand the editor type. By default, EMF tree editors are supported; other editor types, such as graphical editors are supported by additional integration plug-ins, such as the GMF or Graphiti integration available from the VIATRA repository.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_define_additional_queries">Define Additional Queries</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>In the following, we define a set of patterns that illustrate additional capabilities of the query language. Each pattern will come with a short definition, followed by the code itself and some remarks about how the pattern works.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>List all <code>HostInstance</code> elements whose IP address is an empty string</p>
+<div class="ulist">
+<ul>
+<li>
+<p>This pattern, similar to the first pattern, still consists of a single constraint. The pattern constraints can refer to Java literals, like empty strings or numbers directly. This pattern should have no matches in the example model, as by default all instances have a non-empty IP address set up.</p>
+</li>
+<li>
+<p>Notice that if you create a new <code>HostInstance</code> element, it will not appear in the match results. This happens because in EMF unset an empty attributes are different. You can write a pattern that finds missing attribute values using the <code>neg find</code> construct (see later).</p>
+<div id="app-listing" class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="vql">pattern emptyIpAddress(host: HostInstance) {
+    HostInstance.nodeIp(host, &quot;&quot;);
+}</code></pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>List all <code>HostInstance</code>-<code>HostInstance</code> pairs that share a common IP address</p>
+<div class="ulist">
+<ul>
+<li>
+<p>This pattern is more complex, as it has three parameters and three constraints. The first two describe similar type constraints we have seen. The pattern also compares the values of variables <code>host1</code> and <code>host2</code> with each other using the <code>!=</code> (<em>not equal</em>) operator (The <code>==</code> operator is also available).</p>
+<div id="app-listing" class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="vql">pattern sameIpAddress(host1 : HostInstance, host2 : HostInstance, commonIp : java String) {
+    HostInstance.nodeIp(host1, commonIp);
+    HostInstance.nodeIp(host2, commonIp);
+    host1!=host2;
+}</code></pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>List all <code>HostInstance</code> elements that have non well-formed IPv4 addresses (e.g. not four numbers separated with dots)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>The well-formedness validation of the IP address strings requires specific validation blocks called <code>check</code> expressions where  you can write a wide range of <em>Xbase</em> expressions, behaving similarly to Java and accessing Java classes from the classpath of the project. In this case, the well-formedness of the address values is represented with a regular expression evaluation.</p>
+</li>
+<li>
+<p>It is important to note that check expressions <strong>have to</strong> be side-effect free and can only be called on attribute variables.</p>
+<div id="app-listing" class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="vql">pattern ipFormatInvalid(host : HostInstance, ip : java String) {
+    HostInstance.nodeIp(host,ip);
+    check (
+        !ip.matches(&quot;^[\\d\\.]+&quot;)
+    );
+}</code></pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>List <code>State</code> elements connected through <code>Transition</code> elements</p>
+<div class="ulist">
+<ul>
+<li>
+<p>A pattern body might use variables other than the pattern parameters, such as the variable <code>transition</code> in this example. These variables are called local variables.</p>
+</li>
+<li>
+<p>It is important to note that if there are multiple transitions between two states, the match set will still include only a single pair of the states, because local variables are not included in the match tuples. If all edges are required, the corresponding transition variable should also be declared as a parameter.</p>
+<div id="app-listing" class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="vql">pattern connectedTo(state: State, other: State){
+    // There exists a transition from `state` to `other`
+    State.outgoingTransitions(state, transition);
+    Transition.targetState(transition, other);
+}</code></pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>List bad host instances that fail either of the previous conditions.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Disjunctions can be expressed by using the <code>or</code> keyword between pattern bodies. A model element tuple is included in the match set of a pattern, if at least one of the bodies have a match. Note that if multiple bodies would match the same tuple, the match set of the pattern will still only include the tuple once (<em>set semantics</em>).</p>
+</li>
+<li>
+<p>Patterns can be reused using <code>find</code> constraints meaning all conditions expressed by the called pattern must be matched from the source.</p>
+</li>
+<li>
+<p>This pattern also includes <em>single-use</em> (or don&#8217;t care) variables, starting with the character '_'. Such a declaration describes a variable where we are only interested in its existence but not its value.</p>
+<div id="app-listing" class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="vql">pattern badHost(host : HostInstance, ip : java String) {
+    find sameIpAddress(host, _other, ip);
+} or {
+    HostInstance.nodeIp(host, ip);
+    find emptyIpAddress(host);
+} or {
+    find ipFormatInvalid(host, ip);
+}</code></pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>List all good host instances (that meet neither of the incorrect conditions)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>The negative pattern composition, expressed by the <code>neg find</code> keyword is used to define negative conditions. This works similar to the <code>find</code> constraints, with the notable exception that if there are any matches to the badHost with the selected parameters, the host pattern fails to match.</p>
+</li>
+<li>
+<p>Those actual parameters of the negative pattern call that are not used elsewhere in the calling body are <em>universally quantified</em>, meaning that the calling pattern only matches if variables of the calling pattern cannot be bound to matching elements.</p>
+<div id="app-listing" class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="vql">pattern goodHost(host : HostInstance, ip : java String) {
+    HostInstance.nodeIp(host, ip);
+    neg find badHost(host, _);
+}</code></pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>List the number of applications for each HostInstance</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Patterns can be marked as private, making the pattern itself only visible inside the source file it is defined. The generated code for these patterns is reduced (e.g. does not include generated Match and Matcher classes for easier access).</p>
+</li>
+<li>
+<p>It is possible to calculate the matches of a pattern using the <code>count find</code> expressions. The value of such an expression is the number of matches found with the selected number of matches.</p>
+<div id="app-listing" class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="vql">private pattern applications(host : HostInstance, app : ApplicationInstance) {
+    HostInstance.applications(host, app);
+}
+
+pattern countApplications(host : HostInstance, m : java Integer) {
+    m == count find applications(host, _);
+}</code></pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>List all states of a state machine that are reachable from its initial state (either directly or indirectly)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>The reachable states are calculated using the transitive closure of the previously introduced connectedTo pattern.</p>
+<div id="app-listing" class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="vql">pattern reachableState(sm :StateMachine, state: State){
+    // The initial state of the statemachine is reachable
+    StateMachine.initial(sm, state);
+} or {
+    StateMachine.initial(sm, initial);
+    // Ensure the state is indeed included in the state machine; unnecessary in a well-formed model
+    StateMachine.states(sm, state);
+    // The + symbol after the pattern name represents transitive closure
+    find connectedTo+(initial, state);
+}</code></pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_validation">Validation</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>VIATRA provides facilities to create validation rules based on the pattern language of the framework. These rules can be evaluated on various EMF instance models and upon violations of constraints, markers are automatically created in the Eclipse Problems View.</p>
+</div>
+<div class="paragraph">
+<p>The <strong>@Constraint</strong> annotation can be used to mark a pattern as a validation rule. If the framework finds at least one pattern with such annotation.</p>
+</div>
+<div class="paragraph">
+<p>Annotation parameters:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><em>key:</em> The list of paremeters which determine which objects the constraint violation needs to be attached to.</p>
+</li>
+<li>
+<p><em>message:</em> The message to display when the constraint violation is found. The message may refer the parameter variables between $ symbols, or their EMF features, such as in $Param1.name$.</p>
+</li>
+<li>
+<p><em>severity:</em> "warning" or "error"</p>
+</li>
+<li>
+<p><em>targetEditorId:</em> An Eclipse editor ID where the validation framework should register itself to the context menu. Use "*" as a wildcard if the constraint should be used always when validation is started.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>To find a specific editor id, we can use the <em>Plug-in Selection Spy</em> tool with a <span class="keyseq"><kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>F1</kbd></span> shortcut.</p>
+</div>
+<div class="paragraph">
+<p>For example:</p>
+</div>
+<div id="app-listing" class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="vql">@Constraint(targetEditorId = &quot;org.eclipse.viatra.examples.cps.cyberPhysicalSystem.presentation.CyberPhysicalSystemEditorID&quot;,
+            severity = &quot;error&quot;,
+            message = &quot;The ip address is not unique&quot;,
+            key = {host1})
+pattern sameIpAddress(host1: HostInstance, host2: HostInstance, commonIp : java String) {
+    HostInstance.nodeIp(host1, commonIp);
+    HostInstance.nodeIp(host2, commonIp);
+    host1!=host2;
+}</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_references">References</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Pattern Language: <a href="https://wiki.eclipse.org/VIATRA/Query/UserDocumentation/QueryLanguage" class="bare">https://wiki.eclipse.org/VIATRA/Query/UserDocumentation/QueryLanguage</a></p>
+</li>
+<li>
+<p>Validation Framework: <a href="https://wiki.eclipse.org/VIATRA/Addons/UserDocumentation/Validation" class="bare">https://wiki.eclipse.org/VIATRA/Addons/UserDocumentation/Validation</a></p>
+</li>
+<li>
+<p>Query Based Features: <a href="https://wiki.eclipse.org/VIATRA/Addons/UserDocumentation/Query_Based_Features" class="bare">https://wiki.eclipse.org/VIATRA/Addons/UserDocumentation/Query_Based_Features</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+</div>
+</div>
+</body>
+</html>

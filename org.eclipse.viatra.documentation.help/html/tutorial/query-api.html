@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 1.5.5">
+<title>Using Queries Programmatically</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
+<link rel="stylesheet" href="./asciidoctor.css">
+<link rel="stylesheet" href="./coderay-asciidoctor.css">
+</head>
+<body class="article">
+<div id="header">
+<h1>Using Queries Programmatically</h1>
+</div>
+<div id="content">
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>VIATRA Query provides an API to execute queries on various models, including support for listening to match set changes. However, as the incremental evaluation relies on indexes, the API also covers lifecycle management for the runtime. The central element of the API is the Query Engine that is responsible for loading query specifications, setting up indexes and providing match results. This approach is supported by code generators that create a runtime representation for graph patterns and provide a type-safe API to access VIATRA code.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/query_runtime.png" alt="query runtime">
+</div>
+<div class="title">Figure 1. Overview of the runtime components of VIATRA Query</div>
+</div>
+<div class="paragraph">
+<p>To start working with the VIATRA Query API, we have to provide (1) a Scope representing the model and a (2) set of query specifications. The easiest way to initialize a scope, is to simply wrap an EMF ResourceSet inside a new EMFScope instace. For query specifications, the generated matcher classes can be used as an example, see as follows.</p>
+</div>
+<div class="paragraph">
+<p>In general, the generated code in a VIATRA Query project consists of a (1) query specification classes that represents the original VQL specifications for the runtime API, (2) a Match and Matcher class for each pattern definition (recommended for general usage) together with (3) a match processor class to execute some actions on pattern matches in a Java stream-like API. Finally, (4) a group class for each file that can be used to initialize all queries together.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/query_generated_code.png" alt="query generated code">
+</div>
+<div class="title">Figure 2. Structure of the query generated code</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_initialize_a_headless_application">Initialize a headless Application</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>To illustrate the usage of the VIATRA Query API, we will create a headless Eclipse application, and execute it over one of the queries written in the previous part. Such an application is a Java class registered using the extension point <code><code>org.eclipse.core.runtime.applications</code></code> (requiring the <code><code>org.eclipse.core.runtime</code></code> bundle as a dependency).</p>
+</div>
+<div id="app-listing" class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="xml">  <span class="tag">&lt;extension</span> <span class="attribute-name">id</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">queryrunner</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">point</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">org.eclipse.core.runtime.applications</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+    <span class="tag">&lt;application</span> <span class="attribute-name">cardinality</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">singleton-global</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">thread</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">main</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">visible</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">true</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+      <span class="tag">&lt;run</span> <span class="attribute-name">class</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">org.eclipse.viatra.examples.cps.queries.runner.QueryRunner</span><span class="delimiter">&quot;</span></span><span class="tag">/&gt;</span>
+    <span class="tag">&lt;/application&gt;</span>
+  <span class="tag">&lt;/extension&gt;</span></code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The <code><code>IApplication</code></code> interface requires two methods to be implemented, called <code><code>start</code></code> and <code><code>stop</code></code>. In our case, we will only use start (and returning 0 to mark successful execution), stop is unnecessary.</p>
+</div>
+<div id="app-listing" class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="java"><span class="directive">public</span> <span class="type">class</span> <span class="class">QueryRunner</span> <span class="directive">implements</span> IApplication {
+
+        <span class="annotation">@Override</span>
+        <span class="directive">public</span> <span class="predefined-type">Object</span> start(IApplicationContext context) <span class="directive">throws</span> <span class="exception">Exception</span> {
+        <span class="comment">// Return value 0 is considered as a successful execution on Unix systems</span>
+                <span class="keyword">return</span> <span class="integer">0</span>;
+        }
+
+        <span class="annotation">@Override</span>
+        <span class="directive">public</span> <span class="type">void</span> stop() {
+        <span class="comment">// Headless applications do not require specific stop steps</span>
+        }
+
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The created application can be started as an Eclipse application by specifically selecting the previously created extension.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/run_headless_application.png" alt="run headless application">
+</div>
+<div class="title">Figure 3. Running the Query Runner application</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_initializing_a_query_engine">Initializing a Query Engine</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>To initialize a query engine, as first step an EMF scope has to be loaded. This can be done using the following code segment (expecting the model file was copied into the root of the queries project):</p>
+</div>
+<div id="app-listing" class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="java"><span class="directive">private</span> EMFScope initializeModelScope() <span class="directive">throws</span> <span class="exception">IOException</span>, ViatraQueryException {
+        ResourceSet rs = <span class="keyword">new</span> ResourceSetImpl();
+        Resource res = rs.createResource(<span class="predefined-type">URI</span>.createPlatformPluginURI(<span class="string"><span class="delimiter">&quot;</span><span class="content">org.eclipse.viatra.examples.cps.queries/example.cyberphysicalsystem</span><span class="delimiter">&quot;</span></span>, <span class="predefined-constant">false</span>));
+        res.load(<span class="keyword">new</span> <span class="predefined-type">HashMap</span>&lt;&gt;());
+    <span class="keyword">return</span> <span class="keyword">new</span> EMFScope(rs);
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>If we have a model scope, it can be used to initialize a managed query engine. The internal implementation of the <code><code>ViatraQueryEngine.on</code></code> method ensure that only a single query engine will be created for each scope, and the query engine will be disposed together with the backing model, making this the preferred implementation for common cases.</p>
+</div>
+<div class="paragraph">
+<p>Additionally, it is recommended to prepare the engine with all queries that will be used. For this, the generated query groups (one per query file) include a <code><code>prepare</code></code> method that creates all indexes required for the pattern matchers, with only a single round of model traversal required.</p>
+</div>
+<div id="app-listing" class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="java"><span class="directive">private</span> ViatraQueryEngine prepareQueryEngine(EMFScope scope) <span class="directive">throws</span> ViatraQueryException {
+        <span class="comment">// Access managed query engine</span>
+    ViatraQueryEngine engine = ViatraQueryEngine.on(scope);
+
+    <span class="comment">// Initialize all queries on engine</span>
+        CPSQueries.instance().prepare(engine);
+
+        <span class="keyword">return</span> engine;
+}</code></pre>
+</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+If multiple query groups are to be loaded, either create a generic pattern group that holds all the patterns, or create a coalesce traversal block where you can execute multiple prepare statements together using the <code><code>engine.getBaseIndex().coalesceTraversals()</code></code> method.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_the_pattern_matcher_api">The pattern matcher API</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The easiest way to use all the query engine is to ask for all matches of a query. The <code><code>getAllMatches</code></code> method of a pattern matcher returns a <strong>set</strong> of match objects that allow named references to its parameters</p>
+</div>
+<div id="app-listing" class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="java"><span class="directive">private</span> <span class="type">void</span> printAllMatches(ViatraQueryEngine engine) <span class="directive">throws</span> ViatraQueryException {
+    <span class="comment">// Access pattern matcher</span>
+    HostIpAddressMatcher matcher = HostIpAddressMatcher.on(engine);
+    <span class="comment">// Get and iterate over all matches</span>
+    <span class="keyword">for</span> (HostIpAddressMatch match : matcher.getAllMatches()) {
+        <span class="comment">// Print all the matches to the standard output</span>
+        <span class="predefined-type">System</span>.out.println(match.getHost());
+    }
+}</code></pre>
+</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+It is safe to ask for the same matcher multiple times using the <code><code>on</code></code> method. Although the returned matcher instances may be different, but internally they reuse the same indexes. Given the matchers themselves are stateless, they are safe to use and forget, and at a later point ask for it again.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>It is also possible to use a more functional style processing of matches using match processors.</p>
+</div>
+<div id="app-listing" class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="java"><span class="directive">private</span> <span class="type">void</span> printAllMatches2(ViatraQueryEngine engine) <span class="directive">throws</span> ViatraQueryException {
+    HostIpAddressMatcher matcher = HostIpAddressMatcher.on(engine);
+    matcher.forEachMatch(<span class="keyword">new</span> HostIpAddressProcessor() {
+
+        <span class="annotation">@Override</span>
+        <span class="directive">public</span> <span class="type">void</span> process(HostInstance pHost, <span class="predefined-type">String</span> pIp) {
+            <span class="predefined-type">System</span>.out.println(pHost);
+        }
+    });
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>When using Java 8, the same functionality can be accessed using lambda functions, however in this case only the match can be used as a parameter.</p>
+</div>
+<div id="app-listing" class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="java"><span class="directive">private</span> <span class="type">void</span> printAllMatches3(ViatraQueryEngine engine) <span class="directive">throws</span> ViatraQueryException {
+    HostIpAddressMatcher matcher = HostIpAddressMatcher.on(engine);
+    <span class="comment">// The lambda method implements IMatchProcessor&lt;HostIpAddressMatch&gt;</span>
+    matcher.forEachMatch((match) -&gt; {
+            <span class="predefined-type">System</span>.out.println(match.getHost());
+        });
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Often it is beneficial to check for and process only a single match. For this reason it is possible to ask for a single match using the <code><code>getOneArbitraryMatch</code></code> method.</p>
+</div>
+<div id="app-listing" class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="java"><span class="directive">private</span> <span class="type">void</span> printOneMatch(ViatraQueryEngine engine) <span class="directive">throws</span> ViatraQueryException {
+    HostIpAddressMatcher matcher = HostIpAddressMatcher.on(engine);
+    <span class="predefined-type">System</span>.out.println(matcher.getOneArbitraryMatch());
+}</code></pre>
+</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+The match returned by the <code><code>getOneArbitraryMatch</code></code> is neither random nor deterministic, but unspecified. <em>Usually</em> repeatedly calling it on the same model (without any model updates) returns the same match, but this is also not guaranteed. On the other hand, restarting the application on the same model <em>usually</em> changes the match returned.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>The generated matchers also include a few methods to access values of the parameters. For example, in case of the <code><code>hostIpAddress</code></code> pattern there is a <code><code>getAllValuesOfip</code></code> method that returns all values the parameter <code><code>ip</code></code> finds.</p>
+</div>
+<div id="app-listing" class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="java"><span class="directive">private</span> <span class="type">void</span> printAllAddresses(ViatraQueryEngine engine) <span class="directive">throws</span> ViatraQueryException {
+    HostIpAddressMatcher matcher = HostIpAddressMatcher.on(engine);
+    <span class="keyword">for</span> (<span class="predefined-type">String</span> ip : matcher.getAllValuesOfip()) {
+        <span class="predefined-type">System</span>.out.println(ip);
+    }
+}</code></pre>
+</div>
+</div>
+<div class="admonitionblock caution">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Caution</div>
+</td>
+<td class="content">
+If there are multiple hosts that have the same IP address, the <code><code>getAllValuesOfip()</code></code> call will return each IP address only once. This is consistent with all other APIs that always return sets. If duplicates are required, you have to process all matches manually.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>All matcher functionality supports filtering the matches with constants. By setting some filter parameters with a non-null value we state that we are interested in only matches where the selected parameters equal to the given value.</p>
+</div>
+<div id="app-listing" class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="java"><span class="directive">private</span> <span class="type">void</span> printFilteredMatches(ViatraQueryEngine engine) <span class="directive">throws</span> ViatraQueryException {
+    HostIpAddressMatcher matcher = HostIpAddressMatcher.on(engine);
+    <span class="keyword">for</span> (HostIpAddressMatch match : matcher.getAllMatches(<span class="predefined-constant">null</span>, <span class="string"><span class="delimiter">&quot;</span><span class="content">152.66.102.2</span><span class="delimiter">&quot;</span></span>)) {
+        <span class="predefined-type">System</span>.out.println(match.prettyPrint());
+    }
+}</code></pre>
+</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+Regardless of input values receiving null values, the <code><code>getAllmatches</code></code> (and similar operations) will never return matches with <code><code>null</code></code> values. If no matches fulfill all the set parameters, the returned set will be empty.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>If a filter condition has to be reused, it is possible to create mutable matches where the filtered values are set accordingly. This approach is also useful to use named setters (e.g. if multiple String parameters are to be set) or one does not want to write <code><code>null</code></code> literals.</p>
+</div>
+<div id="app-listing" class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="java"><span class="directive">private</span> <span class="type">void</span> printFilteredMatches2(ViatraQueryEngine engine) <span class="directive">throws</span> ViatraQueryException {
+    HostIpAddressMatcher matcher = HostIpAddressMatcher.on(engine);
+    HostIpAddressMatch filterMatch = HostIpAddressMatch.newEmptyMatch();
+        filterMatch.setIp(<span class="string"><span class="delimiter">&quot;</span><span class="content">152.66.102.3</span><span class="delimiter">&quot;</span></span>);
+    <span class="keyword">for</span> (HostIpAddressMatch match : matcher.getAllMatches(filterMatch)) {
+        <span class="predefined-type">System</span>.out.println(match.prettyPrint());
+    }
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Finally, if we are only interested in whether there exist any match fulfilling the query, or we want to know how many matches there are, the matcher has methods that calculate these. Both of these methods can be combined with filter matches.</p>
+</div>
+<div id="app-listing" class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="java"><span class="directive">private</span> <span class="type">void</span> countMatches(ViatraQueryEngine engine) <span class="directive">throws</span> ViatraQueryException {
+    HostIpAddressMatcher matcher = HostIpAddressMatcher.on(engine);
+    <span class="predefined-type">System</span>.out.printf(<span class="string"><span class="delimiter">&quot;</span><span class="content">Count matches: %d %n</span><span class="delimiter">&quot;</span></span>, matcher.countMatches());
+    <span class="predefined-type">System</span>.out.printf(<span class="string"><span class="delimiter">&quot;</span><span class="content">Has matches: %b %n</span><span class="delimiter">&quot;</span></span>, matcher.hasMatch(HostIpAddressMatch.newEmptyMatch()));
+    <span class="predefined-type">System</span>.out.printf(<span class="string"><span class="delimiter">&quot;</span><span class="content">Count matches with ip 152.66.102.3: %d %n</span><span class="delimiter">&quot;</span></span>, matcher.countMatches(<span class="predefined-constant">null</span>, <span class="string"><span class="delimiter">&quot;</span><span class="content">152.66.102.3</span><span class="delimiter">&quot;</span></span>));
+    <span class="predefined-type">System</span>.out.printf(<span class="string"><span class="delimiter">&quot;</span><span class="content">Has matches with ip 152.66.102.13: %b %n</span><span class="delimiter">&quot;</span></span>, matcher.hasMatch(<span class="predefined-constant">null</span>, <span class="string"><span class="delimiter">&quot;</span><span class="content">152.66.102.13</span><span class="delimiter">&quot;</span></span>));
+}</code></pre>
+</div>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Tip</div>
+</td>
+<td class="content">
+If asking for the has/count calls is immediately followed by the processing of the said matches, it is usually better to call <code><code>getAllMatches</code></code> or <code><code>getOneArbitraryMatch</code></code> directly, and calculate the count/existence using them.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_advanced_query_engine_features">Advanced query engine features</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>There are cases where the standard engine lifecycle is inappropriate, e.g. the models will not be unloaded but we want to spare memory by freeing up indexes. Furthermore, there are some functionality, like hint handling or match update listener support that was not added the the base implementation to keep its API clean.</p>
+</div>
+<div id="app-listing" class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="java"><span class="directive">private</span> AdvancedViatraQueryEngine prepareAdvancedQueryEngine(EMFScope scope) <span class="directive">throws</span> ViatraQueryException {
+    AdvancedViatraQueryEngine engine = AdvancedViatraQueryEngine.createUnmanagedEngine(scope);
+
+    <span class="comment">// Initialize all queries on engine</span>
+    CPSQueries.instance().prepare(engine);
+
+    <span class="keyword">return</span> engine;
+}</code></pre>
+</div>
+</div>
+<div class="admonitionblock caution">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Caution</div>
+</td>
+<td class="content">
+Do not forget to dispose unmanaged engine manually using the <code><code>AdvancedQueryEngine.dispose()</code></code> method. If you want to use managed query engines but use the advanced features, you might use the <code><code>AdvancedQueryEngine.from(engine)</code></code> call; however, do <strong>NOT</strong> dispose such engines.
+</td>
+</tr>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_react_to_match_updates">React to match updates</h3>
+<div class="paragraph">
+<p>One feature of the advanced query engine is to allow listening to changes, e.g. registering a match update listener for a pattern matcher. Such a listener is triggered when the match set for a pattern matcher changes, together with the direction of the changes.</p>
+</div>
+<div id="app-listing" class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="java">IMatchUpdateListener&lt;HostIpAddressMatch&gt; listener = <span class="keyword">new</span> IMatchUpdateListener&lt;HostIpAddressMatch&gt;() {
+
+    <span class="annotation">@Override</span>
+    <span class="directive">public</span> <span class="type">void</span> notifyAppearance(HostIpAddressMatch match) {
+        <span class="predefined-type">System</span>.out.printf(<span class="string"><span class="delimiter">&quot;</span><span class="content">[ADD] %s %n</span><span class="delimiter">&quot;</span></span>, match.prettyPrint());
+    }
+
+    <span class="annotation">@Override</span>
+    <span class="directive">public</span> <span class="type">void</span> notifyDisappearance(HostIpAddressMatch match) {
+        <span class="predefined-type">System</span>.out.printf(<span class="string"><span class="delimiter">&quot;</span><span class="content">[REM] %s %n</span><span class="delimiter">&quot;</span></span>, match.prettyPrint());
+
+    }
+};
+
+<span class="directive">private</span> <span class="type">void</span> addChangeListener(AdvancedViatraQueryEngine engine) <span class="directive">throws</span> ViatraQueryException {
+    HostIpAddressMatcher matcher = HostIpAddressMatcher.on(engine);
+
+    <span class="keyword">try</span> {
+        <span class="comment">// fireNow = true parameter means all current matches are sent to the listener</span>
+        engine.addMatchUpdateListener(matcher, listener, <span class="predefined-constant">true</span>);
+        <span class="comment">// execute model manipulations</span>
+        matcher.getOneArbitraryMatch().getHost().setNodeIp(<span class="string"><span class="delimiter">&quot;</span><span class="content">123.123.123.123</span><span class="delimiter">&quot;</span></span>);
+    } <span class="keyword">finally</span> {
+        <span class="comment">// Don't forget to remove listeners if not required anymore</span>
+        engine.removeMatchUpdateListener(matcher, listener);
+    }
+}</code></pre>
+</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+By registering the match update listener with a <code><code>true</code></code> value for the <code><code>fireNow</code></code> parameter, we ensure that all existing matches are sent to the listener. If we only want to consider future updates, set that parameter to false.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>When looking at the output, the setNodeIp call will result in two changes: the first one represents the removal of the old match (host - old IP pair), while the second one represents an addition of a new one (host - new IP pair). In general, a model update can often often result in multiple match changes (even on a single pattern).</p>
+</div>
+<div class="admonitionblock caution">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Caution</div>
+</td>
+<td class="content">
+Be very careful when using match update listeners, as sometimes they are called while the model indexes are in an inconsistent state. For this reason, do not update the underlying model and do not execute further model queries. If such cases are required, delay the execution for a later phase. Better still, you can rely on the transformation API of VIATRA that ensure that rules are only executed when the indexes are in a consistent state.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_query_backends_and_hints">Query backends and hints</h3>
+<div class="paragraph">
+<p>The advanced query engine also allows to initialize patterns with non-default settings called <strong>hints</strong>. The most important feature of these hints allow setting the pattern matcher backend, and other backend-specific settings could be changed.</p>
+</div>
+<div class="paragraph">
+<p>In addition to Rete-based incremental query evaluation VIATRA also includes a local search-based approach. By default, Rete is used, but by adding the <code><code>org.eclipse.viatra.query.runtime.localsearch</code></code> bundle as a dependency of the project, it is possible to generate local-search specific evaluation hints using the <code><code>LocalSearchHints</code></code> class. Similar, Rete-specific hints are available in the <code><code>ReteHintOptions</code></code> class. The backend-specific hints are beyond the scope of this tutorial, for more details see the corresponding VIATRA documentation or Javadoc.</p>
+</div>
+<div id="app-listing" class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="java"><span class="directive">private</span> <span class="type">void</span> queryWithLocalSearch(AdvancedViatraQueryEngine engine) <span class="directive">throws</span> ViatraQueryException {
+    QueryEvaluationHint hint = LocalSearchHints.getDefault().build();
+    HostIpAddressMatcher matcher = engine.getMatcher(HostIpAddressQuerySpecification.instance(), hint);
+
+    <span class="keyword">for</span> (HostIpAddressMatch match : matcher.getAllMatches()) {
+        <span class="predefined-type">System</span>.out.println(match.prettyPrint());
+    }
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>As you can see, after the initialization the local search based backend can be queried with the same backend as the Rete-based one, however, it calculates the results when queried instead of relying on previously cached results. This means, usually it is cheaper (in memory and prepare time) to initialize a local search based matcher, but gathering the results is more expensive.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+As the name suggests, <strong>hints</strong> might be ignored by the query engine, e.g. if an incorrect configuration was set, or the engine knows of a functionally equivalent way that has a better performance. For details about the hints, consult the LocalSearchHints and ReteHintOptions classes.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>There are a few aspects where the current (version 1.6) local search backend behaves differently to the original, Rete-based algorithm:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Recursive queries are not supported. Trying to initialize a query with recursion results in a runtime error.</p>
+</li>
+<li>
+<p>The algorithm cannot provide change notifications, so registering a MatchUpdateListener over local search-based queries is prohibited.</p>
+</li>
+</ul>
+</div>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Warning</div>
+</td>
+<td class="content">
+The local search backend of VIATRA is almost functionally compatible with the Rete-based backend, but has very different performance characterics. If performance is critical, make sure to understand both algorithms to choose the appropriate one for the problem at hand.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+</div>
+</div>
+</body>
+</html>

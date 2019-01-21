@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 1.5.5">
+<title>Batch Transformations</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
+<link rel="stylesheet" href="./asciidoctor.css">
+<link rel="stylesheet" href="./coderay-asciidoctor.css">
+</head>
+<body class="article">
+<div id="header">
+<h1>Batch Transformations</h1>
+</div>
+<div id="content">
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>This exercise helps the audience to create a simple batch transformation using the VIATRA Transformation API.
+The transformation will transform the hosts and applications in a CPS model to a deployment model.
+The exercise also covers registering a menu command which initializes the transformation.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_create_transformation">Create transformation</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>For the transformation, we have to created a <em>VIATRA Query Project</em> (the one from the <a href="#_query_development">query development tutorial</a> could also be reused), and create a new query file called <em>CpsXformM2M.vql</em> to store the patterns we want to use in the transformation with the following contents:</p>
+</div>
+<div id="app-listing" class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="vql">import &quot;http://org.eclipse.viatra/model/cps&quot;
+import &quot;http://org.eclipse.viatra/model/deployment&quot;
+import &quot;http://org.eclipse.viatra/model/cps-traceability&quot;
+
+pattern hostInstance(hostInstance : HostInstance) {
+    HostInstance(hostInstance);
+}
+
+pattern applicationInstance(
+    appType : ApplicationType,
+    appInstance : ApplicationInstance
+) {
+    HostInstance.applications(_, appInstance);
+    ApplicationType.instances(appType, appInstance);
+}
+
+/**
+ * Traceability link access
+ */
+pattern cps2depTrace(
+    cps2dep : CPSToDeployment,
+    trace : CPS2DeploymentTrace,
+    cpsElement : Identifiable,
+    depElement : DeploymentElement
+) {
+    CPSToDeployment.traces(cps2dep, trace);
+    CPS2DeploymentTrace.cpsElements(trace, cpsElement);
+    CPS2DeploymentTrace.deploymentElements(trace, depElement);
+}</code></pre>
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Create transformation class in Xtend</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Create new <em>Model Transformation</em> with the wizard</p>
+<div class="imageblock">
+<div class="content">
+<img src="images/transformation_wizard.png" alt="transformation wizard">
+</div>
+<div class="title">Figure 1. Model Transformation Wizard - Create new transformation</div>
+</div>
+</li>
+<li>
+<p>Setup the name of the transformation and click Next</p>
+<div class="imageblock">
+<div class="content">
+<img src="images/batch_transformation_wizard_name.png" alt="batch transformation wizard name">
+</div>
+<div class="title">Figure 2. Model Transformation Wizard - Name of the new batch transformation</div>
+</div>
+</li>
+<li>
+<p>Setup the type of the transformation to <em>BatchTransformation</em> and click Finish</p>
+<div class="imageblock">
+<div class="content">
+<img src="images/batch_transformation_wizard_type.png" alt="batch transformation wizard type">
+</div>
+<div class="title">Figure 3. Model Transformation Wizard - Type of the new transformation</div>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>In the created file we have to register a few extension methods, more specifically for our used queries (<code><code>CpsXformM2m</code></code>, the same name the VQL file uses) and the EMF EPackages we want to refer (here the deployment and traceability packages). A few additional extension methods are already registered, e.g. transformation rule builder and model manipulation API.</p>
+</div>
+<div id="app-listing" class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="java"><span class="comment">/** VIATRA Query Pattern group **/</span>
+val extension CpsXformM2M cpsXformM2M = CpsXformM2M.instance
+
+<span class="comment">/** EMF metamodels **/</span>
+val extension DeploymentPackage depPackage = DeploymentPackage.eINSTANCE
+val extension TraceabilityPackage trPackage = TraceabilityPackage.eINSTANCE</code></pre>
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Constructor will also initialize transformation (replace the generated one)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>It assumes that the resource and trace models are already created</p>
+</li>
+<li>
+<p>The IModelManipulations implementation is used to make model access replaceable, this way the same transformation may be used for cases where the resource set is transactional. The initialization of this is generated automatically into the <code>createTransformation</code> method.</p>
+<div id="app-listing" class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="java">val CPSToDeployment cps2dep
+
+<span class="keyword">new</span>(CPSToDeployment cps2dep, ViatraQueryEngine engine) {
+    <span class="local-variable">this</span>.cps2dep = cps2dep
+    resource = cps2dep.deployment.eResource
+    <span class="local-variable">this</span>.engine = engine
+    prepare(engine)
+    createTransformation
+}</code></pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Transformation will remain active until disposed is called (there is a generated <code>dispose</code> method in the class)</p>
+</li>
+<li>
+<p>Create a rule to generate DeploymentHosts for each HostInstances</p>
+<div class="ulist">
+<ul>
+<li>
+<p>The <code>BatchTransformationRuleFactory</code> extension provides a builder API for rule definition</p>
+</li>
+<li>
+<p>A VIATRA query is used as precondition to the rule, which means the rule will be activated each time the given pattern when changes allowing to update the output accordingly.</p>
+<div id="app-listing" class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="java">val hostRule = createRule.precondition(HostInstanceMatcher.querySpecification).action[<span class="comment">/*Action part*/</span>].build</code></pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Specify which action to run when the rule fires. It will create the transformed <code>DeploymentHost</code> element in the output model as well as a trace element associating the source <code>HostInstance</code> and the target <code>DeploymentHost</code>:</p>
+<div id="app-listing" class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="java">val hostRule = createRule.precondition(HostInstanceMatcher.querySpecification).action[
+    val cpsHostInstance = it.hostInstance
+    val nodeIp = cpsHostInstance.nodeIp
+    println(<span class="string"><span class="delimiter">'</span><span class="delimiter">'</span></span><span class="string"><span class="delimiter">'</span><span class="content">Mapping host with IP: «nodeIp»</span><span class="delimiter">'</span></span><span class="string"><span class="delimiter">'</span><span class="delimiter">'</span></span>)
+
+    <span class="comment">/** Create &amp; initialize DeploymentHost in output model **/</span>
+    val depHost = cps2dep.deployment.createChild(deployment_Hosts, deploymentHost) =&gt; [
+        set(deploymentHost_Ip, nodeIp)
+    ]
+
+    <span class="comment">/** Create trace element in trace model **/</span>
+    cps2dep.createChild(CPSToDeployment_Traces, CPS2DeploymentTrace) =&gt; [
+        addTo(CPS2DeploymentTrace_CpsElements, cpsHostInstance)
+        addTo(CPS2DeploymentTrace_DeploymentElements, depHost)
+    ]
+
+    println(<span class="string"><span class="delimiter">'</span><span class="delimiter">'</span></span><span class="string"><span class="delimiter">'</span><span class="content">Mapped with IP: «nodeIp»</span><span class="delimiter">'</span></span><span class="string"><span class="delimiter">'</span><span class="delimiter">'</span></span>)
+].build</code></pre>
+</div>
+</div>
+</li>
+<li>
+<p>The rule which creates <code>DeploymentApplication</code> elements for <code>ApplicationInstance</code> objects, looks similar. It has to find the <code>DeploymentHost</code> created from the <code>HostInstance</code> to which the source <code>ApplicationInstance</code> is allocated, so it assumes the <code>hostRule</code> has already fired:</p>
+<div id="app-listing" class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="java">val applicationRule = createRule.precondition(ApplicationInstanceMatcher.querySpecification).action[
+    val cpsApplicationInstance = it.appInstance
+    val appId = cpsApplicationInstance.identifier
+    println(<span class="string"><span class="delimiter">'</span><span class="delimiter">'</span></span><span class="string"><span class="delimiter">'</span><span class="content">Mapping application with ID: «appId»</span><span class="delimiter">'</span></span><span class="string"><span class="delimiter">'</span><span class="delimiter">'</span></span>)
+
+    <span class="comment">/* Find the DeploymentHost created from the HostInstance to which the source ApplicationInstance is allocated */</span>
+    val cpsHostInstance = cpsApplicationInstance.allocatedTo
+    val depHost = engine.cps2depTrace.getAllValuesOfdepElement(<span class="predefined-constant">null</span>, <span class="predefined-constant">null</span>, cpsHostInstance).filter(DeploymentHost).head
+    <span class="comment">/* Create &amp; initialize DeploymentApplication in this DeploymentHost */</span>
+    val deploymentApplication = depHost.createChild(deploymentHost_Applications, deploymentApplication) =&gt; [
+        set(deploymentApplication_Id, appId)
+    ]
+
+    <span class="comment">/* Create trace element in trace model */</span>
+    cps2dep.createChild(CPSToDeployment_Traces, CPS2DeploymentTrace) =&gt; [
+        addTo(CPS2DeploymentTrace_CpsElements, cpsApplicationInstance)
+        addTo(CPS2DeploymentTrace_DeploymentElements, deploymentApplication)
+    ]
+
+    println(<span class="string"><span class="delimiter">'</span><span class="delimiter">'</span></span><span class="string"><span class="delimiter">'</span><span class="content">Mapped application with ID: «appId»</span><span class="delimiter">'</span></span><span class="string"><span class="delimiter">'</span><span class="delimiter">'</span></span>)
+].build</code></pre>
+</div>
+</div>
+</li>
+<li>
+<p>Implement the method which performs the transformation using the rules defined above:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Since we are using the non-incremental (the whole model is always retransformed on model changes), the output and trace models are to be cleared before the any rule can fire</p>
+</li>
+<li>
+<p>Pay attention to fire the rules in the proper order</p>
+<div id="app-listing" class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="java">def execute() {
+    println(<span class="string"><span class="delimiter">'</span><span class="delimiter">'</span></span><span class="string"><span class="delimiter">'</span><span class="content">Executing transformation on: Cyber-physical system: «cps2dep.cps.identifier»</span><span class="delimiter">'</span></span><span class="string"><span class="delimiter">'</span><span class="delimiter">'</span></span>)
+    <span class="comment">/* Clear output &amp; trace model for batch transformation**/</span>
+    cps2dep.deployment.hosts.clear
+    cps2dep.traces.clear
+    <span class="comment">/* Fire transformation rules**/</span>
+    hostRule.fireAllCurrent
+    applicationRule.fireAllCurrent
+}</code></pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_create_a_menu_command_to_execute_the_transformation">Create a menu command to execute the transformation</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Create a UI plugin with the following additional dependencies:</p>
+<div id="app-listing" class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="java">org.eclipse.ui,
+com.incquerylabs.course.cps.viatra.batch;bundle-version=<span class="string"><span class="delimiter">&quot;</span><span class="content">0.1.0</span><span class="delimiter">&quot;</span></span>,
+org.eclipse.viatra.examples.cps.traceability;bundle-version=<span class="string"><span class="delimiter">&quot;</span><span class="content">0.1.0</span><span class="delimiter">&quot;</span></span>,
+org.eclipse.viatra.query.runtime;bundle-version=<span class="string"><span class="delimiter">&quot;</span><span class="content">1.2.0</span><span class="delimiter">&quot;</span></span></code></pre>
+</div>
+</div>
+</li>
+<li>
+<p>Create handler implementation:</p>
+<div id="app-listing" class="listingblock">
+<div class="title">TransformHandler.java</div>
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="java"><span class="directive">public</span> <span class="type">class</span> <span class="class">TransformHandler</span> <span class="directive">extends</span> AbstractHandler <span class="directive">implements</span> IHandler {
+
+    ViatraQueryEngine engine;
+    CPS2DeploymentTransformationViatra transformation;
+
+    <span class="annotation">@Override</span>
+    <span class="directive">public</span> <span class="predefined-type">Object</span> execute(ExecutionEvent event) <span class="directive">throws</span> <span class="exception">ExecutionException</span> {
+        IStructuredSelection selection =
+            (IStructuredSelection) HandlerUtil.getCurrentSelection(event);
+
+        CPSToDeployment tracemodel =
+            (CPSToDeployment) selection.getFirstElement();
+
+        <span class="keyword">if</span> (engine == <span class="predefined-constant">null</span>){
+            <span class="keyword">try</span> {
+                engine = ViatraQueryEngine.on(
+                            <span class="keyword">new</span> EMFScope(
+                                tracemodel.eResource().getResourceSet()));
+                transformation = <span class="keyword">new</span> CPS2DeploymentTransformationViatra(tracemodel,
+                                                                engine);
+            } <span class="keyword">catch</span> (ViatraQueryException e) {
+                <span class="keyword">throw</span> <span class="keyword">new</span> <span class="exception">ExecutionException</span>(e.getMessage(), e);
+            }
+        }
+        transformation.execute();
+
+        <span class="keyword">return</span> <span class="predefined-constant">null</span>;
+    }
+
+}</code></pre>
+</div>
+</div>
+</li>
+<li>
+<p>Register handler in the context menu of <code>CPSToDeployment</code> elements in <code>plugin.xml</code>:</p>
+<div id="app-listing" class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="xml"><span class="tag">&lt;extension</span> <span class="attribute-name">point</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">org.eclipse.ui.commands</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+    <span class="tag">&lt;command</span>
+        <span class="attribute-name">defaultHandler</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">com.incquerylabs.course.cps.viatra.batch.ui.TransformHandler</span><span class="delimiter">&quot;</span></span>
+        <span class="attribute-name">id</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">com.incquerylabs.course.cps.viatra.batch.ui.command</span><span class="delimiter">&quot;</span></span>
+        <span class="attribute-name">name</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">Transform</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+    <span class="tag">&lt;/command&gt;</span>
+<span class="tag">&lt;/extension&gt;</span>
+<span class="tag">&lt;extension</span> <span class="attribute-name">point</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">org.eclipse.ui.menus</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+    <span class="tag">&lt;menuContribution</span> <span class="attribute-name">allPopups</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">false</span><span class="delimiter">&quot;</span></span>
+            <span class="attribute-name">locationURI</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">popup:org.eclipse.ui.popup.any?after=additions</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+        <span class="tag">&lt;command</span> <span class="attribute-name">commandId</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">com.incquerylabs.course.cps.viatra.batch.ui.command</span><span class="delimiter">&quot;</span></span>
+                <span class="attribute-name">style</span>=<span class="string"><span class="delimiter">&quot;</span><span class="key">push</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+            <span class="tag">&lt;visibleWhen</span> <span class="attribute-name">checkEnabled</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">false</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+                <span class="tag">&lt;with</span> <span class="attribute-name">variable</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">selection</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+                    <span class="tag">&lt;count</span> <span class="attribute-name">value</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">1</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+                    <span class="tag">&lt;/count&gt;</span>
+                    <span class="tag">&lt;iterate&gt;</span>
+                        <span class="tag">&lt;adapt</span> <span class="attribute-name">type</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">org.eclipse.viatra.examples.cps.traceability.CPSToDeployment</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+                        <span class="tag">&lt;/adapt&gt;</span>
+                    <span class="tag">&lt;/iterate&gt;</span>
+                <span class="tag">&lt;/with&gt;</span>
+            <span class="tag">&lt;/visibleWhen&gt;</span>
+        <span class="tag">&lt;/command&gt;</span>
+    <span class="tag">&lt;/menuContribution&gt;</span>
+<span class="tag">&lt;/extension&gt;</span></code></pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_execute_the_transformation">Execute the transformation</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Launch <em>Eclipse Application</em></p>
+</li>
+<li>
+<p>Create a generic resource project</p>
+</li>
+<li>
+<p>Copy a <code>.cyberphysicalsystem</code> resource in it if you already have one, or create a new <em>CaberPhysicalSystem Model</em></p>
+<div class="imageblock">
+<div class="content">
+<img src="images/viatraIncr_example1.png" alt="viatraIncr example1">
+</div>
+<div class="title">Figure 4. Project with a .cyberphysicalsystem resource</div>
+</div>
+</li>
+<li>
+<p>Create a Deployment model</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Root element shall be <em>Deployment</em></p>
+<div class="imageblock">
+<div class="content">
+<img src="images/viatraIncr_example2.png" alt="viatraIncr example2">
+</div>
+<div class="title">Figure 5. New Deployment Model</div>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Create a Traceability model</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Root element shall be <em>CPS To Deployment</em></p>
+<div class="imageblock">
+<div class="content">
+<img src="images/viatraIncr_example3.png" alt="viatraIncr example3">
+</div>
+<div class="title">Figure 6. New Traceability Model</div>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>In the Traceability editor, load both CPS and Deployment models with <em>Load Resources...</em> in the context menu</p>
+<div class="imageblock">
+<div class="content">
+<img src="images/viatraIncr_example4.png" alt="viatraIncr example4">
+</div>
+<div class="title">Figure 7. Load necessary resources into the Tracebility Model</div>
+</div>
+</li>
+<li>
+<p>Set CPS and Deployment references of traceability model in the properties view</p>
+<div class="imageblock">
+<div class="content">
+<img src="images/viatraIncr_example5.png" alt="viatraIncr example5">
+</div>
+<div class="title">Figure 8. Set the references of the Traceability Model</div>
+</div>
+</li>
+<li>
+<p>Create a new <em>HostType</em>, <em>HostInstance</em>, <em>ApplicationType</em> and <em>ApplicationInstance</em> in the Deployment model</p>
+</li>
+<li>
+<p>Execute transformation using the created command (on the context menu of the Traceability model root)</p>
+<div class="imageblock">
+<div class="content">
+<img src="images/viatrabatch.png" alt="viatrabatch">
+</div>
+<div class="title">Figure 9. Transformation command in the context menu</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_references">References</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>VIATRA Transformation API: <a href="https://wiki.eclipse.org/VIATRA/Transformation/Transformation_API" class="bare">https://wiki.eclipse.org/VIATRA/Transformation/Transformation_API</a></p>
+</li>
+<li>
+<p>Further transformation examples: <a href="https://wiki.eclipse.org/VIATRA/Transformation/Examples" class="bare">https://wiki.eclipse.org/VIATRA/Transformation/Examples</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+</div>
+</div>
+</body>
+</html>

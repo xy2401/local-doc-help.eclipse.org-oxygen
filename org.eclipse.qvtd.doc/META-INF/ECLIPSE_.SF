@@ -1,0 +1,152 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: wnh5N16TKJZ1+puQmkC8wfvt6Ug=
+Created-By: 1.6.0 (IBM Corporation)
+SHA1-Digest-Manifest-Main-Attributes: DhJ6Rhl07xLiV7yxkxbRlHjjcw8=
+
+Name: help/HowDoesItWork.html
+SHA1-Digest: RejR2IbfXhSycfl9jgrItDj5WaA=
+
+Name: help/CheckStatement.html
+SHA1-Digest: cZsyr8xk3By0T1bgI2/bwPM9hNY=
+
+Name: help/ImperativeModel.html
+SHA1-Digest: 00jSLbPsmwg0CGsK6Txtdubotqs=
+
+Name: help/LoopParameterBinding.html
+SHA1-Digest: IjdcyIdF4e9snkBW2xzH7UkVzZo=
+
+Name: help/book.css
+SHA1-Digest: YEQvXPCKBz72mkGpHey9DA7vb6k=
+
+Name: help/WhoisBehindEclipseQVTd.html
+SHA1-Digest: 5aZcQMfRmv8xRhSJY9yeYSNHTto=
+
+Name: help/VariableStatement.html
+SHA1-Digest: A67hoCZHzJhYB6WJjviSe+y0BI0=
+
+Name: help/ObservableStatement.html
+SHA1-Digest: JKx5UF/K83ryMsZsB5HqeB9zQXs=
+
+Name: help/NewStatement.html
+SHA1-Digest: Srge1B4eIRGUaemHTxp2pH6pClQ=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: SAqY+5ITAL0mkdYeijlSRhyIaZk=
+
+Name: help/LoopVariable.html
+SHA1-Digest: luFf1giAuPeRVPkGDfC7YYwBt0I=
+
+Name: help/qvtimperative.html
+SHA1-Digest: I10vzhmYCmM7E+MeIrG04/+Yo64=
+
+Name: help/index.xml
+SHA1-Digest: u1lnRmu0SqLHlWzar1FM7TbECv0=
+
+Name: help/glossary.html
+SHA1-Digest: Oi90v/bM8iw3RGsrzB58QPZBl/I=
+
+Name: help/ConnectionVariable.html
+SHA1-Digest: vtyt+ObacO8kX++cu9mV4IsjnFk=
+
+Name: help/images/QVTrEditor.png
+SHA1-Digest: GnOBv+FVA/oYDkJ6bIBbBv069J8=
+
+Name: help/MappingLoop.html
+SHA1-Digest: JJ0Dl8n5ueHd7u92X8hTpkq1dw0=
+
+Name: help/Property.html
+SHA1-Digest: VUHbCPLdhdlrDK6M8jYWupshxC8=
+
+Name: help/images/QVThorizontalAlphabet.png
+SHA1-Digest: TfXHAgMM0wyeN0l7RBrOp4g7FYc=
+
+Name: help/AppendParameter.html
+SHA1-Digest: /IuaUTAfcYrl0AjVcBG4YJJn/28=
+
+Name: help/MappingCall.html
+SHA1-Digest: F7dI+5mK2yNd/AzSrVDS62ewujQ=
+
+Name: help/SimpleParameterBinding.html
+SHA1-Digest: BvZ1NL0re7h5b47s4/Iucq+Dezc=
+
+Name: help/MappingParameterBinding.html
+SHA1-Digest: vrAdEtJCxjfRaaO/gTfixo/QKZE=
+
+Name: help/GuardParameterBinding.html
+SHA1-Digest: Xk+wGGiRZOyUVoy3g8thziLUunc=
+
+Name: help/images/QVTrProject.png
+SHA1-Digest: jHcGW4eFFLr88j1kUg+Nqz4xqI4=
+
+Name: help/MappingStatement.html
+SHA1-Digest: iFjgTWcpjrz3pK36dmCRxr9mlc8=
+
+Name: plugin.properties
+SHA1-Digest: l+oSsfApENN5L7ootV5mKrR9ZxY=
+
+Name: help/MappingParameter.html
+SHA1-Digest: 6AXw8NldDG6c2kvAb+FHkA36Jsk=
+
+Name: help/SimpleParameter.html
+SHA1-Digest: 5yHEMlBsxWihPtBRpYMyTqlVo8E=
+
+Name: help/AppendParameterBinding.html
+SHA1-Digest: FH2pNMnt6iZ/nB2jIDIrW/HvHXc=
+
+Name: help/index.html
+SHA1-Digest: 8p/Sp9hyRS87ulwAjri1LT7kW4o=
+
+Name: help/Extensions.html
+SHA1-Digest: eo6f+NowwwMJ9K2J6Miv8wSXVIo=
+
+Name: help/BufferStatement.html
+SHA1-Digest: wQXemSx52sJwJ6qhxuHALdZJgVo=
+
+Name: plugin.xml
+SHA1-Digest: Ycxpzg1YFT4dhrPGPytxRvOpdRo=
+
+Name: help/SetStatement.html
+SHA1-Digest: jMlgbFeA133e0QjklKXZxZQ1Wao=
+
+Name: help/ImperativeTypedModel.html
+SHA1-Digest: JWsLgwDHd+1RyZUz/46OJQesPlI=
+
+Name: help/pivot.html
+SHA1-Digest: Ohn+VFxYJ88aBG+ExBV3k+MmR7E=
+
+Name: help/DeclareStatement.html
+SHA1-Digest: iBbQfMdVqfGXlZZn4DlBAM/0wI0=
+
+Name: help/GuardParameter.html
+SHA1-Digest: 2eBwmJQnMtCSfYw03nLndTY1kYM=
+
+Name: help/VariableDeclaration.html
+SHA1-Digest: TWdvbY70cvgB3gSXNrAaTIFsGFw=
+
+Name: about.html
+SHA1-Digest: fsNwQ8ewDjpYfZLQYJ0dhbf7Vbc=
+
+Name: help/OverviewandGettingStarted.html
+SHA1-Digest: V8ne7y4BIPX1dKKWoiqZ1IZ2MVc=
+
+Name: help/GettingStarted.html
+SHA1-Digest: 5zLDVgJ1jnjRibCHXwhN/urKhG8=
+
+Name: toc.xml
+SHA1-Digest: aoFb/ZBP5TBVwYTBVjKLGc9sZTs=
+
+Name: help/ImperativeTransformation.html
+SHA1-Digest: Z4LWMGgf0FDFZ9E1Cu5eFi+ei4I=
+
+Name: help/Statement.html
+SHA1-Digest: 9Tu+80tGv8I6W6DAjIvjBVQFp/c=
+
+Name: help/Mapping.html
+SHA1-Digest: ZCvQhre4X6pb09bIUSPrKogCmCY=
+
+Name: topics_Reference.xml
+SHA1-Digest: qc1RWxe9bNy1a4G5WXkQpVJ4giA=
+
+Name: help/images/QVTrLaunch.png
+SHA1-Digest: 5M2k/7lugJyyfsBozYlZkPY3+gc=
+

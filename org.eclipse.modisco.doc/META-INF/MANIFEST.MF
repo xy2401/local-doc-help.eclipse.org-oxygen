@@ -1,0 +1,110 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.eclipse.modisco.doc;singleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: genie.modisco
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.help;bundle-versi
+ on="3.5.0",org.apache.ant;bundle-version="1.7.1"
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %Bundle-Vendor
+Bundle-Name: %Bundle-Name
+Bundle-Version: 1.1.1.201802201718
+Bundle-Activator: org.eclipse.modisco.doc.internal.Activator
+Created-By: Apache Maven 3.5.2
+Build-Jdk: 1.8.0_162
+
+Name: img/MoDisco_ModelOpenSourceInEditor.png
+SHA-256-Digest: qh1APZpF0bZn7do53AtxhzUC8uqWAKItBbRirRq+eZ4=
+
+Name: plugin.xml
+SHA-256-Digest: ZtAuK/L2e9LuoHwIyUGiGSErQJYeX303PpPHakMujSs=
+
+Name: img/MoDisco_CreateJavaQueryImplementationClass.png
+SHA-256-Digest: YVO7HwmeGS8uW85PZOFd5gYZjpnsQssmyDi877+VkWY=
+
+Name: org/eclipse/modisco/doc/internal/GenerateApiJavadocTask.class
+SHA-256-Digest: HudmiJRqAtb0BWu81Z5Hd7/l0AYZweiKRBVEIz1vMWs=
+
+Name: mediawiki/API_policy-toc.xml
+SHA-256-Digest: Z8oJj5/hznj3a+gjZYMQLGHDce5hPnulaLp/fij4qRQ=
+
+Name: img/MoDisco_BrowseInTextEditor_SourceCode.png
+SHA-256-Digest: eaKOqwRWE6t644Gn83vBHXAS01yM7ViI20ZQJ3JKUzc=
+
+Name: img/MoDisco_DiscoveryParameters.jpg
+SHA-256-Digest: YCVtvvNkDTkTXO7btjFrkfNeILKmjT88wHj3wKO2F/U=
+
+Name: mediawiki/0-8.html
+SHA-256-Digest: ektkWN5cev5g/qNozqhuKz8JtapFDjkKVanC2w/xyII=
+
+Name: img/MoDisco_createModelQueryWizard.png
+SHA-256-Digest: Hy1Up3I6Xwh41vyZepPatu6BoZpPkhjnugR1T2CxAzY=
+
+Name: img/Customization_example.png
+SHA-256-Digest: d6NUazNw9SnsGAw85Tq22cEZC3QNasLhozOUd4PyPHI=
+
+Name: img/ProjectExplorerWithModelContents.png
+SHA-256-Digest: XfHabya6NbPPoru0SxZwiPbplsNsx0GdDfm7fL0giM8=
+
+Name: maintoc.xml
+SHA-256-Digest: C8fEGFm/1WeGJmhT2x8GZ2KVanFxVT1eVaFpkkSo54Q=
+
+Name: img/MoDiscoBrowser_Element_id.gif
+SHA-256-Digest: P5MfK7FIlrvJJtIOi2HEZPuyTQsXgGbmOE+/hM53WGM=
+
+Name: img/DialogLoadMoDiscoResource.png
+SHA-256-Digest: /+F8BjJdf+dDLsgGCGO4a/ZLG1tcNIIgSteRrdzCLMI=
+
+Name: img/MoDisco_ModelBrowser_FormsLook.png
+SHA-256-Digest: xYh+tAD4TR8j9kKIzbOykOuIJ5OFq/VVxD30DgOWGOQ=
+
+Name: META-INF/maven/org.eclipse.mdt/org.eclipse.modisco.doc/pom.prope
+ rties
+SHA-256-Digest: +RDCyLgopofDRWwSCcvrfl/txMlotlMfq5jkU2QT/30=
+
+Name: mediawiki/new_and_noteworthy.html
+SHA-256-Digest: 7NQ0TJXaSBSRzPv6rJMAGh7z/xOHqUy6lMdg/g6KACQ=
+
+Name: about.html
+SHA-256-Digest: aKC/a17M1TXPsutYwlpGeDRXjH/8DvyjWQ1YzKE85OE=
+
+Name: org/eclipse/modisco/doc/internal/Activator.class
+SHA-256-Digest: jPcOpITTD/+7Xf1WD6G10akVBU5i6CBxMZZxWPinhNw=
+
+Name: img/MoDisco_ModelBrowser_SortLinksByType.png
+SHA-256-Digest: e3ZmCU3wKs1dvdZuc1Hgn48RYg9yyXhsYr7+P2RWNSs=
+
+Name: img/MoDisco_ModelBrowser_Ordering.png
+SHA-256-Digest: 4zmPbkKTuy6OQ/G9l4y9HYpgEnNlpicPYnELFbl2S7M=
+
+Name: img/MoDisco_Queries_Tooltip.png
+SHA-256-Digest: muiTFMcWcYSCWaABEDhLThWkHg0EmuVuhNef1g6ph5Y=
+
+Name: mediawiki/0-7.html
+SHA-256-Digest: aMQT0mv24f1CmgjqlQSfAGV+7Lk9uxmmGkdIalsRGaE=
+
+Name: img/MoDisco_ModelBrowser_ShowOrdering.png
+SHA-256-Digest: kO7JY+2hV72nT8C2RxbipHVT9nEcsqdfkFw/HSvA+lw=
+
+Name: mediawiki/API_policy.mediawiki
+SHA-256-Digest: yAPQ2OJ1leyfplAI8UnpkqZCnaZyA/9kxfwQVA8WGxg=
+
+Name: img/MoDisco_javaCodeAfterCreateJavaQueryWizard.png
+SHA-256-Digest: yZBMWuvPHmSjqySIRe7R1Y+pJeqVC3oGwrPwzkkAjb8=
+
+Name: mediawiki/API_policy.html
+SHA-256-Digest: uSHBDm6nHo8L0HhRYF5jUJTIcVq9Uf90MbTkq5WHGqQ=
+
+Name: mediawiki/new_and_noteworthy.mediawiki
+SHA-256-Digest: eqPLGSidjOfAEmhcFoF31ovxOdcf24oJeUenxT1Dc6k=
+
+Name: OSGI-INF/l10n/bundle.properties
+SHA-256-Digest: wV8T7st9Ei3siTZXtyxOfLuedoAeuwIpH1c9Qj9AeAk=
+
+Name: META-INF/maven/org.eclipse.mdt/org.eclipse.modisco.doc/pom.xml
+SHA-256-Digest: rhtaQIza+ZveVdEo8EOZxPGBHrsQUOWt7Jvc8++/bfo=
+
+Name: mediawiki/new_and_noteworthy-toc.xml
+SHA-256-Digest: ujtNO12VYYggYUpYsTHxXytrncxTDV26HyixikIKquI=
+

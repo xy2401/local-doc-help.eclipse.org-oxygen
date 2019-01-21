@@ -1,0 +1,1388 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: +n04K7LrBfJTj27sev9YYBmOSUI=
+Created-By: 1.6.0 (IBM Corporation)
+SHA1-Digest-Manifest-Main-Attributes: 4HertGpTAJoRGsnGd7026VsDcNE=
+
+Name: help/images/4500-simple-debugger-image.png
+SHA1-Digest: yz/wie+CjcJOK1U9JG8PY4wgU40=
+
+Name: references/6310-model.uml
+SHA1-Digest: M5w1JqO2fTYUBYaMb2zmZXt+HJo=
+
+Name: help/images/4100-new_emf_generator.png
+SHA1-Digest: IYXWF0rVqW6dlAWSSy5YXdeGwyw=
+
+Name: help/images/1200-package1.png
+SHA1-Digest: kg3Ho/xpY1QIu/Wr2xDHZwsNp7I=
+
+Name: help/images/1300-propertycontextdecl1.png
+SHA1-Digest: 0OoNkRCEOmqc4AM9Vq4DwxGa8W0=
+
+Name: references/overview/targetMetamodels.html
+SHA1-Digest: IarLEBG7n2ZMiJk75UH4cnTxEkA=
+
+Name: help/images/4100-create_dynamic_instance.png
+SHA1-Digest: rXieWoyirMsnlcROUQhvOGGuASc=
+
+Name: help/images/1540-debugger-console-launch.png
+SHA1-Digest: 5U5MerPtqJOaTaA7o3G6Ht9u9Kc=
+
+Name: help/images/4500-simple-debugger-step2.png
+SHA1-Digest: 9GayQphCmD7gQIg2Mcgk+PKF7gY=
+
+Name: help/WhoUsesOCLandEclipseOCL.html
+SHA1-Digest: lQaFUAY/Hli71mFz1YisF2BQMLs=
+
+Name: references/6310-dispose.txt
+SHA1-Digest: FCfuXB29AYrQDXVvngH12h6BHsc=
+
+Name: help/images/4300-extra-uml-content.png
+SHA1-Digest: 434VTCKWq8zxkf5/fRu9nxyaIoQ=
+
+Name: help/images/1200-annotation2.png
+SHA1-Digest: nxF7Pd4rq2Cte++crOCS0DZUfQ8=
+
+Name: help/images/4500-simple-debugger-variables.png
+SHA1-Digest: MoRm+0t9qUfvoAjdJxmVQ7Le6nc=
+
+Name: help/Enumeration.html
+SHA1-Digest: Q59yNbCE3sslkKufAhG8G51LH0U=
+
+Name: help/images/1300-include.png
+SHA1-Digest: Iawws73+87KPf19wiSpUQ7RqICI=
+
+Name: help/Editors.html
+SHA1-Digest: 4vApwtMuOFkfRzys3D6HC6/Qhdo=
+
+Name: help/images/1200-classifiers.png
+SHA1-Digest: 0Px4Nl4/E+2wmwpBrNY6y92GbIc=
+
+Name: help/Map.html
+SHA1-Digest: huMiUkLRnMbGiBTXLg7ZY12tJsc=
+
+Name: help/EmptyExample.html
+SHA1-Digest: YPcNOopHWHqc4Suvj0pUx9k3T5k=
+
+Name: help/images/1100-typenameexp.png
+SHA1-Digest: ZP9zEkGfvrKAD4MvMvPfHhzddIM=
+
+Name: help/images/4300-extra-uml-validation.png
+SHA1-Digest: 4ueMb7RA/fAfKPJo83jShs6qZfo=
+
+Name: help/images/4500-complete-ocl-debugger-image.png
+SHA1-Digest: ot6gyX/bpceagm9hSfREnsa7wvA=
+
+Name: help/images/4100-new_emf_generator_model.png
+SHA1-Digest: d5BzGg7/n5yGdMkzbqPihfp7+tA=
+
+Name: help/images/4100-metamodel3.png
+SHA1-Digest: rc5bsWdxIeU4cwxW/nWqUF8074k=
+
+Name: help/images/4100-create_dynamic_instance_dialog.png
+SHA1-Digest: fzgGAqSPPiE8xhF+1NQ60Oqnons=
+
+Name: help/images/1100-unlimitednaturalliteralexp.png
+SHA1-Digest: VnrnyToOsnVT2riKtnr/+Fs449c=
+
+Name: schema.css
+SHA1-Digest: uiMh4p63f2mx+ey5g5CF8OD2XNc=
+
+Name: help/images/6310-oclhelper.png
+SHA1-Digest: +2vhIJ0pxplkHglhfODgru+BnHM=
+
+Name: help/images/4100-derived_property.png
+SHA1-Digest: JIGA2bbiv2Rf/BPLTdgeJ6A4F80=
+
+Name: help/OclEnumeration.html
+SHA1-Digest: IpiZe6nSIHhazC89JIZjmKDrVRo=
+
+Name: help/images/1100-numberliteral.png
+SHA1-Digest: eecn9XGik6KfzhkhXpyL/ke7t1k=
+
+Name: references/4100-metamodel2.oclinecore
+SHA1-Digest: oojtpB4j2ndJixN7adR+sazqKs0=
+
+Name: help/images/4600-validation-view-model-errors.png
+SHA1-Digest: 0FcVH/OikC31iT7301luxB3YPDE=
+
+Name: references/overview/parsingDocuments.html
+SHA1-Digest: 5K1gr5/GKoD8HS+e+Pcb0UCnHtE=
+
+Name: help/CompleteOCL.html
+SHA1-Digest: 91tZ23wVvrg1oVYJ5QCrQ21VQ3A=
+
+Name: help/images/1200-operation6.png
+SHA1-Digest: sVU62JUDZHKLegOJlmjdd4D7MII=
+
+Name: help/images/3200-ecore_console.png
+SHA1-Digest: PXCoXucAe0Is1X/2Mb8kg7++yd0=
+
+Name: help/images/4600-validation-view-results-context.png
+SHA1-Digest: +lXew46+iI10wJjcaLAt2cqHazc=
+
+Name: help/images/1300-post.png
+SHA1-Digest: S0Wjc3Jv2U1cLpDRUjR3J21nhHo=
+
+Name: help/images/5115-query.png
+SHA1-Digest: wASY5JZUUHnWmGj1pKitw3nOWzw=
+
+Name: help/images/4100-new_oclinecore-ecore.png
+SHA1-Digest: iJLA67d3w1MixFMLcOSu9Sv37SU=
+
+Name: help/ImpactAnalyzer.html
+SHA1-Digest: hXyOuDjva0DG2yq2A88V/xrmz5w=
+
+Name: help/images/1300-body.png
+SHA1-Digest: 7jahULAvEcdb50bdBSVPF0LH1Ks=
+
+Name: help/images/5120-parsing.png
+SHA1-Digest: hU4syV7sCvyM+bqXFrqixkCTOkw=
+
+Name: help/images/1300-import.png
+SHA1-Digest: 7Tv8FT2xcEAKws3mC+1eJG5fX2c=
+
+Name: help/images/5170-persistence.png
+SHA1-Digest: hpxDCSKGZ/5gd2hON7o/l/33OOg=
+
+Name: help/OverviewandGettingStarted.html
+SHA1-Digest: xKQf5ebB7Nh4vPIzM8rKrXjW7j8=
+
+Name: help/images/1200-types.png
+SHA1-Digest: 7xomo/eAzGVvvQdfbXWp5lXLkLE=
+
+Name: help/Type.html
+SHA1-Digest: MP5lpV/gFqp5UdbuxY2n3tmsgG8=
+
+Name: help/images/1400-library1.png
+SHA1-Digest: 9LyedzVmduPF74M4Axvq2d3Az4s=
+
+Name: help/images/1200-library.png
+SHA1-Digest: UjC4v/zX9qs154hw4zwTBohTeVw=
+
+Name: help/images/1400-property2.png
+SHA1-Digest: uvCHe9VJFeXFBIBRnd329lvd35c=
+
+Name: help/UniqueCollection.html
+SHA1-Digest: T7ijMaBSMrKPevMttWOYGGKE3a8=
+
+Name: help/images/1300-specification.png
+SHA1-Digest: UNiA59D0qYQwGxsP2Kehvys/v2M=
+
+Name: help/PivotParsingDocuments.html
+SHA1-Digest: nNEy0woGuQK/PXJikkSo9fP3+G8=
+
+Name: help/images/4120-expanded-safe-navigation-error.png
+SHA1-Digest: 9yI99VskKdV2/rVrsAkLG5SJV3w=
+
+Name: help/EnumerationLiteral.html
+SHA1-Digest: h/lRDtEPulGpc1drSJ9g+gEolxU=
+
+Name: help/CompleteOCLTutorial.html
+SHA1-Digest: zW6fr9EbHDBC6zAbVZgUc0US0EI=
+
+Name: help/book.css
+SHA1-Digest: YEQvXPCKBz72mkGpHey9DA7vb6k=
+
+Name: help/images/4500-simple-debugger-step1.png
+SHA1-Digest: vm7YwKcwZ/lJWXlX+1CUTHZiE7E=
+
+Name: help/Real.html
+SHA1-Digest: zDPXaA9mEdMt+Q58tmdFfsRSmFA=
+
+Name: help/images/4100-two_validation_errors.png
+SHA1-Digest: viEouqX0KupD6nRkDkHXQnadfXI=
+
+Name: help/images/1100-exp.png
+SHA1-Digest: 1lxCDvj0lGOfIhzUCAqwCN6NIBI=
+
+Name: help/AdvancedMetamodelBindings.html
+SHA1-Digest: XLrISj5mXL1Dy3V0lzsMdZe66PE=
+
+Name: help/UsersGuide.html
+SHA1-Digest: aI1/IRn/xqKmliiJoariin/TKmI=
+
+Name: help/images/4100-metamodel.png
+SHA1-Digest: sI6RPwVHEnGVeKYQPcfwPXff3jA=
+
+Name: references/6315-check-all.txt
+SHA1-Digest: AfYLJqoM28284urXl/sOICqLiCs=
+
+Name: help/images/5180-bindings.png
+SHA1-Digest: kiKeCJLIFkv5oVkwFHklqZzfFUg=
+
+Name: help/images/1200-annotation1.png
+SHA1-Digest: 6DNpzX1xRVf3TzsiDHbEiHucHbo=
+
+Name: help/images/5180-miscexp.png
+SHA1-Digest: 5lS2RuHGguTg+x6N03wtm8WwgtQ=
+
+Name: help/images/6320-diagnostician.png
+SHA1-Digest: NNr50wG992JTYlUw24PhKMd/YU0=
+
+Name: help/images/6310-context.png
+SHA1-Digest: fax5fIoshF4E2eVLquVkNLv9FZU=
+
+Name: help/images/4100-new_ecore_model.png
+SHA1-Digest: hMg4IaqWjiGUkY31pkGNrwpjx4E=
+
+Name: references/examples/extlibrarymodel.gif
+SHA1-Digest: xIDcLSh8uHHMcKnHWbfmHnOtD+c=
+
+Name: help/images/1200-enumeration2.png
+SHA1-Digest: aaHRSRuazoF8RE0bQzTLdRMy5wM=
+
+Name: help/images/1400-inv.png
+SHA1-Digest: q4eWYEE5bhm4uQdtGg1QdNXMrN4=
+
+Name: help/images/4600-validation-view-model.png
+SHA1-Digest: 8UkHhWRfP1l4208b5u6B0igeixI=
+
+Name: help/images/4100-metamodel2.png
+SHA1-Digest: KcgNHvuMX6b8UKxxMihtOhQHuwM=
+
+Name: help/images/1200-templates.png
+SHA1-Digest: C/cmhtcYv+o9yxmhQXMQsW8T8PM=
+
+Name: help/Integration.html
+SHA1-Digest: 2xLBMNy+K96Oam7TPkJrVxV05aU=
+
+Name: references/5120-accessing.txt
+SHA1-Digest: d+5tNPYzv7QeaQujwJVopvOTP+E=
+
+Name: help/WhoisBehindEclipseOCL.html
+SHA1-Digest: ++5rYOc8wWdaFasYwJ2ghfpbwSU=
+
+Name: help/images/4600-validation-view-error-results.png
+SHA1-Digest: FKxwCIuWNyl4IgmPMRYua5IjvI4=
+
+Name: references/6310-errors.txt
+SHA1-Digest: oB9PO6YtG36SsEjuF2UkAawdXbc=
+
+Name: help/images/1100-navigationoperator.png
+SHA1-Digest: EP5XJQ3RcjS1tsPQWzqgiz7tAxg=
+
+Name: help/images/1300-packagedeclaration2.png
+SHA1-Digest: QEXAqVF5uiTT2BLZEzDh6SLJmOg=
+
+Name: help/images/4900-install_license.png
+SHA1-Digest: 7Bi3oUCu+wbLoVP8qEoIElBXu6c=
+
+Name: help/images/4100-validate_menu.png
+SHA1-Digest: FYkDb8J/Jm9quAAzG1xaHr7YZ2c=
+
+Name: references/5115-check-one.txt
+SHA1-Digest: Am4FJ2ZsI/mrM+WYeqqVMuJS9MU=
+
+Name: help/OCLInterpreterExample.html
+SHA1-Digest: parte/asgnEuTFBBifNquzDQqUY=
+
+Name: help/PivotParsingConstraints.html
+SHA1-Digest: g9eJxsTKSJeTKFMhroCPnuIWIlE=
+
+Name: help/EssentialOCL.html
+SHA1-Digest: OdoAdUHmS2artUBf/tS2D45/kb4=
+
+Name: help/images/1710-class-invariant-error.png
+SHA1-Digest: 9Gxq5j4ekuxL9vyky6VBBj6qMLI=
+
+Name: help/images/1100-prefixedexp.png
+SHA1-Digest: BB+jUNjtw08zKxhw3Ze6oGundl0=
+
+Name: help/images/4120-null-free-collection-suppression.png
+SHA1-Digest: e8Pwz4kp5g6LIFDQRTRiC2ag+bw=
+
+Name: references/overview/advanced/metamodelBindings.html
+SHA1-Digest: TDpmm5SQqL1tiNr+fiBtg7q6CZw=
+
+Name: help/Standalone.html
+SHA1-Digest: XsnY6Lr8UB1YTijQm5aehOc1wL8=
+
+Name: references/5110-creating.txt
+SHA1-Digest: q3ZtSIGtT4QZKlP3jyEfCUDc16c=
+
+Name: references/6310-creating-internal.txt
+SHA1-Digest: QAmfoO724lXnbyXA9WjzsJLp3fQ=
+
+Name: help/images/1200-operation5.png
+SHA1-Digest: 7Cl7xgSECBAMJsHzySq4XnJB1gA=
+
+Name: help/images/1100-tupleliteralexp.png
+SHA1-Digest: H3ZmI965/uc4FLeWWnhP7CYXOvU=
+
+Name: help/images/1300-init.png
+SHA1-Digest: 9BL1+UiqlB752EooNSLRGprAOCk=
+
+Name: help/images/1400-iteration6.png
+SHA1-Digest: OyGq60qrgpVDtxYVjg7lgIgS3Qk=
+
+Name: help/images/4300-new-complete-ocl-tutorial2.png
+SHA1-Digest: Ob5sb+Zj/UCnJJuaoa/UNTzNzDQ=
+
+Name: references/overview/query.dnx
+SHA1-Digest: hmqYgHfrAKBiiVPLQLLR7Vwjfc4=
+
+Name: references/overview/advanced/callexp.dnx
+SHA1-Digest: nnutBSx1HGpqEcMSauyNQFsS0wE=
+
+Name: help/Set.html
+SHA1-Digest: c21SICzHcGf7yYLdNDF8gJi+lSQ=
+
+Name: help/images/4300-extra-ecore-oclinecore.png
+SHA1-Digest: ledj8GmeqfJQ8GdB993gpxZEcr4=
+
+Name: references/6320-extlibrary.ocl
+SHA1-Digest: SfKNmClEuMRABI7be500pHYpCIk=
+
+Name: help/images/1400-library.png
+SHA1-Digest: 6Jqph8BN1LccFuwJwkp0kCYZtQ8=
+
+Name: help/images/1400-property1.png
+SHA1-Digest: UDz5H13YzH8F6Ttf8Bbc3NnrHO4=
+
+Name: help/images/4300-load-complete-ocl-resource-dialog.png
+SHA1-Digest: Y09WAFDeBv+CzSIDV1kHYGOw5M4=
+
+Name: help/images/4300-extra-ecore-validation.png
+SHA1-Digest: L9vmKlna0K9dZmC0HTDJPHHxy1o=
+
+Name: help/Bag.html
+SHA1-Digest: MM9592gf5GsA2AanWmvBpcWQxGE=
+
+Name: help/images/1520-console.png
+SHA1-Digest: DqQD9sW+t6ZlAYvS/FLWotJ/nKA=
+
+Name: help/images/5140-contentassist.png
+SHA1-Digest: Vcc3GHWud/KVU8WEXOwcXwfAwns=
+
+Name: help/images/6310-dispose.png
+SHA1-Digest: X/BKkZbr3qyw7K+qZyYJZVEIt00=
+
+Name: help/images/6315-check-all.png
+SHA1-Digest: 78IGsZ5RLVC+GOKpWH/EGa6t/Lw=
+
+Name: help/EclipseOCLisExtensible.html
+SHA1-Digest: C5glpTv/YgZetSIzF3AP3qO/EZY=
+
+Name: help/images/1870-oclinecore-options.png
+SHA1-Digest: M3M2MenTdEXLOcecM2r7sssYilw=
+
+Name: help/images/1400-class3.png
+SHA1-Digest: JQMZXdEmyfQlleC737tUIbSfro4=
+
+Name: help/images/4100-helper_operation.png
+SHA1-Digest: LfsNTn0COAnP04DwGYWokXLhiVs=
+
+Name: help/images/5180-literalexp.png
+SHA1-Digest: 6hoO5i5Uj2DOpb37UVUE0gQWUhM=
+
+Name: references/4100-metamodel.oclinecore
+SHA1-Digest: LzvHmsWIg8cW3zai1/XEzRKSQ+I=
+
+Name: help/images/4100-new_empty_emf_project.png
+SHA1-Digest: QLpBNOdJJixnDCAWEWb8XnLB2Fo=
+
+Name: help/images/1100-letexp.png
+SHA1-Digest: bs561LueEXpJbeOF2qkbRNEiaOc=
+
+Name: help/images/1400-parameter.png
+SHA1-Digest: lyYZYjgFmzAvhQsiqlGw365df9Y=
+
+Name: help/images/1100-binaryoperator.png
+SHA1-Digest: WX4eCA5YOcHE1cJ0f5diRbDMoZM=
+
+Name: help/images/5110-environment.png
+SHA1-Digest: zs6/pKhcICJHJuuerWM6ZMNgzQ8=
+
+Name: references/6320-diagnostician.txt
+SHA1-Digest: W56UcHW+ysGDaW21/0rQNmN4uNY=
+
+Name: help/images/1200-enumeration1.png
+SHA1-Digest: EFWR5JXepjOeS32f1HkFjAnbmwk=
+
+Name: help/images/4300-complete-ocl-tutorial-project.png
+SHA1-Digest: p1tNfZs1liIn9XJnCnyeJfLqN6w=
+
+Name: help/ProgrammersGuide.html
+SHA1-Digest: aLq/0f9N2HQzsrQ9+UglQThQBgk=
+
+Name: help/DebuggerTutorial.html
+SHA1-Digest: V6xVqzWTZ3q4QZV0ZO7dEyd2/4E=
+
+Name: help/OCLstdlib.html
+SHA1-Digest: ge1aCD72wx7u9Oizwqe/FtjVIAY=
+
+Name: references/examples/doc.css
+SHA1-Digest: 9gsAL/A9AS+/vKOQ1nnC+OCowLQ=
+
+Name: help/images/5120-accessing.png
+SHA1-Digest: 7XvgzwHOS3RvNVZIA5xsjGz8kHk=
+
+Name: help/images/4500-validation-debugger-vv2.png
+SHA1-Digest: 7pcOmLWKetDvF0nQxz8riHGhV3E=
+
+Name: help/images/1200-documentation.png
+SHA1-Digest: /0GI2i9DrSlLWv/WigJFQUZzyxw=
+
+Name: help/images/6320-traversing.png
+SHA1-Digest: KZJ4k9GYszsTvDp5g94sjf0hVHE=
+
+Name: help/images/1300-packagedeclaration1.png
+SHA1-Digest: 42A5+KJPLvFh5Y5iAgDWOmZao1M=
+
+Name: help/images/1200-attribute4.png
+SHA1-Digest: MoeQogphkUm68fSkQgH+C3ePRCg=
+
+Name: help/images/5115-check-one.png
+SHA1-Digest: ZDnL5jEn0t4vLptlAobY6CTW8lk=
+
+Name: help/images/6310-define.png
+SHA1-Digest: ES7sBMh4nMWmhf02iQHs4264wSM=
+
+Name: references/overview/advanced/ocltypes.dnx
+SHA1-Digest: 91GUoSTFloxJILMSGNcDSJ2t4/Y=
+
+Name: help/PivotStandalone.html
+SHA1-Digest: EUq3b/0GtbcJNxFTFmgnl7ja2eU=
+
+Name: help/images/4100-initial_model.png
+SHA1-Digest: 7X8kvU1REx40eMQ0XOk2SelVhWw=
+
+Name: help/images/4600-validation-view-metamodel-errors.png
+SHA1-Digest: VNdsp9t59miLYaj4gO9hsziPOhM=
+
+Name: references/5110-context.txt
+SHA1-Digest: NZOAu3TxIWRZQCoxxhTKh6K+jWo=
+
+Name: help/images/1710-class-invariant.png
+SHA1-Digest: nO50r2IvX8RkVcZUSkU6gvBbvyc=
+
+Name: help/images/1200-parameter2.png
+SHA1-Digest: /6GLDGH/LrDYYGN9gQhZz/EHtzY=
+
+Name: help/images/4300-extra-ecore-content.png
+SHA1-Digest: auIc4i9esECYYzzkbTQ01JfwV5Y=
+
+Name: help/images/1200-operation4.png
+SHA1-Digest: a+DQ3amra+0RrFPsE4wvQ0LnB3M=
+
+Name: help/images/1100-infixedexp.png
+SHA1-Digest: +YMc0KGQxaA8lM3XmQXlUuJ2whE=
+
+Name: help/images/6310-creating-external.png
+SHA1-Digest: 49yS/BbehvzH7sVOG3WhpP8dkWE=
+
+Name: help/images/1400-iteration5.png
+SHA1-Digest: iYdtlHn+mHMpPgtxma4h1F/lJeA=
+
+Name: help/images/1100-nullliteralexp.png
+SHA1-Digest: VjaQOcqtX0LO//BeqFkyCRndu6Y=
+
+Name: help/images/1720-persons-profile.png
+SHA1-Digest: wao/TkKxmwkl7+Ih2TsGW38jV0Y=
+
+Name: help/images/4600-validation-view-roots.png
+SHA1-Digest: M2RXdXxGIXBKYr0eFgaL9lzyTfE=
+
+Name: help/images/4400-genannotation.png
+SHA1-Digest: Ze8g4/6g2A3CySNWoFkLEz/U0I4=
+
+Name: help/images/4300-new-complete-ocl-tutorial1.png
+SHA1-Digest: YjkiYxz8eSzw1gW1NdKqjPJC8pw=
+
+Name: help/images/4100-model_pull_down.png
+SHA1-Digest: T2LmKpjJzqBQign0zSxrFo8WZ2M=
+
+Name: help/images/1100-primaryexp.png
+SHA1-Digest: YK4JAoCPOWznYrjwf77rJOUnsuY=
+
+Name: help/images/1200-class4.png
+SHA1-Digest: f7RZQPOLjwYWj9yhDdjl6HNt3fE=
+
+Name: help/images/1100-stringliteralexp.png
+SHA1-Digest: U/LzaxkfNnQwNoqyJpxXn/xiFq8=
+
+Name: help/images/6315-check-quick.png
+SHA1-Digest: 758YAoEmohTFWk3XnzioURgl3/M=
+
+Name: help/UnlimitedNatural.html
+SHA1-Digest: 1srmOAC8LQogicVMhADY+rQ+vdI=
+
+Name: references/6315-check-quick.txt
+SHA1-Digest: dy7TKW4bWSkBSAUGl9GwAX5H8cw=
+
+Name: help/images/1400-precedence.png
+SHA1-Digest: WJ8xl7V57bEy+CB8y+Ch3stseeE=
+
+Name: help/AbstractSyntax.html
+SHA1-Digest: taYBJAUGgH7fttMLXa3m+fDAqOA=
+
+Name: references/overview/advanced/eventManagerInstances.png
+SHA1-Digest: nLzz41ZIx1n2o2ZNrE2ga/Q62gg=
+
+Name: help/images/1100-infixoperator.png
+SHA1-Digest: a30T/tia6/BvWeTAssI41Pp07dI=
+
+Name: about.html
+SHA1-Digest: DE5D1reK8b+ynt52LgvuUqaSF+0=
+
+Name: help/images/1200-detail.png
+SHA1-Digest: nOLLWsh4y4xugTIKqmJrybFrJYY=
+
+Name: references/overview/advanced/impactAnalyzer.html
+SHA1-Digest: 322hPYQ4abOcEb90hGsqbztfonc=
+
+Name: help/OclSummable.html
+SHA1-Digest: q2teCDHTSI55O8X8lROxaf5qoaU=
+
+Name: help/images/5190-event-manager-instances.png
+SHA1-Digest: c2NzFDNLxXaO53GF5f8W4XptIAM=
+
+Name: help/String.html
+SHA1-Digest: J+0KVMxebctHP/LU+RZ2u9R29Fk=
+
+Name: help/images/1510-contentassist.png
+SHA1-Digest: uLtI+40xCbpq4Xp1V0sgxMPfBlA=
+
+Name: book.css
+SHA1-Digest: WxJdyrVfPzcRwr9lLyPz8vBwTzs=
+
+Name: help/images/6320-extlibrary.png
+SHA1-Digest: 02ED+5ovqD8JcUZuV16aN/5EAXA=
+
+Name: help/images/4500-validation-debugger-errors.png
+SHA1-Digest: /fUsdBU59Da8NU7xCyMvv68G6Lw=
+
+Name: help/images/4100-books_query.png
+SHA1-Digest: 7a3rinfb7ubeJVfy4KQc8AwuJYM=
+
+Name: references/5110-define.txt
+SHA1-Digest: YRf6daQm3rvad2R6Rq+IwOUzoDg=
+
+Name: help/images/1400-operation4.png
+SHA1-Digest: 9j/FS4EdV9kSgRL8Cl3fjyELwbE=
+
+Name: help/images/1300-def3.png
+SHA1-Digest: 6HcS0VCUlxwX7aRIuJiSfOBopW0=
+
+Name: help/images/5150-ast.png
+SHA1-Digest: wsef4FIR2VnS1MWUrYqKeiS+jno=
+
+Name: help/images/1400-class2.png
+SHA1-Digest: 7dJzQHtr6rS7lZtk8l5HmZGKMWc=
+
+Name: help/UserInterface.html
+SHA1-Digest: ma53aSU+4FSgbPvTuuvDQkMIEio=
+
+Name: references/4100-metamodel3.oclinecore
+SHA1-Digest: 7m30MlySJB/DeB/DHJ9EgDqAZvU=
+
+Name: help/CustomizingtheEnvironment.html
+SHA1-Digest: ZM2P/mCk49Z1h98x3Pr6pgjBgqs=
+
+Name: help/images/1200-enumerationliteral.png
+SHA1-Digest: UWDLP6x24NDeXZnFlB0htU1JQiA=
+
+Name: help/OclElement.html
+SHA1-Digest: WEYELg7uzpEiO4L6Cs2FEDCR40o=
+
+Name: help/images/1100-nameexp.png
+SHA1-Digest: YVBwS/+bw1ML1F4FqOU/4Om+onk=
+
+Name: help/images/4100-model_copies.png
+SHA1-Digest: X3MXj8LcJOSN5p/iEzdnwP9BxQg=
+
+Name: help/images/1100-primitiveliteralexp.png
+SHA1-Digest: U9jWdXaBW0fpOnIL5zgC4S9ZlZM=
+
+Name: help/images/1540-debugger-image.png
+SHA1-Digest: uRwZ0K9LG4yKi4iIy4KSlR9MwsY=
+
+Name: help/images/4500-validation-debugger-vv1.png
+SHA1-Digest: T49gbfoTTdvcEv8aDvsSVteMeu8=
+
+Name: help/images/1200-attribute3.png
+SHA1-Digest: 3+n7N4hzB7ogjQ2wqhmcjTBUA90=
+
+Name: help/OclComparable.html
+SHA1-Digest: 7w9WJG2Ujd+kioqg5ERCxzv3xy0=
+
+Name: help/images/4100-new_emf_generator_model_ecore.png
+SHA1-Digest: 10PfiZS8R0bMPVyISFfyx8VjbQY=
+
+Name: help/OclAny.html
+SHA1-Digest: P+6MgHxR2GX1bUUmP/MIrH+m21s=
+
+Name: help/APIReference.html
+SHA1-Digest: 5+AnyuU9+aZSvtO0RqIh7945cx8=
+
+Name: help/CompleteOCLTutorialExampleProject.html
+SHA1-Digest: 8SDIblyOSN+P5Au3wRsuEo5bYnE=
+
+Name: help/OclVoid.html
+SHA1-Digest: 3gjjr3V7YlWs4jR4WdEo4aT/INQ=
+
+Name: help/images/1710-profile-constraint.png
+SHA1-Digest: 2Km78jf0o+f4XbPDfXvH5JhTTeY=
+
+Name: help/images/1100-invalidliteralexp.png
+SHA1-Digest: eHjgV+JDJhI3FizISQ7kcY06wso=
+
+Name: help/images/1400-post.png
+SHA1-Digest: PubXRDxk4xC5jaaCIKpy5IA+qqY=
+
+Name: help/images/4600-validation-view-root-results.png
+SHA1-Digest: /gWCeHR4uVzuq0MRlIMHV1pQJrQ=
+
+Name: help/images/1510-hovertext.png
+SHA1-Digest: 9+1GhLJSzedJPUfkeHNlkiSJz/g=
+
+Name: help/images/1200-parameter1.png
+SHA1-Digest: ebOzlrI/0WnzBIEDLjopbxD4U1A=
+
+Name: help/images/1200-datatype2.png
+SHA1-Digest: OH4axtrbQN29LmRwZoyr7UQowtQ=
+
+Name: references/6320-parsing.txt
+SHA1-Digest: Hs86BNb3W4qezNqPxJAqJoWh1vk=
+
+Name: help/images/1100-typeliteralexp.png
+SHA1-Digest: mBIdosHXFN7vXKC0qQMGGT5GrJw=
+
+Name: help/images/1100-selfexp.png
+SHA1-Digest: QwZ/Jz8fUXt1r1woMl+e9uNZukU=
+
+Name: help/images/1200-operation3.png
+SHA1-Digest: NxGBMYWvEjIAnxskCLKt2xuNU+k=
+
+Name: references/overview/advanced/eventManagerDefaultConfig.png
+SHA1-Digest: n1d5LLQ68aFmv0ebByAWvI68BL4=
+
+Name: help/images/4120-safe-navigation-preferences.png
+SHA1-Digest: sUcmb8KWG6YnS9FLltMhQr4FAzM=
+
+Name: help/Tutorials.html
+SHA1-Digest: +44vxk9FWs5rII7DXdIsVNX3nr0=
+
+Name: references/overview/ast.dnx
+SHA1-Digest: tW3lNp2SecH9q/7v4rvaj6PYqRs=
+
+Name: help/images/1400-iteration4.png
+SHA1-Digest: pEk6LpgLxbWfZsYojNjf1fJb5wE=
+
+Name: help/images/6320-validating.png
+SHA1-Digest: aJuZJBaQHEstTsWYT/HK8FQ+vmI=
+
+Name: help/images/1100-ifexp.png
+SHA1-Digest: akC1ocVu7jRokRXNsF9yr2cWAJI=
+
+Name: help/images/1200-class3.png
+SHA1-Digest: F2Yowg2UvDjXvehiPJDsxo8Ic/A=
+
+Name: help/images/1300-operationcontextdecl3.png
+SHA1-Digest: tfGhQ9A7DJqGrfVHPG8L+HewwXE=
+
+Name: help/images/1200-rootpackage.png
+SHA1-Digest: t6K8XmA1hebL2qcNEGGIq6UwKVo=
+
+Name: help/Boolean.html
+SHA1-Digest: nOT9mqgZ+yhZrNTI+jEQI9VNCdU=
+
+Name: references/overview/abstractSyntax.html
+SHA1-Digest: DwtoWhHlZ/xSAH2dn/yXI+r2Vfg=
+
+Name: help/images/1200-reference4.png
+SHA1-Digest: qh7tX0v3JxZMIVqkxFDYirT015g=
+
+Name: references/overview/evaluatingConstraints.html
+SHA1-Digest: tDK83pYieCbiCDs9IluyNRf8eQE=
+
+Name: help/OclLambda.html
+SHA1-Digest: VbCXLAe6ZWEcmmm/2/Z8NQqB15U=
+
+Name: help/images/1300-inv.png
+SHA1-Digest: /yok3yYBft+NlN3aqWX0anjf3Uc=
+
+Name: help/images/1200-constraints.png
+SHA1-Digest: nuHw5tmdOP40HtxvD0/X2fVvbEI=
+
+Name: references/overview/OCLOverview.html
+SHA1-Digest: J9lxbeZjWKaHIktfzPBA0kmEnZQ=
+
+Name: help/images/1100-tupletype.png
+SHA1-Digest: lu8QmiKlwUCQlX0gMqC6gG5xMnU=
+
+Name: help/images/1810-default-delegation-mode.png
+SHA1-Digest: HkA55v4XiQH1K0Z5mYDkKF316Z0=
+
+Name: help/images/5120-input.png
+SHA1-Digest: 1k/lgniJgjbBbuj5aacNPCw1R/o=
+
+Name: references/6320-traversing.txt
+SHA1-Digest: 1qmbiRmee8ed9rDbUKiPIRVKFcY=
+
+Name: help/images/1400-classifier.png
+SHA1-Digest: AjSdBbbD3F1M9NzqI8XiRiewsnQ=
+
+Name: help/images/1400-specification.png
+SHA1-Digest: BW8EvwEgKH3r2XjJHbFKdbx+yYg=
+
+Name: help/images/1100-indexexp2.png
+SHA1-Digest: p76RfbIXck7FGBGD8UVfVcDGWRs=
+
+Name: about.ini
+SHA1-Digest: mVAmrhORKtx6G9nxKmOS4UDCPJI=
+
+Name: references/javadoc/index.html
+SHA1-Digest: hjtc5zMd542NqdgaFuQfPpv8wdc=
+
+Name: help/images/1400-operation3.png
+SHA1-Digest: FiyXnlr8I8F9jcvZTizjxOkK9Pw=
+
+Name: help/images/1300-der.png
+SHA1-Digest: a+b8n6Ua0/ljeZU5K2+t4iFybeE=
+
+Name: help/images/1300-def2.png
+SHA1-Digest: UAnDbQc9Y5wHBLQWO5U5ld1OuPw=
+
+Name: help/images/1400-iterator.png
+SHA1-Digest: QISa+oHOee34xWlaLW021Ye8jTA=
+
+Name: help/Collection.html
+SHA1-Digest: oEKmV1+TxGPo64QBFAV6Vc1wHz4=
+
+Name: help/images/4100-validation_unsuccessful.png
+SHA1-Digest: /9Pej1p6FE2irECgYW0IEgAf74k=
+
+Name: help/Class.html
+SHA1-Digest: OrOabUku2ieRa5boYE59lNO63A8=
+
+Name: help/images/1540-debugger-run-configuration-launch.png
+SHA1-Digest: lu9PW1hYdjvzdmKNyz4f1db9HSQ=
+
+Name: help/images/4100-ocl_console_menu.png
+SHA1-Digest: fUO/ZqzsJexJbH1McqJQRpsLX0s=
+
+Name: help/images/1400-class1.png
+SHA1-Digest: qjRNIkTPyP8R45DLzYBAkstd5bE=
+
+Name: help/images/1100-primitivetype.png
+SHA1-Digest: XHbTIEuR5CqHLQTWyXK5gWuxhxg=
+
+Name: help/images/5110-oclhelper.png
+SHA1-Digest: 2q7ktKuIfaZ9eFbqyuK4bd8WuRg=
+
+Name: help/images/1100-typeexp.png
+SHA1-Digest: /9qUJtIvuUkCnj+UJXOw0xPVZJ8=
+
+Name: help/images/1800-property-pages.png
+SHA1-Digest: BH/EybLLVMS2WIIGpPfYnGAcLgk=
+
+Name: help/PivotProgrammersGuide.html
+SHA1-Digest: NWjBe94QynM3O6/vaBjbCGWbwzA=
+
+Name: help/images/1720-persons-applied.png
+SHA1-Digest: ifUS92IdL9eJGiES/NOKtshC7c0=
+
+Name: help/images/4500-validation-debugger-model.png
+SHA1-Digest: CAkbTPBwpmkSKjTBCwnoC6FJ48E=
+
+Name: help/images/1100-booleanliteralexp.png
+SHA1-Digest: Ji2ZRoNZs2fwidpAFkChGOD7gVw=
+
+Name: help/images/1720-persons-metamodel.png
+SHA1-Digest: Ai7NfK0O1x91MC1HfrBFQWAbQvo=
+
+Name: help/images/1100-tuplepart.png
+SHA1-Digest: 9rmX4dGrJYIcE4OvJCIjltsMIas=
+
+Name: references/overview/contentassist.dnx
+SHA1-Digest: lcnQZJKMns3vARZGQach+o1pGwg=
+
+Name: help/images/1200-attribute2.png
+SHA1-Digest: l6Wl3S8NvQomfZ5rFX9cNS7a8xk=
+
+Name: about.properties
+SHA1-Digest: FolhvcrrexO8eOSyxMzgkhKUFv8=
+
+Name: help/images/4900-install_details.png
+SHA1-Digest: /pBx7fAJPLxSJZnnUZQaTTb6n4k=
+
+Name: help/images/5110-context.png
+SHA1-Digest: UWAKEtRapc6ldF1tNqJDUfff0Wk=
+
+Name: help/images/1200-datatype1.png
+SHA1-Digest: r/ulwg7CKhQEt9GneYAbQB6dpVU=
+
+Name: help/images/5190-impact-analyzer-instances.png
+SHA1-Digest: lkSBLWt+QSv7ZPfuCYlUbqd9W5Q=
+
+Name: help/images/1200-operation2.png
+SHA1-Digest: QQzEGe5lGR1bUsj29uG/g0TsHy4=
+
+Name: help/SafeNavigationTutorial.html
+SHA1-Digest: 83LJ8NLwkWYRETrhtemOFwgaI3A=
+
+Name: help/images/1400-iteration3.png
+SHA1-Digest: aGIe6HAZTgahi/bYoBG+MUFruVw=
+
+Name: help/OrderedSet.html
+SHA1-Digest: UuSBJDbjfY7hD2J6u7H59BjkOMY=
+
+Name: help/images/1300-document.png
+SHA1-Digest: WkMJxVxqLmID30CuCzweIEMa4gk=
+
+Name: help/images/1200-class2.png
+SHA1-Digest: iPTjrCuVFIz7pmWpSJ808rni3nw=
+
+Name: help/images/1100-tupleliteralpart.png
+SHA1-Digest: 74A4tHkCEWW20xU3n3YCnjwLDGQ=
+
+Name: help/images/1300-operationcontextdecl2.png
+SHA1-Digest: lWQqcmFoJBjnVyDg9QwgilJhjKY=
+
+Name: help/OclStereotype.html
+SHA1-Digest: 8ah9A5cApbgn4Nk0rjtozFT2QRQ=
+
+Name: help/images/1400-pre.png
+SHA1-Digest: aDI7a3M0f7w79mpnvA0UCd9c56w=
+
+Name: help/ContentAssistSupport.html
+SHA1-Digest: 1fGpz+7lMWfczCQ4mJZWxl0CehY=
+
+Name: help/images/3200-uml_console.png
+SHA1-Digest: KWofoEBVyN0tBxhuDFYecI3cUfU=
+
+Name: help/Extensionpoints.html
+SHA1-Digest: m5J+dCClA/GD4gWQWuG7etv6ymw=
+
+Name: help/images/1200-reference3.png
+SHA1-Digest: SQcDmEWl2YX+y3BLsziq3ARv/Do=
+
+Name: help/images/1800-preference-pages.png
+SHA1-Digest: bmbZH1XfnqYa0BWg4xfQzj0qcw0=
+
+Name: help/GettingStarted.html
+SHA1-Digest: i3pOR6FkwBmkJ5+ppgUGwi2fc+g=
+
+Name: toc.xml
+SHA1-Digest: m4voDipYXJzHYAICCWgBQ/6TQHw=
+
+Name: references/examples/exampleOverview.html
+SHA1-Digest: gjbfEpXAqIUhzj60TTyokAKqHdg=
+
+Name: help/images/5160-appcontext.png
+SHA1-Digest: 3YQTP5xwb8xqg37Ok6YhBhKP7mA=
+
+Name: references/5115-check-all.txt
+SHA1-Digest: 2xT9pD0VF96WMsUnUZGIcNvo11I=
+
+Name: help/images/1100-indexexp1.png
+SHA1-Digest: mCgDg+LEEMMD2HbU26YGFSj9zcg=
+
+Name: help/HowDoesItWork.html
+SHA1-Digest: tgxq2FGL8eWbuFo+ocVZPuMXpUU=
+
+Name: help/images/1400-operation2.png
+SHA1-Digest: 7+vCDlNUjkZHsRgXPHY/YYV8X6s=
+
+Name: help/images/1300-def1.png
+SHA1-Digest: 0omVQA7H5BG4QhhCMwUi5ypsqeY=
+
+Name: help/Integer.html
+SHA1-Digest: Pf89RYiFpMgcc/hi5FOQD1NSAHw=
+
+Name: help/StandardLibrary.html
+SHA1-Digest: jgPuwk6IeoJdO6eqBg8EAAMc1y4=
+
+Name: help/PivotEvaluatingConstraints.html
+SHA1-Digest: 8Y27lwSIshrYwDF8zkBs9aLphMA=
+
+Name: help/images/4100-new_project.png
+SHA1-Digest: egkwva/j5oQTev64oaq7UZ/a5kA=
+
+Name: references/examples/oclInterpreterExample.html
+SHA1-Digest: d3nfm/wc96xgeXXReuGRuBdQdwQ=
+
+Name: references/overview/advanced/miscexp.dnx
+SHA1-Digest: g2lQBI+4BZUHFTNEfqCkV3LmCtM=
+
+Name: help/images/3200-lib_console.png
+SHA1-Digest: TZnIoMLNPq89A3LtjzxWLfVTRX0=
+
+Name: help/images/1100-numberliteralexp.png
+SHA1-Digest: Q2HvkSzJLNexdIX9m8YsL5z8Uzw=
+
+Name: help/State.html
+SHA1-Digest: coCCnKrh3jztnB8G5rGIr10HDx4=
+
+Name: help/images/1820-ecore-uml-options.png
+SHA1-Digest: i0ZqQ+N4Sxou8ETXed794DanXy4=
+
+Name: help/images/1200-features.png
+SHA1-Digest: NmUansqNkzkMDTdiyNMnhEW7qAc=
+
+Name: help/images/1600-load-document.png
+SHA1-Digest: Y0XWeg4A5r/LVduLTK1TyMYxEMo=
+
+Name: references/6320-validating.txt
+SHA1-Digest: xdekeNtqjDS0E74QPvKzR5jJoQg=
+
+Name: help/images/1300-navigatingarg.png
+SHA1-Digest: G87s0RHBKS0ff73bOorBc/QbZE8=
+
+Name: help/images/1100-navigatingexp3.png
+SHA1-Digest: i92i8XCdiNMYy0X8/+Udgzb7IWM=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: SAqY+5ITAL0mkdYeijlSRhyIaZk=
+
+Name: help/images/1100-typeliteral.png
+SHA1-Digest: zW52SOmTy9gL63E8mFLzzDiDsTo=
+
+Name: help/images/1810-code-generation-mode.png
+SHA1-Digest: fiUOvO3v/swWHgIHItQaFvHAH8s=
+
+Name: help/images/1200-attribute1.png
+SHA1-Digest: aZI32lIm1/NpJ4kOBfX8aWO9hHQ=
+
+Name: help/images/1720-persons-scalars.png
+SHA1-Digest: b616UgToahrN3SZWbmY8Co3y4CI=
+
+Name: help/images/1300-library.png
+SHA1-Digest: +BDTBqjaw/FQ8JcWssRldAN2yrI=
+
+Name: help/Delegates.html
+SHA1-Digest: u7OrwZRezJDU7EnB6Ddixm4CzLQ=
+
+Name: help/images/1100-nestedexp.png
+SHA1-Digest: tbmxaXjkC/BkjE4jbXPX4uTBBVQ=
+
+Name: help/images/4300-extra-xtext-validation.png
+SHA1-Digest: 2coOH1Kkgdyu1TW5jdOwieEv6gE=
+
+Name: help/images/1720-persons-collections.png
+SHA1-Digest: D2D3gz+9m+HNWdaoFXWu4uTK4mQ=
+
+Name: help/images/6320-parsing.png
+SHA1-Digest: yKCPLSSEM0o6NSipMBNLjyv7KWA=
+
+Name: help/images/1200-import.png
+SHA1-Digest: LkXZ+FBGbMHeuAUFdJo+YYH2oFk=
+
+Name: help/images/1720-persons-profiled.png
+SHA1-Digest: VePBrHRZQ6Lz8CFeshOcJpV0fqw=
+
+Name: help/images/4100-gen_model_menu.png
+SHA1-Digest: O82ledaKTZJjBaw4N+ntobyQh7Y=
+
+Name: help/images/1200-operation1.png
+SHA1-Digest: 72XNZKuTdyrHbNAqgK4yAoWe8ks=
+
+Name: help/Persistence.html
+SHA1-Digest: 4V2WB2Q2t6ua9xoguCxRg4/6miM=
+
+Name: plugin.properties
+SHA1-Digest: 14+tfnKhimXzJtFiVywoAkPTW/Y=
+
+Name: help/images/4100-gen_model.png
+SHA1-Digest: IXXJOp7sRV2NNaSzA6FBt2gb3EM=
+
+Name: help/images/4600-validation-view-some-results.png
+SHA1-Digest: mNbCR9f8wfDcI3esPNPKAEQrpZw=
+
+Name: help/images/4500-simple-debugger-model.png
+SHA1-Digest: qmwdMcnejbky7lrGtK/GZEuknFg=
+
+Name: help/images/1400-iteration2.png
+SHA1-Digest: wyFxbW/YHXr5W6oWff5Mf6XSNoA=
+
+Name: help/images/1300-contextdecl.png
+SHA1-Digest: yaubuBClL7cZlOI3uboUxL10s5s=
+
+Name: help/ValidityView.html
+SHA1-Digest: byh9gwXMknN97nqjWFpMir3ZGlc=
+
+Name: references/6320-accessing.txt
+SHA1-Digest: AvG82wqu/WTaQ0F284O3pstoD/4=
+
+Name: help/index.html
+SHA1-Digest: yXjqx+CYpVjOR8SetORd5970jf4=
+
+Name: references/6310-creating-external.txt
+SHA1-Digest: HUtiyUb9kSD3odE/djgAfbUGIBc=
+
+Name: help/images/1200-class1.png
+SHA1-Digest: Rt3DCuKdpK9xSqklZsxR6lSIyAw=
+
+Name: help/images/1100-collectiontype.png
+SHA1-Digest: HlW0TyWtSZrl1dsDGxOBx7NQ5G0=
+
+Name: help/images/1300-classifiercontextdecl3.png
+SHA1-Digest: SRkWFJhSQDvjDZVgZR0GAZ0z7ws=
+
+Name: help/images/1300-operationcontextdecl1.png
+SHA1-Digest: NFRPYFQQx5ZVIn7cgdiG1I303X0=
+
+Name: references/overview/input.dnx
+SHA1-Digest: RK7S6qMRfb4Oz9rcL/GyPGNfe7w=
+
+Name: help/OclTuple.html
+SHA1-Digest: SHTSCsxa7LCZaAaYaN269UrgL/I=
+
+Name: plugin.xml
+SHA1-Digest: Bk9MYehHYBc2qJQD1xcajuG7oe4=
+
+Name: references/6315-check-one.txt
+SHA1-Digest: 8NN+APa2UgIkt5VUbZzwlwFOwFo=
+
+Name: help/images/3200-lib_editor_contrib.png
+SHA1-Digest: QBZi5mlQ0pfiBb513AD71b5tTFk=
+
+Name: help/images/1200-reference2.png
+SHA1-Digest: Dupq26lWKdkXKqp/rldPlgLoz8k=
+
+Name: help/images/1300-navigatingexp.png
+SHA1-Digest: yrg/oTI7NZSSA3F9renDXZabwc0=
+
+Name: help/Debugger.html
+SHA1-Digest: 7w9vjVHf3ooF7R60omg9eu7V9MA=
+
+Name: help/images/5180-callexp.png
+SHA1-Digest: kJx9+fPIrtlM4AD8NrWncwfBPAw=
+
+Name: references/overview/advanced/bindings.dnx
+SHA1-Digest: QpsGiADrfHf/B/RNeHiaBPBEigA=
+
+Name: help/images/4100-ecore_diagram.png
+SHA1-Digest: zx+2C+pve4b/q/oTZKbMjyl5gdo=
+
+Name: help/images/5180-ocltypes.png
+SHA1-Digest: xH3Nzxx9kmE6U/3q5u9xy7YndtI=
+
+Name: help/images/6310-errors.png
+SHA1-Digest: +LeZcwtkkhHz/ipkg35qevCa2Qw=
+
+Name: references/5120-extlibrary.ocl
+SHA1-Digest: RJFNvzloRiO8E0fikQO5keawuBE=
+
+Name: help/images/1710-property-constraint.png
+SHA1-Digest: SaHB22k02i6k+m/qHTe4b5mw2LU=
+
+Name: help/images/4500-simple-debugger-input.png
+SHA1-Digest: dFFJFS4P5WlddEnEWuOkFQMoFXc=
+
+Name: help/images/5115-check-all.png
+SHA1-Digest: 4qDO4o/dgxk7Tmak6lG/h8Zwy9o=
+
+Name: help/images/4100-validation_successful.png
+SHA1-Digest: 0dht9aqmbNARZZm2XeV/Fqyqd/E=
+
+Name: topics_Reference.xml
+SHA1-Digest: 7TPIV1nqC3bHiMNu6+nQxBSYcSQ=
+
+Name: help/OCLExamplesforUML.html
+SHA1-Digest: byMlRO+bao/cnhaWk+ktHZRL8B0=
+
+Name: references/4100-metamodel4.oclinecore
+SHA1-Digest: XGozknHr6wPV5ZgLxEAfCR07lg0=
+
+Name: help/PivotEvaluator.html
+SHA1-Digest: i52Aa1zZnpaaZhS+KzkiX96CX4Y=
+
+Name: help/images/4500-complete-ocl-debugger-model.png
+SHA1-Digest: DTlzUhK4BnKTkjh0DTcCwA+TlWk=
+
+Name: help/images/6315-query.png
+SHA1-Digest: uGyCvgCOHfRLjtaBlCx9Kcg5LDI=
+
+Name: help/OclSelf.html
+SHA1-Digest: yjkBKHdBCLQ9EEdVQO2xVk27SwA=
+
+Name: help/OCLinEcore.html
+SHA1-Digest: yKZUG6fSlx5nPR5m/eEZMDbQunE=
+
+Name: help/images/1400-operation1.png
+SHA1-Digest: aKzr30hSzcEt3AwejLBgYSpGC/8=
+
+Name: help/images/6310-environment.png
+SHA1-Digest: revE+Kg7PhB+xqYL2LfrT5DMy44=
+
+Name: references/6310-define.txt
+SHA1-Digest: FJn5diUeH7lsk7JVKLiAh8lhxCE=
+
+Name: help/images/4120-raw-safe-navigation-errors.png
+SHA1-Digest: hVZe2NVYF5tDu4iDzkShAlCsU5c=
+
+Name: help/PivotMetamodels.html
+SHA1-Digest: 5f7I4suNojKe2o/IF+6VbC2zhDI=
+
+Name: help/Pivot-Ids.html
+SHA1-Digest: Sgka7VmTUG5tLxXLvsPU2zqbdVY=
+
+Name: help/images/4100-empty_oclinecore.png
+SHA1-Digest: 1Ua0DUr2JXYJORDdOpiMmsSunME=
+
+Name: help/images/1100-navigatingexp2.png
+SHA1-Digest: L9f3mU1vh3hmIVnvTW33cT5mbEM=
+
+Name: help/images/1300-parameter.png
+SHA1-Digest: q8Zdmnfmcpyi8UobB5bCIyYv2+4=
+
+Name: references/overview/contentAssist.html
+SHA1-Digest: JSzm2R6GlTrUUV3XdmjCa3hCoKw=
+
+Name: help/images/4100-empty_ecore.png
+SHA1-Digest: Eo08hQbJ4uY0OGosQuIpBybfz5U=
+
+Name: help/images/1710-transition-guard.png
+SHA1-Digest: U351GWxKYPWEShnANflmVi9v4VM=
+
+Name: help/images/1100-collectionliteralexp.png
+SHA1-Digest: 5I/I+eKdzlN9pvUYTthfw0GqEGM=
+
+Name: help/OCLInterpreterTutorial.html
+SHA1-Digest: nmO/s6Fx7uxwG/AVGbaH3cD3fOA=
+
+Name: help/images/1710-operation-constraints.png
+SHA1-Digest: 9xalNujnlwzQwpEh1rhi01NWLpA=
+
+Name: help/glossary.html
+SHA1-Digest: Ndhdq+doGR3QeHtrQQcLv+aDdoo=
+
+Name: references/6310-model.di
+SHA1-Digest: S/8NUcdgso8keCGsv2V6wGT4EJ0=
+
+Name: help/images/6310-creating-internal.png
+SHA1-Digest: IK6GWEx8/RUzKb+JivT+IB/+m20=
+
+Name: references/overview/parsingConstraints.html
+SHA1-Digest: gJjdZsWfYo46fum3FCpxy7B7h8A=
+
+Name: help/images/4900-install_software.png
+SHA1-Digest: EwOTPuSuWFK/UtkNnNh7eiUpHt4=
+
+Name: help/EvaluatingConstraints.html
+SHA1-Digest: NCSu+YZtyzz7wmrFS+AE5lFitAQ=
+
+Name: help/images/1400-package2.png
+SHA1-Digest: VXShL9DA3OioZ320l0lgV0poxxs=
+
+Name: help/BuildingtheOCLProject.html
+SHA1-Digest: B/e2CqMEtDsQQDKOZeDr4jGPE3A=
+
+Name: help/images/4100-new_emf_generator_model_load.png
+SHA1-Digest: OsDZX9ro1hmlgYYKDftqsLXuU00=
+
+Name: help/Sequence.html
+SHA1-Digest: HbGZiJBp96UPazlrdrjUcY6LBEw=
+
+Name: help/images/1100-unaryoperator.png
+SHA1-Digest: VNYjIrjOm1d+Hm1lWDBxduXRFnE=
+
+Name: help/TargetMetamodels.html
+SHA1-Digest: W71clfjDThAIs1ewkB51JzGPIC4=
+
+Name: help/images/5190-event-manager-default-config.png
+SHA1-Digest: +VhVc/iDVR/Dkfi59o440gDjwFc=
+
+Name: help/images/1400-iteration1.png
+SHA1-Digest: 9RKkv2+eDoJbwbUO1lHzAbwE6AY=
+
+Name: help/images/6320-accessing.png
+SHA1-Digest: VuBCfDY2/3tL4AbE4VWWXdowWA8=
+
+Name: help/images/4100-new_emf_generator_model_packages.png
+SHA1-Digest: muvMPTQqRj9C4EnjcZe9IeKHs84=
+
+Name: help/ValidationTutorial.html
+SHA1-Digest: vnqAXkRJ4TGefjLrisN5wcjx864=
+
+Name: help/images/1300-classifiercontextdecl2.png
+SHA1-Digest: ymGC1VsYd4l/8VE/h/uK/C5+5QQ=
+
+Name: references/overview/oclhelper.dnx
+SHA1-Digest: IPpO3dyiQ+8Ww5Ufqk6XtIgw+To=
+
+Name: help/images/6315-check-one.png
+SHA1-Digest: ZJVj3CMxvmI+UfCIHmqNAbJAtCY=
+
+Name: help/images/4500-validation-debugger-image.png
+SHA1-Digest: 33cyZw/4MxD039ax8tAlxvHCp2I=
+
+Name: help/images/1540-debugger-validity-view-launch.png
+SHA1-Digest: Pl9G0d6RoAKRbZN+5sW2glHh/NU=
+
+Name: help/images/1200-reference1.png
+SHA1-Digest: hmbjaKZATJIRMLLZZfvvAlCEbr4=
+
+Name: help/images/4500-validation-debugger-step2.png
+SHA1-Digest: 2tsbNGFAqZzmWbf8sye7l8MCbtc=
+
+Name: references/5120-parsing.txt
+SHA1-Digest: ZPU9NHQlwNRmiMJcD93np+Ls/6M=
+
+Name: help/CodeGenerationTutorial.html
+SHA1-Digest: LbwJtJ8pPeaNhckeFCq/J53PIi8=
+
+Name: help/PivotThreadSafety.html
+SHA1-Digest: vk9de2WL7bhp+sH14/y0MFK3PHw=
+
+Name: help/images/6200-library-declarations.png
+SHA1-Digest: EdQqJrxM0gKY2clnNB8HDK5bZvY=
+
+Name: help/Installation.html
+SHA1-Digest: xT3gAxCJolk2tZBv5G/eH8PWykQ=
+
+Name: references/6310-model.notation
+SHA1-Digest: wyp+WqivsgrcAwQYlC2hM0OU6V4=
+
+Name: references/overview/advanced/impactAnalyzer.mdl
+SHA1-Digest: vyYK5lXUvNf3L4k/SLK/Diyqyj0=
+
+Name: help/OCLinPapyrus.html
+SHA1-Digest: NBIdmJIDbvJlPhVPGrLff+jRKPw=
+
+Name: modeling32.png
+SHA1-Digest: HNz2oYHVqQEUObJQL6sh+Ik2jak=
+
+Name: help/images/1400-library3.png
+SHA1-Digest: VxPFN0lia7Th2/RGPT7lppwWVHg=
+
+Name: help/OCLinEcoreTutorialExampleProject.html
+SHA1-Digest: noFvBMYX2Cz83T21tQVrVQE5pFY=
+
+Name: help/images/1530-validity-view.png
+SHA1-Digest: e2JNsCJiJ9j5e77Q8M7ca5wAGJI=
+
+Name: help/OrderedCollection.html
+SHA1-Digest: r2kqJz6qpweHdQHOv0Dk9yTP5II=
+
+Name: help/OclMessage.html
+SHA1-Digest: u/YQggFu0P1dZKUmDtsEUY4I8qI=
+
+Name: help/images/5110-creating.png
+SHA1-Digest: cv2L+wwSXk0VW4cNGsgriq5B5vg=
+
+Name: help/images/5120-extlibrary.png
+SHA1-Digest: rAoUn0eTnyn2PI+wum8dlvvd3+c=
+
+Name: help/images/5115-check-quick.png
+SHA1-Digest: NZ41lcx95r2xsufBIPuo8i1f/7o=
+
+Name: references/overview/advanced/persistence.dnx
+SHA1-Digest: N+X+/BKnlejLyOze/CPaw3Gqits=
+
+Name: help/ParsingDocuments.html
+SHA1-Digest: kuCijPTnu3oZ9HALveX62U/7w30=
+
+Name: references/5115-check-quick.txt
+SHA1-Digest: 0moUs1HzgcSpubFOS53t0NLOURg=
+
+Name: references/overview/advanced/customization.html
+SHA1-Digest: msqedJ8w/1xCce3dwp/oTWXSq0o=
+
+Name: help/images/1200-package2.png
+SHA1-Digest: WQuiC/c+io87LXSBnHV0CVnJ2fU=
+
+Name: help/images/1300-propertycontextdecl2.png
+SHA1-Digest: NFJ7WWxzkG7XUoYGKiMzcUvTZx0=
+
+Name: help/OclInvalid.html
+SHA1-Digest: K6IqGdDXBTZ1Tv0/aa6s2/d9qVo=
+
+Name: help/images/4300-load-complete-ocl-resource-menu.png
+SHA1-Digest: guxun13BqoCFPBuEYVWcue8+HnQ=
+
+Name: help/images/1300-pre.png
+SHA1-Digest: cPdi4n3OMOeD7Mi4HG+ep70ghI4=
+
+Name: help/images/1200-annotation3.png
+SHA1-Digest: mRJ+Ko1KKih1Ui+CB+bDa5D2lT4=
+
+Name: help/images/1100-navigatingarg.png
+SHA1-Digest: wCSewccHO9uyMKi3G8QreukLb4o=
+
+Name: help/images/1100-navigatingexp1.png
+SHA1-Digest: UA/FLSKB581v76JxlA96dz59mpI=
+
+Name: references/6310-context.txt
+SHA1-Digest: AQbNP5umo3fHg5K1gKhroDBeSf8=
+
+Name: help/index.xml
+SHA1-Digest: u1lnRmu0SqLHlWzar1FM7TbECv0=
+
+Name: help/images/5190-impact-analyzer-classes.png
+SHA1-Digest: 7zWP1TzGrAvBLZMufIDPASZvu5Y=
+
+Name: help/images/4100-metamodel4.png
+SHA1-Digest: 8jAEIvthXAmksQGSRNFq7UJy2zA=
+
+Name: help/OclState.html
+SHA1-Digest: uxnTUrd9Y13ComnSPLqecAL4Fgo=
+
+Name: references/overview/advanced/persistence.html
+SHA1-Digest: RkPUC3HbI2Xkto7dJ8w1nddeH8U=
+
+Name: help/images/4100-new_ecore_model_dialog.png
+SHA1-Digest: sfUweFZwu2xuPDs031wd34C5c/Y=
+
+Name: help/images/1100-collectionliteralpart.png
+SHA1-Digest: Utb0YUHrb99lkgddTPGDBUvu6jU=
+
+Name: help/images/5110-define.png
+SHA1-Digest: QsVr2OYq1jZpNqEonVhtysMIMZk=
+
+Name: help/images/1830-uml-options.png
+SHA1-Digest: ebVNP2ErcU/YBf8ULtTUnqAVGi0=
+
+Name: help/images/1400-accumulator.png
+SHA1-Digest: bMT6vZE6oIax1xKI5PMwxnUFyrw=
+
+Name: help/Examples.html
+SHA1-Digest: VcivRPVHE9IrwVDRtnL44dQD/e0=
+
+Name: help/images/1400-package1.png
+SHA1-Digest: NXVjX/E4mnmYCUkRd/8fshhIlsU=
+
+Name: help/images/4600-validation-view-debugger.png
+SHA1-Digest: dZm+cKT7Zq7CBM9Ac6MzzbOq9y0=
+
+Name: help/OclType.html
+SHA1-Digest: xvrRJeuuw70IVtFdhURRvz1qr9s=
+
+Name: help/InteractiveOCL.html
+SHA1-Digest: hDIbjdVnSitjHnMNKwXuAkoBsrs=
+
+Name: help/images/1300-classifiercontextdecl1.png
+SHA1-Digest: 60Ypp7CjEWL72nTuydr10KZIgNY=
+
+Name: help/images/4120-suppressed-safe-navigation-error.png
+SHA1-Digest: PtkQHBYoPFp15huS0VHXbVElh08=
+
+Name: help/images/1200-annotations.png
+SHA1-Digest: A2QyWAimra4zwE2PSAjaHNnu8RQ=
+
+Name: help/images/1400-operation.png
+SHA1-Digest: 2JW6pBSv7DoRCUe9rxEhQqGiu1A=
+
+Name: references/overview/environment.dnx
+SHA1-Digest: vXgUNFno02z+S2+4x4XH5XcUP98=
+
+Name: help/images/4500-validation-debugger-step1.png
+SHA1-Digest: 946K2AwWSGPi/x1giRWtMxU//c8=
+
+Name: help/images/4300-extra-xtext-content.png
+SHA1-Digest: ieAKpwmoa1hFgdFLr9usPnJRbDU=
+
+Name: help/images/5155-hidden-opposites.png
+SHA1-Digest: qabSHOxSUWcyp11INzVGwtIEytc=
+
+Name: references/overview/advanced/literalexp.dnx
+SHA1-Digest: 3Rge5Lv/KpcFsj1oCAEFvL5Udow=
+
+Name: help/images/1200-terminals.png
+SHA1-Digest: yP0tsY9LC7RE910oegAuzaqJFZQ=
+
+Name: help/images/1400-library2.png
+SHA1-Digest: 5FATBnBgFcT2/CLeTvmelpHhry4=
+

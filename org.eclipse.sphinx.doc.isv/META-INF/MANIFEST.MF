@@ -1,0 +1,39 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.eclipse.sphinx.doc.isv;singleton:=true
+Bundle-Name: %pluginName
+Bundle-Version: 0.11.0.201706140911
+Archiver-Version: Plexus Archiver
+Bundle-Localization: plugin
+Built-By: genie.sphinx
+Require-Bundle: org.eclipse.help
+Bundle-ManifestVersion: 2
+Bundle-Vendor: %providerName
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_121
+
+Name: META-INF/maven/org.eclipse.sphinx.docs/org.eclipse.sphinx.doc.is
+ v/pom.properties
+SHA-256-Digest: +JKSBwpEEHSTQjh6CkgL9Hjy9qnbVcvXmxvclzOhAW4=
+
+Name: about.html
+SHA-256-Digest: 1fuYr0bu6NsJZCAmSom5QtnvnV0Cg8DwLn77Dd1Ql24=
+
+Name: plugin.xml
+SHA-256-Digest: FUagFfjyJBIuZ6GlsQWYc0II6tqTbdkfajyG1M7+E9w=
+
+Name: html/tutorials/Tutorial_MyFirstSphinxProject.html
+SHA-256-Digest: ncnUC2Bdd3rhFJk9LhTGn3nUZGHDxAFr0RSlPSQWXKI=
+
+Name: toc.xml
+SHA-256-Digest: 8u5r77FrbZfBKt/lxIG7WDZ1QjpnrJeYe51Z15rT9Qg=
+
+Name: html/tutorials/Tutorial_UsingHummingbirdExample.html
+SHA-256-Digest: f4hFtiv047QyrjRNsfNyYig61gxpUOFTX5KB9Z2hpfs=
+
+Name: plugin.properties
+SHA-256-Digest: JM3GsizaWux90bJslkWtl+rE33bExq4bxIa0pF8ZK34=
+
+Name: META-INF/maven/org.eclipse.sphinx.docs/org.eclipse.sphinx.doc.is
+ v/pom.xml
+SHA-256-Digest: mk0Hq3cmnMDDDDVr5PNjeuZIeHyAX8Z+JFeOEANtG0c=
+

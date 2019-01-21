@@ -1,0 +1,32 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: G4LPnskx6JFGrzNmTD3jjj5+fLMw2
+ r7mNRQMpm8fp3w=
+SHA-256-Digest-Manifest: Q6o2HQOB3fiECmMng10mK3zirO/Vfnf+cVpNemtKqYA=
+Created-By: 1.8.0_121 (Oracle Corporation)
+
+Name: META-INF/maven/org.eclipse.sphinx.docs/org.eclipse.sphinx.doc.is
+ v/pom.properties
+SHA-256-Digest: yHn1uzrT744pxUv+rHx4bEPHiZ1wmj5Vaeo3kwyV/NM=
+
+Name: about.html
+SHA-256-Digest: tEh8bKJRnZg3WieCp7TvZZBNWZe0ab5q5kYbPOYUiUI=
+
+Name: plugin.xml
+SHA-256-Digest: 5BFuGUqf9R6hNl3vH9Sfn9cqXaX1XUQXZomP0HJt5vA=
+
+Name: html/tutorials/Tutorial_MyFirstSphinxProject.html
+SHA-256-Digest: SzRsmCSl8nhfjHrA3jY9zG1vMfE6DCWoK6k9ku6d4Gs=
+
+Name: toc.xml
+SHA-256-Digest: MxTe3ZttyUwfwpzO6+3vp844RCBI6M0grca+vYt6I6U=
+
+Name: html/tutorials/Tutorial_UsingHummingbirdExample.html
+SHA-256-Digest: /sPIoHcZUiPKUmcJ6Qd6eAatDucZJUlc+UYn/4ZaTog=
+
+Name: plugin.properties
+SHA-256-Digest: nDJBi4qQ2Eut7z4+Fm363SV9LTAgTjL5WaFVITH1AKc=
+
+Name: META-INF/maven/org.eclipse.sphinx.docs/org.eclipse.sphinx.doc.is
+ v/pom.xml
+SHA-256-Digest: QpB2Ax8PQjuTGfQYIwGtLFneXapP/ec9zhCrV+AZKag=
+

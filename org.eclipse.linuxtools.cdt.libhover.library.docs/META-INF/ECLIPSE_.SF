@@ -1,0 +1,49 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: 8AYVtSuBeuI68AeiDlLnTuz8qSf8L
+ zSy65xXJSeCd5o=
+SHA-256-Digest-Manifest: tePnCBbK4WrVvlvxNZzBldmbVlo+ofW2nDKhU9cRH8c=
+Created-By: 1.8.0_162 (Oracle Corporation)
+
+Name: about.html
+SHA-256-Digest: tEh8bKJRnZg3WieCp7TvZZBNWZe0ab5q5kYbPOYUiUI=
+
+Name: plugin.xml
+SHA-256-Digest: FYHn8WAeiFIC97o+1rFWkM2ejk6jzQmYY2FrgVZUbQI=
+
+Name: images/home.gif
+SHA-256-Digest: 822F9NyDQdLchnGhqoug5tXI/IfhSo7q6RJuxl/uzVg=
+
+Name: META-INF/maven/org.eclipse.linuxtools.cdt.libhover/org.eclipse.l
+ inuxtools.cdt.libhover.library.docs/pom.xml
+SHA-256-Digest: xt03oyiwqMY4DWSgT1lZbIr8aTz1g8bwkhUkBr8aAA0=
+
+Name: Linux_Tools_Project/Libhover/Developers_Guide/Updating-This-Docu
+ ment.html
+SHA-256-Digest: 4nuBT+nRHUorUN3XBv3Ec8ndR+G9CucLOZFvo8qYeuI=
+
+Name: libraries.xml
+SHA-256-Digest: OVT+euFNPsUZyNYIO2EwdCqdYjpNFevMtVn/qwKu/zk=
+
+Name: images/next.gif
+SHA-256-Digest: mPQwWc2mzoNT0IPbzfzbX1BHJDbcx/Lbs9IKlTnGp0M=
+
+Name: images/prev.gif
+SHA-256-Digest: ho4O92wMkbppVlqv7B0oySYonlqXVm7qBY+Y+oD9jls=
+
+Name: META-INF/maven/org.eclipse.linuxtools.cdt.libhover/org.eclipse.l
+ inuxtools.cdt.libhover.library.docs/pom.properties
+SHA-256-Digest: MYv51s62J5hY+jnsnSv44VCbNI5VPwPfzh6Wzr6wWtA=
+
+Name: Linux_Tools_Project/Libhover/Developers_Guide/Developers-Guide.h
+ tml
+SHA-256-Digest: qJe+5q8kNj6E3LfDic0aMIi4VUxNduAwd8XRL2dkwDs=
+
+Name: toc.xml
+SHA-256-Digest: tQ7Ab59SYDDD6LElveE0WX757zJEuYN3S8prIvTrv8s=
+
+Name: plugin.properties
+SHA-256-Digest: tt5EIh34sOi8KEaXlEcu3Q4v0LXPbWNrHbMZSr/jYUQ=
+
+Name: doc/notices.html
+SHA-256-Digest: PbUjSdzpaZaqUXvxyrhz4SjCGra7vkJ084tfEMTG798=
+
